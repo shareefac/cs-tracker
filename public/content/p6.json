@@ -1,0 +1,1881 @@
+{
+ "p6c1": {
+  "notes": [
+   {
+    "topic": "Current & capital account",
+    "note": "A current account transaction (s.2(j) FEMA 1999) does not change a person's assets or liabilities outside India — e.g. trade payments, travel, education, interest. A capital account transaction (s.2(e)) alters assets or liabilities abroad or in India held by a non-resident. Under s.5, current account dealings are freely allowed except those restricted by the Current Account Transactions Rules; under s.6, capital account dealings need RBI/Central Government permission unless generally permitted. Example: paying a foreign university's fees is current account; buying shares of a US company is capital account."
+   },
+   {
+    "topic": "LRS",
+    "note": "The Liberalised Remittance Scheme lets a resident individual (including a minor through a guardian) remit up to USD 2,50,000 per financial year for permitted current and capital account purposes such as travel, education, gifts, medical treatment and investment in overseas securities or property. It is not available to companies, firms or trusts. Prohibited uses include margin trading, lottery/betting and remittances to FATF-identified non-cooperative jurisdictions. Example: a resident may gift USD 50,000 to a cousin abroad and invest USD 2,00,000 in foreign shares in the same year."
+   },
+   {
+    "topic": "immovable property",
+    "note": "Under s.6(4) FEMA, a resident may hold, own or transfer foreign immovable property acquired while a non-resident or inherited from a non-resident; s.6(5) gives a parallel protection to non-residents holding Indian property acquired while resident. Under the NDI Rules 2019, an NRI or OCI may acquire immovable property in India other than agricultural land, plantation property or a farm house, and may inherit any property. Example: an NRI can buy a Kochi flat with funds from his NRE account but cannot buy a coconut plantation."
+   },
+   {
+    "topic": "export of goods & services",
+    "note": "Section 7 FEMA requires every exporter of goods to furnish to the specified authority a declaration of the full export value, and every exporter of services to furnish a similar declaration to RBI, in the prescribed form. The export proceeds must be realised and repatriated within the period specified by RBI, and the AD bank monitors realisation through EDPMS. Example: a Kozhikode spice exporter must declare the invoice value in the shipping bill and route the receipt through its AD bank within the prescribed time."
+   },
+   {
+    "topic": "repatriation",
+    "note": "Section 8 FEMA casts a duty on a resident to whom foreign exchange is due to take all reasonable steps to realise and repatriate it to India within the time and manner specified by RBI. Repatriation means bringing the money into India and either selling it to an AD or crediting it to a permitted foreign currency account such as an EEFC account. Example: consultancy fees earned from a Dubai client must be brought in through banking channels rather than held indefinitely in a personal overseas account."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Ravi, a resident, remits USD 40,000 to a Singapore company to buy 5% of its shares. How is this classified under FEMA?",
+    "options": [
+     "Current account transaction",
+     "Capital account transaction",
+     "Neither, as it is under LRS",
+     "Export of services"
+    ],
+    "answer": 1,
+    "explain": "Acquisition of a foreign security changes the resident's assets outside India, so it is a capital account transaction under s.2(e) FEMA."
+   },
+   {
+    "q": "Which of the following CANNOT remit funds under the Liberalised Remittance Scheme?",
+    "options": [
+     "A resident minor through a natural guardian",
+     "A resident salaried individual",
+     "A private limited company",
+     "A resident retired pensioner"
+    ],
+    "answer": 2,
+    "explain": "LRS is available only to resident individuals; corporates, firms and trusts are excluded."
+   },
+   {
+    "q": "Meera, now resident in India, owns a London flat bought while she was an NRI. Which provision protects her continued holding?",
+    "options": [
+     "Section 6(4) FEMA",
+     "Section 6(5) FEMA",
+     "Section 7 FEMA",
+     "Section 8 FEMA"
+    ],
+    "answer": 0,
+    "explain": "Section 6(4) lets a resident hold foreign immovable property acquired while non-resident."
+   },
+   {
+    "q": "An OCI cardholder wishes to buy property in India. Which purchase is NOT permitted without RBI approval?",
+    "options": [
+     "A residential apartment in Bengaluru",
+     "A commercial office in Pune",
+     "A farm house near Delhi",
+     "A second residential flat in Chennai"
+    ],
+    "answer": 2,
+    "explain": "The NDI Rules 2019 bar NRIs/OCIs from acquiring agricultural land, plantation property and farm houses."
+   },
+   {
+    "q": "Under FEMA, the duty to declare the full export value of goods arises under which section?",
+    "options": [
+     "Section 5",
+     "Section 6",
+     "Section 8",
+     "Section 7"
+    ],
+    "answer": 3,
+    "explain": "Section 7 FEMA requires exporters to furnish a declaration of the full export value."
+   },
+   {
+    "q": "A resident freelancer has USD 12,000 due from a US client. What does s.8 FEMA require?",
+    "options": [
+     "Take reasonable steps to realise and repatriate it within the RBI-specified time",
+     "Keep it abroad until he chooses to use it",
+     "Convert it to INR only after one year",
+     "Seek Central Government approval to receive it"
+    ],
+    "answer": 0,
+    "explain": "Section 8 FEMA obliges a resident to realise and repatriate foreign exchange due within the time and manner specified by RBI."
+   }
+  ],
+  "desc": {
+   "q": "XYZ Pvt Ltd's managing director, a resident individual, plans to (i) remit USD 1,00,000 for his daughter's MBA in Canada, (ii) buy a holiday home in Dubai for USD 2,00,000, and (iii) use the company's funds to buy shares in a foreign start-up in his own name. Advise him under FEMA.",
+   "points": [
+    "Education remittance is a current account transaction and, along with other LRS remittances, counts towards the USD 2,50,000 annual LRS ceiling for the individual.",
+    "Purchase of foreign immovable property is a capital account transaction permitted under LRS, but combined with item (i) the total of USD 3,00,000 exceeds the annual limit; he must phase it across years or use family members' separate LRS limits.",
+    "Item (iii) is impermissible as LRS is personal to the individual; the company cannot route its funds through the director, and any corporate overseas investment must follow the OI Rules/Regulations 2022.",
+    "All remittances must go through an AD Category-I bank with Form A2 and PAN; violations attract penalty under s.13 FEMA up to three times the sum involved."
+   ]
+  }
+ },
+ "p6c2": {
+  "notes": [
+   {
+    "topic": "Automatic & approval routes",
+    "note": "Under the NDI Rules 2019 and the consolidated FDI Policy, FDI enters either through the automatic route (no prior government approval; only post-investment reporting) or the government route (prior approval of the concerned ministry via the Foreign Investment Facilitation Portal). Sectoral caps and conditions decide the route. Since Press Note 3 (2020), any investment from an entity of a country sharing a land border with India, or whose beneficial owner is from such a country, requires government approval. Example: 100% FDI in software development is automatic, but 49%+ FDI in a news channel needs approval."
+   },
+   {
+    "topic": "prohibited sectors",
+    "note": "FDI is prohibited in lottery business, gambling and betting including casinos, chit funds, Nidhi companies, trading in transferable development rights, real estate business or construction of farm houses, manufacture of cigars and cigarettes of tobacco, and sectors closed to private investment such as atomic energy and most railway operations. The prohibition also extends to foreign technology collaboration such as franchise or brand licensing for lottery and gambling. Example: a foreign company cannot invest in an Indian online betting firm, but may invest in construction-development of townships, which is not 'real estate business'."
+   },
+   {
+    "topic": "FPI",
+    "note": "A Foreign Portfolio Investor registered with SEBI may invest in listed or to-be-listed equity of an Indian company, but a single FPI (with its investor group) must hold less than 10% of the post-issue paid-up equity on a fully diluted basis. The aggregate FPI limit is the sectoral cap unless the company lowers it by board and shareholder resolution. If an FPI crosses 10%, it must divest the excess or the entire holding is reclassified as FDI within the prescribed time. Example: an FPI holding 9.5% of a listed pharma company cannot buy another 1% under the FPI route."
+   },
+   {
+    "topic": "NDI rules",
+    "note": "The Foreign Exchange Management (Non-Debt Instruments) Rules 2019 were framed by the Central Government under s.46 read with s.6 FEMA, shifting control of non-debt capital account transactions from RBI to the Government; reporting is governed by RBI's Mode of Payment and Reporting Regulations 2019. They cover equity shares, fully and mandatorily convertible debentures/preference shares, share warrants, LLP contributions, and units of investment vehicles. Pricing guidelines require issue to non-residents at not less than fair value. Example: shares issued to a foreign investor below the internationally accepted fair value would breach the NDI Rules."
+   },
+   {
+    "topic": "FC-GPR filings",
+    "note": "An Indian company issuing capital instruments to a person resident outside India must file Form FC-GPR on the FIRMS portal within 30 days of the date of issue. Shares must be issued within 60 days of receiving the inward remittance, failing which the money must be refunded within the next 15 days. Transfers between residents and non-residents are reported in Form FC-TRS within 60 days of transfer or receipt of funds, whichever is earlier; Indian entities with foreign liabilities also file the annual FLA return. Example: shares allotted on 1 March must be reported by 31 March; late filing attracts a Late Submission Fee."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A Hong Kong company owned 60% by a Chinese national wants to invest in an Indian electronics firm where 100% FDI is automatic. Which route applies?",
+    "options": [
+     "Automatic route, as the sector permits 100%",
+     "Government route, due to land-border beneficial ownership",
+     "Prohibited, as China-linked FDI is banned",
+     "RBI approval route"
+    ],
+    "answer": 1,
+    "explain": "Press Note 3 (2020), incorporated in the NDI Rules, requires government approval where the beneficial owner is from a land-border country."
+   },
+   {
+    "q": "In which of the following is FDI prohibited?",
+    "options": [
+     "Construction-development of townships",
+     "Single-brand retail trading",
+     "Chit fund business",
+     "Greenfield pharmaceuticals"
+    ],
+    "answer": 2,
+    "explain": "Chit funds are on the FDI prohibited list under the NDI Rules 2019."
+   },
+   {
+    "q": "An FPI acquires 11% of a listed company's diluted equity. What is the consequence?",
+    "options": [
+     "The investment is void ab initio",
+     "It may divest the excess or have the entire holding treated as FDI",
+     "SEBI automatically cancels its registration",
+     "Nothing, as there is no individual limit"
+    ],
+    "answer": 1,
+    "explain": "Under the NDI Rules, an FPI breaching the 10% individual limit must divest or have its total holding reclassified as FDI."
+   },
+   {
+    "q": "Under which FEMA provision did the Central Government frame the NDI Rules 2019?",
+    "options": [
+     "Section 46 read with section 6",
+     "Section 47 alone",
+     "Section 10",
+     "Section 3"
+    ],
+    "answer": 0,
+    "explain": "The NDI Rules were made by the Central Government under s.46 read with s.6 FEMA after the 2015 amendment."
+   },
+   {
+    "q": "A company receives FDI money on 1 June but has not allotted shares by 15 August. What must it do?",
+    "options": [
+     "Allot shares at any time before year-end",
+     "Convert the amount into an ECB",
+     "Retain it as advance indefinitely",
+     "Refund the amount within 15 days after the 60-day period"
+    ],
+    "answer": 3,
+    "explain": "Capital instruments must be issued within 60 days of receipt, failing which the amount must be refunded within 15 days."
+   },
+   {
+    "q": "Within how many days of allotment must Form FC-GPR be filed?",
+    "options": [
+     "15 days",
+     "60 days",
+     "30 days",
+     "90 days"
+    ],
+    "answer": 2,
+    "explain": "Form FC-GPR is to be filed on the FIRMS portal within 30 days of the date of issue of capital instruments."
+   }
+  ],
+  "desc": {
+   "q": "Alpha Tech Pvt Ltd (software, Kozhikode) received USD 5 lakh from a Singapore investor on 10 January for equity shares. Shares were allotted on 25 March and the FC-GPR is still pending on 10 May. Later, it learns that the investor is ultimately owned by a resident of a land-border country. Discuss the FEMA compliance position.",
+   "points": [
+    "Software is a 100% automatic-route sector, but Press Note 3 (2020) makes government approval mandatory where the beneficial owner belongs to a land-border country; the investment needed prior approval.",
+    "Allotment on 25 March is beyond 60 days from receipt on 10 January; the company should have refunded the money within 15 days thereafter, so this is a contravention.",
+    "FC-GPR was due within 30 days of allotment (by 24 April); late filing can be regularised with a Late Submission Fee, but the substantive approval breach cannot be cured by LSF.",
+    "The company should apply for compounding of contraventions to RBI and seek post-facto government approval, failing which the investment may have to be unwound; penalty can be levied under s.13 FEMA."
+   ]
+  }
+ },
+ "p6c3": {
+  "notes": [
+   {
+    "topic": "ODI policy",
+    "note": "Overseas investment is now governed by the Foreign Exchange Management (Overseas Investment) Rules 2022 (Central Government), the OI Regulations 2022 (RBI) and RBI's OI Directions. Overseas Direct Investment (ODI) means investment in unlisted equity of a foreign entity, or 10% or more of a listed foreign entity's paid-up equity, or acquiring control; anything else is Overseas Portfolio Investment. An Indian entity's total financial commitment under the automatic route is capped at 400% of its net worth as per the last audited balance sheet. ODI is not allowed in foreign entities engaged in real estate business, gambling or financial products linked to the Indian rupee."
+   },
+   {
+    "topic": "remittances",
+    "note": "ODI remittances are routed through a designated AD bank, which reports the financial commitment in Form FC. Financial commitment includes equity, debt, guarantees and pledge/charge created in favour of the overseas entity. Resident individuals may make ODI only within the LRS limit and only in an operating foreign entity not engaged in financial services. Example: an Indian company with net worth of ₹50 crore can commit up to ₹200 crore abroad under the automatic route."
+   },
+   {
+    "topic": "overseas subsidiary/JV/branch",
+    "note": "An Indian entity may set up or acquire a wholly owned subsidiary or a joint venture abroad through ODI, subject to the OI Rules. A foreign branch or representative office is not ODI; it is an extension of the Indian entity and is governed by separate RBI provisions on establishing offices abroad and maintaining foreign currency accounts. The OI framework also permits ODI-FDI structures within limits on layers of subsidiaries, aimed at preventing round-tripping. Example: an IT company may open a Dubai branch for sales support, or incorporate a UAE LLC as a WOS to hold local contracts."
+   },
+   {
+    "topic": "returns",
+    "note": "An Indian entity holding ODI must file an Annual Performance Report for each foreign entity by 31 December every year, based on the foreign entity's accounts for the year ended earlier, through its AD bank. It must also report restructuring and disinvestment in the prescribed form and file the annual Foreign Liabilities and Assets (FLA) return. Delayed reporting can be regularised by paying a Late Submission Fee, and until then no further financial commitment is allowed. Example: a company that missed its APR cannot remit fresh equity to its Singapore WOS until the delay is regularised."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "An Indian listed company buys 6% of a NASDAQ-listed company without acquiring control. Under the OI framework, this is:",
+    "options": [
+     "Overseas Direct Investment",
+     "Overseas Portfolio Investment",
+     "External Commercial Borrowing",
+     "Prohibited investment"
+    ],
+    "answer": 1,
+    "explain": "Below 10% of a listed foreign entity without control is OPI, not ODI, under the OI Rules 2022."
+   },
+   {
+    "q": "Beta Ltd's audited net worth is ₹30 crore. What is its maximum financial commitment abroad under the automatic route?",
+    "options": [
+     "₹30 crore",
+     "₹60 crore",
+     "₹90 crore",
+     "₹120 crore"
+    ],
+    "answer": 3,
+    "explain": "The OI Rules cap total financial commitment at 400% of net worth under the automatic route."
+   },
+   {
+    "q": "Which overseas activity is NOT permitted for ODI by an Indian entity?",
+    "options": [
+     "A foreign entity engaged in real estate business",
+     "An IT services subsidiary in the UK",
+     "A manufacturing JV in Malaysia",
+     "A trading company in UAE"
+    ],
+    "answer": 0,
+    "explain": "The OI Rules prohibit ODI in foreign entities engaged in real estate business."
+   },
+   {
+    "q": "A resident individual wishes to make ODI. Which statement is correct?",
+    "options": [
+     "He may invest without any limit",
+     "He may invest only in a financial services company",
+     "He may invest within the LRS limit in an operating foreign entity not in financial services",
+     "Individuals cannot make ODI"
+    ],
+    "answer": 2,
+    "explain": "Resident individuals may make ODI within LRS only in operating entities not engaged in financial services."
+   },
+   {
+    "q": "By what date must the Annual Performance Report for an overseas WOS be filed?",
+    "options": [
+     "30 June",
+     "31 December",
+     "31 March",
+     "15 July"
+    ],
+    "answer": 1,
+    "explain": "The APR is due by 31 December each year under the OI Regulations 2022."
+   },
+   {
+    "q": "Gamma Ltd has not filed its APR on time. What is the immediate consequence?",
+    "options": [
+     "Its ODI is automatically cancelled",
+     "Its directors are arrested",
+     "It cannot make further financial commitment until the delay is regularised",
+     "Its foreign subsidiary must be wound up"
+    ],
+    "answer": 2,
+    "explain": "The OI Regulations bar further financial commitment until reporting delays are regularised with LSF."
+   }
+  ],
+  "desc": {
+   "q": "Tabsoft Ltd (net worth ₹40 crore) wants to (a) set up a UAE WOS with equity of ₹60 crore and a corporate guarantee of ₹80 crore for the WOS's bank loan, and (b) open a sales branch in Malaysia. Advise on the overseas investment requirements.",
+   "points": [
+    "Equity and guarantee both count as financial commitment; total ₹140 crore is within 400% of net worth (₹160 crore), so the automatic route is available.",
+    "The WOS must not be engaged in real estate, gambling or INR-linked financial products, and the structure must respect limits on layers to avoid round-tripping.",
+    "Remittance goes through a designated AD bank with Form FC reporting; thereafter APR must be filed by 31 December each year and the FLA return annually.",
+    "The Malaysian branch is not ODI; it is governed by RBI provisions on offices abroad, and the branch's assets and liabilities form part of Tabsoft's own books."
+   ]
+  }
+ },
+ "p6c4": {
+  "notes": [
+   {
+    "topic": "Eligible lenders & borrowers",
+    "note": "External Commercial Borrowings are governed by the FEM (Borrowing and Lending) Regulations 2018 and RBI's Master Direction on ECB. All entities eligible to receive FDI are eligible borrowers, along with entities such as port trusts, SEZ units, SIDBI and EXIM Bank; recognised lenders are residents of FATF- or IOSCO-compliant countries, multilateral and regional financial institutions, and individuals only if they are foreign equity holders or bond subscribers. Under the 2018 framework the automatic-route ceiling is USD 750 million (or equivalent) per financial year; students should check RBI for any later revision of the framework. Example: an Indian manufacturer can borrow from its German parent under the automatic route."
+   },
+   {
+    "topic": "parking",
+    "note": "ECB proceeds awaiting use may be parked abroad in deposits with highly rated foreign banks or in specified liquid instruments, or brought to India and kept in term deposits with AD Category-I banks for a limited period, pending utilisation for permitted end-uses. Proceeds cannot be used for real estate, investment in capital markets, equity investment, on-lending for these purposes, or purchase of land. Example: a company raising USD 50 million for a plant may keep it in a fixed deposit with its AD bank until vendor payments fall due."
+   },
+   {
+    "topic": "returns",
+    "note": "Before drawdown, the borrower must obtain a Loan Registration Number by submitting Form ECB to RBI through its AD bank. Actual drawdowns, repayments and interest must thereafter be reported monthly in Form ECB-2 within the prescribed days after month-end, and changes in terms are reported via the AD. Late reporting can be regularised by paying a Late Submission Fee. Example: a borrower that drew down in May without an LRN has contravened the regulations and must regularise it."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Which of the following is a recognised ECB lender?",
+    "options": [
+     "An individual unrelated to the borrower",
+     "A multilateral financial institution",
+     "A resident Indian bank's domestic branch",
+     "A lender from a non-FATF-compliant country"
+    ],
+    "answer": 1,
+    "explain": "Multilateral and regional financial institutions are recognised lenders under the ECB framework."
+   },
+   {
+    "q": "A foreign individual who holds 20% equity in an Indian company offers it a loan. Under the ECB framework he is:",
+    "options": [
+     "Not a recognised lender in any case",
+     "A recognised lender, being a foreign equity holder",
+     "Eligible only for INR ECB under the approval route",
+     "Treated as an FPI"
+    ],
+    "answer": 1,
+    "explain": "Individuals qualify as recognised lenders only if they are foreign equity holders or bond subscribers."
+   },
+   {
+    "q": "ECB proceeds cannot be used for which purpose?",
+    "options": [
+     "Import of capital goods",
+     "Working capital for a manufacturer",
+     "Purchase of land",
+     "Repayment of a rupee loan taken for capex"
+    ],
+    "answer": 2,
+    "explain": "Purchase of land is on the negative list of end-uses under the ECB framework."
+   },
+   {
+    "q": "Before the first drawdown of an ECB, the borrower must:",
+    "options": [
+     "Obtain a Loan Registration Number via Form ECB",
+     "File Form FC-GPR",
+     "File an Annual Performance Report",
+     "Obtain SEBI approval"
+    ],
+    "answer": 0,
+    "explain": "An LRN must be obtained from RBI through the AD bank by filing Form ECB before drawdown."
+   },
+   {
+    "q": "A borrower waits for vendor bills after raising ECB. Which parking option is permissible in India?",
+    "options": [
+     "Investment in listed equity shares",
+     "Inter-corporate deposit to a group firm",
+     "Purchase of real estate",
+     "Term deposit with an AD Category-I bank"
+    ],
+    "answer": 3,
+    "explain": "Unutilised ECB brought to India may be kept in term deposits with AD Category-I banks pending use."
+   },
+   {
+    "q": "Monthly reporting of ECB transactions is made in which form?",
+    "options": [
+     "Form ECB",
+     "Form ECB-2",
+     "Form FC",
+     "Form FC-TRS"
+    ],
+    "answer": 1,
+    "explain": "Actual ECB transactions are reported monthly to RBI in Form ECB-2 through the AD bank."
+   }
+  ],
+  "desc": {
+   "q": "Delta Retail Pvt Ltd plans to raise USD 30 million from a Mauritius-based fund (not an equity holder) to (i) expand stores, (ii) buy land for a warehouse and (iii) park the balance in mutual funds until used. Advise on ECB compliance.",
+   "points": [
+    "Delta is eligible to receive FDI and hence an eligible borrower; the Mauritius fund is a recognised lender only if Mauritius is FATF/IOSCO compliant at the time.",
+    "Store expansion is a permissible end-use, but purchase of land is on the negative list and cannot be financed through ECB.",
+    "Parking in mutual funds/capital markets is not permitted; idle proceeds may be kept abroad in permitted deposits or in India in term deposits with AD banks.",
+    "Delta must obtain an LRN via Form ECB before drawdown, file Form ECB-2 monthly, and observe minimum average maturity and all-in-cost ceilings; contraventions attract penalty or compounding under FEMA."
+   ]
+  }
+ },
+ "p6c5": {
+  "notes": [
+   {
+    "topic": "FTP basis",
+    "note": "The Foreign Trade Policy is formulated and announced by the Central Government under s.5 of the Foreign Trade (Development and Regulation) Act 1992 and administered by the DGFT. FTP 2023 came into force on 1 April 2023 and, unlike earlier five-year policies, has no fixed end date and is updated as needed. It shifts from incentives to remission of duties, promotes trade facilitation, e-commerce exports and district-level export hubs. Example: a change in export rules for a product is notified through a DGFT notification amending the FTP or the ITC(HS) schedules."
+   },
+   {
+    "topic": "IEC",
+    "note": "No person may import or export without an Importer-Exporter Code issued by the DGFT under s.7 of the FT(D&R) Act 1992, unless specifically exempted. The IEC is a 10-character code linked to the entity's PAN, issued online and valid for life, but it must be updated electronically every year (failing which it is deactivated). Example: a new e-commerce exporter must obtain an IEC before shipping goods abroad, while a person importing for personal use is exempt."
+   },
+   {
+    "topic": "status holders",
+    "note": "FTP 2023 recognises exporters as status holders based on export performance in the current and previous three financial years — One Star (USD 3 million) up to Five Star (USD 800 million) Export House. Status holders enjoy benefits like self-certification, authorisation and customs clearances on self-declaration, exemption from furnishing bank guarantees, and priority handling. Example: an exporter with USD 20 million exports in the relevant period qualifies as a Two Star Export House."
+   },
+   {
+    "topic": "deemed exports",
+    "note": "Deemed exports, under Chapter 7 of FTP 2023, are supplies where the goods do not leave India and payment may be in rupees or foreign exchange, but which are treated as exports for specified benefits. Categories include supplies against Advance Authorisation, to EOUs/STPs, to EPCG authorisation holders and to projects financed by multilateral agencies. Benefits can include Advance Authorisation, deemed export drawback and refund of terminal excise duty, subject to conditions. Example: a steel maker supplying to an EOU in Chennai may claim deemed-export benefits."
+   },
+   {
+    "topic": "schemes",
+    "note": "Key FTP schemes include Advance Authorisation (duty-free import of inputs for export production), EPCG (zero-duty import of capital goods against an export obligation of six times the duty saved within six years), RoDTEP and RoSCTL (remission of embedded taxes), Towns of Export Excellence and district export hubs. FTP 2023 also offered a one-time Amnesty Scheme for default in export obligations. Example: a garment exporter importing sewing machines under EPCG saving ₹10 lakh duty must achieve exports worth ₹60 lakh within six years."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Under which provision does the Central Government formulate the Foreign Trade Policy?",
+    "options": [
+     "Section 5, FT(D&R) Act 1992",
+     "Section 7, FT(D&R) Act 1992",
+     "Section 6, FEMA 1999",
+     "Section 26, SEZ Act 2005"
+    ],
+    "answer": 0,
+    "explain": "Section 5 of the FT(D&R) Act empowers the Central Government to formulate and announce the FTP."
+   },
+   {
+    "q": "A company did not update its IEC for the year. What happens?",
+    "options": [
+     "It is cancelled permanently",
+     "It is deactivated until updated",
+     "Nothing, IEC is valid for life",
+     "It must apply for a new PAN"
+    ],
+    "answer": 1,
+    "explain": "Under FTP 2023, IEC must be updated annually; failure leads to deactivation until it is updated."
+   },
+   {
+    "q": "An exporter's export performance in the relevant period is USD 60 million. Which status does it qualify for?",
+    "options": [
+     "One Star",
+     "Two Star",
+     "Three Star",
+     "Four Star"
+    ],
+    "answer": 2,
+    "explain": "Under FTP 2023, USD 50 million qualifies for Three Star and USD 200 million is needed for Four Star."
+   },
+   {
+    "q": "Which supply qualifies as deemed export?",
+    "options": [
+     "Sale of goods to a retailer in Delhi",
+     "Export of goods to Nepal against INR",
+     "Sale of goods to a tourist at the airport",
+     "Supply of goods to an EOU"
+    ],
+    "answer": 3,
+    "explain": "Supplies to EOUs are listed as deemed exports under Chapter 7 of FTP 2023."
+   },
+   {
+    "q": "Under EPCG, an exporter saves duty of ₹5 lakh. What is the export obligation?",
+    "options": [
+     "₹30 lakh in 6 years",
+     "₹5 lakh in 3 years",
+     "₹25 lakh in 5 years",
+     "₹50 lakh in 8 years"
+    ],
+    "answer": 0,
+    "explain": "EPCG export obligation is six times the duty saved, to be met in six years."
+   },
+   {
+    "q": "Which scheme allows duty-free import of inputs physically incorporated into export products?",
+    "options": [
+     "EPCG",
+     "RoDTEP",
+     "Advance Authorisation",
+     "Towns of Export Excellence"
+    ],
+    "answer": 2,
+    "explain": "Advance Authorisation allows duty-free import of inputs for export production."
+   }
+  ],
+  "desc": {
+   "q": "Kerala Coir Exports wishes to begin exports, import machinery at concessional duty and supply part of its output to an EOU. Explain the FTP 2023 requirements and benefits available.",
+   "points": [
+    "It must first obtain an IEC from DGFT under s.7 FT(D&R) Act, linked to its PAN, and update it every year.",
+    "Machinery can be imported under EPCG at zero duty against an export obligation of six times the duty saved, to be fulfilled within six years.",
+    "Supply to an EOU is a deemed export under Chapter 7, and may qualify for deemed export benefits subject to conditions.",
+    "As exports grow, it may claim RoDTEP remission and, on crossing USD 3 million, seek status-holder recognition for facilitation benefits."
+   ]
+  }
+ },
+ "p6c6": {
+  "notes": [
+   {
+    "topic": "SEZ establishment",
+    "note": "Under s.3 of the SEZ Act 2005, the Central Government, a State Government or any person may propose to establish an SEZ; a person must first make the proposal to the State Government, which forwards it with its recommendations to the Board of Approval, or apply directly to the Board. After approval and the developer identifying the area, the Central Government notifies the area as an SEZ under s.4. Example: a private developer setting up an IT SEZ in Kakkanad must route its proposal through the Kerala government and await notification."
+   },
+   {
+    "topic": "approvals",
+    "note": "The Board of Approval constituted under s.8 approves proposals for setting up SEZs, authorised operations and grant of letters of approval to developers and co-developers. At the zone level, the Development Commissioner (s.11) administers the SEZ and the Approval Committee (s.13) approves proposals for setting up units and authorised operations. Example: a co-developer wishing to build a power plant inside an existing SEZ needs Board of Approval clearance."
+   },
+   {
+    "topic": "setting up units",
+    "note": "Under s.15 SEZ Act, any person may apply to the Development Commissioner to set up a unit for manufacturing, trading or services; the Approval Committee approves or rejects the proposal. A unit must achieve positive Net Foreign Exchange cumulatively over five years from commencement. Units enjoy exemptions under s.26 such as duty-free import/procurement of goods, while sales to the Domestic Tariff Area are treated as imports and attract customs duty. Example: a software unit in Technopark SEZ must earn more foreign exchange than it spends over the block period."
+   },
+   {
+    "topic": "SEZ authority",
+    "note": "Under s.31, the Central Government constitutes an SEZ Authority for each SEZ it sets up, chaired by the Development Commissioner. Its functions under s.34 include developing infrastructure, promoting exports, levying user charges and fees, and ensuring proper management of the zone. Where the zone is set up by a State Government or private developer, the Development Commissioner administers it without a separate Authority. Example: the Cochin SEZ, a Central Government zone, has its own SEZ Authority."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A private developer wants to set up an SEZ. Where must it make its proposal in the first instance (if not applying directly to the Board)?",
+    "options": [
+     "The Development Commissioner",
+     "The State Government",
+     "DGFT",
+     "The SEZ Authority"
+    ],
+    "answer": 1,
+    "explain": "Under s.3 SEZ Act, a person may make the proposal to the State Government, which forwards it to the Board of Approval."
+   },
+   {
+    "q": "Which body approves the setting up of a unit within an SEZ?",
+    "options": [
+     "Board of Approval",
+     "Central Government",
+     "Approval Committee",
+     "SEZ Authority"
+    ],
+    "answer": 2,
+    "explain": "Under ss.13 and 15 SEZ Act, the Approval Committee approves unit proposals."
+   },
+   {
+    "q": "An SEZ unit must be Net Foreign Exchange positive over what period?",
+    "options": [
+     "One year",
+     "Three years",
+     "Ten years",
+     "Five years"
+    ],
+    "answer": 3,
+    "explain": "SEZ units must achieve positive NFE cumulatively over five years from commencement of production."
+   },
+   {
+    "q": "Goods sold by an SEZ unit to the Domestic Tariff Area are treated as:",
+    "options": [
+     "Imports, attracting customs duty",
+     "Exports, eligible for incentives",
+     "Deemed exports",
+     "Exempt supplies"
+    ],
+    "answer": 0,
+    "explain": "DTA clearances from SEZ units are treated as imports into India and attract customs duty."
+   },
+   {
+    "q": "Under s.31 SEZ Act, an SEZ Authority is constituted for:",
+    "options": [
+     "Every SEZ in India",
+     "Only privately developed SEZs",
+     "Each SEZ established by the Central Government",
+     "Only SEZs in metropolitan cities"
+    ],
+    "answer": 2,
+    "explain": "Section 31 provides for an SEZ Authority for each SEZ set up by the Central Government."
+   },
+   {
+    "q": "A co-developer wants approval to build a hospital inside an existing SEZ. Which body decides?",
+    "options": [
+     "Approval Committee",
+     "Board of Approval",
+     "Development Commissioner alone",
+     "Ministry of Health"
+    ],
+    "answer": 1,
+    "explain": "Approval of co-developers and authorised operations rests with the Board of Approval under s.9 SEZ Act."
+   }
+  ],
+  "desc": {
+   "q": "Nova Infotech wants to set up an IT services unit in a privately developed SEZ and plans to sell 30% of its services to Indian clients. Explain the approval process, conditions and implications under the SEZ Act 2005.",
+   "points": [
+    "Nova must apply under s.15 to the Development Commissioner of the SEZ; the Approval Committee under s.13 considers and approves the proposal, followed by a Letter of Approval and a bond-cum-legal undertaking.",
+    "The unit must achieve positive Net Foreign Exchange over five years and comply with the terms of its LoA.",
+    "It enjoys s.26 exemptions on procurement of goods and services for authorised operations.",
+    "Supplies to DTA clients are permitted subject to conditions, but are treated as imports into the DTA and do not count towards NFE; the Development Commissioner monitors performance and can cancel approval for breach."
+   ]
+  }
+ },
+ "p6c7": {
+  "notes": [
+   {
+    "topic": "Eligible contributors & receivers",
+    "note": "Section 3 of FCRA 2010 bars certain persons from accepting foreign contribution, such as election candidates, journalists and media companies, judges, government servants, members of legislatures, political parties and their office-bearers, and public servants. Section 4 permits acceptance in limited cases like salary or wages, payment in the ordinary course of trade or business, and as an agent of a foreign source for business transactions. Organisations with a definite cultural, economic, educational, religious or social programme may receive foreign contribution only after registration or prior permission. Example: a sitting MLA cannot accept a donation from a foreign charitable trust."
+   },
+   {
+    "topic": "registration",
+    "note": "Under s.11, an eligible association must obtain registration or prior permission from the Central Government before accepting foreign contribution; s.12 deals with grant of the certificate, and s.12A requires Aadhaar or passport details of office-bearers. A registration certificate is valid for five years and must be renewed within six months before expiry under s.16. Since the 2020 amendment, all foreign contribution must first be received in the designated FCRA account at SBI, New Delhi Main Branch (s.17), and cannot be transferred to any other person (s.7). Example: an NGO registered with FCRA must ask a US donor to remit only to its SBI NDMB FCRA account."
+   },
+   {
+    "topic": "penalties",
+    "note": "The Central Government may suspend a registration for up to 180 days (extendable by 180 days) under s.13 and cancel it under s.14, after which re-registration is barred for three years. Under s.8, administrative expenses cannot exceed 20% of the foreign contribution received in a year. Contraventions are punishable under s.35 with imprisonment up to five years or fine or both, and certain offences may be compounded under s.41. Example: an NGO that transfers FCRA funds to a partner NGO breaches s.7 and risks cancellation and prosecution."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Which of the following can accept foreign contribution subject to FCRA registration?",
+    "options": [
+     "A registered political party",
+     "A district judge",
+     "A registered educational society",
+     "A news channel company"
+    ],
+    "answer": 2,
+    "explain": "Section 3 bars political parties, judges and media companies, while organisations with educational programmes may register under s.11."
+   },
+   {
+    "q": "An NGO's FCRA registration expires on 31 March 2027. By when should it apply for renewal?",
+    "options": [
+     "Within six months before expiry",
+     "Within one year after expiry",
+     "Any time after expiry",
+     "Renewal is not required"
+    ],
+    "answer": 0,
+    "explain": "Under s.16 FCRA, renewal must be applied for within six months before the expiry of the certificate."
+   },
+   {
+    "q": "Where must foreign contribution be first received?",
+    "options": [
+     "Any scheduled bank account",
+     "FCRA account at SBI New Delhi Main Branch",
+     "Account with RBI",
+     "Account at the nearest post office"
+    ],
+    "answer": 1,
+    "explain": "Section 17, as amended in 2020, requires receipt only in the designated FCRA account at SBI NDMB."
+   },
+   {
+    "q": "An NGO received ₹1 crore foreign contribution. What is the maximum it may spend on administrative expenses?",
+    "options": [
+     "₹50 lakh",
+     "₹30 lakh",
+     "₹10 lakh",
+     "₹20 lakh"
+    ],
+    "answer": 3,
+    "explain": "Section 8 caps administrative expenses at 20% of the foreign contribution received."
+   },
+   {
+    "q": "An NGO wishes to transfer foreign contribution to another FCRA-registered NGO. Under the amended s.7 this is:",
+    "options": [
+     "Permitted with prior approval of the donor",
+     "Prohibited",
+     "Permitted up to 20%",
+     "Permitted only to government bodies"
+    ],
+    "answer": 1,
+    "explain": "After the 2020 amendment, s.7 prohibits transfer of foreign contribution to any other person."
+   },
+   {
+    "q": "After cancellation of FCRA registration, an association cannot be re-registered for:",
+    "options": [
+     "One year",
+     "Six months",
+     "Three years",
+     "Five years"
+    ],
+    "answer": 2,
+    "explain": "Under s.14 FCRA, a cancelled association is not eligible for registration or prior permission for three years."
+   }
+  ],
+  "desc": {
+   "q": "Hope Foundation, an FCRA-registered trust, received a grant of ₹2 crore from a UK charity into its regular bank account, spent ₹60 lakh on staff salaries and office rent, and transferred ₹40 lakh to a smaller NGO implementing its project. Examine the violations under FCRA 2010.",
+   "points": [
+    "Receipt in a regular bank account violates s.17; all foreign contribution must first be received in the FCRA account at SBI NDMB.",
+    "Administrative expenses of ₹60 lakh exceed the 20% cap (₹40 lakh) under s.8, unless prior government approval was obtained.",
+    "Transfer of ₹40 lakh to another NGO is prohibited under amended s.7.",
+    "The Government may suspend registration (s.13) or cancel it (s.14), barring re-registration for three years; office-bearers may face prosecution under s.35, with compounding possible under s.41 for eligible offences."
+   ]
+  }
+ },
+ "p6c8": {
+  "notes": [
+   {
+    "topic": "Money-laundering process",
+    "note": "Under s.3 PMLA 2002, a person commits money laundering if he directly or indirectly attempts to indulge, knowingly assists, is a party to, or is actually involved in any process or activity connected with proceeds of crime — including concealment, possession, acquisition, use, projecting it as untainted or claiming it as untainted. The 2019 Explanation makes clear the offence is continuing as long as the person enjoys the proceeds. Proceeds of crime (s.2(1)(u)) means property derived from a scheduled offence. Punishment under s.4 is rigorous imprisonment of three to seven years (up to ten years for NDPS-linked offences) and fine. Example: routing bribe money through shell companies to buy property 'cleanly' is laundering."
+   },
+   {
+    "topic": "attachment",
+    "note": "Section 5 empowers the Director or an authorised officer (not below Deputy Director) to provisionally attach property believed to be proceeds of crime for up to 180 days, recording reasons in writing. Within 30 days the officer must file a complaint before the Adjudicating Authority (s.5(5)), which under s.8 issues notice, hears the person and confirms or releases the attachment. On conviction, confiscated property vests in the Central Government under s.8(5). Example: ED can attach a flat bought with fraud proceeds even before trial, subject to confirmation by the Adjudicating Authority."
+   },
+   {
+    "topic": "obligations of banks & intermediaries",
+    "note": "Section 12 requires every reporting entity — banking companies, financial institutions, intermediaries and designated businesses and professions — to maintain records of all transactions for five years, furnish information of prescribed transactions to the Director, FIU-IND, and verify the identity of clients and beneficial owners. Section 12A allows the Director to call for records, and s.13 empowers the Director to impose a fine of ₹10,000 to ₹1 lakh for each failure. Records must be kept confidential. Example: a stockbroker must report suspicious transactions and cash transactions above the threshold to FIU-IND."
+   },
+   {
+    "topic": "ED",
+    "note": "The Directorate of Enforcement, under the Department of Revenue, is the agency that investigates offences under PMLA and enforces FEMA. Under s.17 it may search premises and seize records or property, under s.18 search persons, under s.19 arrest a person on written reasons to believe guilt, and under s.50 summon persons and record statements. Twin conditions for bail under s.45 make bail harder. Example: ED may summon a company's CFO under s.50 to explain fund flows to an overseas account."
+   },
+   {
+    "topic": "KYC & FIU",
+    "note": "The PML (Maintenance of Records) Rules 2005 require reporting entities to carry out client due diligence (KYC) at account opening and on an ongoing basis, identify beneficial owners and keep records for five years. Reports to FIU-IND include Cash Transaction Reports (cash above ₹10 lakh or integrally connected series), Suspicious Transaction Reports, Counterfeit Currency Reports and Non-Profit Organisation transaction reports. FIU-IND, set up in 2004 under the Finance Ministry, receives, analyses and disseminates financial intelligence. Example: a bank must file a CTR when a customer deposits ₹11 lakh in cash in a month in connected transactions."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A person knowingly keeps proceeds of a fraud in his locker and later claims it as business income. Under s.3 PMLA, this is:",
+    "options": [
+     "Not an offence since he did not commit the fraud",
+     "Money laundering",
+     "Only an income-tax offence",
+     "Benami transaction only"
+    ],
+    "answer": 1,
+    "explain": "Section 3 covers possession of proceeds of crime and projecting or claiming it as untainted property."
+   },
+   {
+    "q": "Provisional attachment under s.5 PMLA can last for a maximum of:",
+    "options": [
+     "90 days",
+     "1 year",
+     "180 days",
+     "Until conviction automatically"
+    ],
+    "answer": 2,
+    "explain": "Section 5 allows provisional attachment for up to 180 days from the date of order."
+   },
+   {
+    "q": "Who confirms a provisional attachment order under PMLA?",
+    "options": [
+     "The Adjudicating Authority",
+     "Special Court",
+     "Appellate Tribunal",
+     "FIU-IND"
+    ],
+    "answer": 0,
+    "explain": "Under s.8 PMLA, the Adjudicating Authority confirms or releases the provisional attachment."
+   },
+   {
+    "q": "For how long must a reporting entity retain records of transactions under s.12 PMLA?",
+    "options": [
+     "Three years",
+     "Eight years",
+     "Ten years",
+     "Five years"
+    ],
+    "answer": 3,
+    "explain": "Section 12 requires records to be maintained for five years."
+   },
+   {
+    "q": "The power to summon persons and record statements under PMLA is in:",
+    "options": [
+     "Section 17",
+     "Section 50",
+     "Section 45",
+     "Section 13"
+    ],
+    "answer": 1,
+    "explain": "Section 50 PMLA empowers ED officers to summon persons and record statements."
+   },
+   {
+    "q": "A bank customer deposits ₹12 lakh cash in a month through connected deposits. The bank must file:",
+    "options": [
+     "A Cash Transaction Report with FIU-IND",
+     "An FIR with the police",
+     "An APR with RBI",
+     "Nothing, as each deposit was below ₹10 lakh"
+    ],
+    "answer": 0,
+    "explain": "The PML Rules 2005 require CTRs for cash above ₹10 lakh including integrally connected transactions."
+   }
+  ],
+  "desc": {
+   "q": "XYZ Bank noticed that a client firm deposited cash in small amounts adding up to ₹25 lakh a month and immediately wired the money abroad. The bank did not report it. ED later attached the firm's property. Discuss the obligations and consequences under PMLA 2002.",
+   "points": [
+    "The bank is a reporting entity under s.12 and must maintain records, verify identity and beneficial ownership, and report cash transactions above ₹10 lakh (including connected ones) and suspicious transactions to FIU-IND.",
+    "Failure to report allows the Director, FIU-IND, under s.13 to impose a fine of ₹10,000 to ₹1 lakh per failure and issue directions.",
+    "ED may provisionally attach the firm's property under s.5 for 180 days and must file a complaint within 30 days before the Adjudicating Authority, which confirms it under s.8.",
+    "If laundering is proved, the persons involved face three to seven years' rigorous imprisonment and fine under s.4, and property may be confiscated to the Central Government."
+   ]
+  }
+ },
+ "p6c9": {
+  "notes": [
+   {
+    "topic": "Declaration procedure",
+    "note": "A fugitive economic offender (s.2(1)(f) FEO Act 2018) is a person against whom a warrant of arrest has been issued for a scheduled offence involving ₹100 crore or more, and who has left India to avoid prosecution or, being abroad, refuses to return. Under s.4, the Director or Deputy Director files an application before the Special Court (designated under PMLA) seeking declaration. The court issues notice under s.10 requiring appearance at a place not less than six weeks from notice; if the person appears, proceedings are terminated (s.11). Example: a promoter who defaulted ₹500 crore and fled abroad after a warrant may be declared an FEO."
+   },
+   {
+    "topic": "attachment",
+    "note": "Section 5 lets the Director, with Special Court permission, attach property mentioned in the application; in urgent cases, provisional attachment may be made without prior permission, but an application must be filed within 30 days. On declaration under s.12, the court can order confiscation of the proceeds of crime, benami property and any other property in India or abroad, which then vests in the Central Government free from encumbrances. Example: a declared FEO's Mumbai bungalow and overseas apartment can both be confiscated."
+   },
+   {
+    "topic": "search & seizure",
+    "note": "Under s.6, the Director may enter and search any place, break open locks, seize records or property and make lists if he has reason to believe based on material in possession that a person is a fugitive economic offender. Section 7 permits search of persons and s.8 confers civil court powers like discovery, summons and production of documents. Such searches follow CrPC/BNSS safeguards so far as applicable. Example: authorised officers may search a fugitive's office in Delhi for property records."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "What is the minimum value of the scheduled offence for the FEO Act 2018 to apply?",
+    "options": [
+     "₹50 crore",
+     "₹100 crore",
+     "₹500 crore",
+     "₹10 crore"
+    ],
+    "answer": 1,
+    "explain": "Section 4 FEO Act applies where the total value involved in scheduled offences is ₹100 crore or more."
+   },
+   {
+    "q": "Who decides an application to declare a person a fugitive economic offender?",
+    "options": [
+     "The High Court",
+     "The Adjudicating Authority under PMLA",
+     "The Special Court under PMLA",
+     "Ministry of Home Affairs"
+    ],
+    "answer": 2,
+    "explain": "An application under s.4 is filed before the Special Court designated under PMLA."
+   },
+   {
+    "q": "If the accused appears before the Special Court in response to the notice, the court:",
+    "options": [
+     "Terminates the proceedings under the Act",
+     "Declares him an FEO anyway",
+     "Confiscates his property",
+     "Transfers the case to ED"
+    ],
+    "answer": 0,
+    "explain": "Under s.11 FEO Act, proceedings are terminated if the person appears at the appointed place."
+   },
+   {
+    "q": "After a provisional attachment without court permission, within how many days must an application be filed?",
+    "options": [
+     "60 days",
+     "90 days",
+     "15 days",
+     "30 days"
+    ],
+    "answer": 3,
+    "explain": "Section 5(2) requires an application under s.4 within 30 days of provisional attachment."
+   },
+   {
+    "q": "On declaration, confiscated property vests in:",
+    "options": [
+     "The bank which lost money",
+     "The Central Government",
+     "The State Government",
+     "The court registry"
+    ],
+    "answer": 1,
+    "explain": "Under s.12 FEO Act, confiscated property vests in the Central Government free from encumbrances."
+   },
+   {
+    "q": "The power of search and seizure under the FEO Act is in:",
+    "options": [
+     "Section 6",
+     "Section 12",
+     "Section 14",
+     "Section 2"
+    ],
+    "answer": 0,
+    "explain": "Section 6 FEO Act empowers search and seizure of property and records."
+   }
+  ],
+  "desc": {
+   "q": "Mr. K, a business owner accused of a ₹300 crore bank fraud, left India after an arrest warrant was issued. ED wants to proceed under the FEO Act 2018. Outline the procedure and consequences.",
+   "points": [
+    "The value exceeds ₹100 crore and a warrant exists, so ED's Director may apply under s.4 to the Special Court with reasons, property details and persons interested.",
+    "ED may attach property under s.5 with court permission, or provisionally in urgency, filing the application within 30 days; it may also search and seize under s.6.",
+    "The court issues notice under s.10 requiring Mr. K to appear at least six weeks later; if he appears, proceedings end under s.11.",
+    "On declaration under s.12, his proceeds of crime and other property in India or abroad may be confiscated, and under s.14 he may be barred from filing or defending civil claims in India."
+   ]
+  }
+ },
+ "p6c10": {
+  "notes": [
+   {
+    "topic": "Benami property & transactions",
+    "note": "Under s.2(9) of the Prohibition of Benami Property Transactions Act 1988 (as amended 2016), a benami transaction is one where property is held by or transferred to one person while the consideration is paid by another for whose benefit it is held; it also covers transactions in a fictitious name or where the owner denies knowledge. Exclusions include property held by a Karta for the HUF, by a fiduciary, and in the name of spouse, child or certain relatives where consideration is paid from known sources. Benami property (s.2(8)) is property that is the subject of such a transaction, including its proceeds. Example: A buys land in his driver's name from undisclosed income — it is benami."
+   },
+   {
+    "topic": "prohibition",
+    "note": "Section 3 prohibits any person from entering into a benami transaction; the 2016 amendment provides that whoever does so is punishable under s.53 with rigorous imprisonment of one to seven years and fine up to 25% of fair market value. Section 4 bars the real owner from suing to recover benami property or setting up a defence based on it, and s.6 prohibits re-transfer by the benamidar to the beneficial owner. Section 5 makes benami property liable to confiscation. Note: the Supreme Court in the Ganpati Dealcom case (2022) held certain penal provisions not to apply retrospectively to pre-2016 transactions. Example: the true owner cannot file a civil suit against his benamidar to reclaim the house."
+   },
+   {
+    "topic": "adjudication",
+    "note": "The Initiating Officer issues a show cause notice under s.24 and may provisionally attach property for up to 90 days; the matter is then referred to the Adjudicating Authority, which under s.26 hears the parties and passes an order holding the property benami or not within the prescribed time. If held benami, the Administrator confiscates it under s.27, vesting it in the Central Government free of encumbrances. Appeals lie to the Appellate Tribunal (s.46) and then to the High Court (s.49). Example: a flat found benami after adjudication is managed and disposed of by the Administrator."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Ramesh buys a house in his wife's name, paying from his disclosed salary. Is it benami?",
+    "options": [
+     "Yes, all property in a spouse's name is benami",
+     "No, it falls within the spouse exception",
+     "Yes, unless registered with the Initiating Officer",
+     "Only if the wife does not know"
+    ],
+    "answer": 1,
+    "explain": "Section 2(9) excludes property in a spouse's name purchased from known sources of income."
+   },
+   {
+    "q": "A buys land in his peon's name from undisclosed cash. Which statement is correct?",
+    "options": [
+     "The peon becomes absolute owner",
+     "A can sue the peon for recovery",
+     "It is a benami transaction liable to confiscation",
+     "It is legal if stamp duty is paid"
+    ],
+    "answer": 2,
+    "explain": "Such a transaction is benami under s.2(9) and the property is liable to confiscation under s.5."
+   },
+   {
+    "q": "The real owner of benami property files a civil suit against the benamidar to recover it. The suit is:",
+    "options": [
+     "Barred under s.4",
+     "Maintainable after five years",
+     "Maintainable in the High Court only",
+     "Maintainable if the benamidar consents"
+    ],
+    "answer": 0,
+    "explain": "Section 4 prohibits suits or defences to recover benami property by the real owner."
+   },
+   {
+    "q": "Punishment for entering into a benami transaction includes rigorous imprisonment of:",
+    "options": [
+     "Up to three years",
+     "Ten to fourteen years",
+     "Six months to two years",
+     "One to seven years"
+    ],
+    "answer": 3,
+    "explain": "Section 53 prescribes rigorous imprisonment of one to seven years and fine up to 25% of fair market value."
+   },
+   {
+    "q": "Who issues the show cause notice and may provisionally attach suspected benami property?",
+    "options": [
+     "Administrator",
+     "Adjudicating Authority",
+     "Initiating Officer",
+     "Appellate Tribunal"
+    ],
+    "answer": 2,
+    "explain": "Under s.24, the Initiating Officer issues notice and may provisionally attach property."
+   },
+   {
+    "q": "After the Adjudicating Authority holds a property benami, who takes possession and manages it?",
+    "options": [
+     "The beneficial owner",
+     "The Administrator",
+     "The local municipality",
+     "The Approving Authority"
+    ],
+    "answer": 1,
+    "explain": "Under s.27 and s.29, the Administrator takes possession and manages confiscated benami property."
+   }
+  ],
+  "desc": {
+   "q": "Suresh, a trader, purchased three flats in 2021: one in his minor son's name from his known income, one in his brother's name from undisclosed cash, and one in a fictitious name. Examine the position under the Benami Act.",
+   "points": [
+    "The flat in the minor son's name, bought from known sources, falls within the exception in s.2(9) and is not benami.",
+    "The flat in the brother's name, paid for from undisclosed cash, is benami as the consideration was provided by Suresh for his own benefit; the brother is the benamidar.",
+    "The flat in a fictitious name is benami under s.2(9)(c); both benami flats are liable to confiscation under s.5.",
+    "The Initiating Officer may issue notice and attach under s.24; on adjudication under s.26 the Administrator confiscates them, and Suresh may face prosecution under s.53; he cannot sue to recover them (s.4)."
+   ]
+  }
+ },
+ "p6c11": {
+  "notes": [
+   {
+    "topic": "Anti-competitive agreements",
+    "note": "Section 3 of the Competition Act 2002 declares void any agreement that causes or is likely to cause an appreciable adverse effect on competition in India. Horizontal agreements between competitors that fix prices, limit production, share markets or involve bid rigging are presumed to have AAEC under s.3(3), while vertical agreements such as tie-in, exclusive supply, exclusive distribution, refusal to deal and resale price maintenance (s.3(4)) are judged by the rule of reason using s.19(3) factors. Efficiency-enhancing joint ventures are exempt from the presumption. Example: cement makers agreeing to raise prices together form a cartel presumed illegal."
+   },
+   {
+    "topic": "abuse of dominance",
+    "note": "Section 4 prohibits abuse — not mere possession — of a dominant position by an enterprise or group. Abuse includes imposing unfair or discriminatory prices or conditions (including predatory pricing), limiting production or technical development, denying market access, imposing supplementary obligations unrelated to the contract, and leveraging dominance into another market. Dominance is assessed under s.19(4) considering market share, size, resources, dependence of consumers and entry barriers within the relevant market (s.19(6)–(7)). Example: a dominant app store forcing developers to use its own billing system may be abusive."
+   },
+   {
+    "topic": "combinations",
+    "note": "Under ss.5 and 6, acquisitions, mergers and amalgamations crossing asset or turnover thresholds are combinations, and must be notified to the CCI and cannot be completed for 150 days or until approval, whichever is earlier. The 2023 amendment added a deal-value threshold of ₹2,000 crore where the target has substantial business operations in India, and the CCI forms a prima facie opinion within 30 days. A combination causing AAEC is void. De minimis exemption applies to small targets. Example: a ₹3,000 crore acquisition of an Indian SaaS startup with large Indian user base may need notification even if its assets are small."
+   },
+   {
+    "topic": "CCI",
+    "note": "The Competition Commission of India, established under s.7, is a body corporate with a chairperson and members. Its duty under s.18 is to eliminate practices having adverse effect on competition, promote and sustain competition and protect consumer interests. It may inquire on its own or on information, direct investigation by the Director General (s.26, s.41), pass cease and desist orders, impose penalties up to 10% of average turnover (global turnover after 2023 amendment) under s.27, and for cartels, up to three times profit or 10% of turnover. Leniency is available under s.46. Example: the CCI may fine a cartel member but reduce the penalty if it was the first to disclose."
+   },
+   {
+    "topic": "appellate tribunal",
+    "note": "Appeals against CCI orders lie to the National Company Law Appellate Tribunal (which replaced COMPAT in 2017) under s.53B within 60 days. The 2023 amendment requires depositing 25% of the penalty before the appeal is heard. Further appeal lies to the Supreme Court under s.53T within 60 days. NCLAT also adjudicates compensation claims under s.53N. Example: a company fined ₹100 crore must deposit ₹25 crore to pursue its appeal before NCLAT."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Five tyre manufacturers agree to share the southern market territory-wise. This is:",
+    "options": [
+     "A vertical agreement judged by rule of reason",
+     "Presumed to have AAEC under s.3(3)",
+     "Legal if no consumer complains",
+     "An abuse of dominance"
+    ],
+    "answer": 1,
+    "explain": "Horizontal market-sharing agreements are presumed to cause appreciable adverse effect on competition under s.3(3)."
+   },
+   {
+    "q": "A manufacturer requires dealers to buy its lubricants as a condition of buying its engines. This is a:",
+    "options": [
+     "Tie-in arrangement under s.3(4)",
+     "Combination under s.5",
+     "Cartel under s.3(3)",
+     "Bid rigging"
+    ],
+    "answer": 0,
+    "explain": "Tie-in arrangements are vertical agreements under s.3(4), tested by the rule of reason."
+   },
+   {
+    "q": "Which statement about s.4 is correct?",
+    "options": [
+     "Holding a dominant position is itself illegal",
+     "Only state enterprises can abuse dominance",
+     "Abuse of a dominant position is prohibited",
+     "Predatory pricing is always permitted"
+    ],
+    "answer": 2,
+    "explain": "Section 4 prohibits abuse of dominance, not dominance itself."
+   },
+   {
+    "q": "After the 2023 amendment, a combination is notifiable on deal-value basis where the value exceeds:",
+    "options": [
+     "₹500 crore",
+     "₹1,000 crore",
+     "₹5,000 crore",
+     "₹2,000 crore"
+    ],
+    "answer": 3,
+    "explain": "The 2023 amendment introduced a ₹2,000 crore deal-value threshold for targets with substantial operations in India."
+   },
+   {
+    "q": "A cartel member first discloses the cartel to the CCI with full evidence. Which provision may reduce its penalty?",
+    "options": [
+     "Section 46",
+     "Section 53B",
+     "Section 26",
+     "Section 6"
+    ],
+    "answer": 0,
+    "explain": "Section 46 provides lesser penalty (leniency) for cartel members making full, true disclosure."
+   },
+   {
+    "q": "Before NCLAT hears an appeal against a CCI penalty, the appellant must deposit:",
+    "options": [
+     "10% of the penalty",
+     "25% of the penalty",
+     "50% of the penalty",
+     "Nothing"
+    ],
+    "answer": 1,
+    "explain": "The 2023 amendment to s.53B requires deposit of 25% of the penalty for an appeal."
+   }
+  ],
+  "desc": {
+   "q": "A dominant online food delivery platform requires partner restaurants not to offer lower prices on any other platform and offers deep discounts below cost to drive out a new rival. Examine the position under the Competition Act 2002.",
+   "points": [
+    "The relevant market (s.2(r), s.19(6)–(7)) must be defined, e.g., online food delivery services in India, and dominance assessed under s.19(4).",
+    "Price-parity clauses imposed on restaurants may amount to unfair conditions under s.4(2)(a) and may also be examined as vertical restraints under s.3(4).",
+    "Pricing below cost to eliminate a competitor is predatory pricing, an abuse under s.4(2)(a)(ii).",
+    "CCI may direct investigation by the DG under s.26, pass cease and desist orders and impose a penalty up to 10% of average turnover under s.27; appeal lies to NCLAT under s.53B and then to the Supreme Court."
+   ]
+  }
+ },
+ "p6c12": {
+  "notes": [
+   {
+    "topic": "Consumer rights",
+    "note": "Section 2(9) of the Consumer Protection Act 2019 lists six consumer rights: protection against hazardous goods and services, right to be informed about quality, quantity, purity, standard and price, right of access to goods at competitive prices, right to be heard, right to seek redressal against unfair trade practices, and right to consumer awareness. A consumer under s.2(7) includes buyers online and via teleshopping but excludes those buying for resale or commercial purpose. The Central Consumer Protection Authority (s.10) protects these rights as a class, with powers over misleading advertisements and recalls. Example: a person buying a refrigerator online for home use is a consumer."
+   },
+   {
+    "topic": "commissions",
+    "note": "The Act sets up a three-tier redressal structure: District Commission (claims up to ₹50 lakh), State Commission (above ₹50 lakh up to ₹2 crore) and National Commission (above ₹2 crore), as revised by the 2021 pecuniary jurisdiction rules based on value of consideration paid. A complaint may be filed where the complainant resides or works, and electronically. Limitation is two years from the cause of action under s.69. Appeals lie from District to State Commission within 45 days (s.41), from State to National within 30 days (s.51) and from National to the Supreme Court within 30 days (s.67), each with a pre-deposit. Example: a ₹75 lakh flat-delay dispute goes to the State Commission."
+   },
+   {
+    "topic": "remedies",
+    "note": "Under s.39, a Commission may order removal of defects, replacement, refund, compensation for loss or injury, punitive damages, discontinuance of unfair practices and corrective advertisements. Product liability under Chapter VI (ss.82–87) makes manufacturers, service providers and sellers liable for harm from defective products. The CCPA may impose penalties for false or misleading advertisements up to ₹10 lakh (₹50 lakh for repeat) on manufacturers and endorsers under s.21. Mediation is available under Chapter V. Example: a consumer injured by an exploding pressure cooker can claim compensation from the manufacturer under product liability."
+   },
+   {
+    "topic": "e-commerce & direct selling rules",
+    "note": "The Consumer Protection (E-Commerce) Rules 2020 require platforms to appoint a grievance officer, acknowledge complaints within 48 hours and redress them within one month, display seller details, return and refund policies, and country of origin, and not manipulate prices or post fake reviews. Marketplace entities must have a resident nodal officer if incorporated abroad. The Consumer Protection (Direct Selling) Rules 2021 prohibit pyramid and money-circulation schemes, require direct sellers to have a registered office in India and give cooling-off/refund rights. Example: an e-commerce site cannot impose cancellation charges unless it bears similar charges when it cancels unilaterally."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A trader buys 50 mobile phones online for resale and finds them defective. Is he a consumer under the CPA 2019?",
+    "options": [
+     "Yes, as all online buyers are consumers",
+     "Yes, if paid by card",
+     "No, as he bought for resale",
+     "Only if the seller is abroad"
+    ],
+    "answer": 2,
+    "explain": "Section 2(7) excludes persons who obtain goods for resale or commercial purpose."
+   },
+   {
+    "q": "A complaint involves consideration of ₹1.5 crore. Which forum has jurisdiction?",
+    "options": [
+     "District Commission",
+     "State Commission",
+     "National Commission",
+     "CCPA"
+    ],
+    "answer": 1,
+    "explain": "Under the 2021 pecuniary rules, the State Commission handles claims above ₹50 lakh up to ₹2 crore."
+   },
+   {
+    "q": "What is the limitation period for filing a consumer complaint?",
+    "options": [
+     "Two years from cause of action",
+     "One year",
+     "Three years",
+     "Six months"
+    ],
+    "answer": 0,
+    "explain": "Section 69 CPA 2019 prescribes two years from the date the cause of action arises."
+   },
+   {
+    "q": "A celebrity endorses a misleading advertisement for the first time. The CCPA may impose a penalty of up to:",
+    "options": [
+     "₹1 lakh",
+     "₹50 lakh",
+     "₹5 crore",
+     "₹10 lakh"
+    ],
+    "answer": 3,
+    "explain": "Section 21 empowers CCPA to penalise endorsers up to ₹10 lakh for a first contravention."
+   },
+   {
+    "q": "Under the E-Commerce Rules 2020, a grievance must be acknowledged within:",
+    "options": [
+     "7 days",
+     "48 hours",
+     "24 hours",
+     "15 days"
+    ],
+    "answer": 1,
+    "explain": "The rules require acknowledgment within 48 hours and redressal within one month."
+   },
+   {
+    "q": "A company recruits members whose income depends mainly on enrolling new members rather than selling goods. Under the Direct Selling Rules 2021, this is:",
+    "options": [
+     "A prohibited pyramid scheme",
+     "Permitted if registered with CCPA",
+     "A legal multi-level marketing plan",
+     "A deemed export"
+    ],
+    "answer": 0,
+    "explain": "The Direct Selling Rules 2021 prohibit pyramid and money-circulation schemes."
+   }
+  ],
+  "desc": {
+   "q": "Anita ordered a ₹60,000 laptop from an online marketplace. It arrived defective; the seller refused replacement, the platform's grievance officer did not respond for three weeks, and the listing claimed it was 'Made in India' when it was imported. Advise Anita.",
+   "points": [
+    "Anita is a consumer under s.2(7); the defect and false origin claim amount to deficiency and unfair trade practice, violating her rights under s.2(9).",
+    "The E-Commerce Rules 2020 required acknowledgment within 48 hours, redressal within a month and accurate country-of-origin display; the platform breached these duties.",
+    "She can file a complaint (including online) within two years before the District Commission where she resides, since the value is within ₹50 lakh.",
+    "Under s.39 the Commission can order replacement or refund, compensation and punitive damages; she may also inform the CCPA about the misleading claim for class action under s.18–21."
+   ]
+  }
+ },
+ "p6c13": {
+  "notes": [
+   {
+    "topic": "Weights & measures",
+    "note": "The Legal Metrology Act 2009 requires every weight or measure to conform to the standard units based on the metric system (s.4–5), with base units such as metre, kilogram and second. Non-standard weights or measures cannot be used in any transaction or protection (s.10), and manufacturers, repairers and dealers of weights and measures need a licence from the Controller (s.23). Models of weights or measures need approval of the Director (s.22). Example: a vegetable vendor cannot use a stone as a 1 kg weight; he must use a verified, stamped weight."
+   },
+   {
+    "topic": "inspection",
+    "note": "The Director, Controller and Legal Metrology Officers appointed under ss.13–14 may, under s.15, inspect, search and seize any weight, measure or goods used in contravention and inspect records. Every weight or measure in use must be periodically verified and stamped by the Legal Metrology Officer under s.24. Seized items must be dealt with under the prescribed procedure, including issuing a receipt. Example: an inspector can seize an untampered-looking but unverified petrol pump nozzle and test it."
+   },
+   {
+    "topic": "pre-packaged commodities",
+    "note": "Under s.18 and the Legal Metrology (Packaged Commodities) Rules 2011, no person may manufacture, pack, import or sell a pre-packaged commodity unless it bears the prescribed declarations: name and address of manufacturer/packer/importer, common or generic name, net quantity in standard units, month and year of manufacture, retail sale price (MRP inclusive of all taxes), consumer-care details and country of origin for imports. Selling above MRP is prohibited. Packers and importers must register under Rule 27. Example: a bottled-water brand selling above MRP in a cinema hall violates the Rules."
+   },
+   {
+    "topic": "penalties",
+    "note": "Chapter IV prescribes penalties: using non-standard weights or measures (s.25) is punishable with fine up to ₹25,000 and imprisonment for repeat offences; tampering with or altering verified weights (s.26) with fine, and imprisonment for repeat offences; and selling pre-packaged commodities without required declarations (s.36) with fine up to ₹25,000 for first offence, rising for repeat offences. Many offences are compoundable under s.48. The Jan Vishwas Act 2023 decriminalised several provisions by replacing imprisonment with fines. Example: a packer omitting MRP on packets can compound the offence by paying the specified amount."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A shopkeeper uses a 1 kg weight that has not been verified and stamped. Which obligation is breached?",
+    "options": [
+     "Periodic verification under s.24",
+     "Registration of trade mark",
+     "Obtaining IEC",
+     "Filing an APR"
+    ],
+    "answer": 0,
+    "explain": "Section 24 Legal Metrology Act requires weights and measures in use to be verified and stamped."
+   },
+   {
+    "q": "Who grants a licence to manufacture or repair weights and measures?",
+    "options": [
+     "Director of Legal Metrology at the Centre only",
+     "The Controller",
+     "BIS",
+     "District Collector"
+    ],
+    "answer": 1,
+    "explain": "Section 23 requires a licence from the Controller to manufacture, repair or deal in weights and measures."
+   },
+   {
+    "q": "Which declaration is NOT required on a pre-packaged commodity under the 2011 Rules?",
+    "options": [
+     "Net quantity",
+     "Retail sale price",
+     "Shareholding pattern of the manufacturer",
+     "Month and year of manufacture"
+    ],
+    "answer": 2,
+    "explain": "The Packaged Commodities Rules require name, net quantity, MRP and date of manufacture, but not shareholding."
+   },
+   {
+    "q": "A shop sells a soft drink at ₹5 above its printed MRP. This violates:",
+    "options": [
+     "The Competition Act",
+     "The Trade Marks Act",
+     "FEMA",
+     "The Legal Metrology (Packaged Commodities) Rules"
+    ],
+    "answer": 3,
+    "explain": "The Rules prohibit selling a pre-packaged commodity above its retail sale price."
+   },
+   {
+    "q": "A Legal Metrology Officer suspects a dealer of using tampered scales. Under which section can he inspect and seize them?",
+    "options": [
+     "Section 15",
+     "Section 4",
+     "Section 48",
+     "Section 52"
+    ],
+    "answer": 0,
+    "explain": "Section 15 empowers officers to inspect, search and seize weights, measures and records."
+   },
+   {
+    "q": "A packer is caught without required declarations for the first time. Which is correct?",
+    "options": [
+     "The offence is non-compoundable",
+     "The offence can be compounded under s.48",
+     "Only the CCI can punish",
+     "No penalty applies for a first offence"
+    ],
+    "answer": 1,
+    "explain": "Section 48 allows compounding of most offences under the Act by the specified officer."
+   }
+  ],
+  "desc": {
+   "q": "FreshPack Foods sells packaged snacks. Inspection found that packets show net weight in 'tola', lack the month of manufacture, and are sold above MRP at railway stations. The firm has also not registered as a packer. Discuss the contraventions and consequences.",
+   "points": [
+    "Use of non-metric unit 'tola' breaches the requirement to declare net quantity in standard units under ss.4–5 and the 2011 Rules.",
+    "Omission of month and year of manufacture and sale above MRP violate the mandatory declarations and retail price rules under s.18 and the Packaged Commodities Rules.",
+    "Failure to register as a packer under Rule 27 is a separate contravention.",
+    "Officers can seize goods under s.15; FreshPack is liable to fines under s.36 and related sections, higher for repeat offences, with compounding available under s.48."
+   ]
+  }
+ },
+ "p6c14": {
+  "notes": [
+   {
+    "topic": "Project registration",
+    "note": "Under s.3 RERA 2016, no promoter may advertise, market, book or sell any plot, apartment or building in a real estate project without registering it with the State Real Estate Regulatory Authority. Exemptions apply where land is up to 500 sq. m. or up to eight apartments, where completion certificate was received before commencement, and for renovation not involving marketing. Under s.4, the promoter must deposit 70% of amounts realised from allottees in a separate bank account to be used only for land and construction costs, withdrawals being certified by an engineer, architect and CA. Example: a builder launching 40 flats in Kozhikode must register before even advertising."
+   },
+   {
+    "topic": "agents",
+    "note": "Section 9 requires every real estate agent to register with the Authority before facilitating the sale or purchase of any registered project; registration is granted for a prescribed period and can be renewed. Under s.10, agents must not deal in unregistered projects, must maintain books of account, avoid unfair trade practices and help allottees obtain documents. Failure to register attracts penalty under s.62 of up to ₹10,000 per day of default, which may extend to 5% of the property's cost. Example: a broker marketing an unregistered villa project violates s.10."
+   },
+   {
+    "topic": "RERA",
+    "note": "Each State Government establishes a Real Estate Regulatory Authority under s.20, which registers projects and agents, maintains a public website of project details, and ensures compliance by promoters, allottees and agents (s.34). It adjudicates complaints under s.31, while compensation claims under ss.12, 14, 18 and 19 are decided by the Adjudicating Officer under s.71. Under s.18, if a promoter fails to give possession on time, the allottee may withdraw with refund and interest, or stay and receive interest for every month of delay. Example: a buyer whose flat is two years late can claim interest for the delay."
+   },
+   {
+    "topic": "appellate tribunal",
+    "note": "Appeals against orders of the Authority or the Adjudicating Officer lie to the Real Estate Appellate Tribunal established under s.43, within 60 days (s.44). A promoter filing an appeal must deposit at least 30% of the penalty, or the total amount payable to the allottee, before the appeal is heard (s.43(5)). Further appeal lies to the High Court under s.58 within 60 days. The Tribunal endeavours to decide within 60 days. Example: a developer ordered to refund ₹80 lakh must deposit the amount to have its appeal entertained."
+   },
+   {
+    "topic": "penalties",
+    "note": "Chapter VIII prescribes penalties: non-registration under s.3 attracts up to 10% of the estimated project cost (s.59), and continued default imprisonment up to three years or further fine; false information under s.4 attracts up to 5% (s.60); contravention of other provisions up to 5% (s.61). Non-compliance with Appellate Tribunal orders can lead to imprisonment up to three years for promoters (s.64). Allottees failing to pay as agreed are also liable to interest. Example: a promoter selling flats without registration may be fined up to 10% of the project cost."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A builder plans a project of 6 apartments on 400 sq. m. of land. Is RERA registration mandatory?",
+    "options": [
+     "Yes, for all projects",
+     "No, as it falls within the s.3(2) exemption",
+     "Only if sold to NRIs",
+     "Only after completion"
+    ],
+    "answer": 1,
+    "explain": "Section 3(2) exempts projects up to 500 sq. m. or up to eight apartments."
+   },
+   {
+    "q": "What proportion of amounts collected from allottees must be kept in the separate project account?",
+    "options": [
+     "50%",
+     "100%",
+     "70%",
+     "30%"
+    ],
+    "answer": 2,
+    "explain": "Section 4(2)(l)(D) requires 70% of amounts realised to be deposited in a separate account."
+   },
+   {
+    "q": "A real estate agent markets an unregistered project. Which provision is breached?",
+    "options": [
+     "Section 10",
+     "Section 18",
+     "Section 43",
+     "Section 71"
+    ],
+    "answer": 0,
+    "explain": "Section 10 bars registered agents from facilitating sale of unregistered projects."
+   },
+   {
+    "q": "A promoter delays possession and the allottee wishes to stay in the project. Under s.18 she is entitled to:",
+    "options": [
+     "Nothing until possession",
+     "Only a refund",
+     "Specific performance only",
+     "Interest for every month of delay till possession"
+    ],
+    "answer": 3,
+    "explain": "Section 18 entitles an allottee who does not withdraw to interest for every month of delay."
+   },
+   {
+    "q": "Before its appeal is heard by the Appellate Tribunal, a promoter must deposit:",
+    "options": [
+     "At least 30% of the penalty or the total amount payable to the allottee",
+     "10% of project cost",
+     "Nothing",
+     "50% of the penalty"
+    ],
+    "answer": 0,
+    "explain": "Section 43(5) RERA requires this pre-deposit for appeals by promoters."
+   },
+   {
+    "q": "What is the maximum penalty for a promoter who fails to register a project under s.3?",
+    "options": [
+     "5% of estimated project cost",
+     "10% of estimated project cost",
+     "₹10,000 per day",
+     "₹1 lakh"
+    ],
+    "answer": 1,
+    "explain": "Section 59 provides penalty up to 10% of the estimated cost of the project."
+   }
+  ],
+  "desc": {
+   "q": "Skyline Builders launched a 120-flat project and took bookings through an agent before registering under RERA. They used 50% of the collections to buy land for another project, and possession is 18 months late. Advise the allottees and discuss Skyline's liabilities.",
+   "points": [
+    "Booking and marketing before registration violates s.3; Skyline is liable to penalty up to 10% of project cost under s.59, and the agent breached ss.9–10 and is liable under s.62.",
+    "Diverting collections breaches s.4(2)(l)(D), which requires 70% to be kept in a separate account for that project's land and construction; the Authority may act under s.61/s.37.",
+    "Under s.18, allottees may withdraw and seek refund with interest and compensation, or remain and claim interest for each month of delay; compensation claims go to the Adjudicating Officer under s.71.",
+    "Skyline may appeal to the Appellate Tribunal under s.44 within 60 days but must make the pre-deposit under s.43(5); a further appeal lies to the High Court under s.58."
+   ]
+  }
+ },
+ "p6c15": {
+  "notes": [
+   {
+    "topic": "Applications",
+    "note": "Under s.6 of the Patents Act 1970, the true and first inventor, his assignee or legal representative may apply for a patent. An application may be provisional (with a provisional specification) followed by a complete specification within 12 months (s.9), or directly complete; it must disclose the invention fully and state the best method of performing it (s.10). Priority date is generally the date of filing (s.11), and applications are published after 18 months (s.11A) unless early publication is requested. Example: a start-up can file a provisional application to secure an early priority date while it refines its prototype."
+   },
+   {
+    "topic": "examination",
+    "note": "Examination is not automatic: the applicant or any interested person must file a request for examination within 31 months (48 months earlier) from the priority date under s.11B and Rule 24B. The Controller refers the application to an examiner who reports on novelty, inventive step, industrial applicability and compliance, and a First Examination Report is issued. The applicant must put the application in order for grant within six months of the FER, extendable by three months, failing which it is deemed abandoned (s.21). Example: an applicant who misses the response deadline to the FER loses the application."
+   },
+   {
+    "topic": "non-patentable inventions",
+    "note": "Sections 3 and 4 list what is not an invention: frivolous inventions contrary to natural laws, those contrary to public order or morality, mere discovery of a scientific principle, new forms of known substances without enhanced efficacy (s.3(d)), mere admixtures, methods of agriculture, methods of treatment of humans or animals, mathematical or business methods and computer programs per se (s.3(k)), plants and animals other than micro-organisms, and traditional knowledge (s.3(p)); s.4 excludes atomic energy inventions. Example: the Supreme Court in Novartis v Union of India denied a patent for a new form of imatinib lacking enhanced therapeutic efficacy under s.3(d)."
+   },
+   {
+    "topic": "opposition",
+    "note": "Section 25(1) provides pre-grant opposition by any person after publication but before grant, on grounds such as wrongful obtaining, prior publication, prior claiming, obviousness, non-patentability, insufficient disclosure and non-disclosure of foreign filings. Section 25(2) allows post-grant opposition by any interested person within one year from publication of the grant, decided after an Opposition Board's recommendation. Example: a generic drug maker can file a pre-grant opposition citing anticipation by an earlier journal article."
+   },
+   {
+    "topic": "compulsory licences",
+    "note": "Under s.84, any interested person may apply for a compulsory licence after three years from grant on grounds that the reasonable requirements of the public are not satisfied, the patented invention is not available at a reasonably affordable price, or it is not worked in India. Section 92 allows licences in national emergency or extreme urgency, and s.92A for export of pharmaceuticals to countries lacking manufacturing capacity. The Controller fixes reasonable royalty. Example: India's first compulsory licence (Natco v Bayer, 2012) was granted for the cancer drug sorafenib because of its unaffordable price."
+   },
+   {
+    "topic": "infringement",
+    "note": "A patent confers on the patentee the exclusive right to prevent others from making, using, offering for sale, selling or importing the patented product or product by the patented process (s.48). Infringement suits lie in a court not inferior to a District Court (s.104), and reliefs under s.108 include injunction, damages or account of profits and seizure of infringing goods. Defences include the Bolar exception for regulatory testing (s.107A), parallel import (s.107A(b)), experimental use (s.47) and invalidity as a counter-claim (s.64). The burden of proof for process patents can shift to the defendant under s.104A. Example: a rival generic maker running trials for drug approval before patent expiry does not infringe."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "An inventor filed a provisional specification on 1 January 2026. By when must the complete specification be filed?",
+    "options": [
+     "Within 6 months",
+     "Within 12 months",
+     "Within 18 months",
+     "Within 31 months"
+    ],
+    "answer": 1,
+    "explain": "Section 9 requires the complete specification within 12 months of filing the provisional specification."
+   },
+   {
+    "q": "Within what time from the priority date must a request for examination be filed?",
+    "options": [
+     "12 months",
+     "18 months",
+     "31 months",
+     "48 months"
+    ],
+    "answer": 2,
+    "explain": "Under s.11B read with Rule 24B, the request for examination is due within 31 months from priority date."
+   },
+   {
+    "q": "A company seeks a patent for a new salt form of a known drug with no improvement in therapeutic efficacy. The application is likely to fail under:",
+    "options": [
+     "Section 3(d)",
+     "Section 3(k)",
+     "Section 84",
+     "Section 25(2)"
+    ],
+    "answer": 0,
+    "explain": "Section 3(d) excludes new forms of known substances lacking enhanced efficacy."
+   },
+   {
+    "q": "A rival wants to oppose a patent granted eight months ago. Which remedy applies?",
+    "options": [
+     "Pre-grant opposition under s.25(1)",
+     "Compulsory licence under s.84",
+     "Rectification under s.71",
+     "Post-grant opposition under s.25(2)"
+    ],
+    "answer": 3,
+    "explain": "Post-grant opposition may be filed by an interested person within one year of publication of grant."
+   },
+   {
+    "q": "A compulsory licence under s.84 can be sought at the earliest:",
+    "options": [
+     "Immediately on grant",
+     "Three years after grant",
+     "After patent expiry",
+     "One year after grant"
+    ],
+    "answer": 1,
+    "explain": "Section 84 allows an application after three years from the date of grant."
+   },
+   {
+    "q": "A generic maker uses a patented drug to generate data for DCGI approval before expiry. This is:",
+    "options": [
+     "Infringement under s.48",
+     "Allowed only with patentee consent",
+     "Protected by the Bolar exception under s.107A",
+     "A ground for revocation"
+    ],
+    "answer": 2,
+    "explain": "Section 107A(a) exempts use reasonably related to development of information required by law."
+   }
+  ],
+  "desc": {
+   "q": "MedCure Ltd holds an Indian patent (granted 2021) for a life-saving drug that it imports and sells at a price unaffordable to most patients. A local manufacturer wants to produce it. Advise the manufacturer on remedies under the Patents Act 1970.",
+   "points": [
+    "Since more than three years have passed since grant, the manufacturer can apply to the Controller under s.84 for a compulsory licence.",
+    "Grounds available include unmet reasonable requirements of the public, the drug not being available at a reasonably affordable price, and non-working in India (import alone may not amount to working, as in Natco v Bayer).",
+    "It should first have made efforts to obtain a voluntary licence on reasonable terms; the Controller considers this and fixes reasonable royalty.",
+    "Alternatively, in a national emergency the Government may act under s.92, and if the patent is weak the manufacturer may seek revocation under s.64; producing without a licence would be infringement under s.48."
+   ]
+  }
+ },
+ "p6c16": {
+  "notes": [
+   {
+    "topic": "Classification",
+    "note": "Under s.7 of the Trade Marks Act 1999, goods and services are classified per the International (Nice) Classification — Classes 1–34 for goods and 35–45 for services. An applicant must specify the class(es); a single application may cover multiple classes (s.18(2)). Disputes about classification are decided by the Registrar. Example: a bakery brand may file in Class 30 for biscuits and Class 43 for café services in one multi-class application."
+   },
+   {
+    "topic": "registration",
+    "note": "Under s.18, any person claiming to be the proprietor of a mark used or proposed to be used may apply to the Registrar. The application is examined, accepted and advertised in the Trade Marks Journal (s.20), after which any person may oppose within four months (s.21). If unopposed or opposition fails, the mark is registered (s.23) for ten years from the application date, renewable indefinitely for ten-year periods (s.25). Example: 'Zappio' can be registered and renewed every decade so long as fees are paid."
+   },
+   {
+    "topic": "refusal grounds",
+    "note": "Absolute grounds (s.9) bar marks that are devoid of distinctive character, merely descriptive of kind, quality or origin, customary in trade, deceptive, hurtful to religious sentiments, scandalous or prohibited under the Emblems and Names Act; acquired distinctiveness is a defence. Relative grounds (s.11) bar marks that are identical or similar to an earlier mark for similar goods causing likelihood of confusion, or that take unfair advantage of a well-known mark even for dissimilar goods. Example: 'Sweet' for sugar is descriptive, while 'Apple' for computers is distinctive."
+   },
+   {
+    "topic": "assignment",
+    "note": "A registered trade mark is assignable and transmissible with or without goodwill, and for all or some goods or services (s.38–39). An assignment without goodwill must be advertised as directed by the Registrar (s.42), and the assignee must apply for registration of title (s.45); unregistered assignments are not admissible as evidence of title except as allowed. Assignments creating multiple exclusive rights likely to deceive are restricted (s.40). Example: a company selling its biscuit brand without the factory must follow the s.42 advertisement procedure."
+   },
+   {
+    "topic": "collective & certification marks",
+    "note": "A collective mark (s.61–68) distinguishes goods or services of members of an association from those of others, e.g. a mark used by members of a chartered body. A certification mark (s.69–78) certifies origin, material, mode of manufacture, quality or accuracy, and is owned by a certifier who cannot itself trade in the goods; registration requires regulations governing use. Example: 'ISI' or 'Woolmark' certify standards, whereas a mark used by members of a cooperative is a collective mark."
+   },
+   {
+    "topic": "infringement",
+    "note": "Infringement under s.29 occurs when a person, not being the proprietor or permitted user, uses in the course of trade a mark identical or deceptively similar to a registered mark for identical or similar goods, or takes unfair advantage of a reputed mark. Remedies (s.135) include injunction, damages or account of profits, and delivery-up; criminal penalties for falsification and applying false marks lie under ss.103–104 with imprisonment of six months to three years. Unregistered marks are protected by the common-law action of passing off (s.27(2)). Example: selling 'Adibas' sports shoes infringes the 'Adidas' mark."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A restaurant chain wants to protect its brand for restaurant services. Which Nice class applies?",
+    "options": [
+     "Class 30",
+     "Class 35",
+     "Class 43",
+     "Class 29"
+    ],
+    "answer": 2,
+    "explain": "Under s.7 and the Nice Classification, restaurant services fall in Class 43."
+   },
+   {
+    "q": "Within what period may any person oppose an advertised trade mark application?",
+    "options": [
+     "Four months",
+     "Three months",
+     "Six months",
+     "One year"
+    ],
+    "answer": 0,
+    "explain": "Section 21 allows opposition within four months from advertisement."
+   },
+   {
+    "q": "For how long is a trade mark registration valid initially?",
+    "options": [
+     "Five years",
+     "Ten years from date of registration certificate",
+     "Twenty years",
+     "Ten years from the date of application"
+    ],
+    "answer": 3,
+    "explain": "Under s.25 read with s.23, registration is for ten years from the application date, renewable."
+   },
+   {
+    "q": "An application to register 'Fresh' for fruit juices will most likely be refused under:",
+    "options": [
+     "Section 11, relative grounds",
+     "Section 9, absolute grounds",
+     "Section 29",
+     "Section 38"
+    ],
+    "answer": 1,
+    "explain": "Section 9(1)(b) bars marks that merely describe the kind or quality of goods."
+   },
+   {
+    "q": "A testing laboratory registers a mark to certify the purity of organic honey but wants to sell honey itself. This is:",
+    "options": [
+     "Not allowed, as a certification mark owner cannot trade in the certified goods",
+     "Allowed for collective marks",
+     "Allowed after five years",
+     "Allowed if a s.42 notice is published"
+    ],
+    "answer": 0,
+    "explain": "Under s.71, a certification mark cannot be registered by a person carrying on trade in goods of the kind certified."
+   },
+   {
+    "q": "The owner of an unregistered mark finds a rival using a deceptively similar mark. His remedy is:",
+    "options": [
+     "An infringement suit under s.29",
+     "A compulsory licence",
+     "A passing off action",
+     "An opposition under s.21"
+    ],
+    "answer": 2,
+    "explain": "Section 27(2) preserves the common-law passing off action for unregistered marks."
+   }
+  ],
+  "desc": {
+   "q": "TasteBuds Foods, owner of the registered mark 'TASTEBUDS' for snacks, finds (i) a rival using 'TASTYBUDZ' for chips, (ii) a liquor company using 'TASTEBUDS' for whisky, and (iii) its own sale of the mark to a buyer without the business. Discuss the legal position under the Trade Marks Act 1999.",
+   "points": [
+    "'TASTYBUDZ' for chips is deceptively similar for identical goods and likely to confuse; it amounts to infringement under s.29(1)–(2) with remedies under s.135.",
+    "Use for whisky (dissimilar goods) is infringement under s.29(4) only if 'TASTEBUDS' has a reputation in India and the use takes unfair advantage of or harms its distinctive character or repute.",
+    "Assignment without goodwill is permitted under s.38–39 but requires advertisement under s.42 as directed by the Registrar.",
+    "The assignee must apply under s.45 to register its title; criminal remedies under ss.103–104 are also available against falsification."
+   ]
+  }
+ },
+ "p6c17": {
+  "notes": [
+   {
+    "topic": "Works protected",
+    "note": "Under s.13 of the Copyright Act 1957, copyright subsists in original literary, dramatic, musical and artistic works, cinematograph films and sound recordings. Literary works include computer programs, tables and compilations including databases (s.2(o)). Copyright protects expression, not ideas, and requires originality (a minimum degree of creativity per Eastern Book Company v D.B. Modak). Example: source code of an ERP module is protected as a literary work, but the idea of a billing workflow is not."
+   },
+   {
+    "topic": "registration",
+    "note": "Registration is optional: copyright arises automatically on creation, but the Register of Copyrights under s.44–45 provides prima facie evidence of the particulars entered (s.48). Applications are made to the Registrar of Copyrights with the prescribed fee, and for artistic works used on goods, a no-objection from the Trade Marks Registry is needed. Example: a software firm registers its code to make infringement suits easier to prove."
+   },
+   {
+    "topic": "ownership",
+    "note": "Under s.17, the author is the first owner, with exceptions: works made by an employee under a contract of service belong to the employer; for a photograph, painting or cinematograph film made for valuable consideration at someone's instance, that person owns it; government works belong to the Government; and for literary works by journalists under employment, the proprietor owns rights for publication in newspapers. Example: software written by a Tabsyst employee in the course of employment belongs to Tabsyst absent a contrary agreement."
+   },
+   {
+    "topic": "assignment",
+    "note": "Under ss.18–19, the owner may assign copyright wholly or partially, for the whole or part of its term, in writing signed by the assignor, identifying the rights, territory and duration. If the duration is not stated it is deemed five years, and if the territory is not stated it is deemed India (s.19(5)–(6)). An assignment not exercised within one year lapses unless otherwise agreed (s.19(4)). Authors of works in films and sound recordings retain an equal share of royalties from non-film exploitation (s.18 proviso). Example: an app design assigned without stating duration reverts after five years."
+   },
+   {
+    "topic": "term",
+    "note": "Under ss.22–29, copyright in literary, dramatic, musical and artistic works lasts for the author's lifetime plus 60 years. For cinematograph films, sound recordings, photographs, anonymous and pseudonymous works, posthumous works, government works and works of international organisations, the term is 60 years from the beginning of the calendar year following publication. Example: a novel by an author who died in 2000 remains protected until the end of 2060."
+   },
+   {
+    "topic": "licences",
+    "note": "The owner can grant voluntary licences in writing (s.30). Compulsory licences are available for works withheld from the public (s.31), for unpublished or orphan works (s.31A), for persons with disabilities (s.31B), statutory licences for cover versions (s.31C) and for broadcasting of literary and musical works and sound recordings (s.31D), and for translations and reproductions (s.32, s.32A). Copyright societies under s.33 administer licensing collectively. Example: a radio station can broadcast published songs under a s.31D statutory licence by paying royalty fixed by the Commercial Court/authority."
+   },
+   {
+    "topic": "infringement",
+    "note": "Infringement under s.51 occurs when a person without licence does an act exclusively reserved to the owner, or permits a place for profit for infringing performance, or sells, distributes or imports infringing copies. Fair dealing for private use, research, criticism, review and reporting is exempt under s.52. Civil remedies (s.55) include injunction, damages and accounts; criminal offences under s.63 carry imprisonment of six months to three years and fine of ₹50,000 to ₹2 lakh. Example: distributing pirated copies of licensed accounting software is both civil and criminal infringement."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Which of these is NOT a work protected under s.13 of the Copyright Act?",
+    "options": [
+     "A computer program",
+     "A sound recording",
+     "A bare idea for a mobile game",
+     "An architectural drawing"
+    ],
+    "answer": 2,
+    "explain": "Copyright protects expression, not ideas; s.13 covers literary, artistic and other specified works."
+   },
+   {
+    "q": "What is the legal effect of registering a copyright?",
+    "options": [
+     "Entries are prima facie evidence of particulars",
+     "Copyright arises only upon registration",
+     "It extends the term by ten years",
+     "It makes infringement non-cognisable"
+    ],
+    "answer": 0,
+    "explain": "Under s.48, the Register of Copyrights is prima facie evidence; copyright exists without registration."
+   },
+   {
+    "q": "A salaried developer writes code during employment without any contrary agreement. Who is the first owner?",
+    "options": [
+     "The developer",
+     "The client of the employer",
+     "Joint ownership",
+     "The employer"
+    ],
+    "answer": 3,
+    "explain": "Under s.17(c), works made in the course of employment under a contract of service belong to the employer."
+   },
+   {
+    "q": "An assignment deed is silent on duration. The assignment is deemed to be for:",
+    "options": [
+     "Three years",
+     "Five years",
+     "The full copyright term",
+     "One year"
+    ],
+    "answer": 1,
+    "explain": "Section 19(5) deems the duration as five years if not specified."
+   },
+   {
+    "q": "An author of a novel died in 2010. Copyright in the novel expires at the end of:",
+    "options": [
+     "2070",
+     "2050",
+     "2060",
+     "2110"
+    ],
+    "answer": 0,
+    "explain": "Under s.22, the term is life plus 60 years from the beginning of the year following death."
+   },
+   {
+    "q": "A college copies an entire textbook and sells copies to students. Is this protected as fair dealing under s.52?",
+    "options": [
+     "Yes, as it is for education",
+     "Yes, if under 50 copies",
+     "No, wholesale commercial copying is infringement under s.51",
+     "Yes, if the author is foreign"
+    ],
+    "answer": 2,
+    "explain": "Commercial reproduction and sale of entire works is an infringement under s.51 and not fair dealing."
+   }
+  ],
+  "desc": {
+   "q": "CodeWorks Pvt Ltd engaged a freelance designer to create its logo and app UI and engaged an employee to write the app's source code. Later, the freelancer claimed ownership of the UI and a rival sold copies of the app. Advise CodeWorks under the Copyright Act 1957.",
+   "points": [
+    "The source code is a literary work (s.2(o), s.13) and, made by an employee in the course of employment, is owned by CodeWorks under s.17(c).",
+    "A freelancer is not an employee; unless there is a written assignment under ss.18–19, the freelancer owns the UI and logo, so CodeWorks should obtain a signed assignment specifying rights, territory and duration.",
+    "Registration under s.45 is optional but gives prima facie evidence under s.48 and helps in litigation.",
+    "Selling copies of the app infringes under s.51; CodeWorks can seek injunction, damages and accounts under s.55 and prosecute under s.63."
+   ]
+  }
+ },
+ "p6c18": {
+  "notes": [
+   {
+    "topic": "Registration",
+    "note": "Under s.11 of the Geographical Indications of Goods (Registration and Protection) Act 1999, any association of persons, producers, organisation or authority representing the interests of producers of the goods may apply to the Registrar of GIs at Chennai. The application must describe the goods, the geographical area, the special characteristics attributable to that origin and the method of production; GIs are classified by the Fourth Schedule classes. After examination and advertisement, any person may oppose within three months (extendable by one month) under s.14. Producers of registered GI goods may separately register as authorised users (s.17). Example: Malabar Pepper and Aranmula Kannadi are registered GIs from Kerala."
+   },
+   {
+    "topic": "duration",
+    "note": "Under s.18, registration of a GI is valid for ten years and may be renewed for further periods of ten years each on payment of the renewal fee. An authorised user's registration is also for ten years or until the GI's registration lapses, whichever is earlier. If not renewed, the GI may be removed from the register after notice. Example: Darjeeling Tea, registered in 2004, must be renewed every ten years to remain on the register."
+   },
+   {
+    "topic": "effects",
+    "note": "Under s.21, registration gives the registered proprietor and authorised users the right to obtain relief for infringement, and gives authorised users the exclusive right to use the GI on the goods. A GI is not assignable, transmissible, licensable or capable of being pledged (s.24), being a public property of producers. Section 22 defines infringement, including use suggesting false origin and unfair competition; s.22(2) offers additional protection for notified goods like wines and spirits. Offences of falsifying GIs are punishable under s.39 with imprisonment of six months to three years. Example: selling tea grown in Assam as 'Darjeeling Tea' infringes the GI."
+   },
+   {
+    "topic": "GI vs trade mark",
+    "note": "A trade mark identifies goods of a particular enterprise and is owned by an individual or company, freely assignable, and renewable indefinitely. A GI identifies goods as originating from a particular territory whose quality or reputation is due to that origin, is collectively owned by producers of the area, and cannot be assigned or licensed. Section 25 bars registration of a trade mark that contains a GI where the goods do not originate from that territory and the use would mislead. Example: 'Tata Tea' is a trade mark, while 'Nilgiri Tea' is a GI usable by all authorised producers of the Nilgiris."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Who may apply for registration of a GI under s.11?",
+    "options": [
+     "Any individual trader anywhere in India",
+     "An association of producers representing their interests",
+     "Only the State Government",
+     "A foreign importer"
+    ],
+    "answer": 1,
+    "explain": "Section 11 permits any association of persons, producers or authority representing producers to apply."
+   },
+   {
+    "q": "For how long is a registered GI valid before renewal?",
+    "options": [
+     "Ten years",
+     "Twenty years",
+     "Five years",
+     "Perpetually"
+    ],
+    "answer": 0,
+    "explain": "Section 18 provides registration for ten years, renewable for ten years each."
+   },
+   {
+    "q": "A registered GI proprietor wishes to sell its GI to a multinational. Under s.24 this is:",
+    "options": [
+     "Allowed with Registrar approval",
+     "Allowed after 10 years",
+     "Allowed for agricultural goods only",
+     "Not allowed, as a GI is not assignable"
+    ],
+    "answer": 3,
+    "explain": "Section 24 prohibits assignment, transmission, licensing, pledge or mortgage of a GI."
+   },
+   {
+    "q": "A company in Mumbai sells shawls made locally as 'Kashmir Pashmina'. This most likely constitutes:",
+    "options": [
+     "Fair use",
+     "Infringement of the GI under s.22",
+     "Passing off only",
+     "Patent infringement"
+    ],
+    "answer": 1,
+    "explain": "Section 22 treats use suggesting false geographical origin as infringement."
+   },
+   {
+    "q": "Which is a key difference between a GI and a trade mark?",
+    "options": [
+     "A GI is owned by one company",
+     "A trade mark cannot be renewed",
+     "A GI identifies goods from a territory and is collectively used",
+     "A trade mark is not assignable"
+    ],
+    "answer": 2,
+    "explain": "A GI denotes territorial origin and is used collectively by authorised producers, unlike a trade mark."
+   },
+   {
+    "q": "Where is the Geographical Indications Registry located?",
+    "options": [
+     "Mumbai",
+     "New Delhi",
+     "Kolkata",
+     "Chennai"
+    ],
+    "answer": 3,
+    "explain": "The GI Registry operates from Chennai under the Controller General of Patents, Designs and Trade Marks."
+   }
+  ],
+  "desc": {
+   "q": "A group of handloom weavers in Kerala wants to protect the name of their traditional saree. A large textile company already sells sarees under a similar-sounding brand made in Gujarat. Advise the weavers under the GI Act 1999.",
+   "points": [
+    "An association representing the weavers can apply under s.11 to the GI Registry, Chennai, describing the saree, geographical area, special characteristics and production process.",
+    "After examination and advertisement, opposition may be filed under s.14; on registration, individual weavers may register as authorised users under s.17.",
+    "Registration is valid for ten years and renewable (s.18); the GI cannot be assigned or licensed (s.24).",
+    "Once registered, they can sue the company for infringement under ss.21–22 for misleading use of the GI, and under s.25 oppose or seek removal of a trade mark that contains the GI for goods not originating in the area; criminal action lies under s.39."
+   ]
+  }
+ },
+ "p6c19": {
+  "notes": [
+   {
+    "topic": "Registration",
+    "note": "Under s.5 of the Designs Act 2000, the proprietor of a new or original design not previously published may apply to the Controller for registration in one or more classes (Locarno-based classification). A design means features of shape, configuration, pattern, ornament or composition of lines or colours applied to an article, judged solely by the eye, excluding mode of construction, trade marks and artistic works (s.2(d)). Registration gives copyright in the design for ten years from the registration date, extendable once by five years (s.11). Example: the distinctive shape of a perfume bottle can be registered as a design."
+   },
+   {
+    "topic": "prohibitions",
+    "note": "Section 4 prohibits registration of a design that is not new or original, has been disclosed to the public anywhere in India or elsewhere by publication or use before the filing or priority date, is not significantly distinguishable from known designs or combinations, or comprises scandalous or obscene matter. Designs contrary to public order or morality are also refused. Example: a chair design already sold in Malaysia before the Indian filing cannot be registered as it lacks novelty."
+   },
+   {
+    "topic": "copyright in designs",
+    "note": "Upon registration the proprietor obtains 'copyright in the design', meaning the exclusive right to apply the design to any article in the class registered (s.2(c), s.11). Under s.15 of the Copyright Act 1957, copyright does not subsist in a design registered under the Designs Act, and if a design capable of registration is not registered, copyright ceases once an article with that design is reproduced more than fifty times by an industrial process. Example: an artist's unregistered textile print loses copyright protection once the owner mass-produces over 50 printed fabrics."
+   },
+   {
+    "topic": "piracy",
+    "note": "Piracy of a registered design under s.22 includes applying the design or a fraudulent or obvious imitation to any article in the registered class for sale without the proprietor's consent, or importing or selling such articles knowingly. The proprietor may claim up to ₹25,000 per contravention as a contract debt, with the total for one design capped at ₹50,000, or sue for damages and an injunction. Suits lie in a court not below a District Court, and the defendant may plead cancellation grounds under s.19 as a defence. Example: a factory copying a registered bottle shape for its own perfumes commits piracy."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "For how long does copyright in a registered design subsist in total, including extension?",
+    "options": [
+     "Ten years",
+     "Fifteen years",
+     "Twenty years",
+     "Life plus 60 years"
+    ],
+    "answer": 1,
+    "explain": "Under s.11 Designs Act, the term is ten years, extendable once by five years."
+   },
+   {
+    "q": "Which of the following can be registered as a design?",
+    "options": [
+     "A mechanical method of construction",
+     "A trade mark",
+     "The ornamental shape of a lamp",
+     "A literary work"
+    ],
+    "answer": 2,
+    "explain": "Section 2(d) covers shape, pattern or ornament judged by the eye, excluding construction methods and trade marks."
+   },
+   {
+    "q": "A designer showcased a new sofa design at an exhibition abroad before filing in India. The design is likely:",
+    "options": [
+     "Not registrable for lack of novelty under s.4",
+     "Registrable as foreign disclosure does not count",
+     "Registrable only for ten years",
+     "Registrable as copyright"
+    ],
+    "answer": 0,
+    "explain": "Section 4 bars designs disclosed to the public in India or elsewhere before the filing date, subject to limited exhibition exceptions."
+   },
+   {
+    "q": "An unregistered artistic design is reproduced industrially on 60 articles. What happens to its copyright?",
+    "options": [
+     "It continues for life plus 60 years",
+     "It converts to design registration",
+     "It becomes a trade mark",
+     "It ceases under s.15(2) of the Copyright Act"
+    ],
+    "answer": 3,
+    "explain": "Section 15(2) Copyright Act ends copyright once a registrable design is industrially reproduced more than 50 times."
+   },
+   {
+    "q": "What is the maximum amount a proprietor can recover as a contract debt for piracy of one design?",
+    "options": [
+     "₹25,000",
+     "₹1 lakh",
+     "₹50,000",
+     "₹10,000"
+    ],
+    "answer": 2,
+    "explain": "Section 22(2) caps recovery at ₹25,000 per contravention and ₹50,000 in total for one design."
+   },
+   {
+    "q": "In a piracy suit, the defendant may plead which defence?",
+    "options": [
+     "Any ground on which registration may be cancelled under s.19",
+     "That the plaintiff is a foreigner",
+     "That he sold fewer than 50 articles",
+     "That the design is registered as a trade mark"
+    ],
+    "answer": 0,
+    "explain": "Section 22(3) allows the defendant to rely on s.19 cancellation grounds as a defence."
+   }
+  ],
+  "desc": {
+   "q": "StyleCraft registered the design of a uniquely shaped water bottle in 2022. A competitor is selling bottles of an almost identical shape and claims StyleCraft's design was published on its website before filing. Advise StyleCraft under the Designs Act 2000.",
+   "points": [
+    "StyleCraft's registration gives it copyright in the design under s.11 for ten years, extendable by five, and the exclusive right to apply it to articles in the registered class.",
+    "The competitor's sale of an obvious imitation for sale amounts to piracy under s.22(1).",
+    "StyleCraft may claim up to ₹25,000 per contravention (maximum ₹50,000 for the design) or sue for damages and injunction in a court not below a District Court.",
+    "The competitor may defend by alleging prior publication, a s.19 cancellation ground; if StyleCraft's website disclosure predates filing, the registration may be cancelled, so it should establish the true dates of disclosure."
+   ]
+  }
+ }
+}
