@@ -130,6 +130,10 @@ header{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;align-
 .stu th{text-align:left;font:600 11.5px var(--body);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);padding:6px 8px;border-bottom:1px solid var(--line)}
 .stu td{padding:9px 8px;border-bottom:1px solid var(--line);vertical-align:middle}
 .mini{display:flex;align-items:center;gap:6px;min-width:110px}.mini .bar{flex:1;height:6px}
+.send{display:flex;flex-wrap:wrap;gap:5px;align-items:center}
+.snd{font:600 11.5px var(--body);color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:99px;padding:3px 9px;text-decoration:none}
+.snd:hover{border-color:var(--accent);color:var(--accent)}
+.smode{padding:5px 8px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--fg);font:13px var(--body)}
 .find{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:10px}
 .findRow{display:flex;gap:8px}
 .findRow input{flex:1;min-width:0;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--fg);font:15px var(--body)}
@@ -527,6 +531,27 @@ async function saveScore(c,mcq,n,self){
   state.assess[c.k]=rec;
   if(db){try{await db.collection("assess").doc(c.k).set(rec);}catch(e){}}
 }
+const SENDTO=[["ChatGPT",q=>"https://chatgpt.com/?q="+encodeURIComponent(q)],["Claude",q=>"https://claude.ai/new?q="+encodeURIComponent(q)],["Perplexity",q=>"https://www.perplexity.ai/search?q="+encodeURIComponent(q)],["Gemini",null]];
+function sendRow(getPrompt,label){
+  const r=document.createElement("div");r.className="send";
+  r.innerHTML=`<span class="legend">${label||"Research in:"}</span>`+SENDTO.map(([n])=>`<a class="snd" href="#" data-n="${n}">${n}${n==="Gemini"?" (copy)":""}</a>`).join("");
+  r.querySelectorAll(".snd").forEach(a=>{
+    const [n,mk]=SENDTO.find(x=>x[0]===a.dataset.n);
+    if(mk){a.target="_blank";a.rel="noopener";a.onmousedown=a.ontouchstart=a.onfocus=()=>{a.href=mk(getPrompt());};a.onclick=()=>{a.href=mk(getPrompt());};}
+    else a.onclick=async e=>{e.preventDefault();const t=getPrompt();try{await navigator.clipboard.writeText(t);a.textContent="Copied — paste in Gemini";}catch(_){a.textContent="Copy failed";}
+      const w=document.createElement("a");w.href="https://gemini.google.com/app";w.target="_blank";w.rel="noopener";document.body.appendChild(w);w.click();w.remove();};
+  });
+  return r;
+}
+function topicPrompt(c,tp){return `ICSI CS Executive (Syllabus 2022, June 2027 exam) — paper "${paperName(c)}", chapter "${c.t}", topic "${tp}".
+Explain this topic for exam preparation in your own words:
+1. The governing Act/regulation with section or rule numbers.
+2. A clear explanation in 5-8 lines.
+3. One practical example or case law.
+4. How ICSI usually asks it (MCQ/case study) and 3 points to write in the answer.
+5. Recent amendments to check.
+6. A 4-line summary in simple Malayalam (keep legal terms in English).
+Flag anything you are unsure of so I can verify it.`;}
 function paperName(c){return P.find(p=>c.k.startsWith(p.id+"c")).name;}
 function yt(c,lang){return "https://www.youtube.com/results?search_query="+encodeURIComponent("CS Executive "+paperName(c)+" "+c.t+(lang==="Malayalam"?" Malayalam class":" lecture"));}
 const CH={p2:[["CS Amit Vohra — Company Law playlist","https://www.youtube.com/playlist?list=PLRk6rEeTCuncLCrKNGiBEBC2BXgnQ_MbC"],["CSCARTINDIA — Company Law backup","https://www.youtube.com/channel/UCs269cNJCrk8KXBqqiqdUiA/playlists"]],p4:[["CS Wallah (PW) — CAFM","https://www.youtube.com/channel/UCwUqDlLUrwhPrnXA5bG5cnw/playlists"],["StudyAtHome — accounting support","https://www.youtube.com/@studyathome"]],p7:[["StudyAtHome — Tax playlist","https://www.youtube.com/playlist?list=PLyY2ccCWylAqNkniAAHNtuW7mu5d5CgE2"],["CS Amit Vohra — Tax Laws","https://www.youtube.com/@CSUNACADEMYAMITVOHRACLASSES/playlists"]]};
@@ -547,6 +572,7 @@ function panel(c,items){
   el.querySelectorAll(".topics li").forEach((li,i)=>{const tp=topics[i];
     li.innerHTML=`<span class="tp"></span><span class="tpa">${onlineLinks(tp+" "+paperName(c),true)}${sample?`<button type="button" class="tl ex2">Explain</button>`:""}</span>`;
     li.querySelector(".tp").textContent=tp;
+    li.appendChild(sendRow(()=>topicPrompt(c,tp),"Ask AI:"));
     const cd=CONTENT[pidOf(c)],nt=cd&&cd[c.k]&&cd[c.k].notes&&cd[c.k].notes[i];
     if(nt&&nt.note){const n=document.createElement("div");n.className="snote";n.textContent=nt.note;li.insertBefore(n,li.querySelector(".tpa"));
       const mlKey="ml_"+i,mlSaved=(state.ainotes[c.k]||{})[mlKey];
@@ -606,7 +632,7 @@ function aiBlock(c,topics){
    <div class="aibtns">${Object.entries(AIMODES).map(([k,m])=>`<button type="button" class="chip2${saved[k]?" has":""}" data-m="${k}">${m.l}${saved[k]?" ✓":""}</button>`).join("")}</div>
    <form class="aiask" id="aq-${c.k}"><textarea id="aqt-${c.k}" rows="2" placeholder="Ask anything about this chapter, or paste a paragraph from your study material to translate into Malayalam"></textarea><div class="trow"><button class="btn solid" type="submit" data-a="ask">Ask AI</button><button class="btn" type="button" data-a="tr">Translate to Malayalam</button></div></form>
    <div class="aiout" hidden><div class="aiTop"><span class="eyebrow aiTitle"></span><span class="trow"><button class="rm aiSave" type="button">Save to chapter</button><button class="rm aiSpeak" type="button">🔊 Listen</button><button class="rm aiStop" type="button">Stop</button><button class="rm aiCopy" type="button">Copy</button></span></div><div class="aitext"></div></div>
-   <div class="ext"><span class="legend">Use another AI with this chapter's prompt:</span><a class="chan" target="_blank" rel="noopener" href="https://chatgpt.com/?q=${encodeURIComponent(AIMODES.notes.p(c,topics))}">Open in ChatGPT</a><a class="chan" target="_blank" rel="noopener" href="https://gemini.google.com/app">Open Gemini</a><button class="chan cp" type="button">Copy prompt for Gemini</button></div>`;
+   <div class="ext"><label class="legend" for="sm-${c.k}">Send to another AI:</label><select id="sm-${c.k}" class="smode">${Object.entries(AIMODES).map(([k,m])=>`<option value="${k}">${m.l}</option>`).join("")}<option value="ask">My question (box above)</option></select></div>`;
   if(!sample){w.querySelector(".aibtns").innerHTML=`<span class="legend">Tap <b>Connect AI</b> at the top (Gemini free, or ChatGPT) to use these buttons here, or use ChatGPT / Gemini below.</span>`;w.querySelector(".aiask").hidden=true;}
   const out=w.querySelector(".aiout"),txt=w.querySelector(".aitext"),ttl=w.querySelector(".aiTitle");
   const show=(title,text)=>{out.hidden=false;ttl.textContent=title;txt.textContent=text;};
@@ -619,7 +645,8 @@ function aiBlock(c,topics){
   w.querySelector(".aiStop").onclick=stopSpeak;
   w.querySelector(".aiCopy").onclick=async()=>{try{await navigator.clipboard.writeText(txt.textContent);w.querySelector(".aiCopy").textContent="Copied";}catch(e){const r=document.createRange();r.selectNodeContents(txt);const s=getSelection();s.removeAllRanges();s.addRange(r);}};
   w.querySelector(".aiSave").onclick=async()=>{if(!cur||!AIMODES[cur.mode])return saveNoteFromAI(c,cur);const n={...saved,[cur.mode]:cur.text};state.ainotes[c.k]=n;renderLedger();if(db){try{await db.collection("ainotes").doc(c.k).set(n);}catch(e){}}};
-  w.querySelector(".cp").onclick=async e=>{const t=AIMODES.notes.p(c,topics);try{await navigator.clipboard.writeText(t);e.target.textContent="Prompt copied — paste in Gemini";}catch(_){show("Prompt to paste in Gemini",t);}};
+  { const ext=w.querySelector(".ext"),sel=ext.querySelector("select");
+    ext.appendChild(sendRow(()=>{const m=sel.value;if(m==="ask"){const q=(w.querySelector("textarea")||{}).value||"";return `ICSI CS Executive (Syllabus 2022), paper "${paperName(c)}", chapter "${c.t}". ${q.trim()||"Explain the key points of this chapter."} Give section numbers, an example and a short Malayalam summary.`;}return AIMODES[m].p(c,topics);},"")); }
   return w;
 }
 async function saveNoteFromAI(c,cur){if(!cur)return;const items=(state.mat[c.k]&&state.mat[c.k].items)||[];await saveMat(c.k,[...items,{type:"note",text:(cur.title+":\n"+cur.text).slice(0,6000),at:new Date().toISOString()}]);}
@@ -720,6 +747,7 @@ function setSync(c,t){$("syncDot").className="dot "+c;$("syncText").textContent=
 render();
 $("findForm").onsubmit=e=>{e.preventDefault();doFind($("findQ").value);};
 $("findAI").onclick=()=>findAI($("findQ").value);
+(function(){const fr=sendRow(()=>{const q=$("findQ").value.trim()||"most important topics";return `ICSI CS Executive (Syllabus 2022, June 2027). Research "${q}": which paper and chapter covers it, the governing law with section numbers, a clear explanation, recent amendments, how ICSI asks it, official sources to read (ICSI study material, India Code, MCA/SEBI/RBI/CBIC), and a short Malayalam summary. Flag anything uncertain.`;},"Research in:");$("findForm").after(fr);})();
 $("findQ").oninput=()=>{if(!$("findQ").value.trim())$("findOut").hidden=true;};
 (function(){
   firebase.initializeApp(FIREBASE_CONFIG);
