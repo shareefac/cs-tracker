@@ -112,6 +112,9 @@ header{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;align-
 .vcard.ml .play{background:var(--good)}
 .vcard .lang{font:600 11px var(--mono);color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:1px 5px}
 .chans{display:flex;flex-direction:column;gap:6px}
+.snote{font-size:13px;line-height:1.55;color:var(--fg);background:var(--surface);border-left:3px solid var(--accent-soft);padding:6px 9px;border-radius:0 6px 6px 0}
+.mp{margin:4px 0 0;padding-left:18px;font-size:14px;display:flex;flex-direction:column;gap:3px}
+.opt.sm{padding:4px 10px;min-width:34px;text-align:center}
 .find{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:10px}
 .findRow{display:flex;gap:8px}
 .findRow input{flex:1;min-width:0;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--fg);font:15px var(--body)}
@@ -270,7 +273,7 @@ p7:["Characteristics & objectives of taxes; direct vs indirect; tax administrati
 P.forEach(p=>{let i=0;p.parts.forEach(pt=>{pt.ch=pt.ch.map(([t,d])=>{i++;return {k:p.id+"c"+i,i,t,d,top:(T[p.id][i-1]||"")};});});});
 
 const STEPS=[["read","Read"],["ans","Answers"],["rev","Revised"]];
-const state={prog:{},mocks:{},mat:{},assess:{},ainotes:{},ai:null,test:null,open:new Set(),sel:"p2",filter:"all"};
+const state={prog:{},mocks:{},mat:{},assess:{},ainotes:{},ai:null,test:null,sq:{},open:new Set(),sel:"p2",filter:"all"};
 let db=null,assets=null,sample=null;
 const today=new Date(new Date().toLocaleString("en-US",{timeZone:"Asia/Kolkata"})).toISOString().slice(0,10);
 const $=s=>document.getElementById(s);
@@ -316,6 +319,7 @@ function render(){
 }
 
 function renderLedger(){
+  loadContent(state.sel);
   const p=P.find(x=>x.id===state.sel),m=state.mocks[p.id]||{},L=$("ledger");
   L.innerHTML=`<div class="ledHead"><div><div class="eyebrow">Group ${p.g} · Paper ${p.no}</div><h2 id="ledTitle"></h2></div>
     <div class="mocks"><label for="m1-${p.id}">Mock 1<input id="m1-${p.id}" type="number" min="0" max="100" inputmode="numeric" value="${m.m1??""}" placeholder="/100"></label>
@@ -397,6 +401,61 @@ async function findAI(q){
 function sylHTML(p){
   return `<div class="syl">${p.parts.map(pt=>`<div class="sylPart"><div class="part"><span>${pt.n}</span><span class="legend num">${pt.m} marks · ${pt.ch.length} chapters</span></div><ol start="${pt.ch[0].i}">${pt.ch.map(c=>`<li><b></b><div class="legend"></div></li>`).join("")}</ol></div>`).join("")}</div>`;
 }
+const CONTENT={};
+function pidOf(c){return c.k.split("c")[0];}
+async function loadContent(pid){
+  if(CONTENT[pid]!==undefined)return;CONTENT[pid]=null;
+  try{const r=await fetch("content/"+pid+".json",{cache:"no-cache"});if(!r.ok)throw 0;CONTENT[pid]=await r.json();}catch(e){CONTENT[pid]=false;}
+  renderLedger();
+}
+const PAST=[["June 2026 papers","https://www.icsi.edu/media/webmodules/icsiweb/QuestionPapers_June_2026.html"],["December 2025 papers","https://www.icsi.edu/media/webmodules/icsiweb/QuestionPapers_31122025.html"],["June 2025 papers","https://www.icsi.edu/media/webmodules/icsiweb/QuestionPapers_13062025.html"],["December 2023 papers","https://www.icsi.edu/media/webmodules/icsiweb/questionpaperdecember2023.html"],["Guideline answers (all sessions)","https://icsi.edu/academic-portal/new-syllabus-2022/guideline-answers-new-syllabus/"],["Examiners' observations — June 2025","https://www.icsi.edu/media/webmodules/EXAMINERS_OBSERVATION_JUNE_2025.pdf"]];
+function chapterTest(c){
+  const w=document.createElement("div");w.className="test";
+  const data=CONTENT[pidOf(c)],ch=data&&data[c.k];
+  const best=state.assess[c.k];
+  w.innerHTML=`<div class="testHead"><div><div class="eyebrow">Chapter assessment</div><div class="legend">6 MCQs + 1 descriptive, in the pattern of ICSI past papers. Then practise the real papers from the links below.</div></div>${best?`<span class="pill ${best.pct>=60?"dn":best.pct>=40?"ip":"od"}">Best ${best.pct}%</span>`:""}</div><div class="tbody"></div>`;
+  const b=w.querySelector(".tbody");
+  const past=`<div class="chanrow">${PAST.map(([l,u])=>`<a class="chan" target="_blank" rel="noopener" href="${u}">ICSI ${l}</a>`).join("")}</div>`;
+  if(data===null||data===undefined){b.innerHTML=`<div class="legend">Loading questions…</div>`;return w;}
+  if(!ch){b.innerHTML=`<div class="legend">Questions for this chapter aren't available yet. Use the official ICSI papers:</div>${past}`;return w;}
+  const st=state.sq[c.k]||(state.sq[c.k]={picks:Array(ch.quiz.length).fill(null),done:false,showD:false,self:null});
+  ch.quiz.forEach((q,i)=>{
+    const d=document.createElement("div");d.className="q";
+    d.innerHTML=`<div class="qt"><span class="num">Q${i+1}.</span> <span></span></div><div class="opts"></div>`;
+    d.querySelector(".qt span:last-child").textContent=q.q;
+    const o=d.querySelector(".opts");
+    q.options.forEach((op,j)=>{const bt=document.createElement("button");bt.type="button";bt.className="opt";bt.textContent=op;
+      if(st.done){if(j===q.answer)bt.classList.add("right");else if(st.picks[i]===j)bt.classList.add("wrong");bt.disabled=true;}
+      else{bt.setAttribute("aria-pressed",st.picks[i]===j);bt.onclick=()=>{st.picks[i]=j;renderLedger();};}
+      o.appendChild(bt);});
+    if(st.done){const ex=document.createElement("div");ex.className="ex";ex.textContent=q.explain;d.appendChild(ex);}
+    b.appendChild(d);
+  });
+  const dq=document.createElement("div");dq.className="q";
+  dq.innerHTML=`<div class="qt"><span class="num">Q${ch.quiz.length+1}.</span> <span></span> <span class="legend">(5 marks — write it on paper first)</span></div><div class="trow"><button type="button" class="btn">${st.showD?"Hide":"Show"} model answer points</button></div>`;
+  dq.querySelector(".qt span:nth-child(2)").textContent=ch.desc.q;
+  dq.querySelector("button").onclick=()=>{st.showD=!st.showD;renderLedger();};
+  if(st.showD){const ul=document.createElement("ul");ul.className="mp";ch.desc.points.forEach(x=>{const li=document.createElement("li");li.textContent=x;ul.appendChild(li);});dq.appendChild(ul);
+    const sm=document.createElement("div");sm.className="trow";sm.innerHTML=`<span class="legend">Mark yourself:</span>${[0,1,2,3,4,5].map(n=>`<button type="button" class="opt sm" aria-pressed="${st.self===n}">${n}</button>`).join("")}`;
+    sm.querySelectorAll("button").forEach((x,n)=>x.onclick=()=>{st.self=n;renderLedger();});dq.appendChild(sm);}
+  b.appendChild(dq);
+  const act=document.createElement("div");act.className="trow";
+  const mcq=ch.quiz.reduce((a,q,i)=>a+(st.picks[i]===q.answer?1:0),0);
+  if(!st.done){act.innerHTML=`<button class="btn solid" type="button">Submit & check</button><span class="legend">${st.picks.filter(x=>x!=null).length}/${ch.quiz.length} answered</span>`;
+    act.querySelector("button").onclick=async()=>{st.done=true;await saveScore(c,mcq,ch.quiz.length,st.self);renderLedger();};}
+  else{act.innerHTML=`<span class="score num">${mcq}/${ch.quiz.length}</span><span class="legend">MCQs correct${st.self!=null?` · descriptive ${st.self}/5`:" · mark your descriptive answer to include it"}</span><button class="btn" type="button">Try again</button>`;
+    act.querySelector("button").onclick=()=>{delete state.sq[c.k];renderLedger();};
+    if(st.self!=null&&!st.savedSelf){st.savedSelf=true;saveScore(c,mcq,ch.quiz.length,st.self);}}
+  b.appendChild(act);
+  b.insertAdjacentHTML("beforeend",`<div class="eyebrow">Previous-year papers (official ICSI)</div>${past}`);
+  return w;
+}
+async function saveScore(c,mcq,n,self){
+  const max=n*2+(self!=null?5:0),got=mcq*2+(self||0),pct=Math.round(got/max*100);
+  const prev=state.assess[c.k]||{};const rec={pct:Math.max(pct,prev.pct||0),last:pct,tries:(prev.tries||0)+(self!=null&&prev.lastMcq===mcq?0:1),lastMcq:mcq,at:new Date().toISOString()};
+  state.assess[c.k]=rec;
+  if(db){try{await db.collection("assess").doc(c.k).set(rec);}catch(e){}}
+}
 function paperName(c){return P.find(p=>c.k.startsWith(p.id+"c")).name;}
 function yt(c,lang){return "https://www.youtube.com/results?search_query="+encodeURIComponent("CS Executive "+paperName(c)+" "+c.t+(lang==="Malayalam"?" Malayalam class":" lecture"));}
 const CH={p2:[["CS Amit Vohra — Company Law playlist","https://www.youtube.com/playlist?list=PLRk6rEeTCuncLCrKNGiBEBC2BXgnQ_MbC"],["CSCARTINDIA — Company Law backup","https://www.youtube.com/channel/UCs269cNJCrk8KXBqqiqdUiA/playlists"]],p4:[["CS Wallah (PW) — CAFM","https://www.youtube.com/channel/UCwUqDlLUrwhPrnXA5bG5cnw/playlists"],["StudyAtHome — accounting support","https://www.youtube.com/@studyathome"]],p7:[["StudyAtHome — Tax playlist","https://www.youtube.com/playlist?list=PLyY2ccCWylAqNkniAAHNtuW7mu5d5CgE2"],["CS Amit Vohra — Tax Laws","https://www.youtube.com/@CSUNACADEMYAMITVOHRACLASSES/playlists"]]};
@@ -405,7 +464,7 @@ function channels(pid){return (CH[pid]||[]).concat(CH_DEF).slice(0,4);}
 function panel(c,items){
   const el=document.createElement("div");el.className="panel";
   const topics=c.top.split(";").map(s=>s.trim()).filter(Boolean);
-  el.innerHTML=`<div class="pcol"><div class="eyebrow">Syllabus topics (ICSI 2022)</div><ul class="topics">${topics.map(()=>"<li></li>").join("")}</ul></div>
+  el.innerHTML=`<div class="pcol"><div class="eyebrow">Syllabus topics & short notes</div><ul class="topics">${topics.map(()=>"<li></li>").join("")}</ul></div>
     <div class="pcol"><div class="eyebrow">Ready links</div><div class="vids"><a class="vcard en" target="_blank" rel="noopener" href="${yt(c,'English')}"><span class="play">▶</span><span><b>English lectures</b><small>YouTube · this chapter</small></span><span class="lang">EN</span></a><a class="vcard ml" target="_blank" rel="noopener" href="${yt(c,'Malayalam')}"><span class="play">▶</span><span><b>മലയാളം ക്ലാസ്</b><small>YouTube · this chapter</small></span><span class="lang">ML</span></a></div><div class="quick"><a class="ql" target="_blank" rel="noopener" href="https://www.icsi.edu/media/webmodules/StudyMaterials.html">ICSI study material — ${paperName(c)}</a><a class="ql" target="_blank" rel="noopener" href="https://icsi.edu/academic-portal/new-syllabus-2022/guideline-answers-new-syllabus/">ICSI guideline answers (past papers)</a></div>
     <div class="eyebrow">My study material</div><div class="mats"></div>
     <div class="adders">
@@ -417,9 +476,12 @@ function panel(c,items){
   el.querySelectorAll(".topics li").forEach((li,i)=>{const tp=topics[i];
     li.innerHTML=`<span class="tp"></span><span class="tpa">${onlineLinks(tp+" "+paperName(c),true)}${sample?`<button type="button" class="tl ex2">Explain</button>`:""}</span>`;
     li.querySelector(".tp").textContent=tp;
+    const cd=CONTENT[pidOf(c)],nt=cd&&cd[c.k]&&cd[c.k].notes&&cd[c.k].notes[i];
+    if(nt&&nt.note){const n=document.createElement("div");n.className="snote";n.textContent=nt.note;li.insertBefore(n,li.querySelector(".tpa"));}
     const ex=li.querySelector(".ex2");if(ex)ex.onclick=()=>runAI(c,"ask","Topic: "+tp,`Explain the topic "${tp}" from ICSI CS Executive paper "${paperName(c)}", chapter "${c.t}". Give the provision with section numbers, a simple explanation, an example, and how it is asked in the exam. Then repeat the explanation briefly in simple Malayalam (legal terms in English).`);});
+  el.appendChild(chapterTest(c));
   el.appendChild(aiBlock(c,topics));
-  el.appendChild(testBlock(c,topics));
+  if(sample)el.appendChild(testBlock(c,topics));
   const mats=el.querySelector(".mats");
   if(!items.length){mats.innerHTML=`<div class="legend">No material yet. Upload the ICSI study material PDF for this chapter, add a link, or write a note.</div>`;}
   items.forEach((it,idx)=>{
@@ -489,7 +551,7 @@ function testBlock(c,topics){
   const w=document.createElement("div");w.className="test";
   const best=state.assess[c.k];
   const t=state.test&&state.test.k===c.k?state.test:null;
-  w.innerHTML=`<div class="testHead"><div><div class="eyebrow">Chapter-end assessment</div><div class="legend">Exam-style questions in the pattern of ICSI past papers, then compare with the official past papers.</div></div>${best?`<span class="pill ${best.pct>=60?"dn":best.pct>=40?"ip":"od"}">Best ${best.pct}%</span>`:""}</div><div class="tbody"></div>`;
+  w.innerHTML=`<div class="testHead"><div><div class="eyebrow">AI practice test — new questions every time</div><div class="legend">Exam-style questions in the pattern of ICSI past papers, then compare with the official past papers.</div></div>${best?`<span class="pill ${best.pct>=60?"dn":best.pct>=40?"ip":"od"}">Best ${best.pct}%</span>`:""}</div><div class="tbody"></div>`;
   const b=w.querySelector(".tbody");
   const ppr=`<a class="ql" target="_blank" rel="noopener" href="https://icsi.edu/academic-portal/new-syllabus-2022/guideline-answers-new-syllabus/">Official ICSI past papers & guideline answers — ${paperName(c)}</a>`;
   if(!sample){b.innerHTML=`<div class="legend">Generated tests aren't available in this view. Use the official past papers:</div>${ppr}`;return w;}

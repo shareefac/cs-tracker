@@ -1,0 +1,1614 @@
+{
+ "p5c1": {
+  "notes": [
+   {
+    "topic": "Structure",
+    "note": "India's financial market splits into the money market (instruments up to one year, regulated mainly by RBI) and the capital market (long-term funds, regulated mainly by SEBI under the SEBI Act, 1992). The capital market has a primary segment where issuers raise fresh money through IPOs, rights or private placements, and a secondary segment where existing securities trade on recognised stock exchanges under the SCRA, 1956. Example: a company's IPO is a primary-market event; its shares changing hands on NSE the next week is secondary-market activity."
+   },
+   {
+    "topic": "participants",
+    "note": "Participants include issuers (companies, governments, REITs/InvITs), investors (retail, HNIs, QIBs, FPIs) and SEBI-registered intermediaries such as stock brokers, depository participants, merchant bankers, RTAs and credit rating agencies, all of whom need a certificate under Section 12 of the SEBI Act. Market infrastructure institutions (stock exchanges, clearing corporations, depositories) sit at the core. Example: a retail investor buys shares through a broker, the trade is settled by a clearing corporation and credited to her demat account via a DP."
+   },
+   {
+    "topic": "instruments",
+    "note": "Capital-market instruments include equity shares, preference shares, debentures and bonds, warrants, convertible instruments, units of mutual funds, REITs and InvITs, depository receipts and exchange-traded derivatives; 'securities' are defined in Section 2(h) of the SCRA, 1956. Hybrid instruments such as compulsorily convertible debentures behave like debt until converted into equity. Example: an infrastructure sponsor can monetise operating toll roads by listing an InvIT and selling units to investors."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A company issues commercial paper with 90-day maturity to fund working capital. In which market segment does this transaction fall?",
+    "options": [
+     "Primary capital market",
+     "Secondary capital market",
+     "Money market",
+     "Derivatives market"
+    ],
+    "answer": 2,
+    "explain": "Instruments with maturity up to one year, such as CP, belong to the money market regulated largely by RBI."
+   },
+   {
+    "q": "Which of the following is a market infrastructure institution rather than an intermediary?",
+    "options": [
+     "Clearing corporation",
+     "Merchant banker",
+     "Depository participant",
+     "Registrar to an issue"
+    ],
+    "answer": 0,
+    "explain": "Clearing corporations, stock exchanges and depositories are MIIs recognised under the SCRA/SECC framework, while the others are intermediaries registered under Section 12 of the SEBI Act."
+   },
+   {
+    "q": "An investor buys shares of a listed company from another investor on the exchange. Which statement is correct?",
+    "options": [
+     "The company receives fresh capital",
+     "It is a primary market transaction",
+     "It requires a fresh offer document",
+     "It is a secondary market transaction with no money flowing to the company"
+    ],
+    "answer": 3,
+    "explain": "Secondary-market trades under the SCRA transfer existing securities between investors and do not raise funds for the issuer."
+   },
+   {
+    "q": "Under Section 2(h) of the SCRA, 1956, which of these is NOT included in 'securities'?",
+    "options": [
+     "Units of a mutual fund scheme",
+     "A fixed deposit with a bank",
+     "Derivatives",
+     "Government securities"
+    ],
+    "answer": 1,
+    "explain": "The SCRA definition covers shares, bonds, derivatives, MF and CIS units, government securities and similar instruments, but not ordinary bank deposits."
+   },
+   {
+    "q": "A promoter group wants to monetise completed highways while retaining operational control and offering investors regular cash flows. Which instrument fits best?",
+    "options": [
+     "Commercial paper",
+     "InvIT units",
+     "Equity warrants",
+     "Treasury bills"
+    ],
+    "answer": 1,
+    "explain": "SEBI's InvIT Regulations, 2014 let sponsors pool income-generating infrastructure assets in a trust whose units are listed and distribute cash flows."
+   },
+   {
+    "q": "Who is the primary regulator of the Indian securities market?",
+    "options": [
+     "RBI",
+     "MCA",
+     "IRDAI",
+     "SEBI"
+    ],
+    "answer": 3,
+    "explain": "Section 11 of the SEBI Act, 1992 makes SEBI responsible for protecting investors and regulating the securities market."
+   }
+  ],
+  "desc": {
+   "q": "A first-time investor asks you, as a company secretary, to explain how the capital market is structured and who she will deal with when she applies in an IPO and later sells the shares on the exchange. Advise her.",
+   "points": [
+    "Capital market vs money market: long-term funds regulated by SEBI under the SEBI Act, 1992; short-term instruments mostly under RBI.",
+    "Primary market: her IPO application goes through the issuer, merchant banker (lead manager), registrar and ASBA bank/UPI; securities are allotted to her demat account.",
+    "Secondary market: she later sells through a SEBI-registered stock broker on a recognised stock exchange (SCRA, 1956).",
+    "Settlement happens via the clearing corporation, and shares move out of her demat account through her depository participant.",
+    "All intermediaries need SEBI registration under Section 12 and she can lodge complaints on SCORES."
+   ]
+  }
+ },
+ "p5c2": {
+  "notes": [
+   {
+    "topic": "Stock market operations",
+    "note": "Recognised stock exchanges such as NSE, BSE and MSEI run screen-based, anonymous order-matching systems, and only SEBI-registered trading members can place orders on behalf of clients. Ownership and governance of exchanges are controlled by the SEBI (Stock Exchanges and Clearing Corporations) Regulations, 2018, which require demutualisation and limit shareholding. Example: a client's order placed through a broker's app is matched electronically on price-time priority."
+   },
+   {
+    "topic": "trading",
+    "note": "Trading occurs in the normal market, block-deal and bulk-deal windows, with a pre-open call auction to discover opening prices; orders can be limit, market, stop-loss or IOC. Equity cash trades now settle on a T+1 rolling basis, with an optional same-day settlement cycle introduced by SEBI for select scrips. Example: shares bought on Monday reach the buyer's demat account on Tuesday under T+1."
+   },
+   {
+    "topic": "ETFs",
+    "note": "Exchange-traded funds are mutual fund schemes, governed by the SEBI (Mutual Funds) Regulations, whose units track an index or commodity (e.g. gold) and are listed and traded on exchanges at market prices. Authorised participants and market makers create or redeem units in large baskets, keeping market price close to NAV. Example: an investor buys a Nifty 50 ETF on the exchange instead of buying all 50 stocks separately."
+   },
+   {
+    "topic": "derivatives",
+    "note": "Derivatives are contracts whose value derives from an underlying such as a share, index, currency or commodity; they are treated as 'securities' under Section 2(ac) and 2(h) of the SCRA, and exchange-traded futures and options are permitted under Section 18A. SEBI prescribes stock eligibility, contract size, margins and position limits for the F&O segment. Example: a fund manager holding a large equity portfolio buys index put options to hedge a market fall."
+   },
+   {
+    "topic": "indices",
+    "note": "A stock index is a statistical measure of a basket of stocks, typically weighted by free-float market capitalisation, e.g. Nifty 50 and S&P BSE Sensex. Index providers follow published methodologies for inclusion, exclusion and rebalancing, and SEBI regulates index providers for benchmark integrity. Example: if a constituent's free float rises after a promoter stake sale, its weight in the index increases at the next rebalancing."
+   },
+   {
+    "topic": "clearing",
+    "note": "Clearing corporations recognised under the SECC Regulations, 2018 compute obligations, act as central counterparty through novation and guarantee settlement through a Settlement Guarantee Fund. Funds and securities pay-in and pay-out happen through clearing banks and depositories. Example: if a selling broker defaults on delivery, the clearing corporation conducts an auction or close-out so the buyer is still settled."
+   },
+   {
+    "topic": "surveillance",
+    "note": "Exchanges and SEBI run integrated market surveillance to detect price manipulation, circular trading, insider trading and abnormal volumes, using alerts, price bands and measures such as the Additional Surveillance Measure (ASM) and Graded Surveillance Measure (GSM). Findings can lead to investigation under the SEBI Act and the PFUTP Regulations, 2003. Example: a thinly traded small-cap that rallies sharply without news may be moved into ASM, attracting higher margins."
+   },
+   {
+    "topic": "risk management",
+    "note": "Risk containment relies on upfront margins (VaR, extreme loss, SPAN and exposure margins in derivatives), price bands, circuit breakers, position limits, capital adequacy of brokers and core settlement guarantee funds. Margins must be collected upfront from clients, and peak-margin reporting checks intraday shortfalls. Example: a market-wide index fall beyond the prescribed threshold triggers a trading halt across all equity and equity-derivative segments."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A client buys shares on a Wednesday (all working days). Under the standard equity settlement cycle, when will the shares normally be credited?",
+    "options": [
+     "Thursday",
+     "Wednesday",
+     "Friday",
+     "Next Monday"
+    ],
+    "answer": 0,
+    "explain": "SEBI moved the equity cash segment to T+1 rolling settlement, so a Wednesday trade settles on Thursday."
+   },
+   {
+    "q": "Which legal concept allows a clearing corporation to guarantee every trade?",
+    "options": [
+     "Subrogation",
+     "Assignment",
+     "Novation",
+     "Pledge"
+    ],
+    "answer": 2,
+    "explain": "Under the SECC Regulations, 2018, the clearing corporation becomes the counterparty to both sides through novation and guarantees settlement."
+   },
+   {
+    "q": "An index is reconstituted and a company's free float has increased materially. What is the most likely effect?",
+    "options": [
+     "Its index weight falls",
+     "It is automatically removed",
+     "Its index weight rises",
+     "No change since weights use full market cap"
+    ],
+    "answer": 2,
+    "explain": "Major Indian indices are free-float market-cap weighted, so a higher free float raises the stock's weight."
+   },
+   {
+    "q": "A small-cap shows unusual price rise and concentrated buying with no corporate news. Which response by the exchange is most appropriate first?",
+    "options": [
+     "Place it under an additional surveillance framework such as ASM",
+     "Delist the company",
+     "Suspend all brokers who traded",
+     "Order a buy-back"
+    ],
+    "answer": 0,
+    "explain": "Exchange surveillance tools like ASM/GSM impose higher margins and trade restrictions on stocks showing abnormal price-volume behaviour."
+   },
+   {
+    "q": "Futures and options on stock indices are permitted on Indian exchanges by which provision?",
+    "options": [
+     "Regulation 30 of LODR",
+     "Section 11AA of the SEBI Act",
+     "Section 68 of the Companies Act",
+     "Section 18A of the SCRA, 1956"
+    ],
+    "answer": 3,
+    "explain": "Section 18A of the SCRA validates derivative contracts traded on a recognised stock exchange and settled through its clearing house."
+   },
+   {
+    "q": "Which statement about ETFs is correct?",
+    "options": [
+     "ETF units are bought only from the AMC at NAV by retail investors",
+     "ETF units trade on the exchange at market price that tends to track NAV",
+     "ETFs are unregulated products",
+     "ETFs cannot track commodities"
+    ],
+    "answer": 1,
+    "explain": "ETFs are MF schemes under the SEBI MF Regulations whose units list on exchanges, with creation/redemption by authorised participants keeping price close to NAV."
+   }
+  ],
+  "desc": {
+   "q": "During a volatile week, a retail client complains that her broker blocked extra money on her derivatives position and that a stock she held was shifted to a surveillance framework. Explain the risk-management and surveillance measures involved.",
+   "points": [
+    "Brokers must collect upfront margins (SPAN/VaR, exposure, extreme loss margins) as prescribed by SEBI and the clearing corporation; higher volatility increases margin requirements.",
+    "Peak-margin and upfront-collection norms mean shortfalls attract penalties, so brokers block funds in advance.",
+    "Exchanges use ASM/GSM and price bands to curb abnormal price-volume moves; such stocks attract higher margins or trade-to-trade settlement.",
+    "These measures protect market integrity and the clearing corporation's guarantee under the SECC Regulations, 2018.",
+    "If she suspects wrongful blocking, she can complain to the broker, then the exchange, and via SCORES/ODR."
+   ]
+  }
+ },
+ "p5c3": {
+  "notes": [
+   {
+    "topic": "Objectives",
+    "note": "The Securities Contracts (Regulation) Act, 1956 aims to prevent undesirable transactions in securities by regulating the business of dealing in them, recognising stock exchanges and controlling listing. It works with the Securities Contracts (Regulation) Rules, 1957, which set conditions for listing and minimum public shareholding. Example: a contract for sale of shares outside a recognised exchange in a way that breaches SCRA restrictions can be treated as illegal and void."
+   },
+   {
+    "topic": "recognised stock exchanges",
+    "note": "Under Section 4 of the SCRA, a stock exchange must obtain recognition from the Central Government/SEBI, which can be withdrawn under Section 5 if it acts against investor or public interest. Section 4B requires corporatisation and demutualisation, separating ownership from trading rights, and Section 19 bars organising unrecognised exchanges. Example: a group running an informal 'dabba' trading platform violates the SCRA and can be prosecuted."
+   },
+   {
+    "topic": "listing",
+    "note": "Section 21 of the SCRA requires a listed company to comply with the listing conditions of the exchange (now largely codified in SEBI LODR, 2015), and Section 21A allows delisting on grounds and in the manner SEBI prescribes. Rule 19 of the SCRR sets minimum public offer requirements and Rule 19A requires a listed company to maintain at least 25% public shareholding. Example: a company whose public holding falls below the threshold after an acquisition must restore it within the time permitted by Rule 19A."
+   },
+   {
+    "topic": "case laws",
+    "note": "Courts and SAT have used the SCRA to stress that minimum public shareholding, listing conditions and exchange recognition exist for investor protection and cannot be diluted by private arrangements. Rulings have upheld SEBI's power to direct compliance and to bar promoters from dealing until public float is restored, and have held off-market deals in breach of SCRA restrictions to be void. Students should remember the principle and the section involved rather than memorising every case name."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "After an open offer, the public shareholding of a listed company falls to 18%. Which provision requires it to raise public holding back to the prescribed minimum?",
+    "options": [
+     "Section 4 of SCRA",
+     "Rule 19A of SCRR, 1957",
+     "Regulation 7 of SAST",
+     "Section 68 of the Companies Act"
+    ],
+    "answer": 1,
+    "explain": "Rule 19A of the SCRR mandates minimum public shareholding of 25% for listed companies, with a time-bound period to restore it."
+   },
+   {
+    "q": "A group launches an unrecognised platform matching buy and sell orders in listed shares. Which SCRA provision is primarily breached?",
+    "options": [
+     "Section 22",
+     "Section 21A",
+     "Section 18A",
+     "Section 19"
+    ],
+    "answer": 3,
+    "explain": "Section 19 of the SCRA prohibits organising or assisting a stock exchange other than a recognised one."
+   },
+   {
+    "q": "An exchange refuses to list a company's securities. Where can the company appeal?",
+    "options": [
+     "Securities Appellate Tribunal",
+     "High Court only",
+     "NCLT",
+     "Central Government"
+    ],
+    "answer": 0,
+    "explain": "Section 22 of the SCRA provides an appeal to SAT against an exchange's refusal to list securities."
+   },
+   {
+    "q": "Under which section of the SCRA can SEBI-specified grounds lead to delisting of securities?",
+    "options": [
+     "Section 13",
+     "Section 4B",
+     "Section 21A",
+     "Section 23"
+    ],
+    "answer": 2,
+    "explain": "Section 21A empowers a recognised stock exchange to delist securities on grounds prescribed under SEBI's delisting framework."
+   },
+   {
+    "q": "Which requirement is imposed by Section 4B of the SCRA?",
+    "options": [
+     "Minimum public float",
+     "T+1 settlement",
+     "Corporatisation and demutualisation of exchanges",
+     "Mandatory dematerialisation"
+    ],
+    "answer": 2,
+    "explain": "Section 4B required stock exchanges to corporatise and demutualise, separating ownership and trading rights."
+   },
+   {
+    "q": "A listed company repeatedly ignores the listing conditions of the exchange. Which provision is directly breached?",
+    "options": [
+     "Section 21 of the SCRA",
+     "Section 12A of the SEBI Act",
+     "Regulation 3 of PIT",
+     "Section 11AA"
+    ],
+    "answer": 0,
+    "explain": "Section 21 of the SCRA obliges listed companies to comply with the exchange's listing conditions, now set by LODR."
+   }
+  ],
+  "desc": {
+   "q": "X Ltd's promoter acquired 82% through a takeover, and the stock exchange has also refused to list X Ltd's new bonus shares due to pending compliance. Advise the board under the SCRA.",
+   "points": [
+    "Rule 19A of the SCRR requires minimum 25% public shareholding; promoter holding of 82% means public holding is 18%, which must be restored within the permitted period.",
+    "Methods include offer for sale, QIP, rights/bonus with promoter forgoing entitlement, or other SEBI-approved methods.",
+    "Non-compliance can lead to SEBI/exchange actions such as freezing of promoter shares and fines.",
+    "Section 21 requires compliance with listing conditions; the company should cure the pending compliance.",
+    "If listing is still refused, X Ltd can appeal to SAT under Section 22 of the SCRA."
+   ]
+  }
+ },
+ "p5c4": {
+  "notes": [
+   {
+    "topic": "Powers & functions",
+    "note": "Section 11 of the SEBI Act, 1992 makes SEBI responsible for protecting investors and developing and regulating the securities market, including registering intermediaries (Section 12), prohibiting fraudulent practices and insider trading (Section 12A), and conducting inspections. Section 11B lets SEBI issue directions, including disgorgement, and Section 11C provides investigation powers such as calling for records and searches with court authorisation. Example: SEBI can debar an entity from the market and order disgorgement of unlawful gains from a pump-and-dump scheme."
+   },
+   {
+    "topic": "SAT",
+    "note": "The Securities Appellate Tribunal, set up under Section 15K of the SEBI Act, hears appeals against orders of SEBI, adjudicating officers and also IRDAI and PFRDA. An aggrieved person must appeal under Section 15T, normally within 45 days of receiving the order, with SAT able to condone delay for sufficient cause. Example: a broker penalised by a SEBI adjudicating officer files an appeal before SAT in Mumbai."
+   },
+   {
+    "topic": "penalties & appeals",
+    "note": "Chapter VIA (Sections 15A to 15HB) prescribes monetary penalties for failures such as non-filing of returns, insider trading, fraudulent trades and non-redressal of grievances, imposed by an adjudicating officer under Section 15-I. Settlement of proceedings is possible under Section 15JB and the SEBI (Settlement Proceedings) Regulations, 2018, and SAT orders can be appealed to the Supreme Court under Section 15Z on questions of law. Example: a company that fails to redress investor complaints may be penalised under Section 15C."
+   },
+   {
+    "topic": "SCORES",
+    "note": "SCORES (SEBI Complaints Redress System) is SEBI's online platform where investors lodge complaints against listed companies and intermediaries, which must respond within prescribed timelines and upload action-taken reports. Unresolved complaints escalate, and investors can then use the Online Dispute Resolution (ODR) platform for conciliation and arbitration. Example: a shareholder who has not received a dividend files on SCORES, and the company must resolve it through the portal."
+   },
+   {
+    "topic": "informal guidance",
+    "note": "Under the SEBI (Informal Guidance) Scheme, 2003, a regulated entity or intending issuer can seek SEBI's interpretive view on a proposed transaction by paying a fee. SEBI may issue a no-action letter (it would not recommend action) or an interpretive letter (its view of a provision); the guidance is not binding precedent and reflects SEBI's view on the facts stated. Example: a listed company unsure whether an inter-se promoter transfer is exempt under SAST seeks an interpretive letter."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A broker receives an adjudication order from SEBI on 1 March. Within what normal time limit should he appeal to SAT?",
+    "options": [
+     "30 days",
+     "90 days",
+     "60 days",
+     "45 days"
+    ],
+    "answer": 3,
+    "explain": "Section 15T of the SEBI Act allows an appeal to SAT within 45 days, with condonation for sufficient cause."
+   },
+   {
+    "q": "SAT dismisses an appeal. The appellant believes a point of law was wrongly decided. Where does the next appeal lie?",
+    "options": [
+     "High Court",
+     "Supreme Court",
+     "NCLAT",
+     "Central Government"
+    ],
+    "answer": 1,
+    "explain": "Section 15Z of the SEBI Act provides an appeal from SAT to the Supreme Court on questions of law."
+   },
+   {
+    "q": "A company wants SEBI's view on whether its proposed transaction triggers an open offer, before executing it. Which route is suitable?",
+    "options": [
+     "Settlement application",
+     "Informal Guidance Scheme, 2003",
+     "SCORES complaint",
+     "Consent order"
+    ],
+    "answer": 1,
+    "explain": "The Informal Guidance Scheme lets entities seek SEBI's interpretive or no-action letter on proposed transactions."
+   },
+   {
+    "q": "Which provision empowers SEBI to order disgorgement of unlawful gains?",
+    "options": [
+     "Section 26",
+     "Section 15K",
+     "Section 24",
+     "Section 11B"
+    ],
+    "answer": 3,
+    "explain": "Section 11B (with its Explanation) allows SEBI to issue directions including disgorgement."
+   },
+   {
+    "q": "A respondent facing adjudication wants to close proceedings without admitting guilt. What is the route?",
+    "options": [
+     "Settlement under Section 15JB",
+     "Appeal to SAT",
+     "Writ petition",
+     "Informal guidance"
+    ],
+    "answer": 0,
+    "explain": "Section 15JB and the Settlement Proceedings Regulations, 2018 allow settlement of proceedings on payment of terms without admission or denial."
+   },
+   {
+    "q": "Which body does NOT have its orders appealable to SAT?",
+    "options": [
+     "SEBI",
+     "IRDAI",
+     "RBI",
+     "PFRDA"
+    ],
+    "answer": 2,
+    "explain": "SAT hears appeals against SEBI, IRDAI and PFRDA; RBI orders are not appealable to SAT."
+   }
+  ],
+  "desc": {
+   "q": "SEBI's adjudicating officer imposed a penalty on PQR Ltd for not redressing investor grievances received through SCORES. The company believes the complaints were already resolved. Advise PQR Ltd on its remedies.",
+   "points": [
+    "Penalty for failure to redress grievances arises under Section 15C of the SEBI Act, imposed by an adjudicating officer under Section 15-I.",
+    "PQR may appeal to SAT under Section 15T within 45 days, producing SCORES action-taken reports as evidence.",
+    "Alternatively, before or during proceedings it may consider settlement under Section 15JB.",
+    "Further appeal from SAT lies to the Supreme Court under Section 15Z on a question of law.",
+    "Going forward, it should resolve SCORES complaints within timelines and record closures properly."
+   ]
+  }
+ },
+ "p5c5": {
+  "notes": [
+   {
+    "topic": "Depositories & DPs",
+    "note": "The Depositories Act, 1996 lets securities be held and transferred electronically; a depository (NSDL or CDSL) must be registered with SEBI and works through depository participants who are its agents for investors, as governed by the SEBI (Depositories and Participants) Regulations, 2018. Section 10 treats the depository as the registered owner for transfer purposes, while the beneficial owner keeps all economic and voting rights. Example: an investor's shares appear in her DP account, but the company's register shows NSDL/CDSL as registered owner with her as beneficial owner."
+   },
+   {
+    "topic": "demat & remat",
+    "note": "Dematerialisation converts physical certificates into electronic holdings through a demat request routed by the DP to the issuer's RTA, which verifies and cancels the certificates. Rematerialisation is the reverse; because LODR Regulation 40 requires transfers, transmission and transposition of listed securities to be effected only in demat form, physical holdings are effectively illiquid. Example: a legal heir holding inherited physical shares must get them dematerialised before selling on the exchange."
+   },
+   {
+    "topic": "ISIN",
+    "note": "An International Securities Identification Number is a unique 12-character alphanumeric code assigned to each security; in India NSDL acts as the numbering agency and allots ISINs for equity, debt, MF units and government securities. Different classes or partly-paid shares get separate ISINs. Example: after a rights issue of partly paid shares, the partly paid shares carry a different ISIN from the fully paid shares until the final call is paid."
+   },
+   {
+    "topic": "inspection",
+    "note": "SEBI can inspect depositories, DPs and issuers' records under the Depositories Act and the D&P Regulations, 2018 to check compliance, investor protection and systems. Depositories also inspect their DPs periodically and can impose penalties or recommend action to SEBI. Example: a DP found opening accounts without proper KYC may face monetary penalties from the depository and enforcement action by SEBI."
+   },
+   {
+    "topic": "audits",
+    "note": "DPs must have their operations audited internally/concurrently by a practising CA, CS or cost accountant at the frequency SEBI prescribes, covering account opening, transfers and controls. Every issuer must get a reconciliation of share capital audit done quarterly by a practising CA or CS under the D&P Regulations, reconciling total issued capital with holdings in NSDL, CDSL and physical form, and submit it to the exchanges. Example: a mismatch between listed capital and demat-plus-physical holdings revealed in the audit must be explained and corrected."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "An investor holds shares through a DP. In the company's register of members, who is shown as registered owner for transfer purposes?",
+    "options": [
+     "The DP",
+     "The RTA",
+     "The depository",
+     "The stock exchange"
+    ],
+    "answer": 2,
+    "explain": "Section 10 of the Depositories Act deems the depository the registered owner, with the investor as beneficial owner."
+   },
+   {
+    "q": "A company issues partly paid shares in a rights issue. How are they identified in the depository system?",
+    "options": [
+     "A separate ISIN",
+     "Same ISIN as fully paid shares",
+     "No ISIN until fully paid",
+     "ISIN of the rights entitlement"
+    ],
+    "answer": 0,
+    "explain": "Separate ISINs are allotted for different classes, including partly paid shares, by the numbering agency."
+   },
+   {
+    "q": "The quarterly reconciliation of share capital audit is to be conducted by whom?",
+    "options": [
+     "The statutory auditor only",
+     "SEBI",
+     "The DP",
+     "A practising CA or CS"
+    ],
+    "answer": 3,
+    "explain": "The D&P Regulations, 2018 require a quarterly reconciliation of share capital audit by a qualified practising CA or CS."
+   },
+   {
+    "q": "A shareholder with physical shares wants to sell them through a broker on the exchange. What must happen first?",
+    "options": [
+     "Rematerialisation",
+     "Dematerialisation through her DP",
+     "Issue of a duplicate certificate",
+     "Transfer deed execution"
+    ],
+    "answer": 1,
+    "explain": "Listed securities can be transferred only in demat form, so physical shares must be dematerialised before sale."
+   },
+   {
+    "q": "Which entity acts as India's numbering agency for ISINs?",
+    "options": [
+     "BSE",
+     "NSDL",
+     "RBI",
+     "SEBI"
+    ],
+    "answer": 1,
+    "explain": "NSDL is the designated national numbering agency that allots ISINs in India."
+   },
+   {
+    "q": "A DP opens accounts without proper KYC verification. Who can take action?",
+    "options": [
+     "Only the company whose shares are held",
+     "Only the stock exchange",
+     "Only the RTA",
+     "The depository and SEBI"
+    ],
+    "answer": 3,
+    "explain": "Depositories supervise their DPs and SEBI can act under the Depositories Act and D&P Regulations, 2018."
+   }
+  ],
+  "desc": {
+   "q": "Mr. A has inherited physical share certificates of a listed company from his father and wants to sell them. The company's reconciliation audit also shows a mismatch in capital. Advise on the steps and the audit requirement.",
+   "points": [
+    "Transmission and subsequent dealing must be in demat form; Mr. A should open a demat account and apply through his DP.",
+    "The issuer/RTA processes transmission documents and issues a letter of confirmation, which is submitted for dematerialisation; the RTA verifies and credits the shares.",
+    "After credit, he can sell through a broker on the exchange.",
+    "The reconciliation of share capital audit, conducted quarterly by a practising CA/CS under the D&P Regulations, reconciles issued capital with NSDL, CDSL and physical holdings.",
+    "Any mismatch must be investigated and corrected, and the report filed with the stock exchanges."
+   ]
+  }
+ },
+ "p5c6": {
+  "notes": [
+   {
+    "topic": "Merchant bankers",
+    "note": "Merchant bankers are registered under the SEBI (Merchant Bankers) Regulations, 1992 and manage public issues as lead managers, conduct due diligence, prepare offer documents and handle takeover and buy-back offers. They must meet net-worth and capital adequacy norms, follow a code of conduct, and cannot generally lead an issue of an associate company. Example: the lead manager to an IPO files a due-diligence certificate with SEBI confirming disclosures in the draft offer document."
+   },
+   {
+    "topic": "brokers",
+    "note": "Stock brokers need SEBI registration under the stock broker regulations and membership of a recognised exchange; they must segregate client funds and securities, follow KYC, collect margins and issue contract notes. Brokers cannot use client securities for their own purposes, and client funds must be settled periodically as SEBI requires. Example: a broker pledging client shares to raise funds for its own trading breaches the segregation norms and faces penalties."
+   },
+   {
+    "topic": "RTAs",
+    "note": "Registrars to an issue and share transfer agents are registered under the SEBI (Registrars to an Issue and Share Transfer Agents) Regulations, 1993. They process IPO applications and allotment, maintain shareholder records, handle demat requests, transmission and investor service requests, and help redress grievances. Example: after an IPO closes, the RTA finalises the basis of allotment with the exchange and credits shares to allottees' demat accounts."
+   },
+   {
+    "topic": "portfolio managers",
+    "note": "Portfolio managers are governed by the SEBI (Portfolio Managers) Regulations, 2020 and offer discretionary, non-discretionary or advisory services under a written agreement with each client, subject to a minimum investment per client. They must keep client assets in segregated accounts with a custodian, disclose fees and performance, and report to clients periodically. Example: a discretionary PMS manager decides which stocks to buy for a client but cannot pool clients' money into a common account."
+   },
+   {
+    "topic": "debenture trustees",
+    "note": "Debenture trustees, registered under the SEBI (Debenture Trustees) Regulations, 1993, protect the interests of debenture holders: they verify creation of security, monitor covenants and asset cover, and act on default, including calling meetings and enforcing security. Only banks, insurers, financial institutions or companies meeting SEBI criteria can register. Example: on default in interest payment, the trustee convenes a meeting of holders and may enforce the charge after inter-creditor arrangements."
+   },
+   {
+    "topic": "investment advisers",
+    "note": "Investment advisers are registered under the SEBI (Investment Advisers) Regulations, 2013 and must give advice for a fee paid by the client, keeping advice and distribution separate. They must meet qualification and certification norms, assess client risk profile and suitability, and cap fees as SEBI prescribes. Example: a person offering paid stock tips on a messaging app without registration violates the IA Regulations."
+   },
+   {
+    "topic": "credit rating agencies",
+    "note": "Credit rating agencies are governed by the SEBI (Credit Rating Agencies) Regulations, 1999 and rate debt instruments of issuers on the basis of a published methodology, with periodic surveillance throughout the life of the instrument. They must avoid conflicts of interest, cannot rate an instrument of a promoter or related entity, and must disclose rating actions promptly. Example: if an issuer delays payment, the CRA must review and typically downgrade the rating and disclose it."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A broker uses clients' idle securities as collateral for its own proprietary borrowing. What is the correct view?",
+    "options": [
+     "Prohibited as misuse of client securities",
+     "Permissible with exchange approval",
+     "Permissible if disclosed in the contract note",
+     "Permissible for up to 10% of holdings"
+    ],
+    "answer": 0,
+    "explain": "SEBI broker norms require segregation of client securities, and using them for the broker's own purposes is prohibited."
+   },
+   {
+    "q": "A discretionary portfolio manager wants to pool money of several clients into one bank account for easier trading. Is it allowed?",
+    "options": [
+     "Yes, if clients consent",
+     "Yes, for clients with small portfolios",
+     "No, client funds and securities must be segregated",
+     "Yes, if the custodian approves"
+    ],
+    "answer": 2,
+    "explain": "The PMS Regulations, 2020 require separate, client-wise accounts with a custodian and no pooling."
+   },
+   {
+    "q": "Who typically convenes a meeting of debenture holders and enforces security on default?",
+    "options": [
+     "The CRA",
+     "The RTA",
+     "The debenture trustee",
+     "The merchant banker"
+    ],
+    "answer": 2,
+    "explain": "Under the Debenture Trustees Regulations, 1993, the trustee protects holders and acts on defaults."
+   },
+   {
+    "q": "A person charges a monthly subscription for stock recommendations on social media without SEBI registration. Which regulation is breached?",
+    "options": [
+     "IA Regulations, 2013 (or Research Analyst norms)",
+     "RTA Regulations, 1993",
+     "Merchant Bankers Regulations, 1992",
+     "CRA Regulations, 1999"
+    ],
+    "answer": 0,
+    "explain": "Giving paid investment advice or recommendations requires registration as an investment adviser or research analyst."
+   },
+   {
+    "q": "Which activity is the core function of an RTA in a public issue?",
+    "options": [
+     "Pricing the issue",
+     "Underwriting the issue",
+     "Rating the issue",
+     "Processing applications and finalising the basis of allotment"
+    ],
+    "answer": 3,
+    "explain": "The RTA Regulations, 1993 cover processing of applications, allotment and investor records."
+   },
+   {
+    "q": "A CRA is asked to rate bonds of its own promoter's group company. What should it do?",
+    "options": [
+     "Rate with extra disclosure",
+     "Decline, since rating a promoter-related issuer is a conflict",
+     "Rate with a lower fee",
+     "Seek issuer consent"
+    ],
+    "answer": 1,
+    "explain": "The CRA Regulations, 1999 bar rating securities of promoters or associated entities to avoid conflict of interest."
+   }
+  ],
+  "desc": {
+   "q": "XYZ Ltd plans a public issue of secured NCDs. List the SEBI-registered intermediaries it must engage and explain the role of any three of them.",
+   "points": [
+    "Merchant banker/lead manager under the 1992 Regulations: due diligence, offer document, marketing and coordination.",
+    "Debenture trustee under the 1993 Regulations: verifying security, monitoring covenants, acting on default.",
+    "Credit rating agency under the 1999 Regulations: assigning and surveilling the rating that must be disclosed.",
+    "Registrar to the issue under the 1993 RTA Regulations: processing applications, allotment, refunds and records.",
+    "Others: bankers to the issue, stock brokers/syndicate members and depositories for demat credit."
+   ]
+  }
+ },
+ "p5c7": {
+  "notes": [
+   {
+    "topic": "IFSCA powers",
+    "note": "The International Financial Services Centres Authority Act, 2019 created IFSCA as a unified regulator for financial products, services and institutions in IFSCs, taking over powers that SEBI, RBI, IRDAI and PFRDA would otherwise exercise there. Under Section 12 and Section 13 it can regulate, register and supervise entities, frame regulations and recommend other products to the Central Government. Example: a bank's IFSC banking unit at GIFT City is licensed and supervised by IFSCA rather than RBI."
+   },
+   {
+    "topic": "IFSC",
+    "note": "An International Financial Services Centre is approved under Section 18 of the Special Economic Zones Act, 2005 and serves non-resident and cross-border financial needs in foreign currency; GIFT City in Gujarat is India's first IFSC. Entities there enjoy a special regulatory and tax regime and transact mainly in freely convertible currency. Example: a foreign fund sets up a fund management entity in GIFT IFSC to manage offshore money from India."
+   },
+   {
+    "topic": "financial products & services",
+    "note": "Financial products in an IFSC include securities, deposits, insurance contracts, pension contributions and others notified by the Central Government, and services include banking, fund management, insurance, capital markets, aircraft leasing and fintech. IFSCA has issued regulations such as the Issuance and Listing of Securities Regulations, 2021 and the Fund Management Regulations to govern these. Example: an Indian company lists dollar bonds on an IFSC exchange to raise foreign currency funds."
+   },
+   {
+    "topic": "SEBI IFSC guidelines",
+    "note": "Before IFSCA, SEBI's IFSC Guidelines, 2015 governed securities market activities in IFSCs, permitting exchanges, clearing corporations, depositories and intermediaries to operate there with relaxed norms. After IFSCA became operational, these functions moved to IFSCA, and SEBI-regulated entities' IFSC operations are now governed by IFSCA's framework. Example: an exchange that set up an IFSC subsidiary under SEBI's 2015 guidelines now reports to IFSCA."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A broker sets up a subsidiary in GIFT IFSC to trade on an IFSC exchange. Which regulator primarily supervises this subsidiary?",
+    "options": [
+     "SEBI",
+     "IFSCA",
+     "RBI",
+     "Ministry of Commerce"
+    ],
+    "answer": 1,
+    "explain": "The IFSCA Act, 2019 makes IFSCA the unified regulator for financial services in IFSCs."
+   },
+   {
+    "q": "Under which law is an IFSC approved?",
+    "options": [
+     "FEMA, 1999",
+     "Companies Act, 2013",
+     "SCRA, 1956",
+     "Section 18 of the SEZ Act, 2005"
+    ],
+    "answer": 3,
+    "explain": "An IFSC is set up with approval under Section 18 of the SEZ Act, 2005."
+   },
+   {
+    "q": "What is the usual currency of transactions in an IFSC?",
+    "options": [
+     "Freely convertible foreign currency",
+     "Indian rupee",
+     "Only US dollars",
+     "Any currency including INR without limit"
+    ],
+    "answer": 0,
+    "explain": "IFSC entities generally transact in freely convertible foreign currency, as they serve cross-border business."
+   },
+   {
+    "q": "An Indian company wants to list USD bonds in GIFT IFSC. Which framework applies?",
+    "options": [
+     "SEBI ICDR, 2018",
+     "SEBI LODR, 2015 only",
+     "IFSCA (Issuance and Listing of Securities) Regulations, 2021",
+     "RBI Master Direction on ECB only"
+    ],
+    "answer": 2,
+    "explain": "Listing of securities on IFSC exchanges is governed by IFSCA's Issuance and Listing of Securities Regulations, 2021."
+   },
+   {
+    "q": "What happened to SEBI's IFSC Guidelines, 2015 after IFSCA became operational?",
+    "options": [
+     "They became binding on all IFSC entities forever",
+     "They were extended to all SEZs",
+     "IFSCA took over regulation of securities activities in IFSCs",
+     "They now apply only to mutual funds"
+    ],
+    "answer": 2,
+    "explain": "With the IFSCA Act, 2019, powers of sectoral regulators in IFSCs transferred to IFSCA."
+   },
+   {
+    "q": "Which of the following can the Central Government notify as a financial product for IFSCs on IFSCA's recommendation?",
+    "options": [
+     "Any product IFSCA recommends",
+     "Only equity shares",
+     "Only insurance",
+     "Only bank deposits"
+    ],
+    "answer": 0,
+    "explain": "The IFSCA Act allows notification of additional financial products and services for IFSCs."
+   }
+  ],
+  "desc": {
+   "q": "A Kerala-based fintech wants to set up an entity in GIFT City to offer cross-border fund management and list a dollar bond. Advise it on the regulatory framework.",
+   "points": [
+    "GIFT City is an IFSC approved under Section 18 of the SEZ Act, 2005.",
+    "IFSCA, under the IFSCA Act, 2019, is the unified regulator; it takes over powers of SEBI, RBI, IRDAI and PFRDA within the IFSC.",
+    "Fund management requires registration under IFSCA's Fund Management Regulations.",
+    "Bond listing is governed by IFSCA's Issuance and Listing of Securities Regulations, 2021, transacting in foreign currency.",
+    "The entity must also consider FEMA/ODI aspects for the Indian parent and the IFSC tax regime."
+   ]
+  }
+ },
+ "p5c8": {
+  "notes": [
+   {
+    "topic": "IPO",
+    "note": "An initial public offer is governed by Chapter II of the SEBI (ICDR) Regulations, 2018: Regulation 6(1) sets profitability/net-tangible-asset/net-worth eligibility, and Regulation 6(2) allows others to list if at least 75% of the issue is allotted to QIBs. Promoters must lock in minimum promoter contribution (generally 20% of post-issue capital) for the prescribed period, and the issue is made through a red herring prospectus with ASBA/UPI applications. Example: a loss-making tech company that fails the 6(1) tests can still do an IPO under 6(2) with a large QIB portion."
+   },
+   {
+    "topic": "FPO",
+    "note": "A further public offer by an already listed company is covered by Chapter III of ICDR, 2018 and requires the company to satisfy eligibility akin to an IPO unless it meets the alternate route, with specified disclosure exemptions for frequently traded, compliant companies. Pricing can be fixed or by book building, and the same ASBA mechanism applies. Example: a listed PSU raises fresh capital through an FPO to reduce government debt-funded capex."
+   },
+   {
+    "topic": "rights",
+    "note": "A rights issue under Chapter III of ICDR (and Section 62(1)(a) of the Companies Act, 2013) offers new shares to existing shareholders in proportion to holdings, with renounceable rights entitlements credited in demat form and tradeable on the exchange. The issue must remain open for the period SEBI prescribes, and SEBI has shortened timelines and relaxed document requirements for listed companies through a letter of offer. Example: a shareholder who does not wish to subscribe can sell her rights entitlements on the exchange during the renunciation window."
+   },
+   {
+    "topic": "preferential",
+    "note": "Chapter V of ICDR, 2018 governs preferential issues by listed companies, with a special resolution under Section 62(1)(c)/42 of the Companies Act, a minimum price based on a volume-weighted average formula, and lock-in for allottees. Shares must be fully paid at allotment (warrants require at least 25% upfront), and allotment must be completed within the prescribed time from the shareholders' approval. Example: a promoter subscribing to convertible warrants pays 25% upfront and the balance on conversion within the permitted period."
+   },
+   {
+    "topic": "QIP",
+    "note": "A qualified institutions placement under Chapter VI of ICDR lets a listed company issue equity or convertibles only to QIBs, through a placement document and a special resolution, without a full prospectus. Pricing is based on a formula linked to recent average prices, with a discount permitted within limits, and at least 10% of the issue is reserved for mutual funds. Example: a listed bank raises capital quickly from domestic and foreign institutions through a QIP in a single day."
+   },
+   {
+    "topic": "IDRs",
+    "note": "Indian Depository Receipts, under Chapter VIII of ICDR and Section 390 of the Companies Act, 2013, allow a foreign company to raise funds in India by issuing receipts backed by its underlying shares held by an overseas custodian. The issuer must be listed in its home country and meet eligibility conditions, and IDRs can later be fungible into underlying shares within prescribed limits. Example: an overseas bank issues IDRs listed on Indian exchanges to access Indian investors."
+   },
+   {
+    "topic": "SME IPO",
+    "note": "Chapter IX of ICDR, 2018 lets small and medium enterprises list on the SME platform (BSE SME, NSE Emerge) with lighter norms, 100% underwriting by the merchant banker and mandatory market making for a prescribed period. Minimum application size is high to keep the platform for informed investors, and SEBI tightened norms on profitability track record and OFS size. Example: a regional manufacturer lists on NSE Emerge and later migrates to the main board once it meets main-board criteria."
+   },
+   {
+    "topic": "bonus",
+    "note": "Chapter XI of ICDR and Section 63 of the Companies Act, 2013 permit a bonus issue out of free reserves, securities premium or capital redemption reserve, but not out of revaluation reserves, and only if the articles authorise it and no default exists on debt or statutory dues. Once announced, the bonus cannot be withdrawn and must be implemented within the time SEBI prescribes after board approval. Example: a company declares a 1:1 bonus, capitalising part of its securities premium account."
+   },
+   {
+    "topic": "share-based employee benefits",
+    "note": "The SEBI (Share Based Employee Benefits and Sweat Equity) Regulations, 2021 cover ESOPs, ESPS, SARs, general employee benefit schemes and sweat equity of listed companies, requiring shareholder approval by special resolution and a compensation committee. A minimum vesting period of one year applies to options, and independent directors cannot be granted options. Example: a listed company grants ESOPs to senior staff with a 1-year cliff; options lapse if unvested employees resign, subject to scheme terms."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A company has net tangible assets and operating profits below ICDR thresholds but wants to do an IPO. Which route is available?",
+    "options": [
+     "It cannot do an IPO",
+     "QIP",
+     "SME route only",
+     "Regulation 6(2) route with at least 75% of the issue allotted to QIBs"
+    ],
+    "answer": 3,
+    "explain": "Regulation 6(2) of ICDR, 2018 allows companies not meeting 6(1) to do an IPO if at least 75% of the net offer goes to QIBs."
+   },
+   {
+    "q": "In a preferential allotment of convertible warrants, how much must the allottee pay upfront?",
+    "options": [
+     "Nil",
+     "25%",
+     "10%",
+     "100%"
+    ],
+    "answer": 1,
+    "explain": "Chapter V of ICDR, 2018 requires at least 25% of the warrant price to be paid at allotment."
+   },
+   {
+    "q": "A company plans a bonus issue by capitalising its revaluation reserve. Is this permitted?",
+    "options": [
+     "Yes, always",
+     "No, revaluation reserves cannot be used for bonus",
+     "Yes, with shareholder approval",
+     "Yes, if the CRA approves"
+    ],
+    "answer": 1,
+    "explain": "Section 63 of the Companies Act and Chapter XI of ICDR prohibit bonus issue out of revaluation reserves."
+   },
+   {
+    "q": "In a QIP, what minimum portion of the issue is reserved for mutual funds?",
+    "options": [
+     "5%",
+     "No reservation",
+     "15%",
+     "10%"
+    ],
+    "answer": 3,
+    "explain": "Chapter VI of ICDR, 2018 reserves at least 10% of QIP securities for mutual funds, with unsubscribed portion available to other QIBs."
+   },
+   {
+    "q": "A listed company wants to grant ESOPs to its independent directors. What is the position?",
+    "options": [
+     "Prohibited under the SBEB & SE Regulations, 2021",
+     "Permitted with special resolution",
+     "Permitted up to 1% of capital",
+     "Permitted if the NRC approves"
+    ],
+    "answer": 0,
+    "explain": "The SBEB & SE Regulations, 2021 exclude independent directors from the definition of eligible employees."
+   },
+   {
+    "q": "Which is a mandatory feature of an SME IPO?",
+    "options": [
+     "No underwriting",
+     "Listing on main board",
+     "100% underwriting and market making",
+     "Only QIB investors"
+    ],
+    "answer": 2,
+    "explain": "Chapter IX of ICDR requires SME issues to be fully underwritten, with market-making arrangements post-listing."
+   }
+  ],
+  "desc": {
+   "q": "ABC Ltd, a listed company, wants to raise funds quickly from institutions and also reward key employees with stock options. The promoter wishes to infuse funds through warrants. Advise on the routes under SEBI regulations.",
+   "points": [
+    "QIP under Chapter VI of ICDR, 2018: special resolution, placement document, formula-based floor price, at least 10% to MFs.",
+    "Promoter warrants via preferential issue under Chapter V: special resolution, pricing formula, 25% upfront, conversion within the permitted period, lock-in.",
+    "ESOPs under SBEB & SE Regulations, 2021: special resolution, compensation committee, minimum one-year vesting, no options to independent directors.",
+    "Disclosures to exchanges under LODR Regulation 30 for each fund-raising decision.",
+    "Compliance with Companies Act Sections 42/62 for the respective issues."
+   ]
+  }
+ },
+ "p5c9": {
+  "notes": [
+   {
+    "topic": "Debt securities",
+    "note": "Public issue and listing of non-convertible debt securities is governed by the SEBI (Issue and Listing of Non-Convertible Securities) Regulations, 2021 (NCS Regulations), requiring a credit rating, a debenture trustee, a recovery expense fund and disclosure in a general/key information document. Privately placed debt is also listed under the NCS Regulations, and continuing obligations follow Chapter V of LODR, 2015. Example: an NBFC issuing secured listed NCDs must create security and maintain asset cover as stated in the offer document."
+   },
+   {
+    "topic": "NCRPS",
+    "note": "Non-convertible redeemable preference shares can be issued and listed under the NCS Regulations, 2021 and Section 55 of the Companies Act, 2013, with a credit rating and redemption within the permitted tenure. Dividends are payable only out of distributable profits, and the instrument must not be convertible into equity. Example: a company issues listed NCRPS with a fixed dividend and a 7-year redemption date to raise quasi-equity funding."
+   },
+   {
+    "topic": "perpetual debt",
+    "note": "Perpetual debt instruments and perpetual NCRPS have no fixed maturity and are issued mainly by banks and NBFCs to meet regulatory capital requirements, under the NCS Regulations, 2021 and the sector regulator's capital norms. They usually have loss-absorption features and call options, and SEBI restricts sale to retail investors in many cases due to their risk. Example: a bank's AT1 bonds can be written down if its capital falls below a trigger, so investors bear equity-like risk."
+   },
+   {
+    "topic": "commercial paper",
+    "note": "Commercial paper is an unsecured short-term money-market instrument issued by eligible companies under RBI's directions, with maturity within one year; SEBI's framework allows listing of CPs with disclosure and rating requirements. CP must be issued in demat form and carry a credit rating. Example: a corporate issues 91-day CP to institutional investors to fund working capital and lists it to widen the investor base."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A company issues secured listed NCDs to the public. Which of these is NOT a mandatory requirement under the NCS Regulations, 2021?",
+    "options": [
+     "Credit rating",
+     "Appointment of a debenture trustee",
+     "Market maker for 3 years",
+     "Creation of a recovery expense fund"
+    ],
+    "answer": 2,
+    "explain": "The NCS Regulations require rating, a debenture trustee and a recovery expense fund, but not market making."
+   },
+   {
+    "q": "A company wants to issue preference shares that will never convert into equity and will be redeemed after 8 years, and list them. Which framework applies?",
+    "options": [
+     "NCS Regulations, 2021 (NCRPS)",
+     "ICDR, 2018 Chapter V",
+     "SBEB Regulations, 2021",
+     "Buy-back Regulations, 2018"
+    ],
+    "answer": 0,
+    "explain": "Listed non-convertible redeemable preference shares are governed by the NCS Regulations, 2021."
+   },
+   {
+    "q": "Which risk is distinctive to bank perpetual bonds (AT1)?",
+    "options": [
+     "Guaranteed redemption at 5 years",
+     "Convertibility into deposits",
+     "Government guarantee",
+     "Possible write-down or conversion on breach of capital trigger"
+    ],
+    "answer": 3,
+    "explain": "Regulatory-capital perpetual instruments carry loss-absorption features that may write down principal."
+   },
+   {
+    "q": "Who primarily regulates the issuance of commercial paper?",
+    "options": [
+     "SEBI",
+     "RBI",
+     "MCA",
+     "IFSCA"
+    ],
+    "answer": 1,
+    "explain": "RBI's directions govern CP issuance, while SEBI regulates listing of CPs."
+   },
+   {
+    "q": "Continuing disclosure obligations for listed debt securities are found in which part of LODR, 2015?",
+    "options": [
+     "Chapter IV",
+     "Chapter V",
+     "Chapter VII",
+     "Schedule III Part A only"
+    ],
+    "answer": 1,
+    "explain": "Chapter V of LODR, 2015 sets obligations for entities with listed non-convertible securities."
+   },
+   {
+    "q": "A company's listed CP has a maturity of 180 days. What is its form?",
+    "options": [
+     "Physical only",
+     "Bearer certificate",
+     "Either physical or demat",
+     "Demat only"
+    ],
+    "answer": 3,
+    "explain": "CP must be issued and held in dematerialised form under the RBI and SEBI framework."
+   }
+  ],
+  "desc": {
+   "q": "An NBFC plans a public issue of secured NCDs and a private placement of perpetual debt. Advise it on the main regulatory requirements.",
+   "points": [
+    "Public NCD issue under the NCS Regulations, 2021: credit rating, debenture trustee, recovery expense fund, offer document with prescribed disclosures, ASBA.",
+    "Creation of security and maintenance of asset cover, monitored by the debenture trustee.",
+    "Perpetual debt to meet RBI capital norms; private placement under Section 42 of the Companies Act and listing under the NCS Regulations.",
+    "Disclose loss-absorption/call features and restrict sale to eligible investors given the risk.",
+    "Post-listing compliance under Chapter V of LODR, 2015, including timely payment of interest and intimation to exchanges."
+   ]
+  }
+ },
+ "p5c10": {
+  "notes": [
+   {
+    "topic": "LODR compliances",
+    "note": "The SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 apply to all listed entities, with Regulation 4 setting broad principles of fair disclosure and Regulation 6 requiring a qualified company secretary as compliance officer. Periodic filings include the shareholding pattern (Reg 31), corporate governance report (Reg 27), investor grievance statement (Reg 13) and quarterly financial results (Reg 33). Example: a company must submit quarterly results within 45 days of quarter-end, and audited annual results within 60 days."
+   },
+   {
+    "topic": "corporate governance",
+    "note": "Regulations 17 to 27 of LODR cover board composition (at least half independent where the chairperson is executive or a promoter, otherwise one-third), mandatory committees (audit, NRC, stakeholders' relationship and risk management for top companies), related party transactions (Reg 23) and subsidiary oversight (Reg 24). Material RPTs need prior shareholder approval with related parties not voting. Example: a promoter-chaired company with 10 directors must have at least 5 independent directors."
+   },
+   {
+    "topic": "disclosures",
+    "note": "Regulation 30 requires disclosure of material events and information to the exchanges, with Schedule III Part A events (e.g. acquisitions, fraud by KMP, change in directors) deemed material and others judged against the materiality policy and quantitative thresholds. Disclosures must be made within prescribed hours, with board-meeting outcomes within 30 minutes of conclusion. Example: when a listed company signs a large share purchase agreement, it must inform the exchanges promptly under Regulation 30."
+   },
+   {
+    "topic": "shareholder meetings",
+    "note": "Regulation 44 requires e-voting facility and submission of voting results within two working days, and top listed companies must hold AGMs within prescribed months and webcast them. Notices must include explanatory statements and director profiles, and approvals of related-party transactions, fresh appointments and certain directors' re-appointment need shareholder approval within set time limits. Example: a newly appointed director must be approved by shareholders at the next general meeting or within three months, whichever is earlier."
+   },
+   {
+    "topic": "policies",
+    "note": "LODR requires listed entities to frame and disclose policies such as the materiality of events (Reg 30), related party transactions (Reg 23), dividend distribution (Reg 43A for top companies), whistle-blower/vigil mechanism (Reg 22), board diversity, archival and preservation of documents (Reg 9) and determining material subsidiaries. Policies must be reviewed periodically and placed on the website. Example: the RPT policy must define materiality and be reviewed by the board at least once every three years."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A listed company's board meeting concludes at 4:00 pm after approving quarterly results. When must the outcome be disclosed to exchanges?",
+    "options": [
+     "Within 30 minutes",
+     "Within 24 hours",
+     "Within 7 days",
+     "With the next quarterly filing"
+    ],
+    "answer": 0,
+    "explain": "Regulation 30 read with Schedule III requires outcome of board meetings within 30 minutes of conclusion."
+   },
+   {
+    "q": "The chairperson of a listed company is a promoter and the board has 12 directors. What is the minimum number of independent directors?",
+    "options": [
+     "3",
+     "4",
+     "6",
+     "8"
+    ],
+    "answer": 2,
+    "explain": "Regulation 17(1)(b) of LODR requires at least half the board to be independent where the chairperson is a promoter or executive."
+   },
+   {
+    "q": "A listed company proposes a material related party transaction with its promoter entity. Who can vote on the shareholder resolution?",
+    "options": [
+     "All shareholders",
+     "Only promoters",
+     "Shareholders other than related parties",
+     "Only institutional investors"
+    ],
+    "answer": 2,
+    "explain": "Regulation 23(4) of LODR requires shareholder approval with related parties not voting in favour."
+   },
+   {
+    "q": "Which officer must be a qualified company secretary under LODR?",
+    "options": [
+     "Compliance officer",
+     "CFO",
+     "Internal auditor",
+     "Chairperson"
+    ],
+    "answer": 0,
+    "explain": "Regulation 6(1) of LODR requires a qualified company secretary to be appointed as compliance officer."
+   },
+   {
+    "q": "A listed company files e-voting results of its AGM. Within how long must they be submitted?",
+    "options": [
+     "Same day",
+     "Thirty days",
+     "Seven days",
+     "Two working days"
+    ],
+    "answer": 3,
+    "explain": "Regulation 44(3) of LODR requires voting results within two working days of the meeting."
+   },
+   {
+    "q": "Which policy is specifically mandated for the top listed companies by market capitalisation under Regulation 43A?",
+    "options": [
+     "Vigil mechanism",
+     "Dividend distribution policy",
+     "Archival policy",
+     "RPT policy"
+    ],
+    "answer": 1,
+    "explain": "Regulation 43A requires the top listed entities by market cap to frame a dividend distribution policy."
+   }
+  ],
+  "desc": {
+   "q": "M Ltd, a listed company with an executive promoter chairman, has 8 directors of which 3 are independent. It has also entered into a large contract with a promoter-group firm without shareholder approval. Advise on LODR compliance.",
+   "points": [
+    "Regulation 17(1): with an executive/promoter chairman, at least half the board (4 of 8) must be independent; M Ltd must appoint at least one more ID.",
+    "Regulation 23: material RPTs need prior audit committee approval and prior shareholder approval, with related parties not voting in favour.",
+    "The contract must be placed for ratification/approval as permitted, and disclosed under Regulation 23(9) and 30.",
+    "The RPT policy must define materiality and be followed.",
+    "Non-compliance attracts fines by exchanges under SEBI's standard operating procedure and possible SEBI action."
+   ]
+  }
+ },
+ "p5c11": {
+  "notes": [
+   {
+    "topic": "Open-offer triggers",
+    "note": "Under the SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011, Regulation 3(1) requires an open offer when an acquirer, with persons acting in concert, acquires 25% or more of voting rights, and Regulation 3(2) triggers an offer for acquisitions beyond 5% in a financial year by a holder already at 25% or more (up to the maximum permissible non-public shareholding). Regulation 4 triggers an offer on acquisition of control irrespective of shareholding. The minimum offer size is 26% of total shares (Reg 7) and price is determined under Regulation 8. Example: an investor moving from 20% to 26% must make an open offer for at least 26%."
+   },
+   {
+    "topic": "disclosures",
+    "note": "Regulation 29 requires disclosure when holdings reach 5% and on every change of 2% or more thereafter, by persons holding 5% or more, while Regulation 30 requires annual disclosure by holders of 25% or more and promoters. Regulation 31 requires disclosure of creation, invocation or release of encumbrance on promoter shares. Disclosures go to the company and the exchanges within two working days. Example: a fund that crosses 5% in a listed company must inform the company and the exchanges within two working days."
+   },
+   {
+    "topic": "exemptions",
+    "note": "Regulation 10 grants automatic exemptions for inter-se transfers among immediate relatives, promoters and group companies (subject to conditions such as prior disclosure and price caps), acquisitions in schemes of arrangement approved by a tribunal, under the IBC resolution plan, and through buy-back, bonus or rights within entitlements. Regulation 11 allows SEBI to grant case-specific exemptions on application. Example: a promoter transferring shares to his son, as immediate relative, can rely on the inter-se exemption after the required notice."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "An acquirer holds 22% and buys another 4% in a listed company. What is the consequence?",
+    "options": [
+     "No open offer",
+     "Open offer under Regulation 3(1) as holding crosses 25%",
+     "Disclosure only",
+     "Open offer only if control changes"
+    ],
+    "answer": 1,
+    "explain": "Regulation 3(1) of SAST, 2011 requires an open offer when holding with PACs reaches 25% or more."
+   },
+   {
+    "q": "A promoter holding 40% wants to buy another 6% in the same financial year. What is the position?",
+    "options": [
+     "Exempt as already a promoter",
+     "Permitted through bulk deal",
+     "Only disclosure under Regulation 29",
+     "Open offer triggered under Regulation 3(2)"
+    ],
+    "answer": 3,
+    "explain": "Regulation 3(2) triggers an open offer for acquisitions exceeding 5% in a financial year by a holder of 25% or more."
+   },
+   {
+    "q": "What is the minimum size of an open offer under SAST?",
+    "options": [
+     "26%",
+     "25%",
+     "20%",
+     "51%"
+    ],
+    "answer": 0,
+    "explain": "Regulation 7(1) of SAST, 2011 requires an open offer for at least 26% of the total shares."
+   },
+   {
+    "q": "A fund's holding rises from 5.5% to 7.8%. Is a disclosure required?",
+    "options": [
+     "No",
+     "Only annually",
+     "Yes, under Regulation 29(2) for change of 2% or more",
+     "Only if it becomes a promoter"
+    ],
+    "answer": 2,
+    "explain": "Regulation 29(2) of SAST requires disclosure by holders of 5% or more on every change of 2% or more."
+   },
+   {
+    "q": "A shareholder with 10% acquires the right to appoint a majority of the board through an agreement. What is triggered?",
+    "options": [
+     "Nothing, as holding is below 25%",
+     "Disclosure only under Regulation 31",
+     "Open offer under Regulation 4 for acquisition of control",
+     "Delisting"
+    ],
+    "answer": 2,
+    "explain": "Regulation 4 of SAST triggers an open offer on acquisition of control regardless of shareholding."
+   },
+   {
+    "q": "Shares are acquired by a resolution applicant under an approved IBC resolution plan. What is the position?",
+    "options": [
+     "Exempt under Regulation 10",
+     "Open offer required",
+     "Requires SEBI prior approval under Regulation 11",
+     "Must delist"
+    ],
+    "answer": 0,
+    "explain": "Regulation 10(1)(da) of SAST exempts acquisitions under an IBC resolution plan."
+   }
+  ],
+  "desc": {
+   "q": "P holds 18% in Q Ltd. He proposes to buy 9% from the market and also enter into a shareholders' agreement giving him veto over key decisions. Advise P under the SAST Regulations, 2011.",
+   "points": [
+    "Acquiring 9% takes P to 27%, crossing 25%, triggering an open offer under Regulation 3(1).",
+    "Veto rights over key decisions may amount to 'control' under Regulation 2(1)(e), which itself triggers an offer under Regulation 4.",
+    "Open offer must be for at least 26% under Regulation 7, at a price determined under Regulation 8, through a merchant banker with escrow.",
+    "Disclosures under Regulation 29 as he crosses 5%-plus changes, and public announcement timelines must be observed.",
+    "No Regulation 10 exemption appears applicable; P may seek specific exemption under Regulation 11 only with valid grounds."
+   ]
+  }
+ },
+ "p5c12": {
+  "notes": [
+   {
+    "topic": "UPSI",
+    "note": "Under the SEBI (Prohibition of Insider Trading) Regulations, 2015, unpublished price sensitive information (Reg 2(1)(n)) is information about a company or its securities, not generally available, that is likely to materially affect price, such as financial results, dividends, mergers, changes in capital and KMP changes. Regulation 3 bars insiders from communicating UPSI except for legitimate purposes and Regulation 4 bars trading while in possession of UPSI. Example: a finance manager who sells shares a day before poor results are announced trades on UPSI."
+   },
+   {
+    "topic": "trading plans",
+    "note": "Regulation 5 lets an insider who is perpetually in possession of UPSI execute trades under a pre-approved trading plan disclosed to the exchanges, which offers a defence against insider-trading charges. Plans must start after a cooling-off period, cannot be altered once approved, and must set out the value or number of securities and dates, with price limits allowed within a range. Example: a promoter-CEO adopts a trading plan to sell a fixed number of shares each quarter regardless of news."
+   },
+   {
+    "topic": "disclosures",
+    "note": "Regulation 7 requires initial disclosure of holdings by promoters, KMP and directors, and continual disclosure within two trading days when trades in a calendar quarter exceed ₹10 lakh in value. The company must then inform the exchanges within two trading days of receipt, and may require disclosures from other connected persons. Example: a director buying shares worth ₹12 lakh in a quarter must disclose to the company within two trading days."
+   },
+   {
+    "topic": "codes of conduct",
+    "note": "Regulation 8 requires every listed company to adopt a code of practices for fair disclosure of UPSI (Schedule A), and Regulation 9 requires a code of conduct for designated persons (Schedule B) covering trading-window closure, pre-clearance, contra-trade restrictions and a structured digital database. The compliance officer administers the code and reports violations. Example: the trading window closes from the end of a quarter until 48 hours after results are published, and designated persons cannot trade then."
+   },
+   {
+    "topic": "penalties",
+    "note": "Insider trading attracts a penalty under Section 15G of the SEBI Act, and SEBI can also pass directions under Section 11B such as disgorgement and debarment, and prosecute under Section 24. Contra-trades within the restricted period require profits to be disgorged to the Investor Protection and Education Fund. Example: an employee who sells shares within six months of buying them breaches the contra-trade rule and must surrender the profit."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A company secretary learns of a merger proposal before announcement and tells her brother, who buys shares. Who has violated the PIT Regulations?",
+    "options": [
+     "Only the brother",
+     "Only the CS",
+     "Neither, as no profit was booked",
+     "Both: CS for communicating UPSI and brother for trading"
+    ],
+    "answer": 3,
+    "explain": "Regulation 3 prohibits communicating UPSI and Regulation 4 prohibits trading while in possession of it."
+   },
+   {
+    "q": "A director's purchases in a quarter total ₹11 lakh. What must he do?",
+    "options": [
+     "Nothing",
+     "Disclose to the company within two trading days",
+     "Disclose annually",
+     "Seek SAT approval"
+    ],
+    "answer": 1,
+    "explain": "Regulation 7(2) of PIT requires disclosure when trades in a calendar quarter exceed ₹10 lakh."
+   },
+   {
+    "q": "A promoter wishes to sell shares regularly while always having access to UPSI. What is the best option?",
+    "options": [
+     "Trade only during open window without plan",
+     "Adopt a trading plan under Regulation 5",
+     "Sell through a relative",
+     "Gift shares and let the donee sell"
+    ],
+    "answer": 1,
+    "explain": "Regulation 5 trading plans, approved and disclosed in advance, provide a defence for insiders perpetually in possession of UPSI."
+   },
+   {
+    "q": "A designated person buys shares and sells them three months later at a profit. What happens?",
+    "options": [
+     "Allowed as no UPSI involved",
+     "Allowed if pre-cleared",
+     "Only a warning",
+     "Contra-trade violation; profits disgorged to IPEF"
+    ],
+    "answer": 3,
+    "explain": "Schedule B to PIT restricts contra-trades within six months and profits go to the IPEF."
+   },
+   {
+    "q": "Which of the following is ordinarily NOT UPSI?",
+    "options": [
+     "Annual report already published on the exchange",
+     "Proposed buy-back not yet disclosed",
+     "Unannounced quarterly results",
+     "Proposed change in KMP not yet announced"
+    ],
+    "answer": 0,
+    "explain": "Information already generally available, such as a published annual report, is not UPSI under Regulation 2(1)(n)."
+   },
+   {
+    "q": "Under which provision of the SEBI Act is a monetary penalty imposed for insider trading?",
+    "options": [
+     "Section 15A",
+     "Section 15HB",
+     "Section 15G",
+     "Section 15C"
+    ],
+    "answer": 2,
+    "explain": "Section 15G of the SEBI Act provides the penalty for insider trading."
+   }
+  ],
+  "desc": {
+   "q": "The CFO of R Ltd, a designated person, bought shares two days before a board meeting to approve unexpectedly strong results, without pre-clearance. Examine the violations and consequences under the PIT Regulations, 2015.",
+   "points": [
+    "Results are UPSI under Regulation 2(1)(n); trading while in possession breaches Regulation 4.",
+    "Trading window would be closed from quarter-end till 48 hours after results; trading during closure breaches the Regulation 9 code (Schedule B).",
+    "No pre-clearance was obtained, another code violation; continual disclosure under Regulation 7 may also apply.",
+    "Consequences: penalty under Section 15G, directions under Section 11B including disgorgement and debarment, internal disciplinary action and report to SEBI.",
+    "The CFO may try to rebut by showing a Regulation 4 defence, but the onus is on him."
+   ]
+  }
+ },
+ "p5c13": {
+  "notes": [
+   {
+    "topic": "Prohibited dealings",
+    "note": "Regulation 3 of the SEBI (Prohibition of Fraudulent and Unfair Trade Practices relating to Securities Market) Regulations, 2003 prohibits buying, selling or dealing in securities in a fraudulent manner and using any manipulative device in connection with issue or trading of securities, mirroring Section 12A of the SEBI Act. The prohibition applies to any person, not only market intermediaries. Example: a person who uses a scheme to deceive investors into subscribing to an issue is liable even if not registered with SEBI."
+   },
+   {
+    "topic": "manipulative & fraudulent practices",
+    "note": "Regulation 4 lists practices deemed manipulative or fraudulent, including creating false appearance of trading (wash and circular trades), price rigging, spreading misleading information, front running, mis-selling of units, and misusing client funds. SEBI amended the list to include, for example, knowingly misrepresenting financial statements and dealing on the basis of misleading news. Example: a group of connected accounts trading the same shares among themselves to inflate volume commits circular trading."
+   },
+   {
+    "topic": "investigation",
+    "note": "Under Section 11C of the SEBI Act and Chapter III of the PFUTP Regulations, SEBI can appoint an investigating authority, call for books and records, examine persons on oath and, with court approval, search and seize. Based on findings, SEBI can pass directions under Sections 11 and 11B, impose penalties under Section 15HA and initiate prosecution. Example: SEBI investigates a 'pump-and-dump' run via social media tips and orders impounding of unlawful gains."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A group of related entities repeatedly trades the same illiquid stock among themselves to show high volumes. Which practice is this?",
+    "options": [
+     "Front running",
+     "Insider trading",
+     "Circular trading",
+     "Short selling"
+    ],
+    "answer": 2,
+    "explain": "Regulation 4(2) of PFUTP, 2003 deems trades creating a false appearance of trading, such as circular trades, manipulative."
+   },
+   {
+    "q": "A dealer of a broker trades on his own account ahead of a large client order he knows about. What is this?",
+    "options": [
+     "Front running",
+     "Arbitrage",
+     "Hedging",
+     "Market making"
+    ],
+    "answer": 0,
+    "explain": "Front running on knowledge of substantial impending client orders is a prohibited practice under Regulation 4 of PFUTP."
+   },
+   {
+    "q": "Which section of the SEBI Act provides the penalty for fraudulent and unfair trade practices?",
+    "options": [
+     "Section 15E",
+     "Section 15G",
+     "Section 15D",
+     "Section 15HA"
+    ],
+    "answer": 3,
+    "explain": "Section 15HA of the SEBI Act prescribes the penalty for fraudulent and unfair trade practices."
+   },
+   {
+    "q": "A person spreads false news on social media about a merger to push up prices and sells at the peak. Is he liable even though he is not a SEBI intermediary?",
+    "options": [
+     "No, PFUTP applies only to intermediaries",
+     "Yes, PFUTP applies to any person",
+     "Only if he is a promoter",
+     "Only if the company complains"
+    ],
+    "answer": 1,
+    "explain": "Regulation 3 and 4 of PFUTP apply to all persons dealing in securities."
+   },
+   {
+    "q": "Under which provision can SEBI search premises and seize documents during an investigation?",
+    "options": [
+     "Section 15T",
+     "Section 11C with prior approval of a designated court",
+     "Section 21A of SCRA",
+     "Section 26 of the SEBI Act"
+    ],
+    "answer": 1,
+    "explain": "Section 11C(8) of the SEBI Act allows search and seizure with authorisation from a designated court magistrate/judge."
+   },
+   {
+    "q": "A mutual fund distributor tells investors a debt scheme is 'risk-free like an FD' to earn commission. Which is correct?",
+    "options": [
+     "Acceptable marketing",
+     "Allowed if disclosed in KIM",
+     "Only a code of conduct breach with no penalty",
+     "Mis-selling, a fraudulent/unfair practice under PFUTP"
+    ],
+    "answer": 3,
+    "explain": "Regulation 4(2) of PFUTP treats mis-selling of MF units as an unfair trade practice."
+   }
+  ],
+  "desc": {
+   "q": "Social-media influencers promote a small-cap stock as a 'multibagger' while their associates quietly sell large holdings at inflated prices. Discuss the provisions breached and the actions SEBI can take.",
+   "points": [
+    "Section 12A of the SEBI Act and Regulations 3 and 4 of PFUTP, 2003 prohibit manipulative devices and dissemination of misleading information.",
+    "The scheme is a classic pump-and-dump: false appearance of demand, misleading advice and price manipulation.",
+    "Paid stock tips without registration also breach the IA/Research Analyst regulations.",
+    "SEBI can investigate under Section 11C, impound gains and issue directions under Sections 11 and 11B (debarment, disgorgement).",
+    "Penalty under Section 15HA and possible prosecution under Section 24."
+   ]
+  }
+ },
+ "p5c14": {
+  "notes": [
+   {
+    "topic": "Voluntary & compulsory delisting",
+    "note": "Under the SEBI (Delisting of Equity Shares) Regulations, 2021, voluntary delisting requires board and special resolution approval (with votes of public shareholders in favour being at least twice those against), followed by reverse book building, and succeeds only if the acquirer's post-offer holding reaches 90% of total shares. SEBI has also introduced a fixed-price alternative for frequently traded shares at a premium over the floor price. Compulsory delisting by an exchange under Section 21A of the SCRA follows serious non-compliance; promoters must then buy out public shareholders at a fair value set by an independent valuer and are barred from the market for a period. Example: a promoter holding 80% needs to reach 90% in the reverse book building for the delisting to succeed."
+   },
+   {
+    "topic": "buyback conditions & methods",
+    "note": "The SEBI (Buy-back of Securities) Regulations, 2018, with Section 68 of the Companies Act, allow buy-back up to 25% of paid-up capital and free reserves (board approval up to 10%, special resolution above that), with a post-buyback debt-equity ratio not exceeding 2:1 and a cooling-off period on further issues. Permitted methods are tender offer and open market (via stock exchanges), with SEBI phasing out the open-market route in favour of tender offers. Example: a cash-rich company buys back 8% of its capital through a tender offer approved by the board, with a portion reserved for small shareholders."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "In a voluntary delisting, the promoter holds 75% before the offer. What post-offer holding must be reached for success under reverse book building?",
+    "options": [
+     "90%",
+     "85%",
+     "80%",
+     "100%"
+    ],
+    "answer": 0,
+    "explain": "Regulation 21 of the Delisting Regulations, 2021 requires post-offer acquirer holding of at least 90% of total shares."
+   },
+   {
+    "q": "A company proposes a buy-back of 15% of paid-up capital and free reserves. What approval is required?",
+    "options": [
+     "Board resolution only",
+     "Ordinary resolution",
+     "Special resolution of shareholders",
+     "SEBI prior approval"
+    ],
+    "answer": 2,
+    "explain": "Section 68 of the Companies Act and the Buy-back Regulations, 2018 permit board approval only up to 10%; beyond that a special resolution is needed."
+   },
+   {
+    "q": "What is the maximum post-buyback debt-to-equity ratio generally allowed for a company?",
+    "options": [
+     "1:1",
+     "3:1",
+     "2:1",
+     "4:1"
+    ],
+    "answer": 2,
+    "explain": "Section 68(2)(d) and the Buy-back Regulations require debt not exceeding twice paid-up capital and free reserves post buy-back."
+   },
+   {
+    "q": "In a voluntary delisting, the special resolution passes but public shareholders' votes in favour are only 1.5 times votes against. What is the result?",
+    "options": [
+     "Resolution fails the public-shareholder test",
+     "Delisting proceeds",
+     "Proceeds with SEBI approval",
+     "Proceeds if promoters re-vote"
+    ],
+    "answer": 0,
+    "explain": "The Delisting Regulations require votes of public shareholders in favour to be at least twice the votes against."
+   },
+   {
+    "q": "A company is compulsorily delisted by the exchange for persistent non-compliance. Which is correct?",
+    "options": [
+     "Public shareholders lose all rights",
+     "No restrictions on promoters",
+     "The company can relist next day",
+     "Promoters must purchase shares from public at fair value determined by an independent valuer"
+    ],
+    "answer": 3,
+    "explain": "Under the Delisting Regulations, 2021, promoters of a compulsorily delisted company must offer fair value and face market restrictions."
+   },
+   {
+    "q": "Which buy-back method reserves a portion for small shareholders?",
+    "options": [
+     "Open market through book building",
+     "Tender offer",
+     "Odd-lot purchase",
+     "Private negotiation"
+    ],
+    "answer": 1,
+    "explain": "In tender-offer buy-backs, the Buy-back Regulations reserve a portion for small shareholders."
+   }
+  ],
+  "desc": {
+   "q": "S Ltd, a listed company, plans to buy back 20% of its capital to reward shareholders, while its promoter separately wants to delist the company within a year. Advise on the regulatory requirements and any conflicts.",
+   "points": [
+    "Buy-back of 20% requires a special resolution under Section 68 and the Buy-back Regulations, 2018 (board approval suffices only up to 10%), via tender offer with reservation for small shareholders.",
+    "Conditions: limit of 25% of paid-up capital and free reserves, post-buyback debt-equity not above 2:1, fully paid shares, no default, and a cooling-off period for fresh issues.",
+    "Voluntary delisting under the Delisting Regulations, 2021 needs board and special resolution with public votes for at least twice those against, plus discovery of price through reverse book building or the fixed-price route.",
+    "Delisting succeeds only if acquirer's holding reaches 90%; the buy-back may raise promoter percentage, which needs disclosure and SAST consideration.",
+    "Directors must ensure the buy-back is not used to manipulate delisting price; proper disclosures under LODR Regulation 30."
+   ]
+  }
+ },
+ "p5c15": {
+  "notes": [
+   {
+    "topic": "Framework",
+    "note": "Mutual funds in India are set up as trusts and regulated by the SEBI (Mutual Funds) Regulations, 1996, which govern registration, sponsor eligibility, scheme launch, investment restrictions, valuation and disclosure. Every scheme needs a scheme information document filed with SEBI and an investment objective that the AMC must follow. Example: an equity scheme cannot change its fundamental attributes without unitholders being given an exit option at NAV."
+   },
+   {
+    "topic": "scheme types",
+    "note": "SEBI's categorisation framework classifies open-ended schemes into equity, debt, hybrid, solution-oriented and other schemes (index funds, ETFs, fund of funds), allowing generally one scheme per category per fund house. Closed-ended schemes must list their units for liquidity, and interval schemes allow purchase or redemption only at set intervals. Example: a 'large-cap fund' must invest a prescribed minimum share in the top 100 companies by market cap."
+   },
+   {
+    "topic": "sponsor, AMC, trustee",
+    "note": "The sponsor establishes the fund and must meet eligibility such as net worth and track record (or the alternate route) under the MF Regulations; the trustees hold the assets in trust for unitholders and supervise the AMC; and the AMC manages schemes under an investment management agreement. At least two-thirds of trustee directors and half the AMC board must be independent of the sponsor, and the AMC must keep minimum net worth. Example: trustees must review AMC compliance and can remove an AMC that fails unitholders' interests."
+   },
+   {
+    "topic": "NAV",
+    "note": "Net Asset Value per unit equals the market value of scheme assets less liabilities, divided by units outstanding, valued under SEBI's principles of fair valuation (Regulation 47 and the Eighth Schedule). NAV must be computed and published daily for open-ended schemes on the AMC and AMFI websites, and cut-off timings decide which day's NAV applies. Example: a redemption request in an equity scheme received after the cut-off gets the next business day's NAV."
+   },
+   {
+    "topic": "expense ratio",
+    "note": "Regulation 52 caps the total expense ratio a scheme can charge, on a sliding scale that falls as assets rise, with lower limits for index funds, ETFs and fund of funds. Direct plans must carry a lower expense ratio than regular plans since no distributor commission is paid, and TER must be disclosed daily. Example: an investor moving from the regular to the direct plan of the same scheme pays a lower TER and therefore earns slightly higher returns."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "An AMC wants to change a scheme from equity to debt orientation. What must it do?",
+    "options": [
+     "Simply inform SEBI",
+     "Treat it as a change in fundamental attributes and give unitholders an exit option without load",
+     "Get board approval only",
+     "Close the scheme"
+    ],
+    "answer": 1,
+    "explain": "Regulation 18(15A) of the MF Regulations requires an exit option for changes in fundamental attributes."
+   },
+   {
+    "q": "Who holds the property of a mutual fund for the benefit of unitholders?",
+    "options": [
+     "Sponsor",
+     "AMC",
+     "Custodian as owner",
+     "Trustees"
+    ],
+    "answer": 3,
+    "explain": "Under the MF Regulations, 1996, the trust property is held by the trustees for unitholders."
+   },
+   {
+    "q": "Which plan of a scheme should have the lower total expense ratio?",
+    "options": [
+     "Direct plan",
+     "Regular plan",
+     "Both equal",
+     "Depends on AMC"
+    ],
+    "answer": 0,
+    "explain": "Regulation 52 and SEBI circulars require direct plans to have lower expenses as no distribution commission is paid."
+   },
+   {
+    "q": "A redemption request in an open-ended equity fund is received after the cut-off time on Monday. Which NAV applies?",
+    "options": [
+     "Monday's NAV",
+     "Average of the week",
+     "Tuesday's NAV",
+     "Last Friday's NAV"
+    ],
+    "answer": 2,
+    "explain": "SEBI's cut-off timing norms apply the next business day's NAV to requests received after cut-off."
+   },
+   {
+    "q": "A closed-ended scheme must provide liquidity to investors by which means?",
+    "options": [
+     "Daily redemption with AMC",
+     "Repurchase only at maturity with no listing",
+     "Listing of units on a stock exchange",
+     "Switching to other schemes"
+    ],
+    "answer": 2,
+    "explain": "The MF Regulations require closed-ended scheme units to be listed on a recognised stock exchange."
+   },
+   {
+    "q": "Which is the correct formula for NAV per unit?",
+    "options": [
+     "(Market value of assets - liabilities) / units outstanding",
+     "Assets divided by units",
+     "Liabilities divided by units",
+     "Face value plus income"
+    ],
+    "answer": 0,
+    "explain": "NAV equals net assets divided by units outstanding, valued as per the MF Regulations."
+   }
+  ],
+  "desc": {
+   "q": "An investor complains that her mutual fund changed its investment strategy and that she is paying a high expense ratio through a distributor. Advise her on her rights under the MF Regulations.",
+   "points": [
+    "Change in fundamental attributes requires prior SEBI comments, trustee approval and an exit option at NAV without load (Regulation 18(15A)).",
+    "Trustees must protect unitholders and supervise the AMC.",
+    "TER is capped under Regulation 52; she may switch to the direct plan, which has a lower TER.",
+    "NAV and TER are disclosed daily on AMC/AMFI websites, which she can verify.",
+    "She can complain to the AMC, then SEBI SCORES, and use ODR if unresolved."
+   ]
+  }
+ },
+ "p5c16": {
+  "notes": [
+   {
+    "topic": "Framework",
+    "note": "A collective investment scheme is defined in Section 11AA of the SEBI Act, 1992 as an arrangement where investors' money is pooled for a purpose with profits or benefits accruing to them, the property is managed on their behalf and investors do not control day-to-day management; any pooling of ₹100 crore or more is deemed a CIS unless specifically excluded. CIS are regulated under the SEBI (Collective Investment Schemes) Regulations, 1999, and only a registered collective investment management company (CIMC) can operate one. Example: a plantation scheme pooling public money with promised returns from teak sales is a CIS needing SEBI registration."
+   },
+   {
+    "topic": "restrictions",
+    "note": "The CIS Regulations require each scheme to be approved by trustees, rated by a credit rating agency and appraised, with an offer document filed with SEBI, and prohibit guaranteed returns. Schemes that are deposits, insurance, chit funds, co-operative society schemes or other excluded arrangements are outside the CIS definition, and running an unregistered CIS is prohibited under Section 12(1B) of the SEBI Act. Example: SEBI can order an unregistered operator to wind up the scheme and refund investors."
+   },
+   {
+    "topic": "trustees' obligations",
+    "note": "The trustee of a CIS holds the scheme property for investors, must ensure the CIMC acts in line with the regulations and the offer document, review investor complaints and monitor transactions to prevent conflicts of interest. Trustees must have independent members and submit periodic reports to SEBI, and can remove the CIMC with investor and SEBI approval in serious cases. Example: if the CIMC diverts scheme money to its own group companies, the trustee must act and report to SEBI."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A company collects ₹150 crore from the public for a farmland scheme with promised returns, while managing the land itself. What is the position?",
+    "options": [
+     "Not regulated by SEBI",
+     "A mutual fund",
+     "A chit fund",
+     "Deemed CIS under Section 11AA as pooling exceeds the threshold"
+    ],
+    "answer": 3,
+    "explain": "Section 11AA of the SEBI Act deems schemes pooling ₹100 crore or more to be CIS unless excluded."
+   },
+   {
+    "q": "Which entity can launch a CIS?",
+    "options": [
+     "Any company",
+     "Only a SEBI-registered collective investment management company",
+     "A stock broker",
+     "A bank"
+    ],
+    "answer": 1,
+    "explain": "The CIS Regulations, 1999 permit only registered CIMCs to sponsor and run a CIS."
+   },
+   {
+    "q": "Which of the following is excluded from the CIS definition?",
+    "options": [
+     "Teak plantation scheme",
+     "Chit fund regulated under the Chit Funds Act",
+     "Pooled real estate scheme with promised returns",
+     "Pooled goat-rearing scheme"
+    ],
+    "answer": 1,
+    "explain": "Section 11AA(3) excludes chit funds and certain other regulated arrangements from CIS."
+   },
+   {
+    "q": "Can a CIS promise investors guaranteed returns?",
+    "options": [
+     "Yes, if trustees approve",
+     "Yes, up to 10%",
+     "Yes, with SEBI approval",
+     "No, guaranteed returns are prohibited"
+    ],
+    "answer": 3,
+    "explain": "The CIS Regulations, 1999 prohibit guaranteed or assured returns."
+   },
+   {
+    "q": "The CIMC diverts scheme funds to a group company. What is the trustee's duty?",
+    "options": [
+     "Take remedial action and report to SEBI",
+     "None, as CIMC manages funds",
+     "Only inform investors at year-end",
+     "Resign"
+    ],
+    "answer": 0,
+    "explain": "Trustees under the CIS Regulations must ensure the CIMC complies and report breaches to SEBI."
+   },
+   {
+    "q": "Running a CIS without SEBI registration violates which provision?",
+    "options": [
+     "Section 21 of SCRA",
+     "Section 15T",
+     "Section 12(1B) of the SEBI Act",
+     "Regulation 30 of LODR"
+    ],
+    "answer": 2,
+    "explain": "Section 12(1B) of the SEBI Act prohibits sponsoring or carrying on a CIS without registration."
+   }
+  ],
+  "desc": {
+   "q": "A Kerala company has collected money from thousands of investors for a 'rubber plantation investment plan' promising fixed annual returns, without SEBI registration. Examine whether it is a CIS and the consequences.",
+   "points": [
+    "Section 11AA tests: pooling of investors' money, use for a common purpose (plantation), profits accruing to investors, managed by the company, investors lack day-to-day control: it is a CIS (deemed if ≥ ₹100 crore).",
+    "No exclusion under Section 11AA(3) applies, as it is not a deposit, chit fund or insurance.",
+    "Operating without registration breaches Section 12(1B) of the SEBI Act and the CIS Regulations, 1999; guaranteed returns are also prohibited.",
+    "SEBI can direct winding up of the scheme and refund to investors with interest, attach properties and debar promoters under Sections 11 and 11B.",
+    "Penalty under Section 15D and prosecution under Section 24 may follow."
+   ]
+  }
+ }
+}

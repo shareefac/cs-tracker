@@ -1,0 +1,1886 @@
+{
+ "p7c1": {
+  "notes": [
+   {
+    "topic": "Characteristics & objectives of taxes",
+    "note": "A tax is a compulsory, non-reciprocal levy by the State: the payer gets no specific service in return, and it must rest on authority of law (Article 265). Good taxes follow canons of equity, certainty, convenience and economy, and today also neutrality and simplicity. Objectives include raising revenue, redistributing income, steering economic behaviour (e.g., incentives for savings or exports) and stabilising the economy."
+   },
+   {
+    "topic": "direct vs indirect",
+    "note": "In a direct tax the impact and incidence fall on the same person (income tax), so the burden cannot be shifted. In an indirect tax the person who pays to Government (supplier/importer) passes the burden on to the consumer through price (GST, customs). Direct taxes are generally progressive; indirect taxes tend to be regressive but have a wide base and are easier to collect."
+   },
+   {
+    "topic": "tax administration",
+    "note": "Direct taxes are administered by the Central Board of Direct Taxes (CBDT) under the Central Boards of Revenue Act, 1963, supported by Principal Chief Commissioners, Commissioners and Assessing Officers. From 1 April 2026 income tax is governed by the Income-tax Act, 2025, which replaces the 1961 Act and uses a single 'tax year' in place of previous year/assessment year. Much of assessment, appeal and penalty work is now faceless and technology-driven."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A manufacturer collects GST from buyers and deposits it with the Government. Who bears the incidence of the tax?",
+    "options": [
+     "The final consumer",
+     "The manufacturer",
+     "The GST Council",
+     "The State Government"
+    ],
+    "answer": 0,
+    "explain": "GST is an indirect tax: the supplier pays it to the Government (impact) but shifts the burden to the consumer through price (incidence)."
+   },
+   {
+    "q": "A State levies a fee by executive order without any law passed by the legislature. The levy is:",
+    "options": [
+     "Valid if approved by the Governor",
+     "Invalid under Article 265 because no tax can be levied or collected except by authority of law",
+     "Valid as a compulsory contribution",
+     "Valid only for one financial year"
+    ],
+    "answer": 1,
+    "explain": "Article 265 requires legislative authority for every tax; an executive order alone cannot impose one."
+   },
+   {
+    "q": "Which body exercises administrative control over income-tax authorities?",
+    "options": [
+     "CBIC",
+     "GST Council",
+     "CBDT",
+     "Finance Commission"
+    ],
+    "answer": 2,
+    "explain": "The CBDT, constituted under the Central Boards of Revenue Act, 1963, administers direct taxes."
+   },
+   {
+    "q": "A tax whose rate rises as the taxable income rises is called:",
+    "options": [
+     "Degressive in all cases",
+     "Proportional",
+     "Regressive",
+     "Progressive"
+    ],
+    "answer": 3,
+    "explain": "Income-tax slab rates increase with income, making it a progressive tax."
+   },
+   {
+    "q": "Under the Income-tax Act, 2025, income earned during 1 April 2026 to 31 March 2027 is assessed with reference to:",
+    "options": [
+     "Tax year 2026-27",
+     "Assessment year 2027-28 only",
+     "Previous year 2025-26",
+     "Calendar year 2026"
+    ],
+    "answer": 0,
+    "explain": "The 2025 Act replaces the previous year/assessment year pair with a single 'tax year' matching the financial year in which income is earned."
+   },
+   {
+    "q": "Which of the following is a direct tax?",
+    "options": [
+     "Customs duty",
+     "Income tax",
+     "CGST",
+     "IGST on imports"
+    ],
+    "answer": 1,
+    "explain": "Income tax is borne by the person on whom it is levied; customs and GST are indirect taxes."
+   }
+  ],
+  "desc": {
+   "q": "Distinguish between direct and indirect taxes, giving two examples of each and commenting on their economic effects.",
+   "points": [
+    "Direct tax: impact and incidence on the same person, burden cannot be shifted; e.g., income tax on individuals and companies.",
+    "Indirect tax: levied on supply/import, collected by intermediary and shifted to consumers; e.g., GST and customs duty.",
+    "Direct taxes are usually progressive and promote equity; indirect taxes are wider-based but tend to be regressive.",
+    "Direct taxes are administered by CBDT; indirect taxes by CBIC (with GST Council recommendations for GST).",
+    "Conclusion: a balanced mix is used to raise revenue while managing equity and compliance cost."
+   ]
+  }
+ },
+ "p7c2": {
+  "notes": [
+   {
+    "topic": "Finance Bill",
+    "note": "The Union Budget includes a Finance Bill, which is a Money Bill (Article 110) and sets the rates of income tax and amends tax laws for the year. Rates for computing tax for the year, and for TDS/advance tax, are prescribed through the annual Finance Act. Under the Provisional Collection of Taxes Act, 1931 some proposals can be given immediate effect by declaration until the Bill is enacted."
+   },
+   {
+    "topic": "definitions",
+    "note": "Key definitions include 'person' (individual, HUF, company, firm, AOP/BOI, local authority, artificial juridical person), 'assessee' (person liable to pay tax or against whom proceedings are taken) and 'income', which is an inclusive definition covering items like perquisites, gifts and winnings [s.2(31), 2(7), 2(24) of 1961 Act]. The 2025 Act uses 'tax year' as the period of earning income in place of 'previous year' [s.3]."
+   },
+   {
+    "topic": "capital vs revenue",
+    "note": "Revenue receipts are taxable unless specifically exempt, while capital receipts are not taxable unless the law specifically taxes them (e.g., capital gains, certain compensation). Capital expenditure brings an enduring benefit or creates an asset and is generally not deductible except via depreciation; revenue expenditure for running the business is deductible. The nature of the receipt in the recipient's hands decides the treatment."
+   },
+   {
+    "topic": "residential status",
+    "note": "An individual is resident if in India for 182 days or more in the year, or 60 days in the year plus 365 days in the four preceding years (the 60-day test is relaxed for certain Indian citizens/PIOs) [s.6]. A resident is further 'not ordinarily resident' if, for example, non-resident in 9 of the preceding 10 years or in India for 729 days or less in the preceding 7 years. A company is resident if Indian or if its place of effective management is in India."
+   },
+   {
+    "topic": "scope of total income",
+    "note": "A resident and ordinarily resident is taxed on worldwide income. A resident but not ordinarily resident is taxed on income received/accruing in India and on foreign income only from a business controlled from or profession set up in India. A non-resident is taxed only on income received, accruing or deemed to accrue in India [s.5, s.9]."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Mr. Carl, a foreign national, came to India for the first time on 1 June 2026 and stayed till 31 March 2027. His residential status for tax year 2026-27 is:",
+    "options": [
+     "Resident and ordinarily resident",
+     "Non-resident",
+     "Resident but not ordinarily resident",
+     "Deemed resident"
+    ],
+    "answer": 2,
+    "explain": "He stays more than 182 days so is resident, but having been non-resident in earlier years he is not ordinarily resident [s.6(1) and 6(6) of 1961 Act]."
+   },
+   {
+    "q": "Interest earned in London on a deposit, received in London by a non-resident Indian, is:",
+    "options": [
+     "Taxable in India",
+     "Taxable only if remitted later to India",
+     "Taxable at a flat rate",
+     "Not taxable in India"
+    ],
+    "answer": 3,
+    "explain": "A non-resident is taxed only on income received or accruing in India; foreign income received abroad is outside scope [s.5(2)]."
+   },
+   {
+    "q": "A company receives compensation for permanent loss of its only distribution agency, which destroys its business structure. The receipt is generally:",
+    "options": [
+     "Capital receipt",
+     "Revenue receipt",
+     "Income from other sources",
+     "Exempt agricultural income"
+    ],
+    "answer": 0,
+    "explain": "Compensation for loss of the source of income (the profit-making apparatus) is a capital receipt, unless specifically taxed by statute."
+   },
+   {
+    "q": "Which of the following is NOT a 'person' under the Income-tax law?",
+    "options": [
+     "HUF",
+     "A branch of a company",
+     "Association of persons",
+     "Local authority"
+    ],
+    "answer": 1,
+    "explain": "A branch is part of the company, not a separate person; the categories are listed in s.2(31)."
+   },
+   {
+    "q": "Which law allows certain Finance Bill tax proposals to take immediate effect before enactment?",
+    "options": [
+     "Article 265",
+     "Central Boards of Revenue Act, 1963",
+     "Provisional Collection of Taxes Act, 1931",
+     "Article 279A"
+    ],
+    "answer": 2,
+    "explain": "The 1931 Act permits provisional collection under a declared provision for a limited period pending enactment."
+   },
+   {
+    "q": "Mr. Ravi, ROR, earns rent from a house in Dubai received in Dubai. For tax in India this income is:",
+    "options": [
+     "Exempt",
+     "Taxable only if remitted",
+     "Taxable at half",
+     "Taxable because ROR is taxed on global income"
+    ],
+    "answer": 3,
+    "explain": "A resident and ordinarily resident is taxed on worldwide income [s.5(1)], subject to treaty relief."
+   }
+  ],
+  "desc": {
+   "q": "Ms. Anu, an Indian citizen working abroad, visited India for 100 days in tax year 2026-27. She was in India for 400 days in the four preceding years. Her Indian income (other than foreign income) is below the specified threshold. Determine her residential status with reasons.",
+   "points": [
+    "Basic condition (i): 182 days or more in India — not satisfied (100 days).",
+    "Basic condition (ii): 60 days in the year plus 365 days in the preceding four years — normally satisfied (100 and 400 days).",
+    "However, for an Indian citizen or person of Indian origin who is outside India and comes on a visit, the 60-day period is replaced by 182 days (120 days applies only if Indian income exceeds the specified limit) [Expl. 1 to s.6(1)].",
+    "Since her Indian income is below the limit, the 182-day test governs and is not met; deemed residence also does not apply.",
+    "Conclusion: Ms. Anu is a non-resident; only income received/accruing in India is taxable."
+   ]
+  }
+ },
+ "p7c3": {
+  "notes": [
+   {
+    "topic": "Incomes not forming part of total income",
+    "note": "Certain incomes are excluded from total income [s.10 of 1961 Act], so they are neither taxed nor added for rate purposes, except agricultural income, which is aggregated for rate purposes for individuals/HUFs under partial integration. Common examples are agricultural income, sums received by a member from HUF, a partner's share of firm profit, specified employee retirement benefits (gratuity, leave encashment, commuted pension within limits) and life-insurance maturity proceeds meeting premium conditions. Expenditure relating to exempt income is disallowed [s.14A], and exemptions under the new default regime may be narrower than under the old regime."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A partner receives ₹4,00,000 as share of profit from a firm assessed as a firm. In the partner's hands this is:",
+    "options": [
+     "Exempt",
+     "Taxable as business income",
+     "Taxable as other sources",
+     "Taxable as salary"
+    ],
+    "answer": 0,
+    "explain": "A partner's share in total income of the firm is exempt [s.10(2A)]; only interest and remuneration are taxable."
+   },
+   {
+    "q": "Income from sale of seeds produced on agricultural land in India by the cultivator is:",
+    "options": [
+     "Business income",
+     "Agricultural income exempt from tax but considered for rate purposes",
+     "Capital gain",
+     "Fully taxable"
+    ],
+    "answer": 1,
+    "explain": "Income from agricultural produce raised and sold by the cultivator is agricultural income [s.2(1A), s.10(1)], included for rate purposes for individuals."
+   },
+   {
+    "q": "A company incurs ₹2,00,000 directly in earning exempt dividend from mutual funds. The expenditure is:",
+    "options": [
+     "Fully deductible",
+     "50% deductible",
+     "Disallowed",
+     "Capitalised"
+    ],
+    "answer": 2,
+    "explain": "Expenditure incurred in relation to exempt income is not deductible [s.14A]."
+   },
+   {
+    "q": "Ramesh receives ₹1,00,000 from his HUF out of family income. This is:",
+    "options": [
+     "Taxable as gift",
+     "Clubbed with HUF",
+     "Taxable as other sources",
+     "Exempt as sum received by a member from HUF"
+    ],
+    "answer": 3,
+    "explain": "Sums received by a member out of HUF income are exempt [s.10(2)]."
+   },
+   {
+    "q": "Which of these is NOT agricultural income?",
+    "options": [
+     "Dividend paid by a company engaged in agriculture",
+     "Income from processing to make produce marketable",
+     "Rent from agricultural land in India",
+     "Income from a farm building used by the cultivator"
+    ],
+    "answer": 0,
+    "explain": "Dividend from an agricultural company is not agricultural income; it is taxed as dividend."
+   },
+   {
+    "q": "Under partial integration, agricultural income of an individual is:",
+    "options": [
+     "Taxed at flat 30%",
+     "Added only to compute the rate of tax on non-agricultural income",
+     "Ignored completely",
+     "Taxed by the Centre in full"
+    ],
+    "answer": 1,
+    "explain": "Agricultural income is exempt but aggregated to determine the rate applicable on non-agricultural income for specified assessees."
+   }
+  ],
+  "desc": {
+   "q": "Explain with examples five incomes that do not form part of total income under the income-tax law.",
+   "points": [
+    "Agricultural income from land in India – exempt, though aggregated for rate in specified cases [s.10(1)].",
+    "Sum received by a member from HUF income [s.10(2)].",
+    "Partner's share of profit from a firm [s.10(2A)].",
+    "Specified retirement benefits such as gratuity and leave encashment within limits [s.10(10), 10(10AA)].",
+    "Life insurance maturity proceeds subject to premium-to-sum-assured conditions [s.10(10D)]; note s.14A disallowance of related expenses."
+   ]
+  }
+ },
+ "p7c4": {
+  "notes": [
+   {
+    "topic": "Salary income",
+    "note": "Income is charged under 'Salaries' only where an employer-employee relationship exists; it is taxed on due or receipt basis, whichever is earlier [s.15]. Salary includes basic pay, allowances, perquisites [s.17(2)] and profits in lieu of salary [s.17(3)], with specific exemptions such as HRA under the old regime [s.10(13A)] and gratuity [s.10(10)]. A standard deduction is allowed, with professional tax and entertainment allowance (government employees) deductible under the old regime only [s.16]; the new regime is the default."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Basic salary + DA (forming part) is ₹6,00,000, HRA received ₹2,40,000, rent paid in Delhi ₹2,00,000. Exempt HRA under the old regime is:",
+    "options": [
+     "₹2,40,000",
+     "₹2,00,000",
+     "₹1,40,000",
+     "₹3,00,000"
+    ],
+    "answer": 2,
+    "explain": "Least of (i) HRA ₹2,40,000; (ii) rent − 10% of salary = 2,00,000 − 60,000 = ₹1,40,000; (iii) 50% of salary (metro) = ₹3,00,000 [s.10(13A)]."
+   },
+   {
+    "q": "Salary paid by a firm to its working partner is taxable under:",
+    "options": [
+     "Salaries",
+     "Exempt",
+     "Other sources",
+     "Profits and gains of business or profession"
+    ],
+    "answer": 3,
+    "explain": "There is no employer-employee relationship between firm and partner; remuneration is business income [s.28(v)]."
+   },
+   {
+    "q": "Advance salary received in March 2027 for April 2027 is taxable in:",
+    "options": [
+     "Tax year 2026-27",
+     "Tax year 2027-28",
+     "Spread over both years",
+     "Never taxed"
+    ],
+    "answer": 0,
+    "explain": "Salary is taxed on due or receipt basis, whichever is earlier [s.15]; advance salary is taxed in the year of receipt."
+   },
+   {
+    "q": "Rent-free accommodation provided by an employer is taxed as:",
+    "options": [
+     "Exempt allowance",
+     "Perquisite",
+     "Profit in lieu of salary",
+     "Other sources"
+    ],
+    "answer": 1,
+    "explain": "Rent-free or concessional accommodation is a perquisite [s.17(2)(i)/(ii)], valued per rules."
+   },
+   {
+    "q": "An employee opting for the new default regime can still claim:",
+    "options": [
+     "HRA exemption",
+     "Professional tax deduction",
+     "Standard deduction",
+     "Entertainment allowance deduction"
+    ],
+    "answer": 2,
+    "explain": "Under the new regime [s.115BAC] standard deduction is allowed; HRA, professional tax and entertainment allowance deductions are not."
+   },
+   {
+    "q": "Compensation received from employer on termination of employment is:",
+    "options": [
+     "Other sources",
+     "Capital receipt",
+     "Exempt",
+     "Profit in lieu of salary taxable under Salaries"
+    ],
+    "answer": 3,
+    "explain": "Compensation on termination or modification of terms is profit in lieu of salary [s.17(3)]."
+   }
+  ],
+  "desc": {
+   "q": "Mr. Arun (old regime) has basic pay ₹50,000 p.m., DA 10% of basic (forming part for retirement), HRA ₹15,000 p.m., pays rent ₹18,000 p.m. in Pune, and professional tax ₹2,500. Compute taxable HRA and list other deductions available from gross salary.",
+   "points": [
+    "Salary for HRA = basic + DA = 6,00,000 + 60,000 = ₹6,60,000.",
+    "Actual HRA = ₹1,80,000; rent − 10% salary = 2,16,000 − 66,000 = ₹1,50,000; 40% of salary (non-metro) = ₹2,64,000.",
+    "Exempt HRA = ₹1,50,000 (least); taxable HRA = 1,80,000 − 1,50,000 = ₹30,000.",
+    "From gross salary deduct standard deduction (as prescribed) and professional tax ₹2,500 [s.16].",
+    "Under the new regime HRA exemption and professional tax would not be available."
+   ]
+  }
+ },
+ "p7c5": {
+  "notes": [
+   {
+    "topic": "House property income",
+    "note": "Annual value of buildings or attached land owned by the assessee is taxable under 'House Property', except property used for own business or profession [s.22]. Gross annual value is based on expected or actual rent; municipal taxes paid by the owner are deducted to get net annual value, and for up to two self-occupied houses annual value is nil [s.23]. Deductions are 30% of NAV as standard deduction and interest on borrowed capital, with pre-construction interest allowed in five equal instalments and a cap on self-occupied interest under the old regime [s.24]."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "GAV ₹3,00,000; municipal tax paid by owner ₹20,000; interest on loan ₹1,00,000 (let-out). Income from house property is:",
+    "options": [
+     "₹96,000",
+     "₹1,96,000",
+     "₹1,10,000",
+     "₹2,10,000"
+    ],
+    "answer": 0,
+    "explain": "NAV = 3,00,000 − 20,000 = 2,80,000; less 30% (84,000) and interest 1,00,000 = ₹96,000 [s.23, 24]."
+   },
+   {
+    "q": "A building owned and used by the assessee for his own business is taxed under:",
+    "options": [
+     "House property",
+     "Business income – no notional rent is charged",
+     "Other sources",
+     "Capital gains"
+    ],
+    "answer": 1,
+    "explain": "Property used for own business is excluded from house property [s.22]."
+   },
+   {
+    "q": "Pre-construction period interest is allowed:",
+    "options": [
+     "In the year of completion fully",
+     "Never",
+     "In five equal annual instalments from year of completion",
+     "Over ten years"
+    ],
+    "answer": 2,
+    "explain": "Pre-construction interest is deductible in five equal instalments starting from the year construction is completed [s.24(b)]."
+   },
+   {
+    "q": "Mr. Shyam transfers a house to his wife without adequate consideration (not under divorce arrangement). For house property income, the owner is:",
+    "options": [
+     "Wife",
+     "Both jointly",
+     "Nobody",
+     "Mr. Shyam as deemed owner"
+    ],
+    "answer": 3,
+    "explain": "A transferor to spouse without adequate consideration is the deemed owner [s.27(i)]."
+   },
+   {
+    "q": "Unrealised rent recovered later after the property is sold is:",
+    "options": [
+     "Taxable in year of receipt after 30% deduction",
+     "Exempt",
+     "Taxable in original year",
+     "Capital gain"
+    ],
+    "answer": 0,
+    "explain": "Recovered unrealised rent/arrears are taxed in the year of receipt, with 30% deduction, even if no longer owner [s.25A]."
+   },
+   {
+    "q": "Annual value of a house self-occupied by the owner (old or new regime) is:",
+    "options": [
+     "Fair rent",
+     "Nil, for up to two houses",
+     "Municipal value",
+     "Standard rent"
+    ],
+    "answer": 1,
+    "explain": "Up to two self-occupied houses are taken at nil annual value [s.23(2)]."
+   }
+  ],
+  "desc": {
+   "q": "Ms. Priya owns a let-out house: municipal value ₹2,40,000, fair rent ₹2,60,000, standard rent ₹2,50,000, actual rent ₹22,000 p.m. Municipal tax paid ₹24,000, interest on housing loan ₹90,000. Compute income from house property.",
+   "points": [
+    "Expected rent = higher of MV and FR, restricted to SR = ₹2,50,000.",
+    "Actual rent = 22,000 × 12 = ₹2,64,000; GAV = higher = ₹2,64,000.",
+    "NAV = 2,64,000 − 24,000 = ₹2,40,000.",
+    "Less 30% standard deduction ₹72,000 and interest ₹90,000 [s.24].",
+    "Income from house property = ₹78,000."
+   ]
+  }
+ },
+ "p7c6": {
+  "notes": [
+   {
+    "topic": "Profits & gains of business or profession",
+    "note": "Profits of any business or profession, and items like partner's remuneration and certain compensation, are charged under this head [s.28]. Income is computed on the method of accounting regularly followed, allowing specific deductions (depreciation, scientific research, etc.) and the general deduction for wholly and exclusively business expenditure [s.30-37], subject to disallowances such as non-deduction of TDS [s.40(a)], cash payments above the limit [s.40A(3)] and payment-basis items [s.43B]. Small taxpayers may use presumptive schemes [s.44AD, 44ADA, 44AE], and tax audit applies beyond turnover limits [s.44AB]."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Plant costing ₹10,00,000 (rate 15%) was acquired and put to use on 10 November. Depreciation for the year is:",
+    "options": [
+     "₹1,50,000",
+     "₹1,00,000",
+     "₹75,000",
+     "Nil"
+    ],
+    "answer": 2,
+    "explain": "Used for less than 180 days, so half the normal rate: 10,00,000 × 7.5% = ₹75,000 [s.32 proviso]."
+   },
+   {
+    "q": "A firm pays ₹40,000 in cash in a single day to a supplier for goods (no exception applies). The expenditure is:",
+    "options": [
+     "Fully allowed",
+     "Allowed next year",
+     "30% disallowed",
+     "Disallowed fully"
+    ],
+    "answer": 3,
+    "explain": "Cash payments exceeding the specified limit in a day to a person are disallowed [s.40A(3)]."
+   },
+   {
+    "q": "TDS was not deducted on ₹5,00,000 professional fees paid to a resident. Disallowance is:",
+    "options": [
+     "₹1,50,000",
+     "₹5,00,000",
+     "₹50,000",
+     "Nil"
+    ],
+    "answer": 0,
+    "explain": "30% of the sum is disallowed for failure to deduct/pay TDS to residents [s.40(a)(ia)]: 5,00,000 × 30% = ₹1,50,000."
+   },
+   {
+    "q": "Employer's contribution to PF due on 31 March but paid after the return filing due date is:",
+    "options": [
+     "Allowed in the year due",
+     "Allowed in the year it is actually paid",
+     "Never allowed",
+     "Treated as capital"
+    ],
+    "answer": 1,
+    "explain": "Specified statutory dues are allowed on actual payment basis unless paid by the return due date [s.43B]."
+   },
+   {
+    "q": "Under s.44ADA presumptive scheme, a professional's income is deemed to be at least:",
+    "options": [
+     "8% of gross receipts",
+     "6% of gross receipts",
+     "50% of gross receipts",
+     "Actual profit only"
+    ],
+    "answer": 2,
+    "explain": "Eligible professionals may declare 50% of gross receipts as income [s.44ADA]."
+   },
+   {
+    "q": "Expenditure on CSR activities required under the Companies Act is:",
+    "options": [
+     "Deductible under s.37(1)",
+     "Deductible over 5 years",
+     "Deductible at 50%",
+     "Not deductible as business expenditure"
+    ],
+    "answer": 3,
+    "explain": "Explanation 2 to s.37(1) treats CSR spend as not incurred for business purposes."
+   }
+  ],
+  "desc": {
+   "q": "XYZ Ltd. reports net profit ₹40,00,000 after debiting: (i) CSR spend ₹3,00,000; (ii) income-tax ₹5,00,000; (iii) depreciation as per books ₹6,00,000 (tax depreciation ₹7,50,000); (iv) cash payment ₹25,000 to a supplier in one day. Compute business income.",
+   "points": [
+    "Start with net profit ₹40,00,000.",
+    "Add back CSR ₹3,00,000 [Expl. 2 to s.37(1)] and income-tax ₹5,00,000 [s.40(a)(ii)].",
+    "Add back book depreciation ₹6,00,000 and deduct tax depreciation ₹7,50,000 [s.32].",
+    "Add back cash payment ₹25,000 as it exceeds the daily cash limit [s.40A(3)].",
+    "Business income = 40,00,000 + 3,00,000 + 5,00,000 + 6,00,000 − 7,50,000 + 25,000 = ₹46,75,000."
+   ]
+  }
+ },
+ "p7c7": {
+  "notes": [
+   {
+    "topic": "Capital gains",
+    "note": "Profit on transfer of a capital asset is charged as capital gains in the year of transfer [s.45]; 'capital asset' excludes stock-in-trade, personal effects (other than jewellery, art etc.) and rural agricultural land [s.2(14)]. Gains are short-term or long-term depending on holding period (listed securities have a shorter threshold than other assets), and are computed as full value of consideration less cost of acquisition, improvement and transfer expenses [s.48]; stamp duty value may substitute consideration for land/building [s.50C]. Recent amendments removed general indexation and revised rates, and exemptions are available for reinvestment in a house or specified bonds [s.54, 54EC, 54F]."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Listed equity shares bought on 1 January 2026 and sold on 15 March 2027 give rise to:",
+    "options": [
+     "Long-term capital gain",
+     "Short-term capital gain",
+     "Business income necessarily",
+     "Exempt income"
+    ],
+    "answer": 0,
+    "explain": "Listed securities held for more than 12 months are long-term capital assets [s.2(42A)]."
+   },
+   {
+    "q": "Land sold for ₹50 lakh; stamp duty value ₹60 lakh. Full value of consideration is:",
+    "options": [
+     "₹50 lakh",
+     "₹60 lakh",
+     "₹55 lakh",
+     "Average of the two"
+    ],
+    "answer": 1,
+    "explain": "SDV exceeds 110% of consideration (55 lakh), so SDV ₹60 lakh is deemed consideration [s.50C]."
+   },
+   {
+    "q": "A block of depreciable assets ceases to exist on sale for more than its WDV. The gain is:",
+    "options": [
+     "Long-term capital gain",
+     "Business income",
+     "Short-term capital gain",
+     "Exempt"
+    ],
+    "answer": 2,
+    "explain": "Gains on depreciable assets are always treated as short-term [s.50]."
+   },
+   {
+    "q": "Which of the following is a capital asset?",
+    "options": [
+     "Motor car held for personal use",
+     "Raw materials of a manufacturer",
+     "Agricultural land in a rural area",
+     "Gold jewellery held for personal use"
+    ],
+    "answer": 3,
+    "explain": "Jewellery is specifically excluded from 'personal effects' and is a capital asset [s.2(14)]."
+   },
+   {
+    "q": "An individual sells a residential house (long-term) and buys another residential house within the allowed period. The relevant exemption is:",
+    "options": [
+     "s.54",
+     "s.54B",
+     "s.54D",
+     "s.54G"
+    ],
+    "answer": 0,
+    "explain": "s.54 exempts LTCG on a residential house reinvested in another residential house, subject to limits."
+   },
+   {
+    "q": "Brokerage paid on sale of shares is:",
+    "options": [
+     "Not deductible",
+     "Deductible as expenditure on transfer",
+     "Added to cost of acquisition",
+     "Allowed under s.37"
+    ],
+    "answer": 1,
+    "explain": "Expenses wholly and exclusively in connection with the transfer are deductible [s.48(i)]."
+   }
+  ],
+  "desc": {
+   "q": "Mr. Kiran sold a residential flat (held 6 years) for ₹90 lakh; stamp duty value ₹95 lakh; brokerage 1%; cost of acquisition ₹40 lakh; improvement ₹5 lakh. He invested ₹30 lakh in a new residential house within the time limit. Compute taxable capital gain (ignore indexation).",
+   "points": [
+    "Consideration: SDV ₹95 lakh is within 110% of ₹90 lakh (99 lakh), so ₹90 lakh is taken [s.50C].",
+    "Less brokerage ₹0.9 lakh = ₹89.1 lakh.",
+    "Less cost ₹40 lakh and improvement ₹5 lakh → LTCG ₹44.1 lakh [s.48].",
+    "Less exemption under s.54 for new house ₹30 lakh.",
+    "Taxable LTCG = ₹14.1 lakh, taxed at the applicable LTCG rate."
+   ]
+  }
+ },
+ "p7c8": {
+  "notes": [
+   {
+    "topic": "Income from other sources",
+    "note": "This residual head taxes income not falling under any other head [s.56], such as dividends, interest on deposits and securities, winnings from lotteries/games (at a special flat rate without deductions) and family pension. Gifts of money or property received without or for inadequate consideration above the threshold are taxed, except from relatives, on marriage, by inheritance and in other specified cases [s.56(2)(x)]. Deductions are allowed for expenses incurred wholly for earning such income, a standard deduction on family pension, and limited interest expense against dividend [s.57], while personal expenses and tax are not deductible [s.58]."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Ms. Rina receives ₹80,000 cash from her friend on her birthday. This is:",
+    "options": [
+     "Exempt as birthday gift",
+     "Taxable only above ₹1 lakh",
+     "Taxable as the aggregate exceeds ₹50,000",
+     "Capital receipt"
+    ],
+    "answer": 2,
+    "explain": "Money gifts from non-relatives exceeding ₹50,000 in aggregate are fully taxable [s.56(2)(x)]."
+   },
+   {
+    "q": "Gift of ₹5,00,000 from the brother of one's father (uncle) is:",
+    "options": [
+     "Taxable",
+     "Clubbed",
+     "Taxable at 30%",
+     "Exempt as from a relative"
+    ],
+    "answer": 3,
+    "explain": "Father's brother is a 'relative'; gifts from relatives are exempt [s.56(2)(x) proviso]."
+   },
+   {
+    "q": "Lottery winnings of ₹2,00,000 with ₹10,000 ticket cost. Taxable income is:",
+    "options": [
+     "₹2,00,000",
+     "₹1,90,000",
+     "₹1,00,000",
+     "Nil"
+    ],
+    "answer": 0,
+    "explain": "No expenditure is deductible against lottery winnings [s.58(4)]; ₹2,00,000 taxed at special rate [s.115BB]."
+   },
+   {
+    "q": "Interest on enhanced compensation received is:",
+    "options": [
+     "Fully taxable",
+     "Taxable after 50% deduction",
+     "Exempt",
+     "Capital gain"
+    ],
+    "answer": 1,
+    "explain": "Interest on compensation/enhanced compensation is taxed under other sources with a 50% deduction [s.56(2)(viii), 57(iv)]."
+   },
+   {
+    "q": "Dividend of ₹1,00,000 received; interest on loan taken to buy the shares ₹30,000. Deductible interest is:",
+    "options": [
+     "₹30,000",
+     "Nil",
+     "₹20,000",
+     "₹10,000"
+    ],
+    "answer": 2,
+    "explain": "Interest deduction is restricted to 20% of dividend [s.57(i) proviso]: 20% × 1,00,000 = ₹20,000."
+   },
+   {
+    "q": "Family pension of ₹1,20,000 received by a widow (old regime) is taxable after a deduction of:",
+    "options": [
+     "Nil",
+     "₹40,000",
+     "Full amount",
+     "₹15,000 (lower of 1/3rd or ₹15,000)"
+    ],
+    "answer": 3,
+    "explain": "Deduction = lower of 1/3 of family pension (₹40,000) or ₹15,000 under the old regime [s.57(iia)]; a higher cap applies under the new regime."
+   }
+  ],
+  "desc": {
+   "q": "Compute income from other sources of Mr. Joseph: savings interest ₹15,000; FD interest ₹40,000; dividend ₹60,000 (interest on loan for shares ₹20,000); gift from friend ₹45,000 and from sister ₹1,00,000; online game winnings ₹50,000.",
+   "points": [
+    "Savings and FD interest taxable: ₹55,000 (deduction for savings interest considered separately under Chapter VI-A, old regime).",
+    "Dividend ₹60,000 less interest restricted to 20% = ₹12,000 → ₹48,000 [s.57].",
+    "Gift from friend ₹45,000 does not exceed ₹50,000 – not taxable; gift from sister exempt (relative).",
+    "Online game winnings ₹50,000 taxed at special flat rate without deductions [s.115BBJ].",
+    "Total income from other sources = 55,000 + 48,000 + 50,000 = ₹1,53,000."
+   ]
+  }
+ },
+ "p7c9": {
+  "notes": [
+   {
+    "topic": "Clubbing",
+    "note": "Clubbing provisions include another person's income in the assessee's income to prevent tax avoidance: income from transfer of income without asset [s.60], revocable transfers [s.61], remuneration of spouse from a concern where the individual has substantial interest [s.64(1)(ii)], income from assets transferred to spouse or son's wife without adequate consideration, and income of a minor child (with a small per-child exemption) [s.64(1A), 10(32)]. Minor's income from manual work or own skill is not clubbed."
+   },
+   {
+    "topic": "aggregation",
+    "note": "Aggregation means adding incomes of all heads, clubbed incomes and deemed incomes to arrive at gross total income. Unexplained cash credits, investments, money and expenditure are deemed incomes [s.68-69D] and taxed at a high special rate without any deduction or set-off [s.115BBE]."
+   },
+   {
+    "topic": "set-off & carry forward of losses",
+    "note": "Losses are first set off within the same head (intra-head) and then against other heads (inter-head), subject to restrictions: speculation losses only against speculation income, long-term capital loss only against LTCG, and business loss cannot be set off against salary [s.70, 71]. Unabsorbed losses can be carried forward—house property loss and business loss for eight years, speculation loss for four years—provided returns are filed on time where required [s.72-80]; unabsorbed depreciation carries forward indefinitely."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Mrs. Meera, a teacher, received ₹3,00,000 as salary from her husband's company where he holds 25% shares; she has no technical qualification. Her salary is:",
+    "options": [
+     "Clubbed with husband's income",
+     "Taxed in her hands",
+     "Exempt",
+     "Split equally"
+    ],
+    "answer": 0,
+    "explain": "Remuneration to spouse from a concern where the individual has substantial interest (20% or more) is clubbed unless justified by spouse's technical/professional qualification [s.64(1)(ii)]."
+   },
+   {
+    "q": "A minor child earns ₹50,000 from a dance performance (own skill). This is:",
+    "options": [
+     "Clubbed with the higher-income parent",
+     "Not clubbed",
+     "Clubbed with father always",
+     "Exempt fully"
+    ],
+    "answer": 1,
+    "explain": "Minor's income from manual work or skill is not clubbed [proviso to s.64(1A)]."
+   },
+   {
+    "q": "Business loss of ₹2,00,000 and salary income of ₹6,00,000 in the same year. The business loss:",
+    "options": [
+     "Is set off against salary",
+     "Is lapsed",
+     "Cannot be set off against salary; carried forward",
+     "Set off against agricultural income"
+    ],
+    "answer": 2,
+    "explain": "Business loss cannot be set off against salary income [s.71(2A)]; it may be carried forward."
+   },
+   {
+    "q": "Long-term capital loss can be set off against:",
+    "options": [
+     "Short-term capital gain",
+     "Business income",
+     "Any income",
+     "Long-term capital gain only"
+    ],
+    "answer": 3,
+    "explain": "LTCL can only be set off against LTCG [s.70(3), 74]."
+   },
+   {
+    "q": "Unabsorbed depreciation can be carried forward for:",
+    "options": [
+     "Indefinitely",
+     "8 years",
+     "4 years",
+     "Not at all"
+    ],
+    "answer": 0,
+    "explain": "Unabsorbed depreciation has no time limit [s.32(2)]."
+   },
+   {
+    "q": "Cash credit of ₹5 lakh in books with no satisfactory explanation is:",
+    "options": [
+     "Ignored",
+     "Deemed income taxed at a special high rate with no deduction",
+     "Taxed at slab rates",
+     "Treated as capital"
+    ],
+    "answer": 1,
+    "explain": "Unexplained credits are deemed income [s.68] taxed under s.115BBE without set-off."
+   }
+  ],
+  "desc": {
+   "q": "Mr. Dev has: salary ₹8,00,000; loss from let-out house ₹2,50,000; business loss ₹1,00,000; STCG ₹50,000; LTCL ₹30,000. Compute gross total income (old regime) and state losses to be carried forward.",
+   "points": [
+    "House property loss set off against salary restricted to ₹2,00,000 [s.71(3A)]; balance ₹50,000 carried forward (8 years).",
+    "Salary after set-off = ₹6,00,000.",
+    "Business loss ₹1,00,000 set off against STCG ₹50,000 (not against salary); balance ₹50,000 carried forward.",
+    "LTCL ₹30,000 cannot be set off against STCG; carried forward against future LTCG.",
+    "GTI = ₹6,00,000; carry forward: HP loss ₹50,000, business loss ₹50,000, LTCL ₹30,000 (subject to timely return)."
+   ]
+  }
+ },
+ "p7c10": {
+  "notes": [
+   {
+    "topic": "Deductions for payments & income",
+    "note": "Chapter VI-A deductions are allowed from gross total income for specified payments—e.g., life insurance, PF and tuition fees [s.80C], health insurance [s.80D], interest on education loan [s.80E] and donations [s.80G]—and for certain incomes such as savings interest [s.80TTA/80TTB] and specified business profits. Most of these are available only under the old regime; the default new regime allows very few (e.g., employer's NPS contribution [s.80CCD(2)]). Deductions cannot exceed gross total income and are not allowed against special-rate incomes such as STCG on listed equity or LTCG."
+   },
+   {
+    "topic": "CSR donations",
+    "note": "CSR expenditure mandated under s.135 of the Companies Act, 2013 is not deductible as business expenditure. However, if the CSR spend is a donation to a fund or institution qualifying under s.80G, a deduction may be claimed, except for contributions to certain government funds like the Swachh Bharat Kosh and Clean Ganga Fund made as CSR. Companies must therefore check whether the recipient is 80G-approved and whether the specific exclusion applies."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Mr. Ali (old regime) paid health insurance premium of ₹30,000 for self and ₹55,000 for his senior citizen father. Maximum deduction under s.80D is:",
+    "options": [
+     "₹85,000",
+     "₹50,000",
+     "₹75,000",
+     "₹25,000"
+    ],
+    "answer": 2,
+    "explain": "Self: up to ₹25,000; senior citizen parent: up to ₹50,000; total = ₹75,000 [s.80D]."
+   },
+   {
+    "q": "Interest on education loan for higher studies of a child under s.80E is allowed:",
+    "options": [
+     "Up to ₹1.5 lakh",
+     "Only to companies",
+     "Only on principal",
+     "Without monetary limit for up to 8 years"
+    ],
+    "answer": 3,
+    "explain": "s.80E allows the full interest for the initial year and seven succeeding years."
+   },
+   {
+    "q": "A company spends ₹10 lakh as CSR by donating to an 80G-approved trust (not an excluded fund). The company may:",
+    "options": [
+     "Claim deduction under s.80G subject to its conditions",
+     "Claim deduction under s.37(1)",
+     "Claim no deduction at all",
+     "Claim 200% weighted deduction"
+    ],
+    "answer": 0,
+    "explain": "CSR is disallowed under s.37, but a qualifying donation may still be claimed under s.80G."
+   },
+   {
+    "q": "CSR contribution made to the Swachh Bharat Kosh is:",
+    "options": [
+     "Deductible 100% under s.80G",
+     "Not eligible for s.80G deduction",
+     "Deductible 50%",
+     "Deductible as business expense"
+    ],
+    "answer": 1,
+    "explain": "s.80G specifically excludes CSR contributions to Swachh Bharat Kosh and Clean Ganga Fund."
+   },
+   {
+    "q": "Which deduction is generally available even under the new default regime?",
+    "options": [
+     "80C",
+     "80D",
+     "80CCD(2) – employer's NPS contribution",
+     "80G"
+    ],
+    "answer": 2,
+    "explain": "s.115BAC permits deduction for employer's NPS contribution under s.80CCD(2)."
+   },
+   {
+    "q": "Gross total income ₹5,00,000 including LTCG on listed shares ₹1,00,000; 80C investment ₹1,50,000. Allowable 80C deduction is:",
+    "options": [
+     "Nil",
+     "₹1,00,000",
+     "₹4,00,000",
+     "₹1,50,000"
+    ],
+    "answer": 3,
+    "explain": "Deduction cannot be against LTCG; GTI excluding LTCG is ₹4,00,000, so full ₹1,50,000 is allowed."
+   }
+  ],
+  "desc": {
+   "q": "ABC Ltd. has a CSR obligation of ₹20 lakh. It spends ₹8 lakh on its own rural school project, donates ₹7 lakh to PM National Relief Fund and ₹5 lakh to Swachh Bharat Kosh. Discuss allowability of these amounts under income-tax law.",
+   "points": [
+    "CSR expenditure is not deductible as business expenditure [Expl. 2 to s.37(1)]; so none of ₹20 lakh is deductible under s.37.",
+    "Own school project ₹8 lakh: no deduction (not a donation to an approved institution).",
+    "PM National Relief Fund ₹7 lakh: eligible for deduction under s.80G (100%, without qualifying limit).",
+    "Swachh Bharat Kosh ₹5 lakh: excluded from s.80G when paid as CSR.",
+    "Net deduction available: ₹7 lakh under s.80G."
+   ]
+  }
+ },
+ "p7c11": {
+  "notes": [
+   {
+    "topic": "Individuals, HUF, AMT, firms/LLP, co-ops, AOP/BOI, trusts",
+    "note": "Individuals and HUFs compute income head-wise and pay tax at slab rates; the new regime [s.115BAC] is the default, while the old regime with deductions remains available by option. Alternative Minimum Tax applies to non-corporate assessees (other than those under the new regime) claiming specified profit-linked deductions, payable on adjusted total income where regular tax is lower [s.115JC]. Firms and LLPs pay a flat rate, can deduct partner salary/interest within limits [s.40(b)] if the partnership deed authorises it, and partners' share is exempt. Co-operative societies get s.80P deductions or concessional regimes; AOP/BOI tax depends on whether members' shares are determinate [s.167B]; charitable trusts get exemption on applying income for charitable purposes, subject to registration and application rules [s.11-13]."
+   },
+   {
+    "topic": "tax rates",
+    "note": "Individuals and HUFs pay progressive slab rates with rebate for lower incomes, surcharge on higher incomes and health & education cess on tax. Firms, LLPs and local authorities pay a flat rate; domestic companies pay a standard rate or opt for concessional regimes [s.115BAA, 115BAB]. Special incomes such as certain capital gains, winnings and deemed incomes have their own flat rates."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A firm's book profit is ₹6,00,000. Remuneration paid to working partners as authorised by the deed is ₹6,00,000. Maximum deductible remuneration is:",
+    "options": [
+     "₹5,40,000",
+     "₹6,00,000",
+     "₹3,00,000",
+     "₹3,60,000"
+    ],
+    "answer": 0,
+    "explain": "On the first ₹6 lakh of book profit the limit is the higher of ₹3 lakh or 90% of book profit [s.40(b)(v), as amended]: 90% × 6,00,000 = ₹5,40,000, which is lower than actual."
+   },
+   {
+    "q": "AMT under s.115JC is applicable to:",
+    "options": [
+     "A company",
+     "An LLP claiming s.80-IAC/10AA type deductions",
+     "An individual under new regime",
+     "A charitable trust"
+    ],
+    "answer": 1,
+    "explain": "AMT applies to non-corporate persons claiming specified deductions; individuals under s.115BAC and companies (MAT) are outside."
+   },
+   {
+    "q": "Interest paid by a firm to a partner as per deed is allowable up to:",
+    "options": [
+     "10% simple interest p.a.",
+     "18% p.a.",
+     "12% simple interest p.a.",
+     "Actual any rate"
+    ],
+    "answer": 2,
+    "explain": "s.40(b)(iv) restricts interest to partners to 12% simple interest per annum."
+   },
+   {
+    "q": "An AOP whose members' shares are indeterminate is taxed:",
+    "options": [
+     "At slab rates",
+     "Exempt",
+     "At 15%",
+     "At maximum marginal rate"
+    ],
+    "answer": 3,
+    "explain": "Where shares are indeterminate or unknown, AOP income is taxed at the maximum marginal rate [s.167B]."
+   },
+   {
+    "q": "A registered charitable trust must generally apply what portion of income to remain exempt?",
+    "options": [
+     "At least 85% (with 15% accumulation allowed)",
+     "100%",
+     "50%",
+     "60%"
+    ],
+    "answer": 0,
+    "explain": "Under s.11(1)(a) a trust may accumulate up to 15%; the rest must be applied to charitable purposes."
+   },
+   {
+    "q": "Health and education cess is levied on:",
+    "options": [
+     "Total income",
+     "Income tax plus surcharge",
+     "Only surcharge",
+     "Gross receipts"
+    ],
+    "answer": 1,
+    "explain": "Cess is levied as a percentage of income tax including surcharge."
+   }
+  ],
+  "desc": {
+   "q": "Explain how the total income of a partnership firm and its partners is computed, including treatment of remuneration and interest to partners.",
+   "points": [
+    "Firm is a separate assessee taxed at a flat rate; it computes income under all heads.",
+    "Remuneration to working partners is deductible only if authorised by deed and within limits based on book profit [s.40(b)(v)].",
+    "Interest to partners deductible up to 12% simple interest p.a. if authorised by deed [s.40(b)(iv)].",
+    "Partner's share of profit is exempt [s.10(2A)]; interest and remuneration allowed to firm are taxable as business income in partner's hands [s.28(v)].",
+    "Firm (including LLP) may be liable to AMT if claiming specified deductions [s.115JC]."
+   ]
+  }
+ },
+ "p7c12": {
+  "notes": [
+   {
+    "topic": "Company taxation incl. foreign companies",
+    "note": "A domestic company is taxed at a standard rate depending on turnover, or may opt for concessional regimes [s.115BAA for existing companies, s.115BAB for new manufacturing companies, now sunset for new entrants] by giving up most exemptions and incentives. A foreign company pays a higher rate on income from India, often through a branch or permanent establishment, subject to DTAA benefits [s.90]. Surcharge and cess apply in addition."
+   },
+   {
+    "topic": "dividend",
+    "note": "Since the abolition of Dividend Distribution Tax, dividends are taxable in shareholders' hands and companies deduct TDS on payment above a small threshold. Deemed dividend provisions tax loans/advances by closely-held companies to substantial shareholders or concerns in which they are interested [s.2(22)(e)]. Inter-corporate dividends may be deducted to the extent redistributed by the recipient company [s.80M]."
+   },
+   {
+    "topic": "MAT",
+    "note": "Minimum Alternate Tax requires a company to pay at least a specified percentage of book profit where normal tax is lower [s.115JB]; book profit starts from Companies Act profit with prescribed adjustments. MAT paid can be carried forward as credit for set-off against normal tax in later years (up to 15 years) [s.115JAA]. Companies under s.115BAA/115BAB are outside MAT."
+   },
+   {
+    "topic": "equalisation levy",
+    "note": "Equalisation Levy under the Finance Act, 2016 taxed specified digital services by non-residents. The 6% levy on online advertising was withdrawn from 1 April 2025, and the 2% levy on e-commerce operators had earlier been abolished from 1 August 2024. It remains relevant for understanding taxation of the digital economy and the significant economic presence concept [s.9]."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Normal tax liability of X Ltd. is ₹8 lakh and MAT on book profit is ₹12 lakh (company not under s.115BAA). Tax payable and MAT credit are:",
+    "options": [
+     "₹8 lakh; nil",
+     "₹12 lakh; ₹12 lakh",
+     "₹12 lakh; ₹4 lakh",
+     "₹20 lakh; nil"
+    ],
+    "answer": 2,
+    "explain": "Higher of normal tax and MAT is payable [s.115JB]; excess 12 − 8 = ₹4 lakh is MAT credit [s.115JAA]."
+   },
+   {
+    "q": "A closely-held company lends ₹10 lakh to a shareholder holding 15% voting power; accumulated profits ₹25 lakh. The loan is:",
+    "options": [
+     "Capital receipt",
+     "Not deemed dividend as holding is below 10%",
+     "Business income",
+     "Deemed dividend"
+    ],
+    "answer": 3,
+    "explain": "Loan to a shareholder with at least 10% voting power, to the extent of accumulated profits, is deemed dividend [s.2(22)(e)]."
+   },
+   {
+    "q": "A company opting for s.115BAA is:",
+    "options": [
+     "Not liable to MAT",
+     "Liable to MAT",
+     "Liable to AMT",
+     "Taxed at slab rates"
+    ],
+    "answer": 0,
+    "explain": "s.115JB(5A) excludes companies under s.115BAA/115BAB from MAT."
+   },
+   {
+    "q": "Domestic company A Ltd. receives dividend ₹50 lakh and distributes ₹40 lakh dividend before the specified date. Deduction under s.80M is:",
+    "options": [
+     "₹50 lakh",
+     "₹40 lakh",
+     "₹10 lakh",
+     "Nil"
+    ],
+    "answer": 1,
+    "explain": "s.80M allows deduction of inter-corporate dividend to the extent redistributed: lower of ₹50 lakh and ₹40 lakh."
+   },
+   {
+    "q": "MAT credit can be carried forward for up to:",
+    "options": [
+     "8 years",
+     "10 years",
+     "15 years",
+     "Indefinitely"
+    ],
+    "answer": 2,
+    "explain": "s.115JAA allows MAT credit for 15 subsequent years."
+   },
+   {
+    "q": "The 6% equalisation levy on online advertising services:",
+    "options": [
+     "Is still in force at a higher rate",
+     "Was merged into GST",
+     "Applies to resident advertisers only",
+     "Was withdrawn from 1 April 2025"
+    ],
+    "answer": 3,
+    "explain": "The Finance Act, 2025 discontinued the 6% levy on specified services from 1 April 2025."
+   }
+  ],
+  "desc": {
+   "q": "P Ltd. (not opting for concessional regime) has normal tax liability of ₹30 lakh and book profit of ₹2.4 crore. Explain MAT computation, liability and credit (assume a MAT rate of 15% plus applicable surcharge/cess ignored).",
+   "points": [
+    "MAT = 15% × 2.4 crore = ₹36 lakh [s.115JB].",
+    "Since MAT ₹36 lakh exceeds normal tax ₹30 lakh, P Ltd. pays ₹36 lakh.",
+    "MAT credit = 36 − 30 = ₹6 lakh, carried forward up to 15 years [s.115JAA].",
+    "Credit set off in a later year when normal tax exceeds MAT, limited to that excess.",
+    "Book profit is net profit under Companies Act with prescribed additions/deductions."
+   ]
+  }
+ },
+ "p7c13": {
+  "notes": [
+   {
+    "topic": "TDS & TCS",
+    "note": "TDS requires payers to deduct tax at source on payments such as salary [s.192], interest [s.194A], contractors [s.194C], professional fees [s.194J], rent [s.194-I] and non-resident payments [s.195], beyond specified thresholds; TCS requires sellers to collect tax on specified sales/remittances [s.206C]. Higher rates apply where PAN is not furnished [s.206AA]. Deducted tax must be deposited by due dates, quarterly statements filed and certificates issued; default makes the payer an assessee in default with interest [s.201]."
+   },
+   {
+    "topic": "advance tax",
+    "note": "Advance tax is payable in instalments during the year when estimated tax (after TDS) exceeds the specified threshold [s.208, 211]. Resident senior citizens without business income are exempt from it, and presumptive taxpayers may pay in a single instalment by 15 March [s.207, 211]."
+   },
+   {
+    "topic": "returns",
+    "note": "Returns are compulsory where total income exceeds the basic exemption limit or specified conditions apply (e.g., high deposits or foreign assets) [s.139(1)]; due dates differ for non-audit, audit and transfer-pricing cases. A belated or revised return may be filed within the prescribed time [s.139(4), 139(5)] and an updated return within an extended period with additional tax [s.139(8A)]."
+   },
+   {
+    "topic": "fees & interest",
+    "note": "Late filing attracts a fee [s.234F] and late TDS/TCS statements a daily fee [s.234E]. Interest is levied for delay in filing return [s.234A], default in advance tax [s.234B] and deferment of instalments [s.234C], all at simple rates per month or part of a month."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A company pays ₹60,000 professional fees to a resident CA who has furnished PAN. TDS applies under:",
+    "options": [
+     "s.194J",
+     "s.194C",
+     "s.194H",
+     "s.194-I"
+    ],
+    "answer": 0,
+    "explain": "Fees for professional services to residents attract TDS under s.194J."
+   },
+   {
+    "q": "Estimated tax for the year of a resident business person is ₹2,00,000. The cumulative advance tax due by 15 September is:",
+    "options": [
+     "₹30,000",
+     "₹90,000",
+     "₹1,50,000",
+     "₹2,00,000"
+    ],
+    "answer": 1,
+    "explain": "Instalments are 15%, 45%, 75% and 100% by 15 June, Sept, Dec and March [s.211]: 45% × 2,00,000 = ₹90,000."
+   },
+   {
+    "q": "A resident senior citizen with only pension and interest income is:",
+    "options": [
+     "Liable to advance tax",
+     "Liable only if tax > ₹1,000",
+     "Not liable to advance tax",
+     "Liable to TCS"
+    ],
+    "answer": 2,
+    "explain": "s.207(2) exempts resident senior citizens without business/professional income from advance tax."
+   },
+   {
+    "q": "Interest for default in payment of advance tax (paid less than 90% of assessed tax) is levied under:",
+    "options": [
+     "s.234A",
+     "s.234F",
+     "s.234C",
+     "s.234B"
+    ],
+    "answer": 3,
+    "explain": "s.234B applies where advance tax paid is less than 90% of assessed tax."
+   },
+   {
+    "q": "A deductee does not furnish PAN. TDS rate generally is:",
+    "options": [
+     "Higher of the prescribed rate, normal rate or 20%",
+     "Normal rate",
+     "Nil",
+     "5% flat"
+    ],
+    "answer": 0,
+    "explain": "s.206AA requires deduction at the highest of the specified alternatives."
+   },
+   {
+    "q": "An updated return can be filed:",
+    "options": [
+     "To declare a loss",
+     "Within the extended period after the relevant year by paying additional tax",
+     "Only after assessment is completed",
+     "Only if a refund is due"
+    ],
+    "answer": 1,
+    "explain": "s.139(8A) allows updating income with additional tax; it cannot reduce liability or claim a loss/refund increase."
+   }
+  ],
+  "desc": {
+   "q": "Mr. Kumar's assessed tax for the year is ₹5,00,000. He paid no advance tax and filed his return on time; TDS deducted was ₹1,00,000. Explain the interest consequences and compute interest under s.234B assuming tax was paid on 31 July following the year end.",
+   "points": [
+    "Advance tax liability arises as tax after TDS (₹4,00,000) exceeds the threshold [s.208].",
+    "Since nothing was paid (less than 90% of assessed tax), s.234B applies at 1% per month or part.",
+    "Period: 1 April to 31 July = 4 months; interest = 4,00,000 × 1% × 4 = ₹16,000.",
+    "Interest under s.234C also applies for deferment of each instalment (3% on first three, 1% on last).",
+    "No s.234A interest as the return was filed by the due date."
+   ]
+  }
+ },
+ "p7c14": {
+  "notes": [
+   {
+    "topic": "Constitutional powers",
+    "note": "Taxing powers are distributed between Union and States by Article 246 and the Seventh Schedule lists. The 101st Amendment (2016) introduced Article 246A, giving both Parliament and State legislatures concurrent power to make GST laws, with Parliament having exclusive power over inter-State supplies. Article 269A covers IGST on inter-State supply and imports, and Article 279A created the GST Council."
+   },
+   {
+    "topic": "pre-GST structure",
+    "note": "Before GST, the Centre levied central excise, service tax, CST and additional customs duties, while States levied VAT, entry tax, octroi, luxury and entertainment taxes. This produced cascading (tax on tax), lack of cross-credit between Central and State taxes and fragmented markets. GST from 1 July 2017 subsumed most of these, leaving outside it alcohol for human consumption and certain petroleum products (until notified)."
+   },
+   {
+    "topic": "administration",
+    "note": "Indirect taxes are administered by the Central Board of Indirect Taxes and Customs (CBIC) for CGST, IGST and customs, and by State tax departments for SGST. The GST Council, chaired by the Union Finance Minister with State Finance Ministers, recommends rates, exemptions and model laws. GSTN provides the IT backbone and taxpayer portal."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Which Article empowers both Parliament and State Legislatures to make laws on GST?",
+    "options": [
+     "Article 265",
+     "Article 269",
+     "Article 246A",
+     "Article 280"
+    ],
+    "answer": 2,
+    "explain": "Article 246A, inserted by the 101st Amendment, provides concurrent GST law-making power."
+   },
+   {
+    "q": "Who chairs the GST Council?",
+    "options": [
+     "Prime Minister",
+     "RBI Governor",
+     "Chairman, CBIC",
+     "Union Finance Minister"
+    ],
+    "answer": 3,
+    "explain": "Under Article 279A the Union Finance Minister chairs the Council."
+   },
+   {
+    "q": "Which tax was NOT subsumed in GST?",
+    "options": [
+     "Basic customs duty",
+     "State VAT",
+     "Service tax",
+     "Entry tax"
+    ],
+    "answer": 0,
+    "explain": "Basic customs duty continues under the Customs Act; only additional duties (CVD/SAD) were subsumed."
+   },
+   {
+    "q": "Tax on alcoholic liquor for human consumption is:",
+    "options": [
+     "Covered by GST at 40%",
+     "Outside GST and levied by States",
+     "Covered by IGST",
+     "Exempt from all taxes"
+    ],
+    "answer": 1,
+    "explain": "Article 366(12A) excludes alcoholic liquor for human consumption from GST."
+   },
+   {
+    "q": "IGST on inter-State supplies is levied under Article:",
+    "options": [
+     "279A",
+     "246",
+     "269A",
+     "301"
+    ],
+    "answer": 2,
+    "explain": "Article 269A provides for levy and collection of GST on inter-State trade by the Centre."
+   },
+   {
+    "q": "A key problem of the pre-GST regime was:",
+    "options": [
+     "Uniform tax rates",
+     "No State taxes",
+     "Single national return",
+     "Cascading due to lack of cross-credit"
+    ],
+    "answer": 3,
+    "explain": "Central and State taxes could not be cross-credited, causing tax on tax."
+   }
+  ],
+  "desc": {
+   "q": "Explain the constitutional framework that enabled GST in India.",
+   "points": [
+    "101st Constitutional Amendment Act, 2016 enabled GST.",
+    "Article 246A: concurrent power to Parliament and States; inter-State supply exclusively with Parliament.",
+    "Article 269A: IGST on inter-State supplies and imports, apportioned between Centre and States.",
+    "Article 279A: GST Council to recommend rates, exemptions, thresholds and dispute resolution.",
+    "Article 366(12A): defines GST and excludes alcohol for human consumption; petroleum products to be brought in on Council recommendation."
+   ]
+  }
+ },
+ "p7c15": {
+  "notes": [
+   {
+    "topic": "GST model — CGST, SGST, IGST, UTGST",
+    "note": "India follows a dual GST: on intra-State supply both CGST (Centre) and SGST/UTGST (State/UT) are levied, while on inter-State supply and imports IGST is levied by the Centre. IGST credit can be used for IGST, CGST and SGST, so tax follows the destination State. Rates are notified on Council recommendation; after the September 2025 GST 2.0 rationalisation most goods and services fall in 5% or 18% slabs, with a 40% rate for luxury and sin goods."
+   },
+   {
+    "topic": "compensation",
+    "note": "The GST (Compensation to States) Act, 2017 guaranteed States compensation for revenue loss for five years, funded by a compensation cess on specified goods like tobacco and aerated drinks. The cess was extended to repay loans taken for shortfalls; as part of GST 2.0 it is being phased out, with sin goods moving into the 40% rate once loans are repaid."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A dealer in Kerala sells goods to a buyer in Tamil Nadu. Tax applicable is:",
+    "options": [
+     "IGST",
+     "CGST + SGST",
+     "UTGST",
+     "CGST only"
+    ],
+    "answer": 0,
+    "explain": "Location of supplier and place of supply are in different States, so it is inter-State supply attracting IGST [s.7, IGST Act]."
+   },
+   {
+    "q": "A supplier in Chandigarh supplies goods within Chandigarh. Tax applicable is:",
+    "options": [
+     "IGST",
+     "CGST + UTGST",
+     "CGST + SGST",
+     "UTGST only"
+    ],
+    "answer": 1,
+    "explain": "Chandigarh is a UT without legislature; intra-UT supply attracts CGST + UTGST."
+   },
+   {
+    "q": "Intra-State supply valued ₹1,00,000 at 18%. Tax liability is:",
+    "options": [
+     "IGST ₹18,000",
+     "CGST ₹18,000",
+     "CGST ₹9,000 + SGST ₹9,000",
+     "SGST ₹18,000"
+    ],
+    "answer": 2,
+    "explain": "18% is split equally: 9% CGST and 9% SGST."
+   },
+   {
+    "q": "Following GST 2.0 (September 2025), the main GST rate slabs are:",
+    "options": [
+     "5%, 12%, 18%, 28%",
+     "12% and 28%",
+     "Single 15% rate",
+     "5% and 18%, with 40% for specified goods"
+    ],
+    "answer": 3,
+    "explain": "Rationalisation merged 12% and 28% slabs mostly into 5% and 18%, with a 40% rate for luxury/sin goods."
+   },
+   {
+    "q": "Compensation cess was originally meant to compensate States for:",
+    "options": [
+     "Five years from GST introduction",
+     "Ten years",
+     "Permanently",
+     "One year"
+    ],
+    "answer": 0,
+    "explain": "The Compensation Act provided compensation for five years from 1 July 2017."
+   },
+   {
+    "q": "IGST credit is used first against:",
+    "options": [
+     "CGST",
+     "IGST",
+     "SGST",
+     "Cess"
+    ],
+    "answer": 1,
+    "explain": "IGST credit is utilised first against IGST, then CGST and SGST in any order [s.49]."
+   }
+  ],
+  "desc": {
+   "q": "Explain the dual GST model in India with examples of intra-State and inter-State supplies.",
+   "points": [
+    "Dual model: Centre and States tax the same supply concurrently.",
+    "Intra-State: CGST + SGST (or UTGST) — e.g., Mumbai seller to Pune buyer.",
+    "Inter-State and imports: IGST by Centre — e.g., Delhi seller to Kolkata buyer; settlement transfers SGST share to destination State.",
+    "Credit cross-utilisation rules: IGST credit usable across IGST/CGST/SGST; CGST and SGST cannot be used against each other.",
+    "Rates set on GST Council recommendation—mainly 5%/18% with 40% for demerit goods after GST 2.0."
+   ]
+  }
+ },
+ "p7c16": {
+  "notes": [
+   {
+    "topic": "Supply",
+    "note": "Supply is the taxable event and includes sale, transfer, barter, exchange, licence, rental, lease or disposal for consideration in the course or furtherance of business [s.7, CGST Act]. Schedule I lists supplies taxable even without consideration (e.g., between related or distinct persons, permanent transfer of business assets on which ITC was taken), Schedule II classifies transactions as goods or services, and Schedule III lists activities that are neither (e.g., employee services to employer, actionable claims other than specified ones, sale of land)."
+   },
+   {
+    "topic": "composite & mixed",
+    "note": "A composite supply consists of naturally bundled supplies with one principal supply, and is taxed at the rate of the principal supply (e.g., goods with transport and insurance). A mixed supply is a combination of independent items sold for a single price that are not naturally bundled, and is taxed at the highest rate among them (e.g., a gift hamper) [s.8, s.2(30), 2(74)]."
+   },
+   {
+    "topic": "exemptions",
+    "note": "The Government can exempt goods or services by notification on GST Council recommendation, absolutely or conditionally [s.11]. Examples are fresh agricultural produce, healthcare services by clinical establishments, education services by schools and, after GST 2.0, individual life and health insurance. Exempt supplies include nil-rated and non-taxable supplies, and ITC attributable to them is not available."
+   },
+   {
+    "topic": "composition",
+    "note": "Small taxpayers with aggregate turnover up to the notified limit may opt for the composition scheme and pay tax at a low rate on turnover without ITC [s.10]. They cannot collect tax from buyers, must issue a bill of supply, cannot make inter-State outward supplies or supply through e-commerce operators (subject to relaxations), and file a quarterly statement and annual return. A limited option exists for small service providers."
+   },
+   {
+    "topic": "forward & reverse charge",
+    "note": "Normally the supplier pays tax (forward charge), but under reverse charge the recipient pays for notified supplies such as GTA services, legal services by advocates and services by directors to companies [s.9(3)], and for supplies from unregistered persons in notified cases [s.9(4)]. Electronic commerce operators may be made liable for tax on specified services supplied through them, like passenger transport and restaurant services [s.9(5)]."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A company transfers goods to its own branch in another State without consideration. This is:",
+    "options": [
+     "Not a supply",
+     "Exempt supply",
+     "A supply under Schedule I between distinct persons",
+     "Supply of services"
+    ],
+    "answer": 2,
+    "explain": "Supply between distinct persons (same PAN, different States) is a supply even without consideration [Sch. I para 2]."
+   },
+   {
+    "q": "A shop sells a Diwali hamper of sweets (5%), dry fruits (5%) and a decorative item (18%) for one price. Tax rate applicable is:",
+    "options": [
+     "5%",
+     "Separate rates for each",
+     "Average rate",
+     "18%"
+    ],
+    "answer": 3,
+    "explain": "It is a mixed supply, taxed at the highest rate among the items [s.8(b)]."
+   },
+   {
+    "q": "A director provides services to his company for sitting fees. GST is payable by:",
+    "options": [
+     "Company under reverse charge",
+     "Director under forward charge",
+     "Nobody",
+     "Both"
+    ],
+    "answer": 0,
+    "explain": "Services by a director to a company are notified under reverse charge [s.9(3)]."
+   },
+   {
+    "q": "Which of the following is neither supply of goods nor services?",
+    "options": [
+     "Renting of commercial property",
+     "Services by an employee to employer in course of employment",
+     "Works contract",
+     "Transfer of business assets on which ITC was availed"
+    ],
+    "answer": 1,
+    "explain": "Schedule III para 1 excludes employee services to employer."
+   },
+   {
+    "q": "A composition dealer wants to sell goods to a buyer in another State. He:",
+    "options": [
+     "Can do so paying IGST",
+     "Can do so without tax",
+     "Cannot make inter-State outward supplies while in composition",
+     "Must charge 1%"
+    ],
+    "answer": 2,
+    "explain": "s.10(2) bars composition taxpayers from inter-State outward supply of goods."
+   },
+   {
+    "q": "A ride-hailing app supplies passenger transport services by individual drivers. GST is payable by:",
+    "options": [
+     "The driver",
+     "No GST",
+     "The passenger",
+     "The e-commerce operator"
+    ],
+    "answer": 3,
+    "explain": "s.9(5) makes the ECO liable for notified services like passenger transport through it."
+   }
+  ],
+  "desc": {
+   "q": "M/s Delta, an electronics dealer, sells a laptop with a carry bag and one-year warranty at a single price, and separately sells a gift pack containing a watch, chocolates and a perfume for one price. Explain the GST treatment of both.",
+   "points": [
+    "Laptop + bag + warranty are naturally bundled with laptop as principal supply — composite supply [s.2(30)].",
+    "Composite supply is taxed at the rate applicable to the principal supply (laptop) [s.8(a)].",
+    "Gift pack items are independent, not naturally bundled, sold for single price — mixed supply [s.2(74)].",
+    "Mixed supply is taxed at the highest rate applicable among the items [s.8(b)].",
+    "If items were priced separately, each would attract its own rate."
+   ]
+  }
+ },
+ "p7c17": {
+  "notes": [
+   {
+    "topic": "Time, value & place of supply",
+    "note": "Time of supply fixes when tax is due: for goods under forward charge it is the earlier of invoice date (or due date of invoice) and receipt of payment (advances for goods are exempt from tax at receipt by notification), while for services it is the invoice date if issued in time, otherwise completion of service, or payment if earlier [s.12, 13]; under reverse charge it is linked to payment or a set period after invoice. Value is the transaction value where parties are unrelated and price is the sole consideration, including taxes other than GST, incidental expenses, interest/late fee and subsidies linked to price (other than Government subsidies) and excluding pre-agreed discounts recorded on invoice [s.15]; valuation rules apply for related parties. Place of supply decides inter- versus intra-State: for goods it is generally where movement terminates, and for services generally the recipient's location if registered, with special rules for immovable property, events and transport [s.10-13, IGST Act]."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Invoice for services issued on 10 August; service completed 5 August; payment received 20 August. Time of supply is:",
+    "options": [
+     "10 August",
+     "5 August",
+     "20 August",
+     "31 August"
+    ],
+    "answer": 0,
+    "explain": "Invoice issued within 30 days of completion, so time of supply is invoice date if earlier than payment [s.13(2)(a)]."
+   },
+   {
+    "q": "Price ₹1,00,000 excluding GST; packing charged separately ₹5,000; pre-agreed discount of ₹2,000 shown on invoice. Taxable value is:",
+    "options": [
+     "₹1,00,000",
+     "₹1,03,000",
+     "₹1,05,000",
+     "₹1,07,000"
+    ],
+    "answer": 1,
+    "explain": "Value includes incidental charges and excludes pre-agreed discount recorded on invoice [s.15]: 1,00,000 + 5,000 − 2,000 = ₹1,03,000."
+   },
+   {
+    "q": "An architect in Mumbai provides services for a building in Goa to a registered client in Delhi. Place of supply is:",
+    "options": [
+     "Mumbai",
+     "Delhi",
+     "Goa",
+     "Recipient's choice"
+    ],
+    "answer": 2,
+    "explain": "Services directly related to immovable property have place of supply where the property is located [s.12(3), IGST Act]."
+   },
+   {
+    "q": "Goods are sold by a Kolkata supplier and delivered to a Kolkata buyer's Patna warehouse. Place of supply is:",
+    "options": [
+     "Kolkata",
+     "Supplier's choice",
+     "Either",
+     "Patna"
+    ],
+    "answer": 3,
+    "explain": "Where supply involves movement, place of supply is where movement terminates for delivery [s.10(1)(a), IGST Act]."
+   },
+   {
+    "q": "Late payment interest collected by a supplier from the buyer is:",
+    "options": [
+     "Included in value of supply",
+     "Excluded from value",
+     "Taxed separately at 40%",
+     "Exempt"
+    ],
+    "answer": 0,
+    "explain": "Interest, late fee or penalty for delayed payment is part of value [s.15(2)(d)]."
+   },
+   {
+    "q": "A registered dealer pays GTA freight under RCM; payment made on 15 Oct, invoice dated 1 Oct. Time of supply is:",
+    "options": [
+     "1 Oct",
+     "15 Oct",
+     "31 Oct",
+     "1 Nov"
+    ],
+    "answer": 1,
+    "explain": "Under RCM for services, time of supply is the earlier of payment date and 60 days from invoice [s.13(3)]: 15 Oct."
+   }
+  ],
+  "desc": {
+   "q": "Determine the taxable value: list price ₹5,00,000; freight to buyer's site charged separately ₹15,000; municipal tax charged ₹5,000; discount of 2% on list price agreed before supply and shown in invoice; post-supply volume discount of ₹10,000 not known at supply time.",
+   "points": [
+    "Start with list price ₹5,00,000.",
+    "Less pre-agreed 2% discount on invoice ₹10,000 [s.15(3)(a)] → ₹4,90,000.",
+    "Add freight ₹15,000 and municipal tax ₹5,000 (taxes other than GST included) [s.15(2)].",
+    "Post-supply discount ₹10,000 is not deductible unless agreed beforehand and linked to invoices with ITC reversal by recipient [s.15(3)(b)].",
+    "Taxable value = ₹5,10,000."
+   ]
+  }
+ },
+ "p7c18": {
+  "notes": [
+   {
+    "topic": "ITC eligibility",
+    "note": "A registered person may take ITC on goods and services used or intended to be used in the course or furtherance of business, provided he possesses the tax invoice, has received the goods/services, the tax is actually paid by the supplier, the credit appears in GSTR-2B and he has filed his return [s.16(2)]. Credit must be claimed by 30 November following the financial year or annual return filing, whichever is earlier [s.16(4)], and is reversed if the supplier is not paid within 180 days."
+   },
+   {
+    "topic": "ineligible credits",
+    "note": "Blocked credits include motor vehicles for passenger transport with up to 13 seats (except when used for further supply, passenger transport, training), food and beverages, outdoor catering, beauty treatment, health services, club membership, rent-a-cab, life and health insurance (with exceptions), works contract and construction of immovable property on own account, goods lost/stolen/destroyed or given as free samples, and tax paid under demand for fraud [s.17(5)]. Credit relating to exempt supplies and non-business use must be proportionately reversed [s.17(1)-(2)]."
+   },
+   {
+    "topic": "ISD",
+    "note": "An Input Service Distributor is an office that receives invoices for input services used by multiple units and distributes the credit to the units with the same PAN [s.2(61), s.20]. From 1 April 2025 ISD registration is mandatory for distributing common input service credit, including for RCM services, and credit is distributed on a turnover-proportion basis."
+   },
+   {
+    "topic": "utilisation order",
+    "note": "Electronic credit ledger is utilised as follows: IGST credit is fully used first against IGST, then against CGST and SGST in any order; CGST credit is used against CGST then IGST; SGST credit against SGST then IGST [s.49, 49A, 49B]. CGST credit can never be used for SGST and vice versa, and ITC cannot pay interest, penalty, fee or reverse charge tax."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A manufacturer buys a car (5 seats) for director's use. ITC on the car is:",
+    "options": [
+     "Available",
+     "Available at 50%",
+     "Blocked under s.17(5)",
+     "Available if used for business"
+    ],
+    "answer": 2,
+    "explain": "Motor vehicles for transport of persons with seating up to 13 are blocked unless used for specified taxable supplies [s.17(5)(a)]."
+   },
+   {
+    "q": "A company gives free samples of its products. ITC on inputs used is:",
+    "options": [
+     "Available",
+     "Available only for exports",
+     "Available up to 50%",
+     "Blocked"
+    ],
+    "answer": 3,
+    "explain": "Goods disposed of as gifts or free samples are blocked [s.17(5)(h)]."
+   },
+   {
+    "q": "Output IGST ₹50,000, CGST ₹30,000, SGST ₹30,000. ITC: IGST ₹70,000, CGST ₹20,000, SGST ₹20,000. Cash payable is:",
+    "options": [
+     "Nil",
+     "₹20,000",
+     "₹30,000",
+     "₹10,000"
+    ],
+    "answer": 0,
+    "explain": "IGST credit ₹70,000 pays IGST ₹50,000 and the balance ₹20,000 goes to CGST/SGST (say ₹10,000 each); remaining CGST/SGST ₹20,000 each met by own credits, so total liability ₹1,10,000 = total credit ₹1,10,000 and cash is nil [s.49]."
+   },
+   {
+    "q": "Credit for goods received in instalments is available:",
+    "options": [
+     "On receipt of first lot",
+     "On receipt of last lot",
+     "Proportionately",
+     "On payment"
+    ],
+    "answer": 1,
+    "explain": "Where goods are received in lots, ITC is available on receipt of the last lot [s.16(2) proviso]."
+   },
+   {
+    "q": "A recipient fails to pay the supplier within 180 days of invoice. Consequence:",
+    "options": [
+     "Nothing",
+     "Penalty only",
+     "ITC availed must be reversed with interest; re-availed on payment",
+     "Registration cancelled"
+    ],
+    "answer": 2,
+    "explain": "Second proviso to s.16(2) requires reversal with interest, re-availed upon payment."
+   },
+   {
+    "q": "Can SGST credit be used to pay CGST liability?",
+    "options": [
+     "Yes",
+     "Only for exports",
+     "Only with permission",
+     "No"
+    ],
+    "answer": 3,
+    "explain": "s.49(5) prohibits cross-utilisation between CGST and SGST."
+   }
+  ],
+  "desc": {
+   "q": "R Ltd. has output tax: IGST ₹2,00,000, CGST ₹1,00,000, SGST ₹1,00,000. ITC available: IGST ₹1,50,000, CGST ₹80,000, SGST ₹60,000. Compute minimum cash payment using the prescribed utilisation order.",
+   "points": [
+    "IGST credit ₹1,50,000 used first against IGST ₹2,00,000 → IGST balance ₹50,000 [s.49(5)(a)].",
+    "CGST credit ₹80,000: against CGST ₹1,00,000 → CGST balance ₹20,000; no surplus for IGST.",
+    "SGST credit ₹60,000: against SGST ₹1,00,000 → SGST balance ₹40,000.",
+    "Cash payable: IGST ₹50,000 + CGST ₹20,000 + SGST ₹40,000 = ₹1,10,000.",
+    "Check: total liability ₹4,00,000 − total ITC ₹2,90,000 = ₹1,10,000; cross-utilisation of CGST and SGST is barred."
+   ]
+  }
+ },
+ "p7c19": {
+  "notes": [
+   {
+    "topic": "Registration",
+    "note": "Registration is required once aggregate turnover crosses the threshold (lower for special category States and for goods vs services), and is compulsory regardless of turnover for inter-State suppliers of goods, casual and non-resident taxable persons, persons liable under reverse charge, e-commerce operators and ISDs [s.22, 24]. Registration is PAN-based and State-wise, with a 15-character GSTIN; voluntary registration is allowed and Aadhaar authentication applies."
+   },
+   {
+    "topic": "invoices",
+    "note": "A registered person supplying taxable goods or services must issue a tax invoice with prescribed particulars within the time allowed—for goods before or at removal, for services generally within 30 days [s.31]. Composition dealers and those supplying exempt goods issue a bill of supply; e-invoicing through the IRP is mandatory beyond the notified turnover."
+   },
+   {
+    "topic": "notes",
+    "note": "A credit note is issued where taxable value or tax charged is excessive, or goods are returned or services found deficient; it must be declared by 30 November following the year or the annual return, whichever is earlier [s.34]. A debit note is issued where value or tax charged is lower than due, and output tax rises accordingly."
+   },
+   {
+    "topic": "records",
+    "note": "Every registered person must maintain accounts at the principal place of business covering production, inward and outward supplies, stock, ITC and tax paid [s.35]. Records must be preserved for 72 months from the due date of the annual return for the year [s.36], and audit by tax authorities may follow."
+   },
+   {
+    "topic": "e-way bill",
+    "note": "An e-way bill must be generated on the portal before movement of goods of consignment value above the notified threshold, with Part A (invoice details) and Part B (vehicle details) [s.68, Rule 138]. Validity depends on distance, and certain goods and modes are exempt; movement without a valid e-way bill can lead to detention and penalty [s.129]."
+   },
+   {
+    "topic": "returns",
+    "note": "Regular taxpayers file GSTR-1 (outward supplies) and GSTR-3B (summary return with tax payment), with ITC auto-populated from GSTR-2B [s.37, 39]. Composition taxpayers file CMP-08 quarterly and GSTR-4 annually; non-residents, ISDs and TDS/TCS deductors file specific returns. An annual return (GSTR-9) and, above a turnover limit, a reconciliation statement (GSTR-9C) are filed [s.44]."
+   },
+   {
+    "topic": "payment",
+    "note": "Tax is paid through the electronic cash ledger (deposits via PMT-06) and electronic credit ledger (ITC), with liabilities recorded in the electronic liability register [s.49]. Delayed payment attracts interest at the prescribed rate on the net cash portion [s.50], and reverse-charge tax must be paid in cash."
+   },
+   {
+    "topic": "refunds",
+    "note": "Refund can be claimed for zero-rated supplies (exports/SEZ) of tax paid or unutilised ITC, for inverted duty structure, excess cash balance and other cases, within two years from the relevant date [s.54]. A large portion (90%) of zero-rated refunds is granted provisionally, and refund is subject to the principle of unjust enrichment unless exempted."
+   },
+   {
+    "topic": "assessment",
+    "note": "GST uses self-assessment, under which the taxpayer assesses and pays his own tax [s.59]. Provisional assessment may be allowed on request where value or rate cannot be determined [s.60], scrutiny of returns [s.61], best-judgement assessment for non-filers and unregistered persons [s.62-63], and summary assessment to protect revenue [s.64]."
+   },
+   {
+    "topic": "QRMP",
+    "note": "Under the Quarterly Return Monthly Payment (QRMP) scheme, taxpayers with aggregate turnover up to ₹5 crore may file GSTR-1 and GSTR-3B quarterly while paying tax monthly via PMT-06. Monthly payment can be made using the fixed-sum method (35% of last quarter's cash tax) or self-assessment method, and the Invoice Furnishing Facility (IFF) allows B2B invoices to be uploaded monthly."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A trader with turnover well below the threshold makes inter-State taxable supplies of goods. He must:",
+    "options": [
+     "Compulsorily register",
+     "Remain unregistered",
+     "Register only after crossing threshold",
+     "Opt for composition"
+    ],
+    "answer": 0,
+    "explain": "Inter-State taxable supply of goods requires compulsory registration [s.24(i)]."
+   },
+   {
+    "q": "Records under GST must be preserved for:",
+    "options": [
+     "5 years from end of FY",
+     "72 months from due date of annual return",
+     "8 years",
+     "10 years"
+    ],
+    "answer": 1,
+    "explain": "s.36 requires preservation for 72 months from the due date of the annual return."
+   },
+   {
+    "q": "Under QRMP, the fixed-sum method requires monthly payment equal to:",
+    "options": [
+     "100% of last quarter's cash tax",
+     "50% of turnover tax",
+     "35% of cash tax paid in the preceding quarter",
+     "Actual liability only"
+    ],
+    "answer": 2,
+    "explain": "For quarterly filers, the fixed-sum challan equals 35% of tax paid in cash in the preceding quarter."
+   },
+   {
+    "q": "A refund application for zero-rated supply must be filed within:",
+    "options": [
+     "One year",
+     "Three years",
+     "Six months",
+     "Two years from relevant date"
+    ],
+    "answer": 3,
+    "explain": "s.54(1) prescribes two years from the relevant date."
+   },
+   {
+    "q": "Tax payable under reverse charge can be paid:",
+    "options": [
+     "Only through electronic cash ledger",
+     "Through ITC",
+     "Half cash, half credit",
+     "By adjusting refund"
+    ],
+    "answer": 0,
+    "explain": "RCM liability must be discharged in cash; ITC on it may then be claimed."
+   },
+   {
+    "q": "A registered person fails to file returns despite notice. The officer may make:",
+    "options": [
+     "Provisional assessment",
+     "Best judgement assessment under s.62",
+     "Self-assessment",
+     "Summary assessment under s.64 only"
+    ],
+    "answer": 1,
+    "explain": "s.62 permits assessment of non-filers to the best of judgement."
+   }
+  ],
+  "desc": {
+   "q": "M/s Star Traders (turnover ₹3 crore) wants to opt for QRMP. Explain eligibility, return filing, monthly tax payment options and the Invoice Furnishing Facility.",
+   "points": [
+    "Eligible as aggregate turnover is up to ₹5 crore in the preceding year; option exercised on the portal.",
+    "Files GSTR-1 and GSTR-3B quarterly instead of monthly.",
+    "Tax paid monthly in first two months via PMT-06 using fixed-sum (35% of last quarter's cash tax) or self-assessment method.",
+    "IFF allows B2B invoices up to a value limit to be uploaded monthly so buyers get ITC.",
+    "Interest under s.50 applies if monthly payments are short under the self-assessment method."
+   ]
+  }
+ },
+ "p7c20": {
+  "notes": [
+   {
+    "topic": "Levy",
+    "note": "Customs duty is levied on goods imported into or exported from India under s.12 of the Customs Act, 1962, at rates specified in the Customs Tariff Act, 1975. The taxable event for imports is crossing into Indian customs waters, and duty rate and value are fixed by reference to the date of filing the bill of entry or entry inward of the vessel, whichever is later [s.15]."
+   },
+   {
+    "topic": "types of duty",
+    "note": "Main duties are Basic Customs Duty, Social Welfare Surcharge on BCD, IGST on imports [s.3(7) CTA] and GST compensation cess where applicable, plus Agriculture Infrastructure and Development Cess on specified goods. Protective duties include safeguard duty, anti-dumping duty [s.9A CTA] and countervailing duty on subsidised goods [s.9 CTA]. Export duty applies to few goods."
+   },
+   {
+    "topic": "classification & valuation",
+    "note": "Classification under the Customs Tariff follows the Harmonised System, using the General Interpretative Rules, section and chapter notes. Valuation follows transaction value under s.14 and the Customs Valuation Rules, 2007 for imports, including cost of transport, insurance and loading up to the place of import; if freight is unknown it is deemed at 20% of FOB and insurance at 1.125% of FOB."
+   },
+   {
+    "topic": "baggage",
+    "note": "Baggage of passengers is assessed under s.77-81 and the Baggage Rules, 2016, giving duty-free allowances based on residency and length of stay abroad, with excess goods charged at a flat baggage rate. Passengers must declare dutiable or prohibited items at the red channel; undeclared items may be confiscated."
+   },
+   {
+    "topic": "import/export procedure",
+    "note": "For imports, the importer files a bill of entry electronically (for home consumption or warehousing), the goods are assessed, duty paid and goods cleared on an out-of-charge order [s.46-47]. For exports, a shipping bill is filed, goods examined and a let export order given [s.50-51]. Advance filing, self-assessment and risk-based facilitation are used."
+   },
+   {
+    "topic": "warehousing",
+    "note": "Warehousing allows imported goods to be stored in a licensed warehouse without paying duty until clearance for home consumption [s.57-73A]. Goods may stay until consumption in the case of EOUs, or for a limited period otherwise, with interest on delay; manufacturing in bond is permitted under s.65."
+   },
+   {
+    "topic": "drawback",
+    "note": "Duty drawback refunds customs and certain central excise duties on inputs used in exported goods. s.74 allows 98% of duty paid on re-export of imported goods in the same form within the time limit (reduced if used), while s.75 provides drawback on materials used in manufacture of exported goods, generally at All Industry Rates."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Assessable value of goods: FOB US$10,000; freight and insurance not known; exchange rate ₹85. Assessable value is:",
+    "options": [
+     "₹8,50,000",
+     "₹10,20,000",
+     "₹10,29,563",
+     "₹8,59,563"
+    ],
+    "answer": 2,
+    "explain": "Freight 20% of FOB = 2,000; insurance 1.125% of FOB = 112.5; CIF = 12,112.5 × 85 = ₹10,29,563 (rounded) [Rule 10, CVR 2007]."
+   },
+   {
+    "q": "Bill of entry filed on 10 March (BCD 10%); vessel entry inward 15 March (BCD 15%). Rate applicable is:",
+    "options": [
+     "10%",
+     "Rate on date of arrival",
+     "12.5%",
+     "15%"
+    ],
+    "answer": 3,
+    "explain": "Rate prevailing on the later of the two dates applies [s.15(1)(a)]."
+   },
+   {
+    "q": "Imported goods are re-exported unused within the time limit. Drawback under s.74 is:",
+    "options": [
+     "98% of duty paid",
+     "100%",
+     "50%",
+     "Nil"
+    ],
+    "answer": 0,
+    "explain": "s.74 allows 98% drawback on re-export of goods without use."
+   },
+   {
+    "q": "Anti-dumping duty is levied under:",
+    "options": [
+     "s.12 Customs Act",
+     "s.9A Customs Tariff Act",
+     "s.3(7) CTA",
+     "s.74 Customs Act"
+    ],
+    "answer": 1,
+    "explain": "Anti-dumping duty is imposed under s.9A of the Customs Tariff Act, 1975."
+   },
+   {
+    "q": "Imported goods stored in a warehouse without paying duty are cleared for home consumption on filing:",
+    "options": [
+     "Shipping bill",
+     "Export manifest",
+     "Ex-bond bill of entry",
+     "Baggage declaration"
+    ],
+    "answer": 2,
+    "explain": "Warehoused goods are cleared on an ex-bond bill of entry under s.68."
+   },
+   {
+    "q": "IGST on imported goods is levied under:",
+    "options": [
+     "UTGST Act",
+     "CGST Act s.9",
+     "Customs Act s.74",
+     "IGST Act s.5 read with s.3(7) Customs Tariff Act"
+    ],
+    "answer": 3,
+    "explain": "IGST on imports is levied under s.5(1) proviso of the IGST Act and collected as customs duty under s.3(7) CTA."
+   }
+  ],
+  "desc": {
+   "q": "Compute customs duty payable: CIF value ₹10,00,000; landing charges included; BCD 10%; Social Welfare Surcharge 10% of BCD; IGST 18%.",
+   "points": [
+    "Assessable value = ₹10,00,000 (CIF; loading/handling included in transaction value under s.14).",
+    "BCD @10% = ₹1,00,000.",
+    "SWS @10% of BCD = ₹10,000.",
+    "IGST @18% on (AV + BCD + SWS) = 18% × 11,10,000 = ₹1,99,800.",
+    "Total duty = 1,00,000 + 10,000 + 1,99,800 = ₹3,09,800; IGST portion is available as ITC to the importer."
+   ]
+  }
+ }
+}
