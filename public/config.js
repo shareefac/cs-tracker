@@ -19,3 +19,5 @@ const USE_STORAGE = false;
 const ALLOWED_EMAILS = [];
 // 6) Admins see the "All students" dashboard and can open any student's tracker (read only)
 const ADMIN_EMAILS = ["muhammedshareefclt@gmail.com"];
+// 7) Gemini model used with each user's own free key
+const GEMINI_MODEL = "gemini-2.5-flash";
