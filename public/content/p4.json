@@ -1,0 +1,1896 @@
+{
+ "p4c1": {
+  "notes": [
+   {
+    "topic": "Book-keeping",
+    "note": "Book-keeping is the routine recording of business transactions in money terms, in date order and in a set format. It is the first stage of accounting; accounting then goes on to classify, summarise, analyse and interpret those records. Section 2(13) of the Companies Act, 2013 defines 'books of account' to include records of receipts and payments, sales and purchases, and assets and liabilities. Example: entering a cash sale of Rs 2,000 in the cash book is book-keeping."
+   },
+   {
+    "topic": "accounting cycle",
+    "note": "The accounting cycle is the sequence repeated every period: identify the transaction, record it in the journal, post it to the ledger, extract a trial balance, pass adjusting entries, prepare the final accounts and then close the nominal accounts. The cycle restarts with the opening balances of the next period. Example: a March purchase is journalised, posted to the Purchases account, appears in the March trial balance and finally flows into the trading account."
+   },
+   {
+    "topic": "double entry",
+    "note": "Under double entry every transaction affects at least two accounts with equal debits and credits, so Assets = Liabilities + Capital always holds. Traditional rules: personal accounts - debit the receiver, credit the giver; real accounts - debit what comes in, credit what goes out; nominal accounts - debit expenses and losses, credit incomes and gains. Example: buying furniture for Rs 30,000 cash - debit Furniture, credit Cash; total assets are unchanged."
+   },
+   {
+    "topic": "principles & conventions",
+    "note": "AS 1 treats going concern, consistency and accrual as fundamental accounting assumptions, which need not be disclosed when followed but must be disclosed when not followed. Other widely used concepts are business entity, money measurement, matching, realisation and dual aspect, while the conventions are prudence (conservatism), materiality, consistency and full disclosure. Example: under prudence, closing stock costing Rs 50,000 with a net realisable value of Rs 46,000 is valued at Rs 46,000 (AS 2)."
+   },
+   {
+    "topic": "journal",
+    "note": "The journal is the book of original entry, where each transaction is first recorded in date order with the accounts debited and credited, the amounts and a short narration. Special-purpose subsidiary books (cash, purchases, sales and returns books) reduce the volume of the journal proper. Example: Rent paid Rs 8,000 - Rent A/c Dr 8,000, To Cash A/c 8,000 (being rent paid for April)."
+   },
+   {
+    "topic": "ledger",
+    "note": "The ledger is the book of final entry: it holds a separate account for each person, asset, liability, income and expense, and journal entries are posted to it. Each account is balanced at the end of the period; the balance shows how much is owed, owned, earned or spent. Example: a Debtor A account with debits of Rs 60,000 and credits of Rs 45,000 carries a debit balance of Rs 15,000 down."
+   },
+   {
+    "topic": "trial balance",
+    "note": "A trial balance lists all ledger balances to check that total debits equal total credits, which proves arithmetical accuracy only. It will not reveal errors of omission, errors of principle, compensating errors or entries posted to the wrong account on the correct side. Any temporary difference goes to a Suspense account until it is traced. Example: debit total Rs 1,00,500 and credit total Rs 1,00,000 - put Rs 500 in Suspense on the credit side."
+   },
+   {
+    "topic": "final accounts",
+    "note": "Final accounts consist of the Trading Account (gross profit), the Profit and Loss Account (net profit) and the Balance Sheet (financial position), prepared after the period-end adjustments for outstanding and prepaid items, depreciation, provisions and closing stock. Companies must present these statements in the Schedule III format. Example: gross profit = net sales - (opening stock + net purchases + direct expenses - closing stock)."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Opening capital Rs 50,000; net profit Rs 20,000; drawings Rs 8,000; additional capital introduced Rs 5,000. Closing capital is:",
+    "options": [
+     "Rs 62,000",
+     "Rs 67,000",
+     "Rs 75,000",
+     "Rs 57,000"
+    ],
+    "answer": 1,
+    "explain": "Closing capital = 50,000 + 20,000 + 5,000 - 8,000 = Rs 67,000."
+   },
+   {
+    "q": "The trial balance shows debits of Rs 2,45,800 and credits of Rs 2,46,300. The suspense account will be opened with:",
+    "options": [
+     "Credit balance of Rs 500",
+     "Debit balance of Rs 1,000",
+     "Debit balance of Rs 500",
+     "No balance, as the difference is immaterial"
+    ],
+    "answer": 2,
+    "explain": "The credit side is Rs 500 bigger, so Suspense goes on the debit side for Rs 500 (2,46,300 - 2,45,800) to make the totals agree."
+   },
+   {
+    "q": "Which one of these errors will NOT be revealed by a trial balance?",
+    "options": [
+     "Wrong totalling of the sales book",
+     "Posting a debit as a credit",
+     "A ledger balance left out of the trial balance",
+     "Purchase of machinery debited to Purchases account"
+    ],
+    "answer": 3,
+    "explain": "Debiting machinery to Purchases is an error of principle; debits still equal credits, so the trial balance agrees."
+   },
+   {
+    "q": "Under AS 1, which of the following is a fundamental accounting assumption?",
+    "options": [
+     "Accrual",
+     "Materiality",
+     "Prudence",
+     "Substance over form"
+    ],
+    "answer": 0,
+    "explain": "AS 1 names going concern, consistency and accrual as the fundamental accounting assumptions; the other options are considerations in selecting accounting policies."
+   },
+   {
+    "q": "Wages paid for installing a new machine should be debited to:",
+    "options": [
+     "Wages account",
+     "Machinery account",
+     "Profit and Loss account",
+     "Installation expenses account under indirect expenses"
+    ],
+    "answer": 1,
+    "explain": "Expenditure needed to bring an asset to working condition is capitalised as part of its cost (AS 10)."
+   },
+   {
+    "q": "Net sales Rs 2,95,000; opening stock Rs 40,000; net purchases Rs 1,90,000; wages Rs 15,000; closing stock Rs 50,000. Gross profit is:",
+    "options": [
+     "Rs 1,05,000",
+     "Rs 90,000",
+     "Rs 1,00,000",
+     "Rs 95,000"
+    ],
+    "answer": 2,
+    "explain": "COGS = 40,000 + 1,90,000 + 15,000 - 50,000 = 1,95,000; GP = 2,95,000 - 1,95,000 = Rs 1,00,000."
+   }
+  ],
+  "desc": {
+   "q": "From the following balances of Kavitha Traders for the year ended 31 March 2027, prepare the Trading Account and compute the gross profit ratio: Opening stock Rs 40,000; Purchases Rs 2,00,000; Returns outward Rs 10,000; Wages Rs 15,000; Carriage inward Rs 5,000; Sales Rs 3,00,000; Returns inward Rs 5,000; Closing stock Rs 50,000.",
+   "points": [
+    "Net purchases = 2,00,000 - 10,000 = Rs 1,90,000; net sales = 3,00,000 - 5,000 = Rs 2,95,000.",
+    "Debit side: opening stock 40,000 + net purchases 1,90,000 + wages 15,000 + carriage inward 5,000 = Rs 2,50,000.",
+    "Credit side: net sales 2,95,000 + closing stock 50,000 = Rs 3,45,000.",
+    "Gross profit (balancing figure) = 3,45,000 - 2,50,000 = Rs 95,000, transferred to the P&L Account.",
+    "Gross profit ratio = 95,000 / 2,95,000 x 100 = 32.20%."
+   ]
+  }
+ },
+ "p4c2": {
+  "notes": [
+   {
+    "topic": "Records to be kept",
+    "note": "Section 128 requires every company to keep books of account at its registered office on an accrual basis under double entry; the board may decide to keep them at another place in India. Books may be kept electronically, with a daily backup on a server located in India. From 1 April 2023 the accounting software must have an audit trail (edit log) that cannot be disabled. Books must be preserved for at least 8 financial years. Example: an FY 2026-27 ledger must be kept until at least FY 2034-35."
+   },
+   {
+    "topic": "Schedule III",
+    "note": "Schedule III sets the format of the balance sheet and the statement of profit and loss. Division I applies to companies following the Accounting Standards, Division II to Ind AS companies other than NBFCs, and Division III to NBFCs that follow Ind AS. The balance sheet is vertical, splitting items into non-current and current using a 12-month or operating-cycle test. Example: a term loan of Rs 10 lakh with Rs 2 lakh repayable within 12 months shows Rs 8 lakh as long-term borrowings and Rs 2 lakh as current maturities under short-term borrowings."
+   },
+   {
+    "topic": "disclosures",
+    "note": "Beyond the face of the statements, Schedule III requires notes covering share capital reconciliation, holdings above 5%, promoter shareholding, ageing of trade receivables, trade payables and CWIP, key financial ratios with reasons for any change above 25%, CSR spending, crypto holdings, benami property and wilful-defaulter status, among others. Many of these items came in with the 2021 amendments. Example: a note must show what share of trade receivables has been outstanding for more than 6 months, 1-2 years, and so on."
+   },
+   {
+    "topic": "true & fair view",
+    "note": "Section 129(1) requires financial statements to give a true and fair view of the company's state of affairs, to comply with the notified accounting standards and to follow the Schedule III form. 'True' means factually correct; 'fair' means presented without bias and with adequate disclosure. Not preparing such statements is an offence under Section 129(7). Example: hiding a material contingent liability can make the statements unfair even when every figure in them is arithmetically correct."
+   },
+   {
+    "topic": "XBRL",
+    "note": "XBRL (eXtensible Business Reporting Language) is a machine-readable format in which each figure is tagged to an element of a standard taxonomy. Under the Companies (Filing of Documents and Forms in XBRL) Rules, 2015, listed companies and their Indian subsidiaries, companies with paid-up capital of Rs 5 crore or more, companies with turnover of Rs 100 crore or more, and companies required to follow Ind AS must file their financial statements with the MCA in XBRL. Example: the 'Trade receivables' figure is tagged once and regulators can then compare it across thousands of filings."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Under Section 128, books of account must be preserved for a minimum of:",
+    "options": [
+     "5 years",
+     "10 years",
+     "8 financial years immediately preceding",
+     "Until the company is wound up"
+    ],
+    "answer": 2,
+    "explain": "Section 128(5) requires preservation in good order for at least eight financial years immediately preceding the current year."
+   },
+   {
+    "q": "A Rs 12 lakh term loan is repayable in equal annual instalments of Rs 3 lakh. In the balance sheet (Division I), the amount shown under 'Long-term borrowings' is:",
+    "options": [
+     "Rs 9 lakh",
+     "Rs 12 lakh",
+     "Rs 3 lakh",
+     "Rs 6 lakh"
+    ],
+    "answer": 0,
+    "explain": "Rs 3 lakh falls due within 12 months and goes to current maturities; 12 - 3 = Rs 9 lakh stays non-current."
+   },
+   {
+    "q": "Division II of Schedule III applies to:",
+    "options": [
+     "Companies following Accounting Standards",
+     "Ind AS companies other than NBFCs",
+     "NBFCs following Ind AS",
+     "Banking and insurance companies"
+    ],
+    "answer": 1,
+    "explain": "Division I covers AS-based companies, Division II covers Ind AS companies other than NBFCs, and Division III covers Ind AS NBFCs."
+   },
+   {
+    "q": "Share capital Rs 20 lakh; securities premium Rs 5 lakh; general reserve Rs 3 lakh; P&L surplus Rs 2 lakh; revaluation surplus nil. Under Division I, 'Reserves and Surplus' equals:",
+    "options": [
+     "Rs 30 lakh",
+     "Rs 8 lakh",
+     "Rs 5 lakh",
+     "Rs 10 lakh"
+    ],
+    "answer": 3,
+    "explain": "Reserves and surplus = 5 + 3 + 2 = Rs 10 lakh; share capital is shown separately under shareholders' funds."
+   },
+   {
+    "q": "Schedule III requires an explanation for a change in a key ratio when the change compared with the previous year exceeds:",
+    "options": [
+     "25%",
+     "10%",
+     "15%",
+     "50%"
+    ],
+    "answer": 0,
+    "explain": "The 2021 amendment requires reasons for any change of more than 25% in the listed ratios."
+   },
+   {
+    "q": "Which of the following best describes XBRL?",
+    "options": [
+     "A rule on audit rotation",
+     "A method of valuing inventory",
+     "A tagged, machine-readable language for reporting financial data",
+     "A type of electronic signature"
+    ],
+    "answer": 2,
+    "explain": "XBRL tags each data item with a taxonomy element, so computers can read and compare it."
+   }
+  ],
+  "desc": {
+   "q": "From the following, prepare the 'Equity and Liabilities' side of the balance sheet of Neel Ltd as at 31 March 2027 as per Schedule III (Division I): Equity share capital Rs 10,00,000; Securities premium Rs 2,00,000; General reserve Rs 1,50,000; Surplus in P&L Rs 50,000; 10% Debentures Rs 5,00,000 (Rs 1,00,000 redeemable on 30 June 2027); Trade payables Rs 80,000; Provision for tax Rs 40,000.",
+   "points": [
+    "Shareholders' funds: Share capital Rs 10,00,000; Reserves and surplus = 2,00,000 + 1,50,000 + 50,000 = Rs 4,00,000; total Rs 14,00,000.",
+    "Non-current liabilities: Long-term borrowings (debentures not due within 12 months) = 5,00,000 - 1,00,000 = Rs 4,00,000.",
+    "Current liabilities: Short-term borrowings - current maturities of debentures Rs 1,00,000; Trade payables Rs 80,000; Short-term provisions (tax) Rs 40,000; total Rs 2,20,000.",
+    "Total of Equity and Liabilities = 14,00,000 + 4,00,000 + 2,20,000 = Rs 20,20,000; each item cross-referenced to a note."
+   ]
+  }
+ },
+ "p4c3": {
+  "notes": [
+   {
+    "topic": "Applicability",
+    "note": "Companies that are not on Ind AS follow the Accounting Standards notified under the Companies (Accounting Standards) Rules, 2021, which give some relief to Small and Medium-sized Companies (turnover up to Rs 250 crore and borrowings up to Rs 50 crore). Ind AS are mandatory under the Companies (Indian Accounting Standards) Rules, 2015: Phase I from FY 2016-17 for companies with net worth of Rs 500 crore or more, and Phase II from FY 2017-18 for all listed companies and unlisted companies with net worth of Rs 250 crore or more, together with their holding, subsidiary, JV and associate companies. A company that adopts Ind AS voluntarily cannot go back. Example: an unlisted company with net worth of Rs 270 crore must apply Ind AS."
+   },
+   {
+    "topic": "IFRS",
+    "note": "IFRS are global standards issued by the International Accounting Standards Board (IASB) under the IFRS Foundation; earlier standards issued by the IASC are called IAS. They are principle-based and use fair value widely. India chose to converge, not adopt: Ind AS are based on IFRS but include carve-outs and carve-ins. The MCA notifies them under Section 133 on the recommendation of NFRA. Example: IFRS 15 Revenue from Contracts with Customers corresponds to Ind AS 115."
+   },
+   {
+    "topic": "AS vs Ind AS vs IFRS",
+    "note": "AS are largely rule-based and use historical cost; Ind AS and IFRS are principle-based and use fair value, present value and substance over form more extensively. Key differences: Ind AS 116 puts almost all lessee leases on the balance sheet as right-of-use assets, while AS 19 still distinguishes finance and operating leases; Ind AS requires Other Comprehensive Income and a statement of changes in equity. A known carve-out: Ind AS 103 sends a bargain purchase gain to capital reserve, whereas IFRS 3 sends it to profit or loss. Example: proposed dividend is a liability under old AS 4 practice but not under Ind AS 10 until declared."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "An unlisted company has share capital Rs 150 crore, reserves Rs 120 crore and accumulated losses nil. Is Ind AS mandatory for it on its own net worth?",
+    "options": [
+     "No, because it is unlisted",
+     "Yes, because net worth of Rs 270 crore is at least Rs 250 crore",
+     "No, because net worth is below Rs 500 crore",
+     "Only if it has borrowings over Rs 50 crore"
+    ],
+    "answer": 1,
+    "explain": "Net worth = 150 + 120 = Rs 270 crore, which meets the Phase II threshold of Rs 250 crore."
+   },
+   {
+    "q": "A non-Ind AS company has turnover of Rs 200 crore and borrowings of Rs 60 crore. Under the Companies (AS) Rules, 2021 it is:",
+    "options": [
+     "An SMC, because turnover is below Rs 250 crore",
+     "An SMC, because borrowings are below Rs 100 crore",
+     "Not an SMC, because borrowings exceed Rs 50 crore",
+     "Required to follow Ind AS"
+    ],
+    "answer": 2,
+    "explain": "SMC status needs turnover up to Rs 250 crore AND borrowings up to Rs 50 crore; borrowings of Rs 60 crore fail the test."
+   },
+   {
+    "q": "IFRS are issued by:",
+    "options": [
+     "IASB",
+     "ICAI",
+     "FASB",
+     "IOSCO"
+    ],
+    "answer": 0,
+    "explain": "The International Accounting Standards Board of the IFRS Foundation issues IFRS."
+   },
+   {
+    "q": "Ind AS are notified by the Central Government in consultation with:",
+    "options": [
+     "SEBI",
+     "RBI",
+     "Comptroller and Auditor General",
+     "National Financial Reporting Authority"
+    ],
+    "answer": 3,
+    "explain": "Under Section 133 the Central Government prescribes standards after considering NFRA's recommendations."
+   },
+   {
+    "q": "Under Ind AS 103, a gain on bargain purchase is recognised in:",
+    "options": [
+     "Profit or loss",
+     "Capital reserve (through OCI or directly)",
+     "Goodwill as a negative asset",
+     "Securities premium"
+    ],
+    "answer": 1,
+    "explain": "This is an Indian carve-out from IFRS 3, which recognises the gain in profit or loss."
+   },
+   {
+    "q": "Which statement about leases is correct?",
+    "options": [
+     "Ind AS 116 requires lessees to recognise a right-of-use asset for most leases",
+     "AS 19 requires lessees to recognise all leases on the balance sheet",
+     "IFRS 16 keeps operating leases off the lessee's balance sheet",
+     "Ind AS 116 abolishes lessor accounting"
+    ],
+    "answer": 0,
+    "explain": "Ind AS 116 (like IFRS 16) uses a single on-balance-sheet model for lessees; AS 19 still keeps operating leases off balance sheet."
+   }
+  ],
+  "desc": {
+   "q": "Determine whether Ind AS apply for FY 2027-28 in each case: (a) A Ltd, unlisted, net worth Rs 180 crore, a subsidiary of B Ltd (listed); (b) C Ltd, unlisted, share capital Rs 200 crore, free reserves Rs 90 crore, accumulated loss Rs 30 crore; (c) D Ltd, listing its debt on a stock exchange, net worth Rs 40 crore; (d) E Ltd, unlisted, net worth Rs 120 crore, no group links.",
+   "points": [
+    "(a) B Ltd is listed and must follow Ind AS; as its subsidiary, A Ltd must also apply Ind AS, whatever its own net worth.",
+    "(b) Net worth = 200 + 90 - 30 = Rs 260 crore, which is at least Rs 250 crore, so Ind AS are mandatory.",
+    "(c) A company with listed debt is a 'listed company' for these rules so Ind AS apply.",
+    "(d) Unlisted, net worth below Rs 250 crore and no Ind AS group links - Ind AS are not mandatory; it follows AS (Companies (AS) Rules, 2021) but may adopt Ind AS voluntarily, after which it cannot revert."
+   ]
+  }
+ },
+ "p4c4": {
+  "notes": [
+   {
+    "topic": "Issue",
+    "note": "Shares may be issued at par or at a premium; Section 53 bars issue at a discount except sweat equity under Section 54. Money is collected through application, allotment and calls; an oversubscribed issue may be allotted pro rata, with excess application money adjusted against allotment or refunded. Amounts not paid when called go to Calls-in-arrears. Example: 10,000 shares of Rs 10 issued at par with Rs 3 on application - Bank Dr 30,000, To Equity Share Application A/c 30,000."
+   },
+   {
+    "topic": "forfeiture & reissue",
+    "note": "If a shareholder fails to pay a call, the company may forfeit the shares as its articles allow. Entry: Share Capital Dr (amount called up) To Calls-in-arrears (amount unpaid) To Share Forfeiture A/c (amount received). Forfeited shares may be reissued at a discount no larger than the amount forfeited on them; whatever is left in forfeiture on reissued shares goes to Capital Reserve. Example: 100 shares (Rs 10, Rs 8 called) on which Rs 6 was paid are forfeited (Rs 600) and reissued at Rs 7 fully paid; discount Rs 300, capital reserve Rs 300."
+   },
+   {
+    "topic": "premium",
+    "note": "Any amount received above face value is credited to Securities Premium (Section 52). It may be used only to issue fully paid bonus shares, to write off preliminary expenses or the expenses, commission or discount on issue of securities, to pay premium on redemption of preference shares or debentures, and to buy back securities. Ind AS companies that comply with the prescribed standards cannot use it for some of these purposes. Example: 5,000 shares of Rs 10 issued at Rs 15 - Securities Premium Cr Rs 25,000."
+   },
+   {
+    "topic": "buyback",
+    "note": "Sections 68-70 let a company buy back its own shares out of free reserves, securities premium or the proceeds of a different kind of securities. The buyback is limited to 25% of paid-up capital plus free reserves (up to 10% with board approval, beyond that a special resolution is needed), and post-buyback debt may not exceed twice paid-up capital and free reserves. Where the buyback is funded out of free reserves or premium, an amount equal to the face value of the shares bought back is transferred to the CRR (Section 69). Example: capital plus free reserves of Rs 40 crore allows a buyback of at most Rs 10 crore."
+   },
+   {
+    "topic": "redemption",
+    "note": "Under Section 55, preference shares must be fully paid before redemption and can be redeemed only out of distributable profits or the proceeds of a fresh issue made for the purpose; their tenure generally cannot exceed 20 years. Any premium on redemption is met from profits or securities premium. Example: Rs 5 lakh preference shares redeemed at a 10% premium - Preference Share Capital Dr 5,00,000, Premium on Redemption Dr 50,000, To Preference Shareholders 5,50,000."
+   },
+   {
+    "topic": "CRR",
+    "note": "The Capital Redemption Reserve keeps capital intact when shares are redeemed or bought back out of profits. CRR = face value of shares redeemed - face value of the fresh issue made for redemption. It can be used only to issue fully paid bonus shares. Example: Rs 5 lakh preference shares redeemed, fresh equity of Rs 2 lakh issued at par - transfer Rs 3 lakh from General Reserve or P&L to CRR."
+   },
+   {
+    "topic": "bonus",
+    "note": "Section 63 allows fully paid bonus shares to be issued out of free reserves, securities premium or CRR, but not out of revaluation reserve, and not in place of a dividend. Partly paid shares must be made fully paid first, and the articles must authorise the issue. Entry: General Reserve/Securities Premium Dr To Bonus to Shareholders A/c; then Bonus to Shareholders Dr To Share Capital. Example: a 1:4 bonus on capital of Rs 40 lakh capitalises reserves of Rs 10 lakh."
+   },
+   {
+    "topic": "rights",
+    "note": "Under Section 62(1)(a), a company raising more capital must first offer new shares to existing equity shareholders in proportion to their holdings. The offer stays open for 15-30 days and can be renounced unless the articles provide otherwise. Theoretical ex-rights price (TERP) = (market value of old shares + rights subscription) / total shares after the issue. Example: 4 shares at Rs 50 plus 1 rights share at Rs 40 gives TERP = (200 + 40)/5 = Rs 48."
+   },
+   {
+    "topic": "ESOPs",
+    "note": "An Employee Stock Option Plan gives employees the right to buy shares at a set exercise price after a vesting period; it needs a special resolution (Section 62(1)(b)). Listed companies must also comply with the SEBI (Share Based Employee Benefits and Sweat Equity) Regulations, 2021, which require a minimum vesting period of one year. The expense is the fair value of the options spread over the vesting period (Ind AS 102 / ICAI Guidance Note). Example: 1,000 options with a fair value of Rs 30 vesting over 2 years - expense Rs 15,000 a year."
+   },
+   {
+    "topic": "underwriting",
+    "note": "An underwriter agrees to take up any part of an issue the public does not subscribe, in return for commission. Section 40(6) with Rule 13 caps commission at 5% of the issue price for shares and 2.5% for debentures, or the lower rate in the articles. Net liability = gross liability (agreed share of the issue) - marked applications - unmarked applications allotted in the gross ratio. Example: issue of Rs 10 crore with 5% commission - maximum commission Rs 50 lakh."
+   },
+   {
+    "topic": "book building",
+    "note": "Book building is a price-discovery method under the SEBI (ICDR) Regulations, 2018. Investors bid within a price band, and the cap may not exceed 120% of the floor price. The book running lead managers build the demand book and fix the issue price, usually at or near the cut-off; QIB, NII and retail portions are allotted separately. Example: band Rs 100-120 (cap = 1.2 x floor); final price fixed at Rs 118 after bids close."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "100 shares of Rs 10 (Rs 8 called up) were forfeited after the holder paid Rs 6 a share. They were reissued at Rs 7 a share, fully paid. The amount transferred to capital reserve is:",
+    "options": [
+     "Rs 600",
+     "Rs 100",
+     "Rs 300",
+     "Rs 200"
+    ],
+    "answer": 2,
+    "explain": "Forfeited Rs 600 (100 x 6); discount on reissue Rs 300 (100 x 3); balance to capital reserve = 600 - 300 = Rs 300."
+   },
+   {
+    "q": "A shareholder holds 4 shares with a market price of Rs 50. A 1-for-4 rights issue is made at Rs 40. The theoretical ex-rights price is:",
+    "options": [
+     "Rs 45",
+     "Rs 48",
+     "Rs 50",
+     "Rs 42"
+    ],
+    "answer": 1,
+    "explain": "TERP = (4 x 50 + 1 x 40)/5 = 240/5 = Rs 48."
+   },
+   {
+    "q": "Rs 6,00,000 of preference shares are redeemed at par. The company issues Rs 2,50,000 of equity at par for the purpose. The transfer to CRR is:",
+    "options": [
+     "Rs 6,00,000",
+     "Rs 2,50,000",
+     "Nil",
+     "Rs 3,50,000"
+    ],
+    "answer": 3,
+    "explain": "CRR = 6,00,000 - 2,50,000 = Rs 3,50,000 (the part redeemed out of profits)."
+   },
+   {
+    "q": "Bonus shares under Section 63 CANNOT be issued out of:",
+    "options": [
+     "Revaluation reserve",
+     "Securities premium",
+     "Capital redemption reserve",
+     "Free reserves"
+    ],
+    "answer": 0,
+    "explain": "Section 63 expressly forbids capitalising reserves created by revaluation of assets."
+   },
+   {
+    "q": "The maximum underwriting commission on an issue of shares, where the articles are silent on a lower rate, is:",
+    "options": [
+     "2.5% of issue price",
+     "10% of issue price",
+     "5% of issue price",
+     "1% of issue price"
+    ],
+    "answer": 2,
+    "explain": "Rule 13 with Section 40(6): up to 5% for shares and 2.5% for debentures."
+   },
+   {
+    "q": "In a book-built issue with a floor price of Rs 250, the highest permissible cap price is:",
+    "options": [
+     "Rs 275",
+     "Rs 300",
+     "Rs 312.50",
+     "Rs 350"
+    ],
+    "answer": 1,
+    "explain": "Under SEBI ICDR the cap may not exceed 120% of the floor: 250 x 1.20 = Rs 300."
+   }
+  ],
+  "desc": {
+   "q": "Sigma Ltd issued 1,00,000 equity shares, underwritten by P (60%) and Q (40%). Applications received for 80,000 shares: marked for P 50,000, marked for Q 20,000, unmarked 10,000. Compute each underwriter's net liability and the commission at 4% if the issue price is Rs 20.",
+   "points": [
+    "Gross liability: P = 60,000 shares; Q = 40,000 shares.",
+    "Deduct unmarked applications in the gross ratio 6:4: P 6,000, Q 4,000 - balances P 54,000, Q 36,000.",
+    "Deduct marked applications: P 54,000 - 50,000 = 4,000; Q 36,000 - 20,000 = 16,000 shares (total 20,000 = 1,00,000 - 80,000 unsubscribed).",
+    "Commission on total gross liability x issue price: P = 60,000 x 20 x 4% = Rs 48,000; Q = 40,000 x 20 x 4% = Rs 32,000.",
+    "Answer: net liability P 4,000 shares, Q 16,000 shares; commission P Rs 48,000, Q Rs 32,000."
+   ]
+  }
+ },
+ "p4c5": {
+  "notes": [
+   {
+    "topic": "Accounting treatment",
+    "note": "Debentures are borrowings; they are credited to the Debentures account at face value. Debentures may be issued at par, at a premium or at a discount, and redeemed at par or at a premium. Loss on issue (discount plus premium payable on redemption) is written off over the life of the debentures. Interest is charged to P&L net of TDS paid to the government, and debentures appear under long-term borrowings, with current maturities shown under short-term borrowings (Schedule III). Example: 1,000 debentures of Rs 100 issued at Rs 95 and redeemable at Rs 105 - loss on issue Rs 10,000."
+   },
+   {
+    "topic": "DRR",
+    "note": "Section 71(4) with Rule 18(7) of the Share Capital and Debentures Rules requires a Debenture Redemption Reserve out of profits. Since the 2019 amendment, listed companies, NBFCs and HFCs are exempt; unlisted companies other than these must keep DRR of 10% of outstanding debentures. Listed and unlisted companies alike must also, by 30 April each year, deposit or invest at least 15% of the debentures maturing in the year ending the next 31 March in specified securities. Example: Rs 20 lakh maturing in FY 2027-28 means Rs 3 lakh must be invested by 30 April 2027."
+   },
+   {
+    "topic": "redemption",
+    "note": "Debentures may be redeemed in a lump sum at maturity, in instalments by draw of lots, by purchase in the open market, or by conversion. A sinking fund may be built up to provide cash. When a company buys its own debentures below face value and cancels them, the profit on cancellation is a capital profit transferred to Capital Reserve. After redemption the DRR, now free, is transferred to General Reserve. Example: own debentures of face value Rs 1,00,000 bought at Rs 96,000 and cancelled - Rs 4,000 to Capital Reserve."
+   },
+   {
+    "topic": "conversion",
+    "note": "Convertible debentures (fully or partly) are exchanged for equity shares on agreed terms. Number of shares = amount converted / issue price per share, and any premium is credited to Securities Premium. Because Section 53 prohibits shares at a discount, the conversion price cannot be below face value. Example: Rs 2,00,000 of debentures converted into Rs 10 shares at Rs 25 - 8,000 shares; capital Rs 80,000, premium Rs 1,20,000."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "1,000 debentures of Rs 100 are issued at Rs 95 and are redeemable at Rs 105. The total loss on issue is:",
+    "options": [
+     "Rs 10,000",
+     "Rs 5,000",
+     "Rs 15,000",
+     "Rs 1,05,000"
+    ],
+    "answer": 0,
+    "explain": "Loss = discount Rs 5 + redemption premium Rs 5 = Rs 10 per debenture x 1,000 = Rs 10,000."
+   },
+   {
+    "q": "Interest is payable half-yearly on 10% debentures of Rs 5,00,000, and TDS is 10%. The net amount paid to debenture holders each half-year is:",
+    "options": [
+     "Rs 25,000",
+     "Rs 45,000",
+     "Rs 50,000",
+     "Rs 22,500"
+    ],
+    "answer": 3,
+    "explain": "Half-year interest = 5,00,000 x 10% x 6/12 = 25,000; TDS 2,500; net = Rs 22,500."
+   },
+   {
+    "q": "Debentures of Rs 40 lakh fall due for redemption in FY 2027-28. The minimum deposit or investment to be made by 30 April 2027 under Rule 18(7) is:",
+    "options": [
+     "Rs 4 lakh",
+     "Rs 6 lakh",
+     "Rs 10 lakh",
+     "Rs 2 lakh"
+    ],
+    "answer": 1,
+    "explain": "15% of the debentures maturing during the year = 40 x 15% = Rs 6 lakh."
+   },
+   {
+    "q": "Rs 2,00,000 of debentures are converted into equity shares of Rs 10 each issued at Rs 25. The number of shares issued is:",
+    "options": [
+     "20,000",
+     "10,000",
+     "8,000",
+     "5,000"
+    ],
+    "answer": 2,
+    "explain": "2,00,000 / 25 = 8,000 shares (capital Rs 80,000, premium Rs 1,20,000)."
+   },
+   {
+    "q": "Profit on cancellation of own debentures bought in the open market is transferred to:",
+    "options": [
+     "Capital reserve",
+     "Statement of P&L as operating income",
+     "DRR",
+     "Securities premium"
+    ],
+    "answer": 0,
+    "explain": "It is a capital profit, so it goes to Capital Reserve."
+   },
+   {
+    "q": "After the 2019 amendment, DRR of 10% of outstanding debentures is required for:",
+    "options": [
+     "Listed companies only",
+     "All NBFCs",
+     "Housing finance companies",
+     "Unlisted companies other than NBFCs and HFCs"
+    ],
+    "answer": 3,
+    "explain": "Listed companies, NBFCs and HFCs are exempt; other unlisted companies keep DRR of 10% of outstanding debentures."
+   }
+  ],
+  "desc": {
+   "q": "On 1 April 2026, Orbit Ltd (unlisted) issued 5,000 10% debentures of Rs 100 each at a 5% discount, redeemable at a 10% premium after 5 years. Interest is paid annually on 31 March. Pass the journal entry on issue, compute the annual interest and the yearly write-off of loss on issue (straight line), and state the DRR to be created.",
+   "points": [
+    "Issue entry: Bank Dr 4,75,000; Loss on Issue of Debentures Dr 75,000; To 10% Debentures 5,00,000; To Premium on Redemption of Debentures 50,000.",
+    "Loss on issue = discount 5,000 x 5 = 25,000 + redemption premium 5,000 x 10 = 50,000 = Rs 75,000.",
+    "Annual interest = 5,00,000 x 10% = Rs 50,000 (on face value), charged to P&L.",
+    "Write-off of loss over 5 years = 75,000 / 5 = Rs 15,000 a year, against securities premium or P&L.",
+    "DRR: Orbit is unlisted and not an NBFC, so DRR = 10% x 5,00,000 = Rs 50,000 out of profits before redemption, plus a 15% deposit (Rs 75,000) by 30 April of the redemption year."
+   ]
+  }
+ },
+ "p4c6": {
+  "notes": [
+   {
+    "topic": "ESOP accounting",
+    "note": "Ind AS 102 (or the ICAI Guidance Note on Share-based Payments for non-Ind AS companies) measures equity-settled options at grant-date fair value. The cost is recognised over the vesting period: Employee Benefit Expense Dr To Share-based Payment Reserve (ESOP Outstanding). Estimates of how many options will vest are revised each year, but grant-date fair value is not; on exercise the reserve and the cash received are transferred to share capital and securities premium. Example: 500 employees x 100 options x 80% expected to vest x Rs 30 fair value = Rs 12 lakh over 3 years, i.e. Rs 4 lakh a year."
+   },
+   {
+    "topic": "buyback",
+    "note": "Entries: Share Capital Dr (face value) plus Premium on Buyback Dr To Equity Shareholders; then Equity Shareholders Dr To Bank. The premium is charged to securities premium or free reserves, and the face value of shares bought back out of free reserves is transferred to CRR under Section 69. Conditions under Section 68: the shares must be fully paid, the buyback limit is 25% of capital plus free reserves, post-buyback debt-equity may be at most 2:1, and there must be a 1-year gap between buybacks. Example: 10,000 shares of Rs 10 bought back at Rs 30 - Rs 1 lakh capital, Rs 2 lakh premium, and Rs 1 lakh to CRR if funded from reserves."
+   },
+   {
+    "topic": "differential voting rights",
+    "note": "Section 43(a)(ii) with Rule 4 of the Companies (Share Capital and Debentures) Rules, 2014 permits equity shares with differential rights as to dividend or voting. Key conditions: the articles must authorise them, shareholders must approve, and DVR shares may not exceed 74% of total voting power. The company must also have no default in filing returns or repaying deposits and debentures. In the accounts they are shown as a separate class within equity share capital. Example: Tata Motors' 'A' ordinary shares carried lower voting rights and a higher dividend."
+   },
+   {
+    "topic": "underwriting",
+    "note": "Accounting for underwriting: Underwriting Commission Dr To Underwriter (commission payable); Underwriter Dr To Share Capital (shares taken up); then Bank Dr To Underwriter for the net amount. Commission is a share-issue expense written off against securities premium or P&L. Firm underwriting means the underwriter subscribes a fixed number of shares regardless of public demand; under the usual approach, firm applications are treated like marked applications when computing liability. Example: 60,000 shares underwritten at Rs 10 with 2% commission - commission Rs 12,000."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "500 employees are each granted 100 options with a fair value of Rs 30, vesting over 3 years. 80% are expected to vest. The expense for Year 1 is:",
+    "options": [
+     "Rs 5,00,000",
+     "Rs 4,00,000",
+     "Rs 12,00,000",
+     "Rs 3,20,000"
+    ],
+    "answer": 1,
+    "explain": "Total = 500 x 100 x 0.80 x 30 = Rs 12,00,000; per year = 12,00,000 / 3 = Rs 4,00,000."
+   },
+   {
+    "q": "Paid-up capital Rs 10 crore and free reserves (including securities premium) Rs 30 crore. The maximum buyback with only board approval is:",
+    "options": [
+     "Rs 10 crore",
+     "Rs 1 crore",
+     "Rs 4 crore",
+     "Rs 2.5 crore"
+    ],
+    "answer": 2,
+    "explain": "Board approval covers up to 10% of capital plus free reserves = 10% x 40 = Rs 4 crore (25% = Rs 10 crore needs a special resolution)."
+   },
+   {
+    "q": "Shares with differential voting rights may not exceed what proportion of total voting power?",
+    "options": [
+     "26%",
+     "50%",
+     "51%",
+     "74%"
+    ],
+    "answer": 3,
+    "explain": "Rule 4, as amended in 2019, caps DVR shares at 74% of total voting power."
+   },
+   {
+    "q": "Market price Rs 150; exercise price Rs 100. The intrinsic value per option is:",
+    "options": [
+     "Rs 50",
+     "Rs 100",
+     "Rs 150",
+     "Rs 250"
+    ],
+    "answer": 0,
+    "explain": "Intrinsic value = market price - exercise price = 150 - 100 = Rs 50."
+   },
+   {
+    "q": "Shares of face value Rs 5 lakh are bought back at Rs 15 lakh entirely out of general reserve. The amount transferred to CRR is:",
+    "options": [
+     "Rs 15 lakh",
+     "Rs 10 lakh",
+     "Nil",
+     "Rs 5 lakh"
+    ],
+    "answer": 3,
+    "explain": "Section 69: transfer the nominal value of shares bought back out of free reserves = Rs 5 lakh."
+   },
+   {
+    "q": "Under ESOP accounting in Ind AS 102, which of these is NOT remeasured after the grant date for equity-settled options?",
+    "options": [
+     "Number of options expected to vest",
+     "Fair value per option",
+     "Employee attrition estimate",
+     "Cumulative expense recognised to date"
+    ],
+    "answer": 1,
+    "explain": "Grant-date fair value is fixed; only vesting estimates are revised (non-market conditions)."
+   }
+  ],
+  "desc": {
+   "q": "Delta Ltd has equity share capital of Rs 50,00,000 (5,00,000 shares of Rs 10), securities premium of Rs 10,00,000 and general reserve of Rs 30,00,000. It buys back 50,000 shares at Rs 40 each, using first securities premium and then general reserve. Check the 25% limit and pass the journal entries.",
+   "points": [
+    "Buyback amount = 50,000 x 40 = Rs 20,00,000; 25% limit = 25% x (50 + 10 + 30) lakh = Rs 22,50,000, so the buyback is within the limit (it needs a special resolution because it exceeds 10% = Rs 9 lakh).",
+    "Equity Share Capital Dr 5,00,000; Premium on Buyback Dr 15,00,000; To Equity Shareholders 20,00,000. Then Equity Shareholders Dr 20,00,000 To Bank 20,00,000.",
+    "Premium adjusted: Securities Premium Dr 10,00,000; General Reserve Dr 5,00,000; To Premium on Buyback 15,00,000.",
+    "Transfer to CRR (Section 69, face value bought back out of free reserves): General Reserve Dr 5,00,000 To CRR 5,00,000.",
+    "After the buyback: capital Rs 45,00,000; securities premium nil; general reserve Rs 20,00,000; CRR Rs 5,00,000."
+   ]
+  }
+ },
+ "p4c7": {
+  "notes": [
+   {
+    "topic": "Standalone vs consolidated",
+    "note": "Standalone statements show the company alone; consolidated statements present the group as one economic entity. Section 129(3) requires a company with one or more subsidiaries, associates or joint ventures to prepare consolidated financial statements (CFS) in the same form as its own and to attach Form AOC-1. Consolidation is governed by Ind AS 110 (or AS 21) and the CFS is placed before the AGM with the standalone accounts. Example: H Ltd's revenue of Rs 100 crore plus its subsidiary's Rs 40 crore, less intra-group sales of Rs 10 crore, gives consolidated revenue of Rs 130 crore."
+   },
+   {
+    "topic": "holding, subsidiary, associate, JV",
+    "note": "Section 2(87): a subsidiary is a company where the holding company controls the composition of the board or exercises or controls more than half of the total voting power, alone or with its subsidiaries. An associate (Section 2(6), Ind AS 28) is an entity over which the investor has significant influence, presumed at 20% of voting power. A joint venture involves joint control (Ind AS 111). Subsidiaries are consolidated line by line, with goodwill = consideration - share of net assets and NCI shown separately; associates and JVs use the equity method. Example: 30% bought for Rs 3 lakh, associate earns Rs 1 lakh - carrying amount Rs 3.3 lakh."
+   },
+   {
+    "topic": "disclosures",
+    "note": "Form AOC-1 sets out the salient features of each subsidiary, associate and JV. Schedule III's general instructions for CFS require a table of each entity's share in consolidated net assets and profit, and NCI must be shown within equity. Ind AS 112 adds disclosures on significant judgements, restrictions and risks from interests in other entities. Intra-group balances, transactions and unrealised profits are eliminated in full. Example: an unrealised profit of Rs 8,000 on goods sold intra-group and still held in closing stock is deducted from consolidated stock."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "H Ltd paid Rs 4,50,000 for 80% of S Ltd, whose net assets at acquisition were Rs 5,00,000. Goodwill (NCI at proportionate share) is:",
+    "options": [
+     "Rs 50,000",
+     "Rs 1,00,000",
+     "Rs 4,50,000",
+     "Rs (50,000) capital reserve"
+    ],
+    "answer": 0,
+    "explain": "Goodwill = 4,50,000 - 80% x 5,00,000 = 4,50,000 - 4,00,000 = Rs 50,000."
+   },
+   {
+    "q": "In the same case, the non-controlling interest at acquisition is:",
+    "options": [
+     "Rs 4,00,000",
+     "Rs 90,000",
+     "Rs 1,00,000",
+     "Rs 50,000"
+    ],
+    "answer": 2,
+    "explain": "NCI = 20% x 5,00,000 = Rs 1,00,000."
+   },
+   {
+    "q": "H sold goods to its subsidiary at cost plus 25%. Goods invoiced at Rs 40,000 are in the subsidiary's closing stock. The unrealised profit to be eliminated is:",
+    "options": [
+     "Rs 10,000",
+     "Rs 8,000",
+     "Rs 32,000",
+     "Rs 5,000"
+    ],
+    "answer": 1,
+    "explain": "Unrealised profit = 40,000 x 25/125 = Rs 8,000."
+   },
+   {
+    "q": "A company is presumed to have significant influence over another when it holds at least what share of voting power?",
+    "options": [
+     "10%",
+     "26%",
+     "51%",
+     "20%"
+    ],
+    "answer": 3,
+    "explain": "Section 2(6) and Ind AS 28 presume significant influence at 20% of voting power."
+   },
+   {
+    "q": "A Ltd buys 30% of B Ltd for Rs 3,00,000. B earns Rs 1,00,000 and pays a dividend of Rs 40,000. Under the equity method, the carrying amount at year end is:",
+    "options": [
+     "Rs 3,30,000",
+     "Rs 3,18,000",
+     "Rs 3,00,000",
+     "Rs 3,12,000"
+    ],
+    "answer": 1,
+    "explain": "3,00,000 + 30% x 1,00,000 - 30% x 40,000 = 3,00,000 + 30,000 - 12,000 = Rs 3,18,000."
+   },
+   {
+    "q": "The form attached to the financial statements showing the salient features of subsidiaries, associates and JVs is:",
+    "options": [
+     "AOC-4",
+     "MGT-7",
+     "AOC-1",
+     "DPT-3"
+    ],
+    "answer": 2,
+    "explain": "Form AOC-1 is required under the first proviso to Section 129(3)."
+   }
+  ],
+  "desc": {
+   "q": "H Ltd acquired 75% of S Ltd for Rs 9,00,000 on 1 April 2026, when S Ltd had share capital of Rs 8,00,000 and reserves of Rs 2,00,000. During FY 2026-27, S Ltd earned a profit of Rs 1,60,000 (no dividend). Compute goodwill, the group share of post-acquisition profit and NCI at 31 March 2027 (NCI at proportionate share of net assets).",
+   "points": [
+    "Net assets of S at acquisition = 8,00,000 + 2,00,000 = Rs 10,00,000; H's share 75% = Rs 7,50,000.",
+    "Goodwill = 9,00,000 - 7,50,000 = Rs 1,50,000 (tested for impairment under Ind AS 36).",
+    "Post-acquisition profit Rs 1,60,000: group share 75% = Rs 1,20,000 added to consolidated reserves; NCI share 25% = Rs 40,000.",
+    "NCI at 31 March 2027 = 25% x (10,00,000 + 1,60,000) = Rs 2,90,000, shown within equity.",
+    "Answer: goodwill Rs 1,50,000; group post-acquisition profit Rs 1,20,000; NCI Rs 2,90,000."
+   ]
+  }
+ },
+ "p4c8": {
+  "notes": [
+   {
+    "topic": "Good financial statements",
+    "note": "Useful financial statements are relevant (they bear on decisions and are material), faithfully represented (complete, neutral, free from error), comparable, verifiable, timely and understandable - the qualitative characteristics in the Conceptual Framework. In India they must also give a true and fair view under Section 129 and follow Schedule III. Example: switching depreciation methods every year without disclosure ruins comparability even if each year is arithmetically correct."
+   },
+   {
+    "topic": "ratio analysis — liquidity, turnover, leverage, profitability",
+    "note": "Liquidity: current ratio = CA/CL; quick ratio = (CA - inventory - prepaid)/CL. Turnover: inventory turnover = COGS/average inventory; debtors turnover = credit sales/average debtors (collection period = 365/turnover). Leverage: debt-equity = long-term debt/equity; interest coverage = EBIT/interest. Profitability: GP%, NP%, ROCE = EBIT/capital employed, ROE = PAT/equity. Schedule III (2021) requires 11 such ratios with reasons for changes above 25%. Example: CA Rs 6 lakh, CL Rs 3 lakh - current ratio 2:1."
+   },
+   {
+    "topic": "DuPont",
+    "note": "DuPont analysis breaks ROE into three drivers: ROE = net profit margin x asset turnover x equity multiplier = (PAT/Sales) x (Sales/Assets) x (Assets/Equity). It shows whether returns come from pricing power, efficient use of assets, or leverage. Example: margin 5%, turnover 2 times, multiplier 1.5 - ROE = 0.05 x 2 x 1.5 = 15%."
+   },
+   {
+    "topic": "interpretation",
+    "note": "A ratio means little on its own; it must be compared over time (trend analysis), with peers and industry averages, and against targets. Analysts also read ratios together - a high current ratio combined with slow inventory turnover may signal idle stock rather than strong liquidity. Limitations include historical cost data, differing accounting policies, window dressing and inflation. Example: a debtors collection period rising from 45 to 70 days suggests looser credit control even if sales have grown."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Current assets Rs 6,00,000 (including inventory Rs 2,00,000 and prepaid expenses Rs 20,000); current liabilities Rs 3,00,000. The quick ratio is:",
+    "options": [
+     "2.00",
+     "1.33",
+     "1.27",
+     "1.20"
+    ],
+    "answer": 2,
+    "explain": "Quick assets = 6,00,000 - 2,00,000 - 20,000 = 3,80,000; 3,80,000 / 3,00,000 = 1.27."
+   },
+   {
+    "q": "Credit sales Rs 7,30,000; average debtors Rs 1,00,000; 365 days in the year. The average collection period is:",
+    "options": [
+     "50 days",
+     "73 days",
+     "36 days",
+     "7.3 days"
+    ],
+    "answer": 0,
+    "explain": "Debtors turnover = 7.3 times; 365 / 7.3 = 50 days."
+   },
+   {
+    "q": "Net margin 5%, asset turnover 2 times, assets/equity 1.5. ROE under DuPont is:",
+    "options": [
+     "10%",
+     "7.5%",
+     "8.5%",
+     "15%"
+    ],
+    "answer": 3,
+    "explain": "ROE = 0.05 x 2 x 1.5 = 0.15 = 15%."
+   },
+   {
+    "q": "The interest coverage ratio is calculated as:",
+    "options": [
+     "PAT / Interest",
+     "EBIT / Interest",
+     "EBITDA / Total debt",
+     "Interest / EBIT"
+    ],
+    "answer": 1,
+    "explain": "Interest coverage = earnings before interest and tax / interest expense."
+   },
+   {
+    "q": "COGS Rs 12,00,000; opening inventory Rs 1,80,000; closing inventory Rs 2,20,000. Inventory turnover is:",
+    "options": [
+     "6 times",
+     "5.45 times",
+     "6.67 times",
+     "4 times"
+    ],
+    "answer": 0,
+    "explain": "Average inventory = (1,80,000 + 2,20,000)/2 = 2,00,000; 12,00,000 / 2,00,000 = 6 times."
+   },
+   {
+    "q": "A firm's current ratio is high but its quick ratio is low. The most likely reason is:",
+    "options": [
+     "Excess cash balances",
+     "Very high trade payables",
+     "Heavy investment in inventory",
+     "Low share capital"
+    ],
+    "answer": 2,
+    "explain": "The gap between the two ratios is mostly inventory, so a large stock holding explains it."
+   }
+  ],
+  "desc": {
+   "q": "From the following data of Rhea Ltd for FY 2026-27, compute the GP ratio, NP ratio, current ratio, quick ratio and ROE, and show the DuPont break-up of ROE: Sales Rs 20,00,000; COGS Rs 14,00,000; PAT Rs 1,60,000; Total assets Rs 10,00,000; Equity Rs 8,00,000; Current assets Rs 4,00,000 (including inventory Rs 1,00,000); Current liabilities Rs 2,00,000.",
+   "points": [
+    "GP ratio = (20,00,000 - 14,00,000)/20,00,000 = 30%; NP ratio = 1,60,000 / 20,00,000 = 8%.",
+    "Current ratio = 4,00,000 / 2,00,000 = 2:1; quick ratio = (4,00,000 - 1,00,000)/2,00,000 = 1.5:1.",
+    "ROE = 1,60,000 / 8,00,000 = 20%.",
+    "DuPont: net margin 8% x asset turnover (20,00,000/10,00,000 = 2) x equity multiplier (10,00,000/8,00,000 = 1.25) = 0.08 x 2 x 1.25 = 20%, matching the ROE above.",
+    "Interpretation: comfortable liquidity; ROE is driven mainly by margin and asset use, with moderate leverage."
+   ]
+  }
+ },
+ "p4c9": {
+  "notes": [
+   {
+    "topic": "Purpose & structure of cash flow statement",
+    "note": "A cash flow statement (AS 3 / Ind AS 7) explains how cash and cash equivalents moved during the period, showing whether profit turned into cash, and helps assess liquidity and solvency. It has three sections - operating, investing and financing - and ends by reconciling opening and closing cash. Cash equivalents are short-term, highly liquid investments with an original maturity of three months or less. Operating cash flow may be shown by the direct method (gross receipts and payments) or the indirect method (profit adjusted for non-cash items and working capital changes); listed entities generally use the indirect method. Example: a 90-day fixed deposit counts as a cash equivalent; a 6-month FD does not."
+   },
+   {
+    "topic": "operating, investing, financing",
+    "note": "Operating activities are the main revenue-producing activities, such as receipts from customers, payments to suppliers and employees, and income tax (unless specifically linked to investing or financing). Investing covers buying and selling long-term assets and investments, and for a non-financial company also interest and dividend received. Financing covers changes in equity and borrowings and, under AS 3, interest and dividends paid; Ind AS 7 allows interest paid to be shown under operating or financing. Example: net profit Rs 2 lakh + depreciation Rs 50,000 - increase in debtors Rs 30,000 + decrease in stock Rs 20,000 + increase in creditors Rs 10,000 = CFO Rs 2.5 lakh."
+   },
+   {
+    "topic": "life-cycle analysis",
+    "note": "The sign pattern of the three cash flows indicates a firm's stage. Start-up: CFO negative, CFI negative (heavy capex), CFF positive (raising funds). Growth: CFO turning positive, CFI still negative, CFF positive. Maturity: CFO strongly positive, CFI moderate, CFF negative (repaying debt, paying dividends). Decline: CFO falling, CFI positive (selling assets), CFF negative. Example: a firm with CFO +80, CFI -20 and CFF -50 is most likely mature."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Net profit Rs 2,00,000; depreciation Rs 50,000; increase in debtors Rs 30,000; decrease in inventory Rs 20,000; increase in creditors Rs 10,000. Cash from operations is:",
+    "options": [
+     "Rs 2,10,000",
+     "Rs 2,50,000",
+     "Rs 2,90,000",
+     "Rs 1,90,000"
+    ],
+    "answer": 1,
+    "explain": "2,00,000 + 50,000 - 30,000 + 20,000 + 10,000 = Rs 2,50,000."
+   },
+   {
+    "q": "Machinery (net): opening Rs 5,00,000, closing Rs 6,00,000. Depreciation for the year Rs 80,000; book value of machinery sold Rs 40,000. Machinery purchased is:",
+    "options": [
+     "Rs 1,00,000",
+     "Rs 1,80,000",
+     "Rs 1,40,000",
+     "Rs 2,20,000"
+    ],
+    "answer": 3,
+    "explain": "Purchases = closing 6,00,000 - opening 5,00,000 + depreciation 80,000 + book value sold 40,000 = Rs 2,20,000."
+   },
+   {
+    "q": "For a manufacturing company under AS 3, dividend received on investments is classified as:",
+    "options": [
+     "Investing activity",
+     "Operating activity",
+     "Financing activity",
+     "Non-cash item, not shown"
+    ],
+    "answer": 0,
+    "explain": "For non-financial enterprises, interest and dividend received are investing inflows."
+   },
+   {
+    "q": "Which of the following qualifies as a cash equivalent?",
+    "options": [
+     "Equity shares held for trading",
+     "A 3-month treasury bill bought one month before maturity",
+     "A 1-year fixed deposit",
+     "Bank overdraft repayable after 2 years"
+    ],
+    "answer": 1,
+    "explain": "It is highly liquid and was within three months of maturity when acquired."
+   },
+   {
+    "q": "A firm reports CFO negative, CFI negative and CFF positive. It is most likely in the:",
+    "options": [
+     "Maturity stage",
+     "Decline stage",
+     "Start-up stage",
+     "Shake-out with asset sales"
+    ],
+    "answer": 2,
+    "explain": "Cash is burnt in operations and capex and funded by new equity or debt - the start-up pattern."
+   },
+   {
+    "q": "Profit before tax Rs 3,00,000 includes a profit on sale of machinery of Rs 15,000; depreciation is Rs 40,000. Operating profit before working capital changes is:",
+    "options": [
+     "Rs 3,25,000",
+     "Rs 3,55,000",
+     "Rs 3,40,000",
+     "Rs 3,15,000"
+    ],
+    "answer": 0,
+    "explain": "3,00,000 + 40,000 - 15,000 = Rs 3,25,000 (the sale proceeds belong under investing)."
+   }
+  ],
+  "desc": {
+   "q": "From the following, compute cash flow from operating activities of Lotus Ltd (indirect method, AS 3): Profit before tax Rs 4,00,000 (after charging depreciation Rs 60,000 and interest Rs 30,000, and including a profit of Rs 20,000 on sale of investments); Income tax paid Rs 1,00,000; Increase in trade receivables Rs 40,000; Increase in inventory Rs 25,000; Decrease in trade payables Rs 15,000.",
+   "points": [
+    "Start with PBT Rs 4,00,000; add depreciation 60,000 and interest 30,000 (financing item); less profit on sale of investments 20,000 (investing item).",
+    "Operating profit before working capital changes = 4,00,000 + 60,000 + 30,000 - 20,000 = Rs 4,70,000.",
+    "Working capital changes: increase in receivables (40,000), increase in inventory (25,000), decrease in payables (15,000) = (80,000); cash generated from operations = Rs 3,90,000.",
+    "Less income tax paid 1,00,000: net cash from operating activities = Rs 2,90,000."
+   ]
+  }
+ },
+ "p4c10": {
+  "notes": [
+   {
+    "topic": "Forecasting balance sheet, income statement & cash flows",
+    "note": "Forecasting starts from a sales forecast. Under the percentage-of-sales method, items that move with sales (COGS, variable expenses, receivables, inventory, payables) are projected as a fixed percentage of forecast sales, while fixed items are projected separately. Retained earnings = opening + forecast PAT - dividends. A plug figure (cash or new borrowing) balances the forecast balance sheet, and the forecast cash flow statement follows from the changes between the two balance sheets. Additional funds needed: AFN = (A/S) x change in S - (L/S) x change in S - margin x S1 x (1 - payout). Example: A/S 50%, L/S 10%, sales Rs 100 lakh rising to Rs 120 lakh, margin 5%, payout 40% - AFN = 10 - 2 - 3.6 = Rs 4.4 lakh."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Sales of Rs 10 crore are expected to grow 20%; COGS stays at 60% of sales. Forecast COGS is:",
+    "options": [
+     "Rs 6.0 crore",
+     "Rs 7.2 crore",
+     "Rs 7.0 crore",
+     "Rs 4.8 crore"
+    ],
+    "answer": 1,
+    "explain": "Forecast sales = 12 crore; COGS = 60% x 12 = Rs 7.2 crore."
+   },
+   {
+    "q": "Forecast sales are Rs 73 lakh and the debtors collection period is 45 days (365-day year). Forecast debtors are:",
+    "options": [
+     "Rs 6 lakh",
+     "Rs 8.1 lakh",
+     "Rs 9 lakh",
+     "Rs 4.5 lakh"
+    ],
+    "answer": 2,
+    "explain": "Debtors = 73 lakh x 45/365 = Rs 9 lakh."
+   },
+   {
+    "q": "Assets 50% of sales, spontaneous liabilities 10% of sales, sales Rs 100 lakh rising to Rs 120 lakh, net margin 5%, payout 40%. AFN is:",
+    "options": [
+     "Rs 4.4 lakh",
+     "Rs 8.0 lakh",
+     "Rs 5.6 lakh",
+     "Rs 2.4 lakh"
+    ],
+    "answer": 0,
+    "explain": "AFN = 0.5 x 20 - 0.1 x 20 - 0.05 x 120 x 0.6 = 10 - 2 - 3.6 = Rs 4.4 lakh."
+   },
+   {
+    "q": "Opening retained earnings Rs 50 lakh, forecast PAT Rs 20 lakh, proposed dividend Rs 8 lakh. Forecast closing retained earnings are:",
+    "options": [
+     "Rs 70 lakh",
+     "Rs 58 lakh",
+     "Rs 78 lakh",
+     "Rs 62 lakh"
+    ],
+    "answer": 3,
+    "explain": "50 + 20 - 8 = Rs 62 lakh."
+   },
+   {
+    "q": "In a forecast balance sheet, the 'plug' figure is usually:",
+    "options": [
+     "Share capital",
+     "Fixed assets",
+     "External financing or surplus cash",
+     "Retained earnings"
+    ],
+    "answer": 2,
+    "explain": "The plug is the balancing amount that shows the extra funding needed or the surplus generated."
+   },
+   {
+    "q": "Which item is generally NOT forecast as a percentage of sales?",
+    "options": [
+     "Trade receivables",
+     "Inventory",
+     "Trade payables",
+     "Long-term debt"
+    ],
+    "answer": 3,
+    "explain": "Long-term debt depends on financing decisions, not on spontaneous movement with sales."
+   }
+  ],
+  "desc": {
+   "q": "Zen Ltd's current sales are Rs 200 lakh and are expected to grow 25% next year. Assets are 60% of sales and spontaneous liabilities 20% of sales, both expected to stay at the same percentages. Net profit margin is 8% and dividend payout is 50%. Forecast next year's sales and PAT, and compute the additional funds needed.",
+   "points": [
+    "Forecast sales = 200 x 1.25 = Rs 250 lakh; increase in sales = Rs 50 lakh.",
+    "Required increase in assets = 60% x 50 = Rs 30 lakh; spontaneous increase in liabilities = 20% x 50 = Rs 10 lakh.",
+    "Forecast PAT = 8% x 250 = Rs 20 lakh; retained earnings = 20 x (1 - 0.5) = Rs 10 lakh.",
+    "AFN = 30 - 10 - 10 = Rs 10 lakh, to be raised from debt or equity (the plug in the forecast balance sheet)."
+   ]
+  }
+ },
+ "p4c11": {
+  "notes": [
+   {
+    "topic": "Nature & scope",
+    "note": "Financial management is the planning, raising, use and control of funds so as to meet the firm's objective. The traditional approach looked mainly at raising funds; the modern approach covers three linked decisions - investment (capital budgeting and working capital), financing (the debt-equity mix) and dividend (distribute or retain) - plus liquidity management. The finance manager balances risk and return in each. Example: choosing whether to fund a Rs 5 crore plant with a term loan or a rights issue is a financing decision."
+   },
+   {
+    "topic": "profit vs wealth maximisation",
+    "note": "Profit maximisation is criticised because 'profit' is vague (which profit, over which period?), it ignores the timing of returns (time value of money) and it ignores risk. Wealth maximisation aims to maximise the market value of the shareholders' stake, i.e. the NPV of expected cash flows discounted at a risk-adjusted rate, so it accounts for timing, risk and the dividend effect. It is therefore the accepted goal, subject to managing agency costs and stakeholder interests. Example: Rs 10 now is worth more than Rs 11 in three years at 10% (PV Rs 8.26), so the smaller, earlier profit is preferred."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Project A gives Rs 10 lakh at the end of Year 1; Project B gives Rs 11 lakh at the end of Year 3. At 10%, the project preferred under wealth maximisation is:",
+    "options": [
+     "B, because its total profit is higher",
+     "A, because its PV of Rs 9.09 lakh exceeds B's PV of Rs 8.26 lakh",
+     "Both equally",
+     "B, because its PV is Rs 10 lakh"
+    ],
+    "answer": 1,
+    "explain": "PV A = 10/1.1 = 9.09; PV B = 11/1.331 = 8.26; A creates more wealth."
+   },
+   {
+    "q": "The main weakness of profit maximisation as an objective is that it:",
+    "options": [
+     "Ignores the time value of money and risk",
+     "Considers cash flows",
+     "Is the same as maximising share price",
+     "Applies only to non-profit bodies"
+    ],
+    "answer": 0,
+    "explain": "Profit maximisation does not discount future returns or adjust for uncertainty."
+   },
+   {
+    "q": "A company has 10 lakh shares. The share price moves from Rs 55 to Rs 60 after a project is announced. The increase in shareholders' wealth is:",
+    "options": [
+     "Rs 5 lakh",
+     "Rs 5.5 crore",
+     "Rs 6 crore",
+     "Rs 50 lakh"
+    ],
+    "answer": 3,
+    "explain": "Increase = 10 lakh x (60 - 55) = Rs 50 lakh."
+   },
+   {
+    "q": "Which of these is an investment decision?",
+    "options": [
+     "Issuing debentures",
+     "Declaring an interim dividend",
+     "Replacing an old machine with a new one",
+     "Splitting shares"
+    ],
+    "answer": 2,
+    "explain": "Committing funds to long-term assets is a capital budgeting (investment) decision."
+   },
+   {
+    "q": "The conflict between managers' and shareholders' interests is known as the:",
+    "options": [
+     "Agency problem",
+     "Signalling problem",
+     "Liquidity problem",
+     "Clientele effect"
+    ],
+    "answer": 0,
+    "explain": "Managers (agents) may pursue their own goals at the expense of shareholders (principals)."
+   },
+   {
+    "q": "Wealth maximisation is best measured by:",
+    "options": [
+     "Accounting profit after tax",
+     "Total sales revenue",
+     "Book value of assets",
+     "Market price per share"
+    ],
+    "answer": 3,
+    "explain": "Shareholder wealth is reflected in the market value of the shares."
+   }
+  ],
+  "desc": {
+   "q": "Projects X and Y each cost Rs 1,00,000. Cash inflows are X: Rs 20,000, Rs 40,000 and Rs 1,00,000; Y: Rs 80,000, Rs 50,000 and Rs 20,000 in Years 1-3. The cost of capital is 10% (PV factors 0.9091, 0.8264, 0.7513). Show which project each objective favours.",
+   "points": [
+    "Total undiscounted surplus: X = 1,60,000 - 1,00,000 = Rs 60,000; Y = 1,50,000 - 1,00,000 = Rs 50,000, so profit maximisation favours X.",
+    "PV of X = 20,000 x 0.9091 + 40,000 x 0.8264 + 1,00,000 x 0.7513 = 18,182 + 33,056 + 75,130 = Rs 1,26,368; NPV = Rs 26,368.",
+    "PV of Y = 80,000 x 0.9091 + 50,000 x 0.8264 + 20,000 x 0.7513 = 72,728 + 41,320 + 15,026 = Rs 1,29,074; NPV = Rs 29,074.",
+    "Wealth maximisation favours Y (higher NPV), because its cash comes in earlier - showing why timing matters."
+   ]
+  }
+ },
+ "p4c12": {
+  "notes": [
+   {
+    "topic": "Compounding",
+    "note": "Compounding finds a future value: FV = PV x (1 + r)^n. With m compounding periods a year, FV = PV x (1 + r/m)^(m x n), and the effective annual rate = (1 + r/m)^m - 1. Discounting is the reverse: PV = FV / (1 + r)^n. The Rule of 72 gives the approximate doubling time as 72 / rate. Example: Rs 10,000 at 10% for 3 years = 10,000 x 1.331 = Rs 13,310."
+   },
+   {
+    "topic": "annuity",
+    "note": "An annuity is a series of equal payments at regular intervals. PV of an ordinary annuity = A x [1 - (1 + r)^-n] / r; FV = A x [(1 + r)^n - 1] / r. An annuity due (payments at the start of each period) = ordinary annuity value x (1 + r), and a perpetuity has PV = A / r. Loan EMIs are found by dividing the principal by the PV annuity factor. Example: Rs 80,000 a year for 3 years at 10% has PV = 80,000 x 2.4869 = Rs 1,98,952."
+   },
+   {
+    "topic": "TVM tables",
+    "note": "Standard tables give the four factors: FVIF (1 + r)^n, PVIF 1/(1 + r)^n, FVIFA and PVIFA, read at the row for n periods and the column for rate r. PVIFA for n years equals the sum of the PVIFs for years 1 to n. In exams, multiply the cash flow by the relevant factor; interpolate between table rates for IRR. Example: PVIF at 12% - 0.8929, 0.7972, 0.7118, 0.6355 for Years 1-4, which add up to PVIFA 3.0373 (difference only from rounding)."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Rs 10,000 invested for 3 years at 10% compounded annually grows to:",
+    "options": [
+     "Rs 13,000",
+     "Rs 13,310",
+     "Rs 13,100",
+     "Rs 13,500"
+    ],
+    "answer": 1,
+    "explain": "FV = 10,000 x 1.1^3 = 10,000 x 1.331 = Rs 13,310."
+   },
+   {
+    "q": "The effective annual rate of 12% compounded quarterly is about:",
+    "options": [
+     "12.00%",
+     "12.36%",
+     "12.68%",
+     "12.55%"
+    ],
+    "answer": 3,
+    "explain": "(1 + 0.03)^4 - 1 = 1.1255 - 1 = 12.55%."
+   },
+   {
+    "q": "The PV of Rs 80,000 a year for 3 years at 10% (PVIFA 2.4869) is:",
+    "options": [
+     "Rs 1,98,952",
+     "Rs 2,40,000",
+     "Rs 2,18,847",
+     "Rs 1,80,316"
+    ],
+    "answer": 0,
+    "explain": "PV = 80,000 x 2.4869 = Rs 1,98,952."
+   },
+   {
+    "q": "The PV of Rs 10,000 receivable after 2 years at 8% is about:",
+    "options": [
+     "Rs 8,400",
+     "Rs 9,259",
+     "Rs 8,573",
+     "Rs 8,264"
+    ],
+    "answer": 2,
+    "explain": "PV = 10,000 / 1.08^2 = 10,000 / 1.1664 = Rs 8,573."
+   },
+   {
+    "q": "A perpetuity pays Rs 5,000 a year and the discount rate is 10%. Its present value is:",
+    "options": [
+     "Rs 50,000",
+     "Rs 5,500",
+     "Rs 45,455",
+     "Rs 55,000"
+    ],
+    "answer": 0,
+    "explain": "PV of perpetuity = A / r = 5,000 / 0.10 = Rs 50,000."
+   },
+   {
+    "q": "By the Rule of 72, money doubles at 8% a year in about:",
+    "options": [
+     "8 years",
+     "7.2 years",
+     "12 years",
+     "9 years"
+    ],
+    "answer": 3,
+    "explain": "72 / 8 = 9 years."
+   }
+  ],
+  "desc": {
+   "q": "Arjun takes a loan of Rs 5,00,000 at 10% a year, repayable in 5 equal annual instalments at the end of each year (PVIFA 10%, 5 years = 3.7908). Compute the instalment and split the first instalment into interest and principal.",
+   "points": [
+    "Instalment = Loan / PVIFA = 5,00,000 / 3.7908 = Rs 1,31,898 (approx.).",
+    "Year 1 interest = 10% x 5,00,000 = Rs 50,000.",
+    "Year 1 principal repaid = 1,31,898 - 50,000 = Rs 81,898.",
+    "Closing balance after Year 1 = 5,00,000 - 81,898 = Rs 4,18,102; Year 2 interest = Rs 41,810, and so on until the loan is repaid in Year 5.",
+    "Answer: annual instalment about Rs 1,31,898; first instalment = Rs 50,000 interest + Rs 81,898 principal."
+   ]
+  }
+ },
+ "p4c13": {
+  "notes": [
+   {
+    "topic": "NPV",
+    "note": "Net present value = PV of cash inflows - PV of cash outflows, discounted at the cost of capital. Accept if NPV > 0. NPV is consistent with wealth maximisation, considers all cash flows and their timing, and is additive across projects. Example: cost Rs 5 lakh; inflows Rs 1.5, 2, 2.5 and 1 lakh at 12% have PV Rs 5,34,875, so NPV = Rs 34,875 - accept."
+   },
+   {
+    "topic": "payback",
+    "note": "The payback period is the time taken to recover the initial investment from undiscounted cash inflows; with uneven flows, add the fraction of the year needed. It is simple and favours liquidity, but ignores time value and cash flows after payback; discounted payback fixes the time-value issue. Example: cost Rs 1 lakh; inflows Rs 30,000, 40,000, 50,000 - payback = 2 + 30,000/50,000 = 2.6 years."
+   },
+   {
+    "topic": "PI",
+    "note": "Profitability index = PV of inflows / PV of outflows; accept if PI > 1. It shows value per rupee invested and is used to rank divisible projects under capital rationing. Example: PV of inflows Rs 5,34,875 / cost Rs 5,00,000 = PI 1.07."
+   },
+   {
+    "topic": "IRR",
+    "note": "The internal rate of return is the discount rate at which NPV = 0. Accept if IRR > cost of capital. It is found by trial and error with linear interpolation: IRR = L + [NPV at L / (NPV at L - NPV at H)] x (H - L). IRR can mislead for mutually exclusive projects and for cash flows that change sign more than once (multiple IRRs); MIRR addresses some of these problems. Example: cost Rs 20, inflows Rs 12 and Rs 12 - IRR is about 13.1%."
+   },
+   {
+    "topic": "EVA",
+    "note": "Economic value added = NOPAT - (WACC x capital employed). It measures profit after charging for all capital, including equity, and the PV of future EVAs equals NPV (MVA). A positive EVA means value creation. Example: NOPAT Rs 30 lakh, capital Rs 200 lakh, WACC 12% - EVA = 30 - 24 = Rs 6 lakh."
+   },
+   {
+    "topic": "capital rationing",
+    "note": "Capital rationing arises when funds are limited, either externally (hard rationing - market constraints) or by management (soft rationing - budget limits). For divisible projects, rank by PI and take projects in order until the budget runs out; for indivisible projects, test feasible combinations and pick the one with the highest total NPV. Example: budget Rs 10 lakh, A (cost 6, NPV 1.2) and B (cost 5, NPV 1.1) indivisible - only one fits, so pick A."
+   },
+   {
+    "topic": "sensitivity analysis",
+    "note": "Sensitivity analysis changes one input at a time (sales volume, price, cost, discount rate, life) to see how NPV responds, and finds the percentage change that makes NPV zero. The most sensitive variable needs the closest management attention. Its limitation is that it ignores interdependence between variables, which scenario analysis and simulation handle. Example: NPV Rs 63,055 on a PV of inflows of Rs 10,63,055 - inflows can fall 5.93% before NPV becomes zero."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Cost Rs 5,00,000; inflows Rs 1,50,000, 2,00,000, 2,50,000 and 1,00,000 in Years 1-4; PVIF at 12% = 0.8929, 0.7972, 0.7118, 0.6355. NPV is:",
+    "options": [
+     "Rs 2,00,000",
+     "Rs 34,875",
+     "Rs 63,550",
+     "Rs (34,875)"
+    ],
+    "answer": 1,
+    "explain": "PV = 1,33,935 + 1,59,440 + 1,77,950 + 63,550 = 5,34,875; NPV = 5,34,875 - 5,00,000 = Rs 34,875."
+   },
+   {
+    "q": "Cost Rs 1,00,000; inflows Rs 30,000, Rs 40,000 and Rs 50,000. The payback period is:",
+    "options": [
+     "2.6 years",
+     "2.4 years",
+     "3 years",
+     "2.5 years"
+    ],
+    "answer": 0,
+    "explain": "After 2 years Rs 70,000 is recovered; the remaining 30,000/50,000 = 0.6 year; payback = 2.6 years."
+   },
+   {
+    "q": "NOPAT Rs 30 lakh; capital employed Rs 200 lakh; WACC 12%. EVA is:",
+    "options": [
+     "Rs 30 lakh",
+     "Rs 24 lakh",
+     "Rs 6 lakh",
+     "Rs 3.6 lakh"
+    ],
+    "answer": 2,
+    "explain": "EVA = 30 - 12% x 200 = 30 - 24 = Rs 6 lakh."
+   },
+   {
+    "q": "Cost Rs 20 lakh; inflows Rs 12 lakh in each of 2 years. The IRR is closest to:",
+    "options": [
+     "10.0%",
+     "20.0%",
+     "15.0%",
+     "13.1%"
+    ],
+    "answer": 3,
+    "explain": "At 13.07%: 12/1.1307 + 12/1.1307^2 = 10.61 + 9.39 = 20.0, so NPV = 0."
+   },
+   {
+    "q": "Under capital rationing with divisible projects, projects should be ranked by:",
+    "options": [
+     "Payback period",
+     "Profitability index",
+     "Absolute NPV",
+     "Accounting rate of return"
+    ],
+    "answer": 1,
+    "explain": "PI shows NPV generated per rupee of the scarce capital."
+   },
+   {
+    "q": "A project's PV of inflows is Rs 10,63,055 and its cost is Rs 10,00,000. By what percentage can annual inflows fall before NPV becomes zero?",
+    "options": [
+     "6.30%",
+     "5.93%",
+     "6.00%",
+     "4.80%"
+    ],
+    "answer": 1,
+    "explain": "Sensitivity = NPV / PV of inflows = 63,055 / 10,63,055 = 5.93%."
+   }
+  ],
+  "desc": {
+   "q": "A project costs Rs 10,00,000, has a 4-year life with no salvage value and is expected to generate a cash flow after tax of Rs 3,50,000 a year. The cost of capital is 12% (PVIFA 12%, 4 years = 3.0373). Compute NPV and PI, and the percentage fall in annual cash flow that would make the project unviable.",
+   "points": [
+    "PV of inflows = 3,50,000 x 3.0373 = Rs 10,63,055.",
+    "NPV = 10,63,055 - 10,00,000 = Rs 63,055 (positive, so accept).",
+    "PI = 10,63,055 / 10,00,000 = 1.063.",
+    "Break-even annual cash flow = 10,00,000 / 3.0373 = Rs 3,29,240; sensitivity = (3,50,000 - 3,29,240)/3,50,000 = 63,055/10,63,055 = 5.93%.",
+    "Conclusion: the project is acceptable, but a fall of about 5.9% in cash flows would wipe out its NPV, so cash flow estimates are critical."
+   ]
+  }
+ },
+ "p4c14": {
+  "notes": [
+   {
+    "topic": "Sources",
+    "note": "The main long-term sources are equity shares, retained earnings, preference shares, debentures and bonds, and term loans. Debt is cheapest because interest is tax-deductible and lenders bear less risk; equity is the costliest because shareholders bear residual risk. Example: Kd after tax = 10% x (1 - 0.30) = 7%, while Ke may be 15%."
+   },
+   {
+    "topic": "factors",
+    "note": "The cost of capital depends on external factors (the general level of interest rates, market risk premium, tax rates, inflation) and firm-specific factors (business and financial risk, capital structure, dividend policy, investment policy and issue size). Higher perceived risk raises investors' required return, and higher tax rates lower the after-tax cost of debt. Example: if the repo rate rises 1%, both Kd and Rf (and therefore Ke under CAPM) usually rise."
+   },
+   {
+    "topic": "methods",
+    "note": "Kd (irredeemable) = I(1 - t)/NP; redeemable Kd = [I(1 - t) + (RV - NP)/n] / [(RV + NP)/2]. Kp = D/NP (irredeemable) or [D + (RV - NP)/n]/[(RV + NP)/2]. Ke can be found by the dividend growth model, Ke = D1/P0 + g, or by CAPM, Ke = Rf + beta x (Rm - Rf). Kr (retained earnings) is roughly Ke, being the opportunity cost to shareholders. Example: CAPM with Rf 6%, beta 1.5, Rm 12% gives Ke = 6 + 1.5 x 6 = 15%."
+   },
+   {
+    "topic": "WACC",
+    "note": "Weighted average cost of capital: WACC = sum of (weight x after-tax cost of each source). Weights may be book value, market value (preferred, as it reflects current investor expectations) or target capital structure. WACC is the hurdle rate for projects of average risk. Example: equity 60% at 15% and debt 40% at 7% - WACC = 9 + 2.8 = 11.8%."
+   },
+   {
+    "topic": "marginal cost",
+    "note": "Marginal cost of capital (MCC) is the weighted cost of each additional rupee raised. It rises in steps as cheaper sources run out - for example, once retained earnings are used up, costlier new equity (with flotation cost) is needed. Break point = amount of the cheaper source available / its weight in the capital structure. Example: retained earnings of Rs 3 lakh with an equity weight of 60% give a break point of Rs 5 lakh, after which MCC increases."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "10% debentures issued at par; tax rate 30%. The after-tax cost of debt is:",
+    "options": [
+     "10%",
+     "7%",
+     "13%",
+     "3%"
+    ],
+    "answer": 1,
+    "explain": "Kd = 10 x (1 - 0.30) = 7%."
+   },
+   {
+    "q": "Expected dividend D1 Rs 6; current price Rs 100; growth 5%. Cost of equity is:",
+    "options": [
+     "11%",
+     "6%",
+     "11.3%",
+     "10.5%"
+    ],
+    "answer": 0,
+    "explain": "Ke = 6/100 + 5% = 6% + 5% = 11%."
+   },
+   {
+    "q": "Rf 6%, Rm 12%, beta 1.5. Ke under CAPM is:",
+    "options": [
+     "12%",
+     "18%",
+     "9%",
+     "15%"
+    ],
+    "answer": 3,
+    "explain": "Ke = 6 + 1.5 x (12 - 6) = 6 + 9 = 15%."
+   },
+   {
+    "q": "9% irredeemable preference shares of Rs 100 issued at Rs 95 net. Kp is:",
+    "options": [
+     "9.00%",
+     "8.55%",
+     "9.47%",
+     "10.00%"
+    ],
+    "answer": 2,
+    "explain": "Kp = 9 / 95 = 9.47%."
+   },
+   {
+    "q": "Equity 60% at 15%; debt 40% at an after-tax cost of 7%. WACC is:",
+    "options": [
+     "11.8%",
+     "11.0%",
+     "12.6%",
+     "22.0%"
+    ],
+    "answer": 0,
+    "explain": "WACC = 0.6 x 15 + 0.4 x 7 = 9 + 2.8 = 11.8%."
+   },
+   {
+    "q": "Retained earnings available are Rs 3 lakh and the target equity weight is 60%. The break point in the MCC schedule is:",
+    "options": [
+     "Rs 1.8 lakh",
+     "Rs 3 lakh",
+     "Rs 7.5 lakh",
+     "Rs 5 lakh"
+    ],
+    "answer": 3,
+    "explain": "Break point = 3 / 0.60 = Rs 5 lakh."
+   }
+  ],
+  "desc": {
+   "q": "Kiran Ltd's capital structure is: Equity share capital Rs 10,00,000 (Ke 15%), 12% Debentures Rs 5,00,000 and 10% Preference shares Rs 5,00,000 (irredeemable, issued at par). Tax rate 30%. Compute the WACC using book-value weights.",
+   "points": [
+    "Kd after tax = 12% x (1 - 0.30) = 8.4%; Kp = 10%; Ke = 15%.",
+    "Weights: equity 10/20 = 0.50; debentures 5/20 = 0.25; preference 5/20 = 0.25.",
+    "Weighted costs: equity 0.50 x 15 = 7.5%; debt 0.25 x 8.4 = 2.1%; preference 0.25 x 10 = 2.5%.",
+    "WACC = 7.5 + 2.1 + 2.5 = 12.1%, the hurdle rate for projects of average risk."
+   ]
+  }
+ },
+ "p4c15": {
+  "notes": [
+   {
+    "topic": "Determinants",
+    "note": "The choice of debt-equity mix depends on business risk, stability of cash flows, cost of each source, tax rate (interest is deductible), control (debt does not dilute voting), flexibility, market conditions, debt covenants, the firm's size and age, and industry norms. Firms with stable cash flows, such as utilities, can carry more debt. Example: a start-up with volatile earnings should keep debt low to avoid default risk."
+   },
+   {
+    "topic": "optimum structure",
+    "note": "The optimum capital structure is the mix that minimises WACC and so maximises firm value and share price. In practice it is a range, not a point, balancing the tax benefit of debt against financial distress and agency costs (trade-off theory). Example: if WACC is 12% at 20% debt, 11% at 40% debt and 11.8% at 60% debt, about 40% debt is optimum."
+   },
+   {
+    "topic": "theories",
+    "note": "Net Income (NI) approach: Kd and Ke stay constant, so more debt lowers WACC and raises value. Net Operating Income (NOI) approach: WACC is constant and capital structure is irrelevant. Traditional approach: moderate debt lowers WACC up to a point, then it rises (U-shaped curve). Modigliani-Miller (1958, no tax): value is independent of capital structure through arbitrage; with corporate tax (1963): V_L = V_U + t x D. Example: V_U Rs 50 lakh, debt Rs 20 lakh, t 30% - V_L = 50 + 6 = Rs 56 lakh."
+   },
+   {
+    "topic": "EBIT-EPS",
+    "note": "EBIT-EPS analysis compares financing plans by EPS = (EBIT - I)(1 - t)/N at various EBIT levels. The indifference point is the EBIT at which two plans give the same EPS: (EBIT - I1)(1 - t)/N1 = (EBIT - I2)(1 - t)/N2. Above it the debt plan gives a higher EPS; below it equity is better. Degree of financial leverage DFL = EBIT/(EBIT - I). Example: all-equity 1,00,000 shares vs 50,000 shares plus Rs 1 lakh interest - indifference EBIT is Rs 2 lakh."
+   },
+   {
+    "topic": "over/under capitalisation",
+    "note": "Over-capitalisation means the firm's capital is larger than its earnings justify: the return on capital falls below the fair rate and the market value of shares falls below book value. Causes include buying assets at inflated prices, excess issues and poor earnings; remedies include buyback, reducing capital and repaying debt. Under-capitalisation means earnings are very high relative to capital (a high return rate, shares quoting well above book value), which may invite competition and wage demands; remedies include issuing bonus shares or splitting. Example: capital Rs 10 crore earning Rs 0.6 crore (6%) where the fair return is 12% suggests over-capitalisation (fair capital Rs 5 crore)."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "EBIT Rs 4,00,000; tax 30%. Plan B: 50,000 shares plus 10% debt of Rs 10,00,000. EPS under Plan B is:",
+    "options": [
+     "Rs 5.60",
+     "Rs 2.80",
+     "Rs 4.20",
+     "Rs 6.00"
+    ],
+    "answer": 2,
+    "explain": "EPS = (4,00,000 - 1,00,000) x 0.7 / 50,000 = 2,10,000 / 50,000 = Rs 4.20."
+   },
+   {
+    "q": "Plan A: 1,00,000 shares, no debt; Plan B: 50,000 shares and interest of Rs 1,00,000. The EBIT indifference point is:",
+    "options": [
+     "Rs 2,00,000",
+     "Rs 1,00,000",
+     "Rs 1,50,000",
+     "Rs 3,00,000"
+    ],
+    "answer": 0,
+    "explain": "EBIT/1,00,000 = (EBIT - 1,00,000)/50,000, so EBIT = 2(EBIT - 1,00,000) and EBIT = Rs 2,00,000."
+   },
+   {
+    "q": "EBIT Rs 4,00,000 and interest Rs 1,00,000. DFL is:",
+    "options": [
+     "1.25",
+     "0.75",
+     "4.00",
+     "1.33"
+    ],
+    "answer": 3,
+    "explain": "DFL = 4,00,000 / (4,00,000 - 1,00,000) = 1.33."
+   },
+   {
+    "q": "Unlevered firm value Rs 50 lakh; the firm borrows Rs 20 lakh; tax 30%. Under MM with taxes, levered firm value is:",
+    "options": [
+     "Rs 50 lakh",
+     "Rs 56 lakh",
+     "Rs 70 lakh",
+     "Rs 44 lakh"
+    ],
+    "answer": 1,
+    "explain": "V_L = V_U + tD = 50 + 0.3 x 20 = Rs 56 lakh."
+   },
+   {
+    "q": "Which approach holds that WACC and firm value do NOT change with capital structure?",
+    "options": [
+     "Net Income approach",
+     "Traditional approach",
+     "Net Operating Income approach",
+     "Trade-off theory"
+    ],
+    "answer": 2,
+    "explain": "Under NOI, the overall capitalisation rate is constant, so capital structure is irrelevant."
+   },
+   {
+    "q": "A firm earns a return well below the fair rate and its shares quote below book value. This indicates:",
+    "options": [
+     "Over-capitalisation",
+     "Under-capitalisation",
+     "Optimum capitalisation",
+     "Trading on equity"
+    ],
+    "answer": 0,
+    "explain": "Earnings that are too low for the capital employed are the classic sign of over-capitalisation."
+   }
+  ],
+  "desc": {
+   "q": "Vega Ltd needs Rs 20 lakh. Plan I: equity shares of Rs 10 each (2,00,000 shares). Plan II: Rs 10 lakh in equity (1,00,000 shares) plus Rs 10 lakh of 12% debentures. Tax 30%. Compute the EBIT indifference point and EPS at it, and recommend a plan if expected EBIT is Rs 4,00,000.",
+   "points": [
+    "Plan II interest = 12% x 10,00,000 = Rs 1,20,000.",
+    "Indifference: EBIT x 0.7 / 2,00,000 = (EBIT - 1,20,000) x 0.7 / 1,00,000, so EBIT = 2(EBIT - 1,20,000) and EBIT = Rs 2,40,000.",
+    "EPS at indifference = 2,40,000 x 0.7 / 2,00,000 = Rs 0.84 under both plans.",
+    "At EBIT Rs 4,00,000: Plan I EPS = 2,80,000 / 2,00,000 = Rs 1.40; Plan II EPS = (2,80,000 x 0.7)/1,00,000 = 1,96,000/1,00,000 = Rs 1.96.",
+    "Expected EBIT is above the indifference point, so Plan II (debt) gives a higher EPS and is recommended, provided the added financial risk is acceptable."
+   ]
+  }
+ },
+ "p4c16": {
+  "notes": [
+   {
+    "topic": "Dividend policy",
+    "note": "Dividend policy decides how much profit to pay out and how much to retain for growth. Influences include the firm's investment opportunities, liquidity, stability of earnings, shareholder preferences, taxation, access to capital markets, debt covenants and legal limits - Section 123 allows dividends only out of current or past profits (after depreciation) or government money, and the Companies (Declaration and Payment of Dividend) Rules, 2014 govern dividends out of reserves. Stable dividend policies tend to signal confidence. Example: a high-growth tech company may pay little or nothing and retain profits."
+   },
+   {
+    "topic": "Walter, Gordon, MM models",
+    "note": "Walter: P = [D + (r/Ke)(E - D)]/Ke; if r > Ke retain everything, if r < Ke pay everything out, if r = Ke payout is irrelevant. Gordon: P = E(1 - b)/(Ke - br), where g = br; under the 'bird in hand' argument investors value near dividends more. MM: dividends are irrelevant in perfect markets; P0 = (D1 + P1)/(1 + Ke), and new shares issued fund any shortfall. Example (Walter): E 10, D 4, r 15%, Ke 12% - P = (4 + 1.25 x 6)/0.12 = Rs 95.83."
+   },
+   {
+    "topic": "cash & stock dividend",
+    "note": "A cash dividend reduces cash and reserves; it is paid within 30 days of declaration (Section 127) into a separate bank account opened within 5 days (Section 123(4)). A stock dividend (bonus issue, Section 63) capitalises reserves into share capital without any cash outflow; total equity and each holder's proportion stay the same while the number of shares rises and the price adjusts. Example: a 1:5 bonus on 10 lakh shares adds 2 lakh shares; a price of Rs 120 theoretically adjusts to Rs 100."
+   },
+   {
+    "topic": "splits",
+    "note": "A stock split divides each share into more shares of a smaller face value; share capital and reserves are unchanged and no accounting entry is needed apart from re-stating the number and face value of shares. Under Section 61 the memorandum's capital clause is altered with shareholder approval. Splits improve liquidity and affordability. Example: 100 shares of Rs 10 split 1:2 become 200 shares of Rs 5; a price of Rs 400 theoretically adjusts to Rs 200."
+   },
+   {
+    "topic": "buybacks",
+    "note": "A buyback returns cash to shareholders by repurchasing shares (Sections 68-70), an alternative to dividends. It can raise EPS by reducing the number of shares, signal that management thinks the shares are undervalued, and use surplus cash. Since 1 October 2024 the buyback amount is taxed as a deemed dividend in the shareholders' hands, which narrows the tax difference between the two routes. Example: PAT Rs 10 crore on 1 crore shares (EPS Rs 10); buying back 10 lakh shares raises EPS to Rs 11.11."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Walter's model: E = Rs 10, D = Rs 4, r = 15%, Ke = 12%. Share price is:",
+    "options": [
+     "Rs 83.33",
+     "Rs 104.17",
+     "Rs 95.83",
+     "Rs 115.00"
+    ],
+    "answer": 2,
+    "explain": "P = [4 + (0.15/0.12)(10 - 4)]/0.12 = (4 + 7.5)/0.12 = Rs 95.83."
+   },
+   {
+    "q": "Under Walter's model, when r > Ke the optimum payout ratio is:",
+    "options": [
+     "0%",
+     "100%",
+     "50%",
+     "Irrelevant"
+    ],
+    "answer": 0,
+    "explain": "Retaining all earnings maximises value when the firm earns more than shareholders' required return."
+   },
+   {
+    "q": "Gordon model: E = Rs 10, retention 60%, r = 8%, Ke = 10%. Share price is about:",
+    "options": [
+     "Rs 40.00",
+     "Rs 100.00",
+     "Rs 66.67",
+     "Rs 76.92"
+    ],
+    "answer": 3,
+    "explain": "g = 0.6 x 8% = 4.8%; D = 4; P = 4/(0.10 - 0.048) = Rs 76.92."
+   },
+   {
+    "q": "Under MM, a share's current price is Rs 100, Ke is 10% and the expected dividend is Rs 5. The year-end price if the dividend is paid is:",
+    "options": [
+     "Rs 110",
+     "Rs 105",
+     "Rs 100",
+     "Rs 95"
+    ],
+    "answer": 1,
+    "explain": "P1 = P0(1 + Ke) - D1 = 110 - 5 = Rs 105."
+   },
+   {
+    "q": "A 1:2 stock split of 100 shares of Rs 10 each results in:",
+    "options": [
+     "50 shares of Rs 20",
+     "200 shares of Rs 10",
+     "200 shares of Rs 5",
+     "100 shares of Rs 5"
+    ],
+    "answer": 2,
+    "explain": "Each share is split into two of half the face value: 200 shares of Rs 5; capital unchanged."
+   },
+   {
+    "q": "Under Section 127, a declared dividend must be paid within:",
+    "options": [
+     "30 days of declaration",
+     "45 days of declaration",
+     "60 days of declaration",
+     "15 days of declaration"
+    ],
+    "answer": 0,
+    "explain": "Failure to pay within 30 days of declaration attracts penalties under Section 127."
+   }
+  ],
+  "desc": {
+   "q": "Omega Ltd has 1,00,000 shares at Rs 100 each and a cost of equity of 10%. It expects to earn Rs 10,00,000 this year, plans to invest Rs 20,00,000, and is considering a dividend of Rs 5 per share. Using the MM model, show (a) the year-end price with and without the dividend, (b) the number of new shares to issue if the dividend is paid, and (c) that firm value is unchanged.",
+   "points": [
+    "(a) With dividend: P1 = 100 x 1.10 - 5 = Rs 105; without dividend: P1 = 100 x 1.10 = Rs 110.",
+    "(b) Dividend total = Rs 5,00,000; retained = 10,00,000 - 5,00,000 = 5,00,000; funds to raise = 20,00,000 - 5,00,000 = Rs 15,00,000; new shares = 15,00,000/105 = 14,286 (approx.).",
+    "(c) Value with dividend = (n x P1 + new issue - investment + earnings)/1.10 = (1,05,00,000 + 15,00,000 - 20,00,000 + 10,00,000)/1.10 = 1,10,00,000/1.10 = Rs 1,00,00,000.",
+    "Without dividend: new issue = 20,00,000 - 10,00,000 = Rs 10,00,000 (9,091 shares at Rs 110); value = (1,10,00,000 + 10,00,000 - 20,00,000 + 10,00,000)/1.10 = Rs 1,00,00,000 - the same, which proves dividend irrelevance under MM."
+   ]
+  }
+ },
+ "p4c17": {
+  "notes": [
+   {
+    "topic": "Types",
+    "note": "Gross working capital = total current assets; net working capital = current assets - current liabilities. By time: permanent (core) working capital is the minimum level always needed and should be financed long-term; temporary (fluctuating or seasonal) working capital varies with activity and suits short-term finance. Too much ties up funds; too little risks insolvency. Example: a woollen garment maker needs extra stock every October-December - that is temporary working capital."
+   },
+   {
+    "topic": "operating cycle",
+    "note": "The operating (cash conversion) cycle is the time from paying for raw materials to collecting cash from customers. Gross cycle = raw material storage + WIP + finished goods storage + debtors collection period; net cycle = gross - creditors payment period. Each period = average balance / daily relevant cost or sales. Example: RM 30 + WIP 15 + FG 20 + debtors 45 - creditors 40 = 70 days."
+   },
+   {
+    "topic": "cash, receivables, inventory",
+    "note": "Cash: hold for transactions, precaution and speculation; the Baumol model gives an optimal conversion size C = sqrt(2bT/i), and the Miller-Orr model sets upper and lower limits. Receivables: credit policy weighs extra contribution from sales against bad debts, collection and financing costs. Inventory: EOQ = sqrt(2AO/C), plus reorder level, safety stock and ABC analysis. Example: A = 2,000 units, O = Rs 100, C = Rs 1.60 - EOQ = sqrt(2,50,000) = 500 units."
+   },
+   {
+    "topic": "financing",
+    "note": "Working capital can be financed by spontaneous sources (trade credit, outstanding expenses), short-term bank finance (cash credit, overdraft, bill discounting, working capital demand loans), commercial paper, inter-corporate deposits, factoring, and long-term funds for the permanent portion. The approaches are matching (hedging), conservative (more long-term funds) and aggressive (more short-term funds). Trade credit has an implicit cost if a discount is given up: cost = d/(1 - d) x 365/(credit days - discount days). Example: 2/10 net 30 gives (2/98) x (365/20) = 37.2% a year."
+   },
+   {
+    "topic": "banking norms",
+    "note": "The Tandon Committee set Maximum Permissible Bank Finance (MPBF) methods. Method I: 75% of (CA - CL excluding bank borrowings). Method II: 75% of CA - CL. Method III: 75% of (CA - core CA) - CL. The Chore Committee then encouraged loan components and limits on cash credit, and RBI now favours a loan-plus-cash-credit structure; the turnover method (Nayak Committee) is used for small borrowers. Example: CA Rs 10 lakh, CL (non-bank) Rs 3 lakh - Method II MPBF = 7.5 - 3 = Rs 4.5 lakh."
+   },
+   {
+    "topic": "factoring & forfaiting",
+    "note": "Factoring: the firm assigns its receivables to a factor, which advances funds (usually 80-90%), manages collection and may bear the credit risk (non-recourse) or not (recourse); it is governed by the Factoring Regulation Act, 2011, and the TReDS platform supports MSME bills. Forfaiting: an exporter sells medium-term export receivables (often backed by bank guarantees or avalised bills) to a forfaiter, without recourse, for 100% of the discounted value. Example: a firm factoring Rs 10 lakh of invoices at an 85% advance gets Rs 8.5 lakh upfront, less charges."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "RM storage 30 days, WIP 15 days, FG 20 days, debtors 45 days, creditors 40 days. The net operating cycle is:",
+    "options": [
+     "110 days",
+     "150 days",
+     "70 days",
+     "65 days"
+    ],
+    "answer": 2,
+    "explain": "Net cycle = 30 + 15 + 20 + 45 - 40 = 70 days."
+   },
+   {
+    "q": "The annual cost of giving up the discount on credit terms 2/10 net 30 (365-day year) is about:",
+    "options": [
+     "37.2%",
+     "24.5%",
+     "36.0%",
+     "18.6%"
+    ],
+    "answer": 0,
+    "explain": "Cost = (2/98) x (365/20) = 0.0204 x 18.25 = 37.2%."
+   },
+   {
+    "q": "Annual demand 2,000 units; ordering cost Rs 100 per order; carrying cost Rs 1.60 per unit per year. EOQ is:",
+    "options": [
+     "400 units",
+     "632 units",
+     "250 units",
+     "500 units"
+    ],
+    "answer": 3,
+    "explain": "EOQ = sqrt(2 x 2,000 x 100 / 1.60) = sqrt(2,50,000) = 500 units."
+   },
+   {
+    "q": "Current assets Rs 10 lakh; current liabilities other than bank borrowings Rs 3 lakh. MPBF under Tandon Method II is:",
+    "options": [
+     "Rs 5.25 lakh",
+     "Rs 4.5 lakh",
+     "Rs 7.0 lakh",
+     "Rs 7.5 lakh"
+    ],
+    "answer": 1,
+    "explain": "Method II = 75% x 10 - 3 = 7.5 - 3 = Rs 4.5 lakh."
+   },
+   {
+    "q": "Which feature is typical of forfaiting but NOT of ordinary factoring?",
+    "options": [
+     "It covers medium-term export receivables without recourse",
+     "It involves domestic short-term trade receivables",
+     "The client keeps the full credit risk",
+     "It applies only to MSMEs"
+    ],
+    "answer": 0,
+    "explain": "Forfaiting is a without-recourse purchase of medium-term export receivables."
+   },
+   {
+    "q": "Working capital that stays invested at all times, whatever the season, is called:",
+    "options": [
+     "Gross working capital",
+     "Seasonal working capital",
+     "Permanent working capital",
+     "Negative working capital"
+    ],
+    "answer": 2,
+    "explain": "Permanent (core) working capital is the minimum level needed throughout the year."
+   }
+  ],
+  "desc": {
+   "q": "Kite Ltd plans to produce 1,20,000 units a year (evenly 10,000 a month). Cost per unit: material Rs 40, wages Rs 20, overheads Rs 15 (total Rs 75). Raw materials are held 1 month, WIP 0.5 month (material fully issued, conversion 50% complete), finished goods 1 month, debtors 2 months (at cost), creditors for material 1 month, and wages are paid 0.5 month in arrears. Estimate the net working capital requirement with a 10% contingency.",
+   "points": [
+    "Raw materials = 10,000 x 40 x 1 = Rs 4,00,000; WIP = 10,000 x 0.5 x (40 + 50% x 35) = 5,000 x 57.5 = Rs 2,87,500.",
+    "Finished goods = 10,000 x 75 x 1 = Rs 7,50,000; debtors at cost = 10,000 x 75 x 2 = Rs 15,00,000; total current assets = Rs 29,37,500.",
+    "Less creditors = 10,000 x 40 x 1 = Rs 4,00,000; wages outstanding = 10,000 x 20 x 0.5 = Rs 1,00,000; total current liabilities = Rs 5,00,000.",
+    "Net working capital = 29,37,500 - 5,00,000 = Rs 24,37,500; add 10% contingency of 2,43,750.",
+    "Working capital requirement = Rs 26,81,250."
+   ]
+  }
+ },
+ "p4c18": {
+  "notes": [
+   {
+    "topic": "Systematic & unsystematic risk",
+    "note": "Total risk (variance) = systematic risk + unsystematic risk. Systematic (market) risk comes from economy-wide factors such as interest rates, inflation and policy; it cannot be diversified away and is measured by beta = Cov(Ri, Rm)/Var(Rm). Unsystematic (specific) risk comes from firm or industry events such as a strike or product failure, and can be diversified away. Under CAPM only systematic risk is rewarded: E(R) = Rf + beta x (Rm - Rf). Example: total variance 400, beta 1.2, market variance 225 - systematic = 1.44 x 225 = 324, unsystematic = 76."
+   },
+   {
+    "topic": "fundamental & technical analysis",
+    "note": "Fundamental analysis estimates intrinsic value through an Economy-Industry-Company (EIC) framework: GDP, interest rates and policy; industry life cycle and competition; company earnings, ratios, management and valuation (DCF, P/E). If intrinsic value exceeds market price, the share is a buy. Technical analysis studies past price and volume patterns (trends, support and resistance, moving averages, RSI, head-and-shoulders) on the Dow Theory premise that prices move in trends. Example: EPS Rs 20 x a justified P/E of 15 = intrinsic value Rs 300 against a market price of Rs 260 - undervalued."
+   },
+   {
+    "topic": "EMH",
+    "note": "The Efficient Market Hypothesis (Fama) says prices fully reflect available information. Weak form: prices reflect all past price data, so technical analysis cannot earn abnormal returns (prices follow a random walk). Semi-strong form: prices also reflect all public information, so fundamental analysis of published data gives no edge. Strong form: prices reflect even private (insider) information. Tests are run with serial correlation, run tests and event studies. Example: if a share jumps within minutes of a results announcement and then holds steady, that supports semi-strong efficiency."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A stock's total variance is 400 (SD 20%), its beta is 1.2 and market SD is 15%. Its unsystematic variance is:",
+    "options": [
+     "324",
+     "76",
+     "180",
+     "220"
+    ],
+    "answer": 1,
+    "explain": "Systematic = 1.2^2 x 15^2 = 1.44 x 225 = 324; unsystematic = 400 - 324 = 76."
+   },
+   {
+    "q": "Rf 7%, Rm 13%, beta 0.8. Expected return under CAPM is:",
+    "options": [
+     "11.8%",
+     "10.4%",
+     "13.0%",
+     "12.2%"
+    ],
+    "answer": 0,
+    "explain": "E(R) = 7 + 0.8 x (13 - 7) = 7 + 4.8 = 11.8%."
+   },
+   {
+    "q": "A share is bought at Rs 100, earns a dividend of Rs 5 and is sold at Rs 110 after a year. The holding period return is:",
+    "options": [
+     "10%",
+     "5%",
+     "15%",
+     "16.5%"
+    ],
+    "answer": 2,
+    "explain": "HPR = (5 + 110 - 100)/100 = 15%."
+   },
+   {
+    "q": "Which risk can be eliminated by diversification?",
+    "options": [
+     "Interest rate risk",
+     "Market risk",
+     "Inflation risk",
+     "Unsystematic risk"
+    ],
+    "answer": 3,
+    "explain": "Firm-specific risk cancels out across a well-diversified portfolio."
+   },
+   {
+    "q": "If markets are weak-form efficient, which approach CANNOT earn consistent abnormal returns?",
+    "options": [
+     "Insider trading",
+     "Technical analysis of past prices",
+     "Fundamental analysis using private forecasts",
+     "Holding a market index fund"
+    ],
+    "answer": 1,
+    "explain": "Weak-form efficiency means past price information is already in the price."
+   },
+   {
+    "q": "The 'E-I-C' framework is associated with:",
+    "options": [
+     "Fundamental analysis",
+     "Technical analysis",
+     "Random walk testing",
+     "Arbitrage pricing theory"
+    ],
+    "answer": 0,
+    "explain": "Fundamental analysis moves from the Economy to the Industry to the Company."
+   }
+  ],
+  "desc": {
+   "q": "An investor holds a portfolio of three stocks: A (40% weight, beta 1.2), B (35%, beta 0.8) and C (25%, beta 1.6). The risk-free rate is 6% and the expected market return is 13%. Compute the portfolio beta and expected return, and comment on its risk compared with the market.",
+   "points": [
+    "Portfolio beta = 0.40 x 1.2 + 0.35 x 0.8 + 0.25 x 1.6 = 0.48 + 0.28 + 0.40 = 1.16.",
+    "Market risk premium = 13 - 6 = 7%.",
+    "Expected return = 6 + 1.16 x 7 = 6 + 8.12 = 14.12%.",
+    "With beta 1.16 the portfolio is about 16% more volatile than the market (aggressive); being diversified, its unsystematic risk is small, so beta is the right risk measure."
+   ]
+  }
+ },
+ "p4c19": {
+  "notes": [
+   {
+    "topic": "Costing concepts",
+    "note": "Costs can be classified by behaviour (fixed, variable, semi-variable), by traceability (direct, indirect), by function (production, administration, selling) and for decisions (relevant, sunk, opportunity, differential, marginal). Fixed cost per unit falls as output rises, while variable cost per unit stays constant. Under the Companies (Cost Records and Audit) Rules, 2014, specified companies must keep cost records (Section 148). Example: factory rent of Rs 1 lakh per month is fixed; raw material at Rs 40 per unit is variable."
+   },
+   {
+    "topic": "marginal costing",
+    "note": "Marginal costing charges only variable costs to products and treats fixed costs as period costs written off against contribution. Contribution = Sales - Variable cost; P/V ratio = Contribution/Sales = change in profit / change in sales. Stock is valued at variable cost, so profit differs from absorption costing when stock levels change; for external reporting, AS 2 / Ind AS 2 require stock to include fixed production overheads. Uses include make-or-buy, product-mix decisions with a key factor and special order pricing. Example: price Rs 50, VC Rs 30 - contribution Rs 20, P/V ratio 40%."
+   },
+   {
+    "topic": "break-even",
+    "note": "Break-even point (BEP) is where total contribution equals fixed cost, so profit is zero. BEP (units) = Fixed cost / contribution per unit; BEP (Rs) = Fixed cost / P/V ratio. Sales needed for a target profit = (Fixed cost + target profit) / P/V ratio. A break-even chart plots total cost and revenue lines, and the angle of incidence shows profitability. Example: FC Rs 3,00,000, price Rs 50, VC Rs 30 - BEP = 15,000 units or Rs 7,50,000."
+   },
+   {
+    "topic": "margin of safety",
+    "note": "Margin of safety (MOS) is the excess of actual or budgeted sales over break-even sales: MOS = Actual sales - BEP sales = Profit / P/V ratio, and MOS% = MOS / actual sales. A high MOS means the business can absorb a fall in sales before making losses. MOS can be improved by raising price, cutting variable or fixed costs, or increasing volume. Example: sales Rs 10 lakh, BEP Rs 7.5 lakh - MOS Rs 2.5 lakh (25%), and profit = 2.5 lakh x 40% = Rs 1 lakh."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Fixed costs Rs 3,00,000; selling price Rs 50; variable cost Rs 30 per unit. BEP in units is:",
+    "options": [
+     "10,000",
+     "6,000",
+     "15,000",
+     "20,000"
+    ],
+    "answer": 2,
+    "explain": "Contribution per unit = 20; BEP = 3,00,000 / 20 = 15,000 units."
+   },
+   {
+    "q": "Actual sales Rs 10,00,000; BEP sales Rs 7,50,000; P/V ratio 40%. Profit is:",
+    "options": [
+     "Rs 1,00,000",
+     "Rs 2,50,000",
+     "Rs 4,00,000",
+     "Rs 3,00,000"
+    ],
+    "answer": 0,
+    "explain": "Profit = MOS x P/V = (10,00,000 - 7,50,000) x 40% = Rs 1,00,000."
+   },
+   {
+    "q": "Period 1: sales Rs 2,00,000, profit Rs 20,000. Period 2: sales Rs 3,00,000, profit Rs 50,000. Fixed cost is:",
+    "options": [
+     "Rs 60,000",
+     "Rs 20,000",
+     "Rs 30,000",
+     "Rs 40,000"
+    ],
+    "answer": 3,
+    "explain": "P/V = 30,000 / 1,00,000 = 30%; FC = 2,00,000 x 30% - 20,000 = Rs 40,000."
+   },
+   {
+    "q": "FC Rs 3,00,000; P/V ratio 40%; target profit Rs 1,00,000. Required sales are:",
+    "options": [
+     "Rs 7,50,000",
+     "Rs 10,00,000",
+     "Rs 4,00,000",
+     "Rs 12,50,000"
+    ],
+    "answer": 1,
+    "explain": "Sales = (3,00,000 + 1,00,000) / 0.40 = Rs 10,00,000."
+   },
+   {
+    "q": "Under marginal costing, closing stock is valued at:",
+    "options": [
+     "Total cost including fixed overheads",
+     "Selling price",
+     "Variable cost of production",
+     "Net realisable value only"
+    ],
+    "answer": 2,
+    "explain": "Fixed costs are period costs, so stock carries only variable production cost."
+   },
+   {
+    "q": "Which change will INCREASE the margin of safety, other things being equal?",
+    "options": [
+     "An increase in fixed costs",
+     "A reduction in selling price",
+     "An increase in variable cost per unit",
+     "A reduction in fixed costs"
+    ],
+    "answer": 3,
+    "explain": "Lower fixed costs reduce BEP, so the gap between actual and BEP sales widens."
+   }
+  ],
+  "desc": {
+   "q": "Meera Industries reports: Year 1 sales Rs 4,00,000, profit Rs 40,000; Year 2 sales Rs 5,00,000, profit Rs 70,000. Fixed costs and the selling price are unchanged. Compute (a) P/V ratio, (b) fixed cost, (c) BEP sales, (d) margin of safety in Year 2 and (e) sales needed to earn a profit of Rs 1,00,000.",
+   "points": [
+    "(a) P/V ratio = change in profit / change in sales = 30,000 / 1,00,000 = 30%.",
+    "(b) Fixed cost = contribution - profit = 4,00,000 x 30% - 40,000 = 1,20,000 - 40,000 = Rs 80,000.",
+    "(c) BEP sales = 80,000 / 0.30 = Rs 2,66,667.",
+    "(d) MOS in Year 2 = 5,00,000 - 2,66,667 = Rs 2,33,333 (46.7%); check: 2,33,333 x 30% = Rs 70,000 = profit.",
+    "(e) Sales for a profit of Rs 1,00,000 = (80,000 + 1,00,000) / 0.30 = Rs 6,00,000."
+   ]
+  }
+ }
+}
