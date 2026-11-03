@@ -115,6 +115,13 @@ header{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;align-
 .snote{font-size:13px;line-height:1.55;color:var(--fg);background:var(--surface);border-left:3px solid var(--accent-soft);padding:6px 9px;border-radius:0 6px 6px 0}
 .mp{margin:4px 0 0;padding-left:18px;font-size:14px;display:flex;flex-direction:column;gap:3px}
 .opt.sm{padding:4px 10px;min-width:34px;text-align:center}
+.viewing{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;background:var(--warn-soft);border-radius:10px;padding:10px 14px;font-weight:600}
+.admin{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:10px}
+.tblWrap{overflow-x:auto}
+.stu{width:100%;border-collapse:collapse;font-size:14px;min-width:760px}
+.stu th{text-align:left;font:600 11.5px var(--body);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);padding:6px 8px;border-bottom:1px solid var(--line)}
+.stu td{padding:9px 8px;border-bottom:1px solid var(--line);vertical-align:middle}
+.mini{display:flex;align-items:center;gap:6px;min-width:110px}.mini .bar{flex:1;height:6px}
 .find{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:10px}
 .findRow{display:flex;gap:8px}
 .findRow input{flex:1;min-width:0;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--fg);font:15px var(--body)}
@@ -188,7 +195,7 @@ footer{font-size:12.5px;color:var(--muted)}
 <div class="login" id="login" hidden>
   <div class="lbox">
         <h1>Executive Tracker</h1>
-    <p class="legend">Private tracker. Only the approved account can sign in.</p>
+    <p class="legend">Each account gets its own private tracker. New here? Tap <b>Create an account</b> below, or continue with Google.</p>
     <button class="btn solid wide" type="button" id="gBtn">Continue with Google</button>
     <div class="or legend">or email</div>
     <form id="eForm" class="eform">
@@ -215,6 +222,12 @@ footer{font-size:12.5px;color:var(--muted)}
     <div class="stat"><span class="eyebrow">Group 1</span><span class="big num" id="sG1">0%</span><div class="bar"><i id="bG1" style="width:0"></i></div></div>
     <div class="stat"><span class="eyebrow">Group 2</span><span class="big num" id="sG2">0%</span><div class="bar"><i id="bG2" style="width:0"></i></div></div>
     <div class="stat"><span class="eyebrow">Chapters done / overdue</span><span class="big num" id="sDone">0/131</span><span class="legend" id="sOver">0 overdue</span></div>
+  </section>
+
+  <div class="viewing" id="viewing" hidden><span id="viewingText"></span><button class="btn" type="button" id="backMine">Back to my tracker</button></div>
+  <section class="admin" id="admin" hidden aria-label="All students">
+    <div class="groupHead"><h2>All students</h2><span class="legend" id="adminCount"></span></div>
+    <div class="tblWrap"><table class="stu"><thead><tr><th>Student</th><th>Overall</th><th>Group 1</th><th>Group 2</th><th class="num">Chapters</th><th class="num">Overdue</th><th class="num">Avg test</th><th>Last active</th><th></th></tr></thead><tbody id="adminRows"></tbody></table></div>
   </section>
 
   <section class="find" aria-label="Find material">
@@ -451,6 +464,7 @@ function chapterTest(c){
   return w;
 }
 async function saveScore(c,mcq,n,self){
+  if(state.viewOnly)return;
   const max=n*2+(self!=null?5:0),got=mcq*2+(self||0),pct=Math.round(got/max*100);
   const prev=state.assess[c.k]||{};const rec={pct:Math.max(pct,prev.pct||0),last:pct,tries:(prev.tries||0)+(self!=null&&prev.lastMcq===mcq?0:1),lastMcq:mcq,at:new Date().toISOString()};
   state.assess[c.k]=rec;
@@ -612,17 +626,20 @@ async function submitTest(c){
   if(db){try{await db.collection("assess").doc(c.k).set(rec);}catch(e){}}
 }
 async function saveMat(k,items){
+  if(state.viewOnly)return;
   const cur=state.mat[k];state.mat[k]={items};renderLedger();
   if(!db)return;
   try{await db.collection("materials").doc(k).set({items});}catch(e){state.mat[k]=cur;renderLedger();setSync("off","Couldn't save material");}
 }
 async function toggle(k,step){
+  if(state.viewOnly)return;
   const cur=state.prog[k]||{},next={...cur,[step]:!cur[step],at:new Date().toISOString()};
   state.prog[k]=next;render();
   if(!db)return;
   try{await db.collection("progress").doc(k).set(next);}catch(e){state.prog[k]=cur;render();setSync("off","Couldn't save — check you have edit access");}
 }
 async function saveMock(pid,k,v){
+  if(state.viewOnly)return;
   const n=v===""?null:Math.max(0,Math.min(100,Math.round(+v)));
   const cur=state.mocks[pid]||{},next={...cur,[k]:n};state.mocks[pid]=next;render();
   if(!db)return;
@@ -637,7 +654,7 @@ $("findQ").oninput=()=>{if(!$("findQ").value.trim())$("findOut").hidden=true;};
 (function(){
   firebase.initializeApp(FIREBASE_CONFIG);
   const auth=firebase.auth(),fs=firebase.firestore(),st=firebase.storage(),fn=firebase.app().functions(FUNCTIONS_REGION);
-  const base=fs.collection("tracker").doc(TRACKER_ID);
+  let base=null;
   const callAI=fn.httpsCallable("ai",{timeout:120000});
   const prov=()=>{try{return localStorage.getItem("aiProv")||"claude";}catch(e){return "claude";}};
   $("aiProv").value=prov();$("aiProv").onchange=e=>{try{localStorage.setItem("aiProv",e.target.value);}catch(_){}};
@@ -646,7 +663,7 @@ $("findQ").oninput=()=>{if(!$("findQ").value.trim())$("findOut").hidden=true;};
   sample=async(prompt,opts={})=>{try{const r=await callAI({provider:prov(),prompt,tier:opts.modelTier||"default"});if(opts.onText)opts.onText({text:r.data.text});return {text:r.data.text,truncated:!!r.data.truncated};}catch(e){throw aiErr(e);}};
   sample.json=async(prompt,opts={})=>{try{const r=await callAI({provider:prov(),prompt,json:true,tier:opts.modelTier||"default"});return r.data.json;}catch(e){throw aiErr(e);}};
   }
-  if(typeof USE_STORAGE==="undefined"||USE_STORAGE)assets={upload:async(f)=>{if(f.size>20*1024*1024)throw{code:"too_large"};const path=`tracker/${TRACKER_ID}/${Date.now()}-${f.name.replace(/[^\w.\-]+/g,"_")}`;const ref=st.ref(path);await ref.put(f);return {id:path,url:await ref.getDownloadURL()};},
+  if(typeof USE_STORAGE==="undefined"||USE_STORAGE)assets={upload:async(f)=>{if(f.size>20*1024*1024)throw{code:"too_large"};const path=`${base.path}/${Date.now()}-${f.name.replace(/[^\w.\-]+/g,"_")}`;const ref=st.ref(path);await ref.put(f);return {id:path,url:await ref.getDownloadURL()};},
           delete:async(id)=>{try{await st.ref(id).delete();}catch(e){}}};
   let subs=[];
   const sub=(col,key,after)=>base.collection(col).onSnapshot(s=>{const o={};s.docs.forEach(d=>o[d.id]=d.data());state[key]=o;after();},err=>{if(err.code==="permission-denied"){$("offline").hidden=false;setSync("off","No access");db=null;}else setSync("off","Live updates stopped — reload");});
@@ -656,16 +673,48 @@ $("findQ").oninput=()=>{if(!$("findQ").value.trim())$("findOut").hidden=true;};
   $("eReset").onclick=()=>{const m=$("eMail").value.trim();if(!m)return msg("Type your email first.");auth.sendPasswordResetEmail(m).then(()=>msg("Reset link sent — check your inbox.")).catch(e=>msg(e.message));};
   $("eForm").onsubmit=async e=>{e.preventDefault();const m=$("eMail").value.trim(),pw=$("ePass").value;try{if(create){const c=await auth.createUserWithEmailAndPassword(m,pw);await c.user.sendEmailVerification();msg("Account created. Open the verification link we emailed, then sign in.");await auth.signOut();}else await auth.signInWithEmailAndPassword(m,pw);}catch(err){msg(err.message);}};
   $("outBtn").onclick=()=>auth.signOut();
+  let me=null,mineBase=null,sumTimer=null,adminUnsub=null;
+  window.pushSummary=()=>{if(!me||state.viewOnly)return;clearTimeout(sumTimer);sumTimer=setTimeout(()=>{
+    const all=P.flatMap(chOf),A=agg(all),G1=agg(P.filter(p=>p.g===1).flatMap(chOf)),G2=agg(P.filter(p=>p.g===2).flatMap(chOf));
+    const sc=Object.values(state.assess||{}).map(x=>x.pct).filter(x=>typeof x==="number");
+    fs.collection("summaries").doc(me.uid).set({email:me.email||"",name:me.displayName||"",pct:A.pct,g1:G1.pct,g2:G2.pct,done:A.done,n:A.n,over:A.over,tests:sc.length,avgTest:sc.length?Math.round(sc.reduce((a,b)=>a+b,0)/sc.length):null,updated:new Date().toISOString()}).catch(()=>{});
+  },2500);};
+  const isAdmin=u=>(typeof ADMIN_EMAILS!=="undefined"?ADMIN_EMAILS:[]).map(x=>x.toLowerCase()).includes((u.email||"").toLowerCase());
+  function startAdmin(){
+    $("admin").hidden=false;
+    adminUnsub=fs.collection("summaries").onSnapshot(snap=>{
+      const rows=snap.docs.map(d=>({uid:d.id,...d.data()})).sort((a,b)=>(b.updated||"").localeCompare(a.updated||""));
+      $("adminCount").textContent=rows.length+" account"+(rows.length===1?"":"s");
+      const tb=$("adminRows");tb.innerHTML="";
+      if(!rows.length){tb.innerHTML=`<tr><td colspan="9" class="legend">No students yet. When someone creates an account and ticks a chapter, they appear here.</td></tr>`;return;}
+      const bar=v=>`<div class="mini"><div class="bar"><i style="width:${v||0}%"></i></div><span class="num">${v||0}%</span></div>`;
+      rows.forEach(r=>{const tr=document.createElement("tr");
+        tr.innerHTML=`<td><b class="nm"></b><div class="legend em2"></div></td><td>${bar(r.pct)}</td><td>${bar(r.g1)}</td><td>${bar(r.g2)}</td><td class="num">${r.done||0}/${r.n||131}</td><td class="num">${r.over?`<span class="pill od">${r.over}</span>`:"0"}</td><td class="num">${r.avgTest!=null?r.avgTest+"%":"–"}</td><td class="legend">${r.updated?new Date(r.updated).toLocaleString("en-IN",{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"}):"–"}</td><td><button class="btn" type="button">View</button></td>`;
+        tr.querySelector(".nm").textContent=r.name||r.email;tr.querySelector(".em2").textContent=r.name?r.email:"";
+        tr.querySelector("button").onclick=()=>viewUser(r);
+        tb.appendChild(tr);});
+    },()=>{$("adminCount").textContent="Couldn't load students — check the Firestore rules.";});
+  }
+  function attach(b){subs.forEach(f=>f());base=b;db={collection:n=>base.collection(n)};
+    state.prog={};state.mocks={};state.mat={};state.ainotes={};state.assess={};state.sq={};
+    subs=[sub("progress","prog",()=>{render();window.pushSummary();}),sub("mocks","mocks",render),sub("materials","mat",renderLedger),sub("ainotes","ainotes",renderLedger),sub("assess","assess",()=>{renderLedger();window.pushSummary();})];render();}
+  function viewUser(r){state.viewOnly=true;attach(fs.collection("users").doc(r.uid));
+    $("viewing").hidden=false;$("viewingText").textContent=`Viewing ${r.name||r.email} — read only`;window.scrollTo({top:0,behavior:"smooth"});}
+  $("backMine").onclick=()=>{state.viewOnly=false;$("viewing").hidden=true;attach(mineBase);};
   auth.onAuthStateChanged(u=>{
     subs.forEach(f=>f());subs=[];
-    if(!u){A.hidden=true;L.hidden=false;db=null;return;}
+    if(!u){A.hidden=true;L.hidden=false;db=null;me=null;if(adminUnsub){adminUnsub();adminUnsub=null;}return;}
     if(!u.emailVerified){msg("Verify your email first — check your inbox, then sign in again.");auth.signOut();return;}
     const okList=(typeof ALLOWED_EMAILS!=="undefined"?ALLOWED_EMAILS:[]).map(x=>x.toLowerCase());
-    if(okList.length&&!okList.includes((u.email||"").toLowerCase())){msg(`${u.email} doesn't have access to this tracker. Sign in with the approved account.`);auth.signOut();return;}
+    const em=(u.email||"").toLowerCase();
+    if(okList.length&&!okList.includes(em)){msg(`${u.email} doesn't have access to this tracker. Ask the admin to add your email.`);auth.signOut();return;}
+    const legacy=(typeof SHARED_TRACKERS!=="undefined"&&SHARED_TRACKERS[em])||null;
+    me=u;mineBase=legacy?fs.collection("tracker").doc(legacy):fs.collection("users").doc(u.uid);state.viewOnly=false;$("viewing").hidden=true;
     L.hidden=true;A.hidden=false;$("who").innerHTML=`<span class="av"></span><span class="em"></span>`;$("who").querySelector(".av").textContent=(u.email||"?")[0].toUpperCase();$("who").querySelector(".em").textContent=u.email;$("offline").hidden=true;
-    db={collection:n=>base.collection(n)};setSync("on","Live — saves for everyone");
-    subs=[sub("progress","prog",render),sub("mocks","mocks",render),sub("materials","mat",renderLedger),sub("ainotes","ainotes",renderLedger),sub("assess","assess",renderLedger)];
-    render();
+    setSync("on","Live — your progress is saved");
+    attach(mineBase);
+    if(adminUnsub){adminUnsub();adminUnsub=null;}$("admin").hidden=true;
+    if(isAdmin(u))startAdmin();
   });
 })();
 </script>

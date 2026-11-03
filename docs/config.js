@@ -9,10 +9,13 @@ const FIREBASE_CONFIG = {
 };
 // 2) Leave as is unless you change the region in functions/index.js
 const FUNCTIONS_REGION = "asia-south1";
-// 3) One tracker shared by everyone on the access list
-const TRACKER_ID = "shareef-cs-2027";
+// 3) Every user gets a private tracker under users/<uid>.
+//    Accounts listed here keep using an existing shared tracker instead (keeps old progress).
+const SHARED_TRACKERS = { "muhammedshareefclt@gmail.com": "shareef-cs-2027" };
 // 4) Free (Spark) plan: keep both false. Set true after upgrading to Blaze and deploying functions / storage.
 const USE_SERVER_AI = false;
 const USE_STORAGE = false;
-// 5) Only these accounts can open the tracker (also enforced by Firestore rules)
-const ALLOWED_EMAILS = ["muhammedshareefclt@gmail.com"];
+// 5) Leave empty [] so anyone can create an account. Put emails here to restrict sign-in to a list.
+const ALLOWED_EMAILS = [];
+// 6) Admins see the "All students" dashboard and can open any student's tracker (read only)
+const ADMIN_EMAILS = ["muhammedshareefclt@gmail.com"];

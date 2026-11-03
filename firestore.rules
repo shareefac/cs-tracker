@@ -1,14 +1,28 @@
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
-    // EDIT: lower-case emails allowed to use the tracker
-    function allowed() {
-      return request.auth != null
-        && request.auth.token.email_verified == true
+    // Each signed-in, verified user owns users/<their uid>/...
+    match /users/{userId}/{collection}/{docId} {
+      allow read, write: if request.auth != null
+        && request.auth.uid == userId
+        && request.auth.token.email_verified == true;
+    }
+    // Admin can read every student's tracker
+    match /users/{userId}/{collection}/{docId} {
+      allow read: if request.auth != null && request.auth.token.email_verified == true
         && request.auth.token.email.lower() in ['muhammedshareefclt@gmail.com'];
     }
+    // One progress summary per student: the student writes it, the admin reads all
+    match /summaries/{userId} {
+      allow write: if request.auth != null && request.auth.uid == userId && request.auth.token.email_verified == true;
+      allow read: if request.auth != null && (request.auth.uid == userId
+        || (request.auth.token.email_verified == true && request.auth.token.email.lower() in ['muhammedshareefclt@gmail.com']));
+    }
+    // Original shared tracker, kept for the admin account
     match /tracker/{trackerId}/{collection}/{docId} {
-      allow read, write: if allowed();
+      allow read, write: if request.auth != null
+        && request.auth.token.email_verified == true
+        && request.auth.token.email.lower() in ['muhammedshareefclt@gmail.com'];
     }
   }
 }
