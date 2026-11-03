@@ -21,3 +21,5 @@ const ALLOWED_EMAILS = [];
 const ADMIN_EMAILS = ["muhammedshareefclt@gmail.com"];
 // 7) Gemini model used with each user's own free key
 const GEMINI_MODEL = "gemini-flash-latest";
+// 8) OpenAI model used when a user connects their own OpenAI key
+const OPENAI_MODEL = "gpt-4.1-mini";

@@ -119,6 +119,7 @@ header{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;align-
 .mp{margin:4px 0 0;padding-left:18px;font-size:14px;display:flex;flex-direction:column;gap:3px}
 .opt.sm{padding:4px 10px;min-width:34px;text-align:center}
 .gempanel{background:var(--surface);border:1px solid var(--accent);border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:8px}
+.pick{display:inline-flex;gap:6px;align-items:center;border:1px solid var(--line);border-radius:99px;padding:5px 12px;cursor:pointer;font-size:14px}
 .gempanel ol{margin:0;padding-left:18px}.gempanel a{color:var(--accent)}
 .mlnote{border-left-color:var(--good-soft)}
 .toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(16px + env(safe-area-inset-bottom,0px));background:var(--fg);color:var(--bg);padding:10px 14px;border-radius:10px;font-size:14px;max-width:min(92vw,520px);z-index:20}
@@ -220,7 +221,7 @@ footer{font-size:12.5px;color:var(--muted)}
             <h1>Executive Tracker</h1>
       <span id="countdown" hidden></span>
     </div>
-    <div class="hdrR"><label class="legend" for="aiProv">AI</label><select id="aiProv"><option value="claude">Claude</option><option value="gemini">Gemini</option></select><button class="chan" type="button" id="gemBtn">Connect Gemini</button><div class="sync"><span class="dot" id="syncDot"></span><span id="syncText">Connecting…</span></div><span class="who" id="who" title="Signed in"></span><button class="rm" type="button" id="outBtn">Sign out</button></div>
+    <div class="hdrR"><label class="legend" for="aiProv">AI</label><select id="aiProv"><option value="claude">Claude</option><option value="gemini">Gemini</option></select><button class="chan" type="button" id="gemBtn">Connect AI</button><div class="sync"><span class="dot" id="syncDot"></span><span id="syncText">Connecting…</span></div><span class="who" id="who" title="Signed in"></span><button class="rm" type="button" id="outBtn">Sign out</button></div>
   </header>
   <div class="banner" id="offline" hidden>Your account isn't on the access list, so nothing is saved. Ask the admin to add your email.</div>
 
@@ -232,9 +233,11 @@ footer{font-size:12.5px;color:var(--muted)}
   </section>
 
   <div class="gempanel" id="gemPanel" hidden>
-    <b>Gemini (free) for notes, Malayalam and tests</b>
-    <ol class="legend"><li>Open <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">aistudio.google.com/apikey</a> and sign in with Google.</li><li>Click <b>Create API key</b>, copy it, paste below, Save.</li></ol>
-    <div class="findRow"><input id="gemKey" type="password" placeholder="Paste Gemini API key" autocomplete="off"><button class="btn solid" type="button" id="gemSave">Save</button><button class="btn" type="button" id="gemDel">Remove</button></div>
+    <b>AI for notes, Malayalam, hints and tests</b>
+    <div class="trow" role="radiogroup" aria-label="AI provider"><label class="pick"><input type="radio" name="aiPick" value="gemini"> Gemini <span class="legend">(free)</span></label><label class="pick"><input type="radio" name="aiPick" value="openai"> ChatGPT / OpenAI <span class="legend">(paid per use)</span></label></div>
+    <ol class="legend" id="aiHowG"><li>Open <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">aistudio.google.com/apikey</a> and sign in with Google.</li><li>Click <b>Create API key</b>, copy it, paste below, Save.</li></ol>
+    <ol class="legend" id="aiHowO" hidden><li>Open <a href="https://platform.openai.com/api-keys" target="_blank" rel="noopener">platform.openai.com/api-keys</a> and sign in.</li><li>Add a little credit under Billing (needed for the API, separate from ChatGPT Plus).</li><li>Click <b>Create new secret key</b>, copy it (starts with sk-), paste below, Save.</li></ol>
+    <div class="findRow"><input id="gemKey" type="password" placeholder="Paste API key" autocomplete="off"><button class="btn solid" type="button" id="gemSave">Save</button><button class="btn" type="button" id="gemDel">Remove</button></div>
     <span class="legend" id="gemMsg">The key stays only in this browser on this device.</span>
   </div>
   <div class="viewing" id="viewing" hidden><span id="viewingText"></span><button class="btn" type="button" id="backMine">Back to my tracker</button></div>
@@ -498,7 +501,7 @@ function addTools(card,key,qText,opts,ctx,done){
 }
 function qTools(key,qText,opts,ctx){
   const bar=document.createElement("div");bar.className="qtools";
-  if(!sample){bar.innerHTML=`<span class="legend">Connect Gemini (top right) for Translate and Hint.</span>`;return bar;}
+  if(!sample){bar.innerHTML=`<span class="legend">Tap <b>Connect AI</b> (top right) for Translate and Hint.</span>`;return bar;}
   const x=QX[key]||(QX[key]={});
   bar.innerHTML=`<button type="button" class="tl" data-a="tr">${x.tr?"Hide":"മലയാളം"}</button><button type="button" class="tl" data-a="hint">${x.hint?"Hide hint":"💡 Hint"}</button>`;
   const run=async(kind,btn)=>{
@@ -554,7 +557,7 @@ function panel(c,items){
       const t1=bar.querySelector(".ml1");if(t1)t1.onclick=async()=>{t1.textContent="Translating…";t1.disabled=true;
         try{const r=await sample(`Translate into simple, natural Malayalam for a student. Keep Act names, section numbers and legal terms in English inside brackets. Reply with the Malayalam text only.\n\n${nt.note}`,{cache:false});
           const nx={...(state.ainotes[c.k]||{}),[mlKey]:r.text.trim()};state.ainotes[c.k]=nx;renderLedger();if(db&&!state.viewOnly){try{await db.collection("ainotes").doc(c.k).set(nx);}catch(e){}}}
-        catch(e){t1.textContent="മലയാളം";t1.disabled=false;toast("Couldn't translate. Check the Gemini key and try again.");}};
+        catch(e){t1.textContent="മലയാളം";t1.disabled=false;toast("Couldn't translate. Check the AI connection and try again.");}};
       li.insertBefore(bar,li.querySelector(".tpa"));}
     const ex=li.querySelector(".ex2");if(ex)ex.onclick=()=>runAI(c,"ask","Topic: "+tp,`Explain the topic "${tp}" from ICSI CS Executive paper "${paperName(c)}", chapter "${c.t}". Give the provision with section numbers, a simple explanation, an example, and how it is asked in the exam. Then repeat the explanation briefly in simple Malayalam (legal terms in English).`);});
   el.appendChild(chapterTest(c));
@@ -604,7 +607,7 @@ function aiBlock(c,topics){
    <form class="aiask" id="aq-${c.k}"><textarea id="aqt-${c.k}" rows="2" placeholder="Ask anything about this chapter, or paste a paragraph from your study material to translate into Malayalam"></textarea><div class="trow"><button class="btn solid" type="submit" data-a="ask">Ask AI</button><button class="btn" type="button" data-a="tr">Translate to Malayalam</button></div></form>
    <div class="aiout" hidden><div class="aiTop"><span class="eyebrow aiTitle"></span><span class="trow"><button class="rm aiSave" type="button">Save to chapter</button><button class="rm aiSpeak" type="button">🔊 Listen</button><button class="rm aiStop" type="button">Stop</button><button class="rm aiCopy" type="button">Copy</button></span></div><div class="aitext"></div></div>
    <div class="ext"><span class="legend">Use another AI with this chapter's prompt:</span><a class="chan" target="_blank" rel="noopener" href="https://chatgpt.com/?q=${encodeURIComponent(AIMODES.notes.p(c,topics))}">Open in ChatGPT</a><a class="chan" target="_blank" rel="noopener" href="https://gemini.google.com/app">Open Gemini</a><button class="chan cp" type="button">Copy prompt for Gemini</button></div>`;
-  if(!sample){w.querySelector(".aibtns").innerHTML=`<span class="legend">Tap <b>Connect Gemini</b> at the top (free) to use these buttons here, or use ChatGPT / Gemini below.</span>`;w.querySelector(".aiask").hidden=true;}
+  if(!sample){w.querySelector(".aibtns").innerHTML=`<span class="legend">Tap <b>Connect AI</b> at the top (Gemini free, or ChatGPT) to use these buttons here, or use ChatGPT / Gemini below.</span>`;w.querySelector(".aiask").hidden=true;}
   const out=w.querySelector(".aiout"),txt=w.querySelector(".aitext"),ttl=w.querySelector(".aiTitle");
   const show=(title,text)=>{out.hidden=false;ttl.textContent=title;txt.textContent=text;};
   if(cur)show(cur.title,cur.text);
@@ -750,15 +753,36 @@ $("findQ").oninput=()=>{if(!$("findQ").value.trim())$("findOut").hidden=true;};
     if(!r.ok)throw {status:r.status,code:(r.status===429||r.status===503)?"rate_limited":(r.status===400||r.status===403)?"not_granted":"upstream_error",message:last};
     const c=d.candidates&&d.candidates[0];return {text:((c&&c.content&&c.content.parts)||[]).map(x=>x.text||"").join(""),truncated:c&&c.finishReason==="MAX_TOKENS"};
   }
-  function setGem(){const on=!!gk();$("gemBtn").textContent=on?"Gemini ✓":"Connect Gemini";
-    if(on){sample=async(p,o={})=>{const r=await gem(p,false);if(o.onText)o.onText({text:r.text});return r;};sample.json=async(p)=>{const r=await gem(p+"\nReply with JSON only.",true);return JSON.parse(r.text.replace(/^```(json)?|```$/g,"").trim());};}
-    else sample=null;render();}
-  $("gemBtn").onclick=()=>{$("gemPanel").hidden=!$("gemPanel").hidden;};
-  $("gemSave").onclick=async()=>{const k=$("gemKey").value.trim();if(!k)return;try{localStorage.setItem("gemKey",k);}catch(e){}$("gemMsg").textContent="Checking key…";
-    try{await gem("Reply with OK",false);$("gemMsg").textContent="Connected. AI buttons now use Gemini.";$("gemKey").value="";setGem();setTimeout(()=>$("gemPanel").hidden=true,1500);}
-    catch(e){if(e&&(e.status===503||e.status===429||e.status===500)){$("gemMsg").textContent="Key saved. Gemini is busy right now — the buttons will work when it frees up (usually a few minutes).";$("gemKey").value="";setGem();return;}
-      try{localStorage.removeItem("gemKey");}catch(_){}$("gemMsg").textContent="Gemini said: "+((e&&e.message)||"unknown error")+" — check the key in AI Studio and try again.";setGem();}};
-  $("gemDel").onclick=()=>{try{localStorage.removeItem("gemKey");}catch(e){}$("gemMsg").textContent="Removed from this browser.";setGem();};
+  const pick=()=>{try{return localStorage.getItem("aiUse")||"gemini";}catch(e){return "gemini";}};
+  const keyOf=pv=>{try{return localStorage.getItem(pv==="openai"?"oaiKey":"gemKey")||"";}catch(e){return "";}};
+  let goodOai=null;
+  async function oai(prompt,json){
+    const all=[(typeof OPENAI_MODEL!=="undefined"&&OPENAI_MODEL)||"gpt-4.1-mini","gpt-4o-mini"].filter((m,i,a)=>a.indexOf(m)===i);
+    const models=goodOai?[goodOai]:all;let r,d,last="";
+    for(const m of models){
+      r=await fetch("https://api.openai.com/v1/chat/completions",{method:"POST",headers:{"content-type":"application/json","authorization":"Bearer "+keyOf("openai")},
+        body:JSON.stringify({model:m,messages:[{role:"user",content:prompt}],max_tokens:4096,...(json?{response_format:{type:"json_object"}}:{})})}).catch(e=>({ok:false,status:0,json:async()=>({error:{message:"Network blocked: "+e.message}})}));
+      d=await r.json().catch(()=>({}));
+      if(r.ok){goodOai=m;break;}
+      last=(d.error&&d.error.message)||("HTTP "+r.status);
+      if(!(r.status===404||(d.error&&d.error.code==="model_not_found")))break;
+    }
+    if(!r.ok)throw {status:r.status,code:r.status===429?"rate_limited":(r.status===401||r.status===403)?"not_granted":"upstream_error",message:last};
+    const ch=d.choices&&d.choices[0];return {text:(ch&&ch.message&&ch.message.content)||"",truncated:ch&&ch.finish_reason==="length"};
+  }
+  const ask=(p,json)=>pick()==="openai"?oai(p,json):gem(p,json);
+  function syncPanel(){const pv=pick();document.querySelectorAll('input[name="aiPick"]').forEach(x=>x.checked=x.value===pv);
+    $("aiHowG").hidden=pv!=="gemini";$("aiHowO").hidden=pv!=="openai";$("gemKey").placeholder=pv==="openai"?"Paste OpenAI key (sk-…)":"Paste Gemini API key";}
+  function setGem(){const pv=pick(),on=!!keyOf(pv);$("gemBtn").textContent=on?(pv==="openai"?"ChatGPT ✓":"Gemini ✓"):"Connect AI";
+    if(on){sample=async(p,o={})=>{const r=await ask(p,false);if(o.onText)o.onText({text:r.text});return r;};sample.json=async(p)=>{const r=await ask(p+"\nReply with JSON only.",true);return JSON.parse(r.text.replace(/^```(json)?|```$/g,"").trim());};}
+    else sample=null;syncPanel();render();}
+  document.querySelectorAll('input[name="aiPick"]').forEach(x=>x.onchange=()=>{try{localStorage.setItem("aiUse",x.value);}catch(e){}$("gemMsg").textContent=keyOf(x.value)?"Using this key on this device.":"Paste a key for this provider.";setGem();});
+  $("gemBtn").onclick=()=>{syncPanel();$("gemPanel").hidden=!$("gemPanel").hidden;};
+  $("gemSave").onclick=async()=>{const pv=pick(),store=pv==="openai"?"oaiKey":"gemKey",k=$("gemKey").value.trim();if(!k)return;try{localStorage.setItem(store,k);}catch(e){}$("gemMsg").textContent="Checking key…";
+    try{await ask("Reply with OK",false);$("gemMsg").textContent="Connected. AI buttons now use "+(pv==="openai"?"ChatGPT":"Gemini")+".";$("gemKey").value="";setGem();setTimeout(()=>$("gemPanel").hidden=true,1500);}
+    catch(e){if(e&&(e.status===503||e.status===429||e.status===500)){$("gemMsg").textContent="Key saved. The AI is busy or at its limit right now — buttons will work in a minute. ("+((e&&e.message)||"")+")";$("gemKey").value="";setGem();return;}
+      try{localStorage.removeItem(store);}catch(_){}$("gemMsg").textContent=(pv==="openai"?"OpenAI":"Gemini")+" said: "+((e&&e.message)||"unknown error");setGem();}};
+  $("gemDel").onclick=()=>{try{localStorage.removeItem(pick()==="openai"?"oaiKey":"gemKey");}catch(e){}$("gemMsg").textContent="Removed from this browser.";setGem();};
   if(typeof USE_SERVER_AI!=="undefined"&&!USE_SERVER_AI){$("aiProv").hidden=true;document.querySelector('label[for="aiProv"]').hidden=true;setGem();}else{$("gemBtn").hidden=true;
   sample=async(prompt,opts={})=>{try{const r=await callAI({provider:prov(),prompt,tier:opts.modelTier||"default"});if(opts.onText)opts.onText({text:r.data.text});return {text:r.data.text,truncated:!!r.data.truncated};}catch(e){throw aiErr(e);}};
   sample.json=async(prompt,opts={})=>{try{const r=await callAI({provider:prov(),prompt,json:true,tier:opts.modelTier||"default"});return r.data.json;}catch(e){throw aiErr(e);}};
