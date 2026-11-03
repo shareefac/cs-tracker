@@ -739,7 +739,12 @@ $("findQ").oninput=()=>{if(!$("findQ").value.trim())$("findOut").hidden=true;};
       d=await r.json().catch(()=>({}));
       if(r.ok){goodModel=m;break;}
       last=(d.error&&d.error.message)||("HTTP "+r.status);
-      if(![404,429,500,503].includes(r.status))break;
+      if(r.status===429&&!m._retried){const w=parseFloat((last.match(/retry in ([\d.]+)s/i)||[])[1]||"0");
+        if(w>0&&w<=20){toast("Gemini free limit: waiting "+Math.ceil(w)+"s…");await new Promise(z=>setTimeout(z,(w+0.5)*1000));
+          r=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${m}:generateContent?key=${encodeURIComponent(gk())}`,{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({contents:[{role:"user",parts:[{text:prompt}]}],generationConfig:json?{responseMimeType:"application/json",maxOutputTokens:4096}:{maxOutputTokens:4096}})}).catch(()=>({ok:false,status:0,json:async()=>({})}));
+          d=await r.json().catch(()=>({}));if(r.ok){goodModel=m;break;}last=(d.error&&d.error.message)||last;}
+        break;}
+      if(![404,500,503].includes(r.status))break;
       if(r.status===503||r.status===500)await new Promise(z=>setTimeout(z,600));
     }
     if(!r.ok)throw {status:r.status,code:(r.status===429||r.status===503)?"rate_limited":(r.status===400||r.status===403)?"not_granted":"upstream_error",message:last};
