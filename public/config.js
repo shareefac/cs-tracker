@@ -14,3 +14,5 @@ const TRACKER_ID = "shareef-cs-2027";
 // 4) Free (Spark) plan: keep both false. Set true after upgrading to Blaze and deploying functions / storage.
 const USE_SERVER_AI = false;
 const USE_STORAGE = false;
+// 5) Only these accounts can open the tracker (also enforced by Firestore rules)
+const ALLOWED_EMAILS = ["muhammedshareefclt@gmail.com"];
