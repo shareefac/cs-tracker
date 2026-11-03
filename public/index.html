@@ -537,7 +537,7 @@ function sendRow(getPrompt,label){
   r.innerHTML=`<span class="legend">${label||"Research in:"}</span>`+SENDTO.map(([n])=>`<a class="snd" href="#" data-n="${n}">${n}${n==="Gemini"?" (copy)":""}</a>`).join("");
   r.querySelectorAll(".snd").forEach(a=>{
     const [n,mk]=SENDTO.find(x=>x[0]===a.dataset.n);
-    if(mk){a.target="_blank";a.rel="noopener";a.onmousedown=a.ontouchstart=a.onfocus=()=>{a.href=mk(getPrompt());};a.onclick=()=>{a.href=mk(getPrompt());};}
+    if(mk){a.target="_blank";a.rel="noopener";try{a.href=mk(getPrompt());}catch(_){}a.onmousedown=a.ontouchstart=a.onfocus=()=>{a.href=mk(getPrompt());};a.onclick=()=>{a.href=mk(getPrompt());};}
     else a.onclick=async e=>{e.preventDefault();const t=getPrompt();try{await navigator.clipboard.writeText(t);a.textContent="Copied — paste in Gemini";}catch(_){a.textContent="Copy failed";}
       const w=document.createElement("a");w.href="https://gemini.google.com/app";w.target="_blank";w.rel="noopener";document.body.appendChild(w);w.click();w.remove();};
   });
