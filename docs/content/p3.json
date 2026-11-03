@@ -1,0 +1,1946 @@
+{
+ "p3c1": {
+  "notes": [
+   {
+    "topic": "Features of business organisations",
+    "note": "The main forms are sole proprietorship (no separate legal identity, unlimited liability), partnership under the Indian Partnership Act, 1932 (mutual agency, unlimited joint liability), LLP under the LLP Act, 2008 (body corporate with limited liability and flexible internal structure) and company under the Companies Act, 2013 (separate legal entity, perpetual succession, transferable shares). The choice turns on liability exposure, capital needs, number of owners, control, compliance burden and exit options. For example, a two-person consultancy that wants limited liability without board meetings and AGMs will usually pick an LLP over a private company."
+   },
+   {
+    "topic": "choosing location",
+    "note": "Location is driven by access to raw materials and markets, labour availability, power, water and logistics, land cost, and the incentives offered by state industrial policies. Special Economic Zones under the SEZ Act, 2005 and notified industrial parks offer single-window approvals and fiscal benefits, while some sites are restricted by environmental zoning and pollution consent rules. A food processing unit, for instance, gains by setting up near the farm belt and inside a mega food park with common cold-storage infrastructure."
+   },
+   {
+    "topic": "tax implications",
+    "note": "Under the Income-tax Act, 1961 (replaced by the Income-tax Act, 2025 from 1 April 2026 with renumbered provisions), firms and LLPs pay a flat 30% plus surcharge and cess, and a partner's share of profit is exempt in his hands, while domestic companies can opt for the concessional 22% regime (about 25.17% effective) by giving up most deductions. Dividends are taxed in the shareholders' hands, so profits extracted from a company face a second layer of tax, whereas a proprietor is taxed at individual slab rates. A promoter expecting large retained profits for expansion often prefers a company, while one distributing most profits may find an LLP more tax-efficient."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Arjun wants to start a business alone, keep full control, and is not worried about personal liability or raising outside equity. Which form suits him best with the least compliance?",
+    "options": [
+     "Sole proprietorship",
+     "Private limited company",
+     "LLP",
+     "Public company"
+    ],
+    "answer": 0,
+    "explain": "A sole proprietorship needs no incorporation under any Act and gives full control, at the cost of unlimited personal liability."
+   },
+   {
+    "q": "Four professionals want limited liability, no requirement of board meetings or AGMs, and freedom to frame their own internal rules. The most suitable vehicle is:",
+    "options": [
+     "Registered partnership firm",
+     "One Person Company",
+     "Limited Liability Partnership",
+     "Hindu Undivided Family"
+    ],
+    "answer": 2,
+    "explain": "The LLP Act, 2008 gives limited liability with internal management governed by the LLP agreement rather than statutory meetings."
+   },
+   {
+    "q": "A firm earns profit of ₹50 lakh and distributes it to partners. How is the partners' share treated under the Income-tax Act, 1961?",
+    "options": [
+     "Taxed fully in partners' hands at slab rates",
+     "Exempt in partners' hands as the firm has already paid tax",
+     "Taxed as dividend at 10%",
+     "Taxed at 22% in partners' hands"
+    ],
+    "answer": 1,
+    "explain": "Section 10(2A) of the Income-tax Act, 1961 exempts a partner's share in the total income of the firm."
+   },
+   {
+    "q": "A domestic company opts for the concessional regime of 22% base rate. Which consequence follows?",
+    "options": [
+     "It can claim all deductions as before",
+     "MAT continues to apply at 15%",
+     "It must forgo specified deductions and incentives",
+     "Its dividends become exempt for shareholders"
+    ],
+    "answer": 2,
+    "explain": "The section 115BAA regime gives a 22% base rate only if the company forgoes specified exemptions and deductions, and MAT does not apply."
+   },
+   {
+    "q": "A promoter is choosing between two states for a new plant. Which factor is generally the weakest reason to pick a location?",
+    "options": [
+     "Proximity to raw materials",
+     "Availability of skilled labour",
+     "State capital subsidies and SEZ benefits",
+     "The promoter's personal preference for the state's climate"
+    ],
+    "answer": 3,
+    "explain": "Location decisions rest on economic factors such as inputs, markets, labour, infrastructure and incentives, not personal preference."
+   },
+   {
+    "q": "A startup expects to raise venture capital in two years and issue ESOPs. Which form should it adopt at the outset?",
+    "options": [
+     "Partnership firm",
+     "Private limited company",
+     "Sole proprietorship",
+     "Society"
+    ],
+    "answer": 1,
+    "explain": "Investors take equity and ESOPs are issued as shares, which needs a company under the Companies Act, 2013."
+   }
+  ],
+  "desc": {
+   "q": "Meera and Kabir plan to launch a SaaS business with seed capital from family and an intention to raise venture capital within three years. They also want to keep compliance light in the first year. Advise them on the choice of business organisation, considering liability, funding and tax.",
+   "points": [
+    "A sole proprietorship or partnership exposes them to unlimited personal liability and cannot issue equity to investors, so it is unsuitable for a venture-backed plan.",
+    "An LLP under the LLP Act, 2008 gives limited liability and light compliance, but VCs rarely invest in LLPs since there are no shares or ESOPs, and converting later adds cost.",
+    "A private company under the Companies Act, 2013 (section 2(68)) suits equity funding, ESOPs and DPIIT startup recognition; small-company relaxations reduce early compliance.",
+    "Tax: the company may opt for the concessional 22% regime, while dividends are taxed in shareholders' hands; an LLP pays 30% with exempt profit share, but profits will mostly be reinvested anyway.",
+    "Recommendation: incorporate a private limited company now, seek DPIIT recognition, and keep a clean cap table for future rounds."
+   ]
+  }
+ },
+ "p3c2": {
+  "notes": [
+   {
+    "topic": "Private, public, OPC, Nidhi, Section 8, producer & foreign companies",
+    "note": "Under the Companies Act, 2013 a private company (section 2(68)) restricts share transfer, caps members at 200 and cannot invite the public to subscribe, while a public company (section 2(71)) is any company that is not private and needs at least 7 members and 3 directors. An OPC (section 2(62)) has a single member who must be a natural person resident in India, with a nominee named in the MoA; a Section 8 company promotes charitable objects and cannot pay dividends; a Nidhi (section 406) lends and borrows only among its members; producer companies are governed by Chapter XXIA; and a foreign company (section 2(42)) is one incorporated abroad with a place of business in India. For example, a farmers' collective selling produce would register as a producer company, while an NGO running schools may choose a Section 8 company."
+   },
+   {
+    "topic": "incorporation documents",
+    "note": "Section 7 requires the memorandum and articles signed by subscribers, a declaration by a professional (CA, CS, CMA or advocate) engaged in formation, and declarations by subscribers and first directors that they are not disqualified and the information is correct, along with address proof of the registered office and director details. Electronically this means SPICe+ (INC-32) with e-MoA (INC-33), e-AoA (INC-34) and AGILE-PRO-S (INC-35), plus the subscribers' and directors' declarations and DIN application within the form. Furnishing false information at incorporation attracts action for fraud under section 447."
+   },
+   {
+    "topic": "registration procedure",
+    "note": "The name is reserved through SPICe+ Part A or the RUN service, and Part B is then filed with the incorporation documents; on approval the Registrar issues a Certificate of Incorporation with the CIN, and PAN, TAN, EPFO, ESIC, GSTIN (if opted) and a bank account are issued through the integrated form. After incorporation, the company must verify its registered office within 30 days under section 12 if not given earlier, and file the declaration of commencement of business (INC-20A) within 180 days under section 10A before starting business or borrowing. A company that skips INC-20A faces penalties and can be struck off by the Registrar."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Ravi, a resident Indian, wants to incorporate a company where he alone is the member. Which requirement must be met?",
+    "options": [
+     "He must have at least ₹50 lakh paid-up capital",
+     "He must name a nominee in the memorandum",
+     "He must appoint three directors",
+     "He must be a non-resident Indian"
+    ],
+    "answer": 1,
+    "explain": "Section 3(1)(c) and the Incorporation Rules require an OPC's memorandum to name a nominee who takes over on the member's death or incapacity."
+   },
+   {
+    "q": "XYZ Ltd, incorporated in Singapore, opens a project site office in Pune. Within what time must it file documents with the Registrar?",
+    "options": [
+     "Within 30 days of establishing a place of business in India",
+     "Within 6 months",
+     "Within 180 days",
+     "No filing needed for a site office"
+    ],
+    "answer": 0,
+    "explain": "Section 380 of the Companies Act, 2013 requires a foreign company to file prescribed documents in FC-1 within 30 days of establishing a place of business in India."
+   },
+   {
+    "q": "A newly incorporated private company with share capital opens a bank account and wants to borrow from a bank before filing anything further. What is the legal position?",
+    "options": [
+     "It can borrow freely after incorporation",
+     "It must first file INC-20A declaring that subscribers have paid the subscription money",
+     "It needs prior approval of the Regional Director",
+     "It must first hold its first AGM"
+    ],
+    "answer": 1,
+    "explain": "Section 10A bars a company with share capital from commencing business or exercising borrowing powers until the commencement declaration is filed."
+   },
+   {
+    "q": "A Section 8 company earns surplus income in a year. What can it do with the surplus?",
+    "options": [
+     "Distribute it as dividend to members",
+     "Pay it as bonus shares to members",
+     "Apply it only to promote its objects",
+     "Transfer it to the promoters' firm"
+    ],
+    "answer": 2,
+    "explain": "Section 8(1) requires profits to be applied only to promote the company's objects and prohibits payment of dividend to members."
+   },
+   {
+    "q": "A private company has 199 members and an employee-shareholder holding is excluded from the count. How many more non-employee members can it admit before losing private status?",
+    "options": [
+     "None",
+     "One",
+     "Fifty",
+     "Unlimited"
+    ],
+    "answer": 1,
+    "explain": "Section 2(68) caps a private company at 200 members, excluding present and certain former employee-members."
+   },
+   {
+    "q": "Which of the following is NOT required to be filed with SPICe+ for a company being incorporated?",
+    "options": [
+     "Memorandum of association",
+     "Articles of association",
+     "Declaration by subscribers and first directors",
+     "Audited balance sheet of the first year"
+    ],
+    "answer": 3,
+    "explain": "Section 7 lists MoA, AoA, declarations and particulars; financial statements arise only after the first financial year."
+   }
+  ],
+  "desc": {
+   "q": "A group of 250 dairy farmers wants to form an entity to collect, process and market milk, with member control on a one-member-one-vote basis and limited liability. They are confused between a private company, a co-operative society and a producer company. Advise them.",
+   "points": [
+    "A private company is capped at 200 members under section 2(68), so it cannot admit all 250 farmers.",
+    "A co-operative under state co-operative law is possible but involves Registrar control and government interference in management.",
+    "A producer company under Chapter XXIA of the Companies Act, 2013 is designed for primary producers, with members as producers, voting based on participation and limited liability.",
+    "It can be formed by ten or more individual producers, carry on procurement, processing and marketing of produce, and its shares are not tradeable to non-producers, preserving member control.",
+    "Recommendation: incorporate a producer company through SPICe+ with an MoA listing produce-related objects."
+   ]
+  }
+ },
+ "p3c3": {
+  "notes": [
+   {
+    "topic": "Concept",
+    "note": "An LLP is a body corporate formed under the LLP Act, 2008 with a separate legal personality and perpetual succession, distinct from its partners (section 3). Each partner is an agent of the LLP but not of the other partners, and a partner is not personally liable for the wrongful acts of another partner (section 28). It suits professional and small business ventures that want partnership-style flexibility with limited liability."
+   },
+   {
+    "topic": "formation",
+    "note": "At least two partners are required (section 6), and at least two designated partners who are individuals, one of whom must be resident in India (section 7). The name is reserved through RUN-LLP and the incorporation document is filed in FiLLiP with the subscribers' details and consent of designated partners; on registration the Registrar issues a certificate of incorporation (sections 11 and 12). If the number of partners falls below two and the LLP carries on business for more than six months, the remaining partner becomes personally liable for obligations incurred during that period."
+   },
+   {
+    "topic": "LLP agreement",
+    "note": "The LLP agreement governs mutual rights and duties of partners and between the partners and the LLP (section 23), and must be filed in Form 3 within 30 days of incorporation. Where there is no agreement, or the agreement is silent on a point, the First Schedule applies, for example sharing profits equally and requiring unanimous consent for a change in business. Practically, a well-drafted agreement should cover contribution, profit share, admission and cessation of partners, decision-making and dispute resolution."
+   },
+   {
+    "topic": "alteration",
+    "note": "Changes in the LLP agreement are filed in Form 3 within 30 days of the change, while admission or cessation of a partner or a change in designated partners is reported in Form 4 within 30 days (section 25). A change of registered office is filed in Form 15 (section 13), and a change of name requires a name reservation and Form 5. For example, when a new partner joins mid-year with a fresh capital contribution, both Form 4 and an updated Form 3 are needed."
+   },
+   {
+    "topic": "annual & event-based compliances",
+    "note": "Every LLP must file the Statement of Account and Solvency in Form 8 within 30 days from the end of six months of the financial year (by 30 October), and the Annual Return in Form 11 within 60 days of the close of the financial year (by 30 May). Accounts must be audited unless turnover does not exceed ₹40 lakh and contribution does not exceed ₹25 lakh under the LLP Rules. Event-based filings include Forms 3, 4, 5 and 15, and late filing attracts an additional fee of ₹100 per day of delay."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "An LLP has two partners. One partner dies and the survivor continues the business alone for eight months. What is the consequence?",
+    "options": [
+     "The LLP is automatically dissolved on death",
+     "The surviving partner is personally liable for obligations incurred after the first six months",
+     "No consequence as the LLP has perpetual succession",
+     "The Registrar must appoint a new partner"
+    ],
+    "answer": 1,
+    "explain": "Section 6(2) of the LLP Act makes a sole partner who knowingly carries on business beyond six months personally liable for obligations incurred during that time."
+   },
+   {
+    "q": "Partner A of an LLP negligently causes loss to a client. Partner B was not involved. Whose personal assets are at risk?",
+    "options": [
+     "Both A and B equally",
+     "Only B, as designated partner",
+     "Only A, apart from the LLP's own assets",
+     "Neither, under any circumstances"
+    ],
+    "answer": 2,
+    "explain": "Section 28 protects a partner from liability for another partner's wrongful acts; the LLP and the wrongdoing partner remain liable."
+   },
+   {
+    "q": "An LLP is incorporated but its partners never sign an LLP agreement. How will profits be shared?",
+    "options": [
+     "In proportion to capital contributed",
+     "As decided by the Registrar",
+     "Equally among partners",
+     "Only designated partners share profits"
+    ],
+    "answer": 2,
+    "explain": "In the absence of an agreement, the First Schedule to the LLP Act applies, under which partners share profits equally."
+   },
+   {
+    "q": "ABC LLP (financial year ending 31 March) must file its Statement of Account and Solvency for the year by:",
+    "options": [
+     "30 May",
+     "30 September",
+     "30 October",
+     "31 December"
+    ],
+    "answer": 2,
+    "explain": "Form 8 is due within 30 days from the end of six months of the financial year, i.e. by 30 October."
+   },
+   {
+    "q": "Which of the following must an LLP have at all times?",
+    "options": [
+     "At least seven partners",
+     "At least two designated partners, one being resident in India",
+     "A company secretary in employment",
+     "Minimum contribution of ₹1 lakh"
+    ],
+    "answer": 1,
+    "explain": "Section 7 requires at least two designated partners who are individuals, at least one of whom is resident in India."
+   },
+   {
+    "q": "A new partner is admitted to an LLP on 1 August. Which filing is required and by when?",
+    "options": [
+     "Form 4 within 30 days",
+     "Form 11 within 60 days",
+     "Form 8 within 6 months",
+     "No filing until the annual return"
+    ],
+    "answer": 0,
+    "explain": "Section 25 requires notice of changes in partners to be filed with the Registrar in Form 4 within 30 days."
+   }
+  ],
+  "desc": {
+   "q": "PQR LLP has four partners, an annual turnover of ₹1.2 crore and total contribution of ₹20 lakh. In the year, one partner retired and the registered office shifted within the same city. List the compliances the LLP must complete for the year.",
+   "points": [
+    "Form 4 within 30 days of the retirement of the partner (section 25), and Form 3 if the LLP agreement is altered for the changed profit share.",
+    "Form 15 for change of registered office (section 13) within the prescribed time.",
+    "Since turnover exceeds ₹40 lakh, accounts must be audited despite contribution being under ₹25 lakh.",
+    "Form 8 (Statement of Account and Solvency) by 30 October and Form 11 (Annual Return) by 30 May following the year end.",
+    "Delay in any filing attracts additional fee of ₹100 per day, and the LLP must also file its income-tax return as a firm."
+   ]
+  }
+ },
+ "p3c4": {
+  "notes": [
+   {
+    "topic": "Startup India",
+    "note": "Startup India is the Government's 2016 flagship initiative, administered by DPIIT, to build an ecosystem for innovation through simplification, funding support and incubation. Under the DPIIT notification of 19 February 2019, an entity is a startup if it is a private company, registered partnership firm or LLP, up to ten years from incorporation, with turnover not exceeding ₹100 crore in any year, working on innovation or a scalable model with high potential for employment or wealth creation. An entity formed by splitting up or reconstructing an existing business does not qualify."
+   },
+   {
+    "topic": "registration",
+    "note": "Recognition is obtained online on the Startup India portal by submitting incorporation details, a write-up on the innovation and supporting documents such as pitch deck or patents. DPIIT issues a certificate of recognition, after which the startup can separately apply to the Inter-Ministerial Board for the income-tax holiday. A one-year-old LLP building a new agritech app, for instance, can apply directly, while a ten-year-old firm cannot."
+   },
+   {
+    "topic": "benefits",
+    "note": "Recognised startups get self-certification and fewer inspections under specified labour and environmental laws, 80% rebate on patent filing fees with fast-tracked examination, relaxed norms in public procurement, and access to the Fund of Funds for Startups and the Credit Guarantee Scheme for Startups. Eligible startups certified by the Inter-Ministerial Board can claim a 100% profit deduction for any 3 consecutive years out of 10 under section 80-IAC of the Income-tax Act, 1961. The angel-tax charge on share premium under section 56(2)(viib) was abolished from assessment year 2025-26."
+   },
+   {
+    "topic": "seed, VC, PE, angel funding",
+    "note": "Seed money funds the idea and prototype and often comes from founders, friends, incubators or the Startup India Seed Fund Scheme, which offers grants for proof of concept and convertible or debt support for market entry. Angel investors are high-net-worth individuals investing early, often through SEBI-registered angel funds; venture capital funds (Category I AIFs under SEBI (Alternative Investment Funds) Regulations, 2012) invest in growth-stage startups for equity and board rights. Private equity typically enters later with larger cheques in mature companies, often seeking control or a defined exit through IPO or strategic sale."
+   },
+   {
+    "topic": "unicorn case studies",
+    "note": "A unicorn is a privately held startup valued at US$1 billion or more. Flipkart showed how marketplace scale and repeated funding rounds can lead to a strategic exit (acquired by Walmart in 2018), while Zerodha grew into a unicorn without external funding by keeping costs low and staying profitable. Collapses of some high-valuation edtech firms show that governance, cash-flow discipline and statutory compliance matter as much as valuation."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "TechNova LLP was incorporated 11 years ago and has turnover of ₹40 crore. It has launched a new AI product. Can it get DPIIT startup recognition?",
+    "options": [
+     "Yes, because turnover is below ₹100 crore",
+     "Yes, because the product is innovative",
+     "No, because it is more than ten years old",
+     "No, because LLPs are not eligible"
+    ],
+    "answer": 2,
+    "explain": "The 2019 DPIIT notification limits startup status to ten years from incorporation, whatever the turnover."
+   },
+   {
+    "q": "A recognised startup wants the income-tax holiday under section 80-IAC. What additional step is needed?",
+    "options": [
+     "Nothing; DPIIT recognition is enough",
+     "Certification from the Inter-Ministerial Board",
+     "Approval of the Registrar of Companies",
+     "Listing on SME platform"
+    ],
+    "answer": 1,
+    "explain": "Section 80-IAC benefits require the startup to be certified as eligible by the Inter-Ministerial Board."
+   },
+   {
+    "q": "A firm is created by splitting an existing manufacturing business into two. It claims startup status. The claim is:",
+    "options": [
+     "Valid if turnover is low",
+     "Valid if it is a private company",
+     "Invalid, as entities formed by splitting or reconstruction are excluded",
+     "Valid after three years"
+    ],
+    "answer": 2,
+    "explain": "The DPIIT definition excludes entities formed by splitting up or reconstructing an existing business."
+   },
+   {
+    "q": "A SEBI-registered Category I AIF investing in early-stage unlisted companies is best described as a:",
+    "options": [
+     "Venture capital fund",
+     "Mutual fund",
+     "Hedge fund (Category III AIF)",
+     "Chit fund"
+    ],
+    "answer": 0,
+    "explain": "Venture capital funds are a sub-category of Category I AIFs under the SEBI (Alternative Investment Funds) Regulations, 2012."
+   },
+   {
+    "q": "Which statement about a 'unicorn' is correct?",
+    "options": [
+     "It must be listed on a stock exchange",
+     "It must be profitable for three years",
+     "It must have raised money only from angel investors",
+     "It is a privately held startup valued at US$1 billion or more"
+    ],
+    "answer": 3,
+    "explain": "The term unicorn refers to a privately held startup with a valuation of at least US$1 billion."
+   },
+   {
+    "q": "A recognised startup files a patent application. Which benefit can it claim?",
+    "options": [
+     "Full exemption from patent fees for life",
+     "80% rebate on patent filing fees and expedited examination",
+     "Automatic grant of patent",
+     "Exemption from publication"
+    ],
+    "answer": 1,
+    "explain": "Under the Startup India scheme and Patents Rules, startups get an 80% fee rebate and can seek expedited examination."
+   }
+  ],
+  "desc": {
+   "q": "GreenLeaf Pvt Ltd, incorporated three years ago with turnover of ₹6 crore, is developing a biodegradable packaging material. The founders ask what they must do to obtain startup status and what benefits and funding options will be available. Advise them.",
+   "points": [
+    "It meets the DPIIT test: private company, under ten years old, turnover below ₹100 crore, and working on an innovative product.",
+    "Apply on the Startup India portal with incorporation proof and a description of the innovation to obtain the DPIIT certificate.",
+    "Benefits: self-certification under specified labour and environmental laws, 80% patent fee rebate with fast-track examination, and procurement relaxations.",
+    "For the 3-out-of-10-year tax holiday under section 80-IAC, apply separately to the Inter-Ministerial Board.",
+    "Funding: Seed Fund Scheme via incubators, angel funds, VC funds (Category I AIFs), Fund of Funds for Startups and the Credit Guarantee Scheme for Startups."
+   ]
+  }
+ },
+ "p3c5": {
+  "notes": [
+   {
+    "topic": "Classification",
+    "note": "Section 7 of the MSMED Act, 2006 classifies enterprises on a composite test of investment in plant and machinery or equipment and annual turnover, for both manufacturing and services. With effect from 1 April 2025 the limits are: micro up to ₹2.5 crore investment and ₹10 crore turnover; small up to ₹25 crore and ₹100 crore; medium up to ₹125 crore and ₹500 crore. Export turnover is excluded, so an exporter with ₹150 crore total turnover of which ₹80 crore is exports is assessed on ₹70 crore."
+   },
+   {
+    "topic": "Udyam registration",
+    "note": "Registration as an MSME is done online on the Udyam portal on a self-declaration basis using Aadhaar, with PAN and GST data pulled in automatically to verify investment and turnover; there is no fee and no document upload. The Udyam Registration Certificate is permanent and the classification is updated automatically from tax data each year. Informal micro enterprises without GST can register through the Udyam Assist Platform to access priority-sector lending."
+   },
+   {
+    "topic": "NSIC",
+    "note": "The National Small Industries Corporation is a Government of India enterprise under the Ministry of MSME that supports small enterprises through marketing, finance, technology and raw material services. Its Single Point Registration Scheme lets registered micro and small units take part in government tenders with benefits such as exemption from earnest money deposit. It also runs raw material assistance, bank credit facilitation and technology incubation programmes."
+   },
+   {
+    "topic": "MSME schemes",
+    "note": "Key schemes include the Credit Guarantee Fund Trust for Micro and Small Enterprises (collateral-free loans), PMEGP for new micro units (subsidy routed through KVIC and banks), and the Public Procurement Policy for MSEs Order, 2012, which requires central ministries and PSUs to buy at least 25% of their annual procurement from micro and small enterprises, including sub-targets for SC/ST and women-owned units. Under the MSMED Act, buyers must pay MSE suppliers within the agreed period, not exceeding 45 days (section 15), failing which compound interest at three times the RBI bank rate is payable (section 16) and disputes go to the MSE Facilitation Council (section 18)."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A manufacturing unit has investment in plant of ₹20 crore and turnover of ₹120 crore. How is it classified under the norms effective 1 April 2025?",
+    "options": [
+     "Micro",
+     "Small",
+     "Medium",
+     "Not an MSME"
+    ],
+    "answer": 2,
+    "explain": "Under section 7 classification, turnover above ₹100 crore takes it out of 'small' even though investment is within the small limit, so it is medium."
+   },
+   {
+    "q": "A buyer received goods from a micro enterprise with an agreed credit period of 90 days. What is the maximum period the buyer can legally take to pay?",
+    "options": [
+     "90 days as agreed",
+     "45 days",
+     "30 days",
+     "180 days"
+    ],
+    "answer": 1,
+    "explain": "Section 15 of the MSMED Act caps the agreed payment period at 45 days from acceptance."
+   },
+   {
+    "q": "An exporter has total turnover of ₹110 crore, of which ₹30 crore is exports, and investment of ₹15 crore. Its classification is:",
+    "options": [
+     "Small",
+     "Medium",
+     "Micro",
+     "Large"
+    ],
+    "answer": 0,
+    "explain": "Export turnover is excluded, leaving ₹80 crore turnover and ₹15 crore investment, both within the small enterprise limits."
+   },
+   {
+    "q": "Which document is required to be uploaded for Udyam registration?",
+    "options": [
+     "Audited accounts",
+     "CA certificate of investment",
+     "No documents; it is self-declared with Aadhaar, and PAN/GST data is pulled automatically",
+     "Factory licence"
+    ],
+    "answer": 2,
+    "explain": "Udyam registration is paperless and based on self-declaration, with investment and turnover taken from tax databases."
+   },
+   {
+    "q": "A small enterprise is not paid by a buyer despite delivery. Where can it file a reference for recovery with interest?",
+    "options": [
+     "Civil court only",
+     "Micro and Small Enterprises Facilitation Council",
+     "NCLT",
+     "Consumer forum"
+    ],
+    "answer": 1,
+    "explain": "Section 18 of the MSMED Act allows reference of payment disputes to the MSE Facilitation Council."
+   },
+   {
+    "q": "A Central PSU buys goods worth ₹200 crore a year. Under the Public Procurement Policy, the minimum it must source from MSEs is:",
+    "options": [
+     "₹20 crore",
+     "₹40 crore",
+     "₹70 crore",
+     "₹50 crore"
+    ],
+    "answer": 3,
+    "explain": "The Public Procurement Policy for MSEs Order, 2012 mandates at least 25% of annual procurement from MSEs."
+   }
+  ],
+  "desc": {
+   "q": "Sharma Industries, a manufacturer with investment of ₹2 crore and turnover of ₹8 crore, supplies components to a large automobile company that routinely pays after 120 days. Advise Sharma Industries on its MSME status and legal remedies.",
+   "points": [
+    "With investment up to ₹2.5 crore and turnover up to ₹10 crore, it is a micro enterprise under section 7 of the MSMED Act; it should register on the Udyam portal.",
+    "Section 15 requires the buyer to pay within the agreed period, which cannot exceed 45 days; a 120-day term is not valid beyond 45 days.",
+    "Section 16 entitles it to compound interest at three times the RBI bank rate from the due date.",
+    "It can file a reference with the MSE Facilitation Council (section 18) for conciliation and arbitration; the buyer must deposit 75% of the award to challenge it.",
+    "Additionally, under the Income-tax Act the buyer cannot deduct the expense until payment if it pays late, which gives commercial leverage."
+   ]
+  }
+ },
+ "p3c6": {
+  "notes": [
+   {
+    "topic": "Private↔public",
+    "note": "A private company becomes public under section 14 of the Companies Act, 2013 by passing a special resolution to alter its articles to remove the private-company restrictions, filing MGT-14 within 30 days and INC-27 with the Registrar, and meeting public-company requirements such as 3 directors and 7 members. A public company converting to private needs, in addition to the special resolution, the approval of the Central Government (exercised by the Regional Director) on an application in INC-27. A family company planning an IPO, for example, must first convert into a public company."
+   },
+   {
+    "topic": "Section 8",
+    "note": "A company registered under section 8 can convert into another kind of company only after complying with the conditions in the Incorporation Rules, including a special resolution, an application to the Regional Director and settling any concessions or tax benefits it received; any accumulated surplus is not distributable. Conversely, an existing company can convert into a Section 8 company by altering its objects to charitable ones and applying for a licence. A school run by a private company that wants grants and donor confidence may convert into a Section 8 company."
+   },
+   {
+    "topic": "company↔LLP",
+    "note": "A private company or unlisted public company converts into an LLP under sections 56 and 57 read with the Third and Fourth Schedules of the LLP Act, 2008, filing Form 18 with the incorporation document; all shareholders must become partners and there must be no security interest outstanding (or creditors must consent). On conversion, the company's assets, liabilities and contracts vest in the LLP and the company is deemed dissolved. An LLP may register as a company under section 366 of the Companies Act, 2013 (Part I of Chapter XXI) by filing URC-1 and SPICe+."
+   },
+   {
+    "topic": "OPC conversions",
+    "note": "Since the 2021 amendment to the Incorporation Rules, an OPC can voluntarily convert into a private or public company at any time by passing a resolution, increasing members and directors, and filing INC-6, with no minimum period or capital-turnover trigger. A private company (other than a Section 8 company) may convert into an OPC by special resolution, obtaining no-objection from members and creditors, and filing INC-6, provided it is left with one member. A start-up founder who later brings in a co-founder simply converts the OPC into a private company."
+   },
+   {
+    "topic": "Chapter XXI",
+    "note": "Part I of Chapter XXI (sections 366 to 374) allows partnership firms, LLPs, co-operative societies, societies or other business entities with two or more members to register as companies under the 2013 Act, after which their property vests in the company (section 368). Part II (sections 375 to 378) deals with winding up of unregistered companies such as partnerships or associations with more than seven members. Registration under Part I is filed through URC-1 with consent of members and a public notice in newspapers."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Pinnacle Ltd, a public company, wants to convert into a private company. Apart from a special resolution, what is needed?",
+    "options": [
+     "Approval of the Regional Director on behalf of the Central Government",
+     "Approval of NCLT",
+     "Consent of SEBI",
+     "Nothing more"
+    ],
+    "answer": 0,
+    "explain": "Under section 14(1) proviso and the Incorporation Rules, a public-to-private conversion needs Central Government approval exercised by the Regional Director."
+   },
+   {
+    "q": "A private company has an outstanding bank charge and wants to convert into an LLP. What condition must be met?",
+    "options": [
+     "The charge is irrelevant",
+     "The secured creditor must consent or the charge must be satisfied",
+     "The company must first become public",
+     "NCLT approval is mandatory"
+    ],
+    "answer": 1,
+    "explain": "The Third Schedule to the LLP Act requires that there be no security interest in force, unless the holders consent."
+   },
+   {
+    "q": "An OPC incorporated six months ago wants to convert into a private company. Can it do so?",
+    "options": [
+     "No, it must wait two years",
+     "Only if its turnover exceeds ₹2 crore",
+     "Yes, voluntary conversion is allowed at any time since 2021",
+     "Only with NCLT approval"
+    ],
+    "answer": 2,
+    "explain": "The 2021 amendment to rule 6 of the Incorporation Rules removed the two-year wait for voluntary conversion of an OPC."
+   },
+   {
+    "q": "A partnership firm with three partners wants to register as a private company under Part I of Chapter XXI. Which form is filed?",
+    "options": [
+     "INC-27",
+     "URC-1",
+     "Form 18",
+     "FC-1"
+    ],
+    "answer": 1,
+    "explain": "Section 366 registration is applied for in URC-1 under the Companies (Authorised to Register) Rules, 2014."
+   },
+   {
+    "q": "When a company converts into an LLP, what happens to the company's pending suits?",
+    "options": [
+     "They abate automatically",
+     "They must be re-filed by the partners",
+     "They are transferred to NCLT",
+     "They continue by or against the LLP"
+    ],
+    "answer": 3,
+    "explain": "The Third Schedule to the LLP Act provides that legal proceedings by or against the company may be continued by or against the LLP."
+   },
+   {
+    "q": "Which company cannot convert into an OPC?",
+    "options": [
+     "A private company with one shareholder left after buyback",
+     "A Section 8 company",
+     "A private company with paid-up capital of ₹10 lakh",
+     "A private company with turnover of ₹5 crore"
+    ],
+    "answer": 1,
+    "explain": "Rule 7 of the Incorporation Rules permits private companies other than Section 8 companies to convert into OPCs."
+   }
+  ],
+  "desc": {
+   "q": "Delta Pvt Ltd has five shareholders, a term loan from a bank secured by hypothecation, and pending tax assessments. The shareholders want to convert it into an LLP to reduce compliance. Advise them on the procedure and conditions.",
+   "points": [
+    "Conversion is governed by section 56 and the Third Schedule of the LLP Act, 2008, filed in Form 18 along with the FiLLiP incorporation document.",
+    "All five shareholders must become partners of the LLP, and no one else can be a partner at conversion.",
+    "The bank's security interest is outstanding, so the bank's consent (or satisfaction of the charge) is required.",
+    "On conversion, all assets, liabilities, contracts and proceedings, including tax assessments, vest in and continue against the LLP; the company stands dissolved.",
+    "Tax neutrality under the Income-tax Act needs conditions such as turnover not exceeding ₹60 lakh and shareholders' profit-sharing continuity, so they should check whether capital gains will arise."
+   ]
+  }
+ },
+ "p3c7": {
+  "notes": [
+   {
+    "topic": "Partnership",
+    "note": "Section 4 of the Indian Partnership Act, 1932 defines partnership as the relation between persons who agree to share profits of a business carried on by all or any of them acting for all, so mutual agency is the real test. Registration with the state Registrar of Firms is optional (section 58), but an unregistered firm and its partners cannot sue third parties or each other to enforce contractual rights (section 69). The number of partners is capped at 50 under section 464 of the Companies Act, 2013 read with the Companies (Miscellaneous) Rules, 2014."
+   },
+   {
+    "topic": "HUF",
+    "note": "A Hindu Undivided Family consists of persons lineally descended from a common ancestor, along with wives and unmarried daughters, and is managed by the karta. Since the Hindu Succession (Amendment) Act, 2005, daughters are coparceners by birth with the same rights as sons, as confirmed by the Supreme Court in Vineeta Sharma v Rakesh Sharma (2020). An HUF is a separate taxable person under the Income-tax Act and can carry on business through its karta."
+   },
+   {
+    "topic": "proprietorship",
+    "note": "A sole proprietorship is owned and controlled by one individual, has no separate legal existence and carries unlimited personal liability; it ends with the owner's death or retirement. There is no single registration law, so it is evidenced through registrations such as GST, Shops and Establishments licence, Udyam and a current account in the trade name. Income is taxed as the proprietor's business income at individual slab rates."
+   },
+   {
+    "topic": "multi-state co-op",
+    "note": "A co-operative society whose objects serve members in more than one state is registered under the Multi-State Co-operative Societies Act, 2002 with the Central Registrar, not with a state Registrar. The 2023 amendment strengthened governance with an election authority, reservation of seats on the board for women and SC/ST members, and a rehabilitation fund for sick societies. Large dairy and banking co-operatives operating across states are typical examples."
+   },
+   {
+    "topic": "trusts & societies",
+    "note": "Private trusts are governed by the Indian Trusts Act, 1882, while public charitable and religious trusts are governed by state laws such as the Maharashtra Public Trusts Act and general principles of trust law. A society can be registered under the Societies Registration Act, 1860 by seven or more persons subscribing to a memorandum for literary, scientific or charitable purposes. Both are common vehicles for schools, hospitals and NGOs and must register under the Income-tax Act to claim exemption."
+   },
+   {
+    "topic": "partnership deed & trust deed",
+    "note": "A partnership deed sets out the firm name, business, capital contribution, profit-sharing ratio, interest on capital and drawings, partners' salaries, admission and retirement, and dispute resolution, and must be stamped under the state Stamp Act. A trust deed records the author (settlor), trustees, beneficiaries, objects and the trust property, and the powers and replacement of trustees; under section 5 of the Indian Trusts Act, a trust of immovable property must be declared by a registered non-testamentary instrument. A well-drafted deed avoids disputes, for instance by stating how a retiring partner's share is valued."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "An unregistered firm supplies goods to a customer who refuses to pay. Can the firm sue the customer?",
+    "options": [
+     "Yes, registration is irrelevant",
+     "No, section 69 bars suits by an unregistered firm against third parties to enforce contracts",
+     "Yes, but only in the High Court",
+     "Only after the customer consents"
+    ],
+    "answer": 1,
+    "explain": "Section 69(2) of the Indian Partnership Act, 1932 bars an unregistered firm from suing third parties on a contract."
+   },
+   {
+    "q": "What is the maximum number of partners a partnership firm can have?",
+    "options": [
+     "20",
+     "100",
+     "200",
+     "50"
+    ],
+    "answer": 3,
+    "explain": "Section 464 of the Companies Act, 2013 read with rule 10 of the Companies (Miscellaneous) Rules, 2014 caps partners at 50."
+   },
+   {
+    "q": "Ramesh, a karta, has two sons and a married daughter. Under current law, who are coparceners?",
+    "options": [
+     "Only the two sons",
+     "The sons and the daughter, by birth",
+     "Only Ramesh",
+     "The sons and Ramesh's wife"
+    ],
+    "answer": 1,
+    "explain": "The Hindu Succession (Amendment) Act, 2005 made daughters coparceners by birth irrespective of marriage."
+   },
+   {
+    "q": "A dairy co-operative has members in Gujarat and Rajasthan. Under which law and with whom is it registered?",
+    "options": [
+     "Multi-State Co-operative Societies Act, 2002 with the Central Registrar",
+     "Gujarat Co-operative Societies Act with the State Registrar",
+     "Companies Act with the RoC",
+     "Societies Registration Act, 1860"
+    ],
+    "answer": 0,
+    "explain": "Societies whose objects extend to members in more than one state are registered under the 2002 Act with the Central Registrar."
+   },
+   {
+    "q": "Five people want to register a society for promoting music. What is the legal position?",
+    "options": [
+     "They can register; the Act needs only five",
+     "They can register only as a trust",
+     "They need at least seven persons to register",
+     "They need RBI approval"
+    ],
+    "answer": 2,
+    "explain": "Section 1 of the Societies Registration Act, 1860 requires seven or more persons to subscribe to the memorandum."
+   },
+   {
+    "q": "A settlor wants to create a private trust of a house property. How must it be created?",
+    "options": [
+     "By oral declaration",
+     "By a registered non-testamentary instrument in writing",
+     "By an unregistered letter to the trustee",
+     "By a will only"
+    ],
+    "answer": 1,
+    "explain": "Section 5 of the Indian Trusts Act, 1882 requires a trust of immovable property to be declared by a registered non-testamentary instrument."
+   }
+  ],
+  "desc": {
+   "q": "Three friends have been running a trading business for two years without any written agreement or registration. One friend now refuses to share profits and a customer owes them ₹8 lakh. Advise them on their legal position and the steps they should take.",
+   "points": [
+    "They are partners under section 4 of the Indian Partnership Act, 1932 since they share profits of a business carried on by all acting for all; a written deed is not essential.",
+    "Being unregistered, section 69 bars them from suing the customer or each other to enforce contractual rights, though a suit for dissolution and accounts is still allowed.",
+    "They should get the firm registered under section 58 by filing the statement with the Registrar of Firms; after registration they can sue the customer.",
+    "They should execute a stamped partnership deed fixing capital, profit-sharing ratio, drawings, salaries and dispute resolution to prevent further disputes.",
+    "In the absence of an agreement, profits are shared equally under section 13, which governs the dispute with the non-cooperating partner."
+   ]
+  }
+ },
+ "p3c8": {
+  "notes": [
+   {
+    "topic": "NBFCs",
+    "note": "A company carrying on financial business must obtain a certificate of registration from the RBI under section 45-IA of the RBI Act, 1934, with minimum net owned funds that are being raised to ₹10 crore for most NBFCs in phases. The principal business test applies: financial assets must exceed 50% of total assets and income from them must exceed 50% of gross income. Under RBI's scale-based regulation, NBFCs are placed in base, middle, upper and top layers, with tighter norms as size and risk increase."
+   },
+   {
+    "topic": "HFCs",
+    "note": "Housing finance companies are NBFCs whose principal business is financing housing, and since 2019 they are regulated by the RBI, with supervision by the National Housing Bank. An HFC must have minimum net owned funds of ₹20 crore and keep at least 60% of its total assets in housing finance, of which at least half must be loans to individuals. A company lending mainly for home purchases by salaried individuals would register as an HFC rather than a general NBFC."
+   },
+   {
+    "topic": "ARCs",
+    "note": "Asset Reconstruction Companies are registered with the RBI under section 3 of the SARFAESI Act, 2002 to acquire bad loans from banks and financial institutions and recover them through restructuring, enforcement or sale. The RBI has raised the minimum net owned funds requirement to ₹300 crore, with existing ARCs given time to comply. Banks typically sell NPAs to ARCs in exchange for cash and security receipts."
+   },
+   {
+    "topic": "MFIs",
+    "note": "NBFC-MFIs provide collateral-free microfinance loans to low-income households, defined under RBI's 2022 framework as households with annual income up to ₹3 lakh. Repayment obligations of a household (including the new loan) should not exceed 50% of its monthly income, and an NBFC-MFI must hold a prescribed minimum share of its assets in microfinance loans. A self-help group member borrowing ₹50,000 for a tailoring unit without security is a typical microfinance loan."
+   },
+   {
+    "topic": "Nidhi",
+    "note": "A Nidhi is a company under section 406 of the Companies Act, 2013 and the Nidhi Rules, 2014 that cultivates thrift among members by accepting deposits from and lending only to its members. It must have at least 200 members and net owned funds of ₹20 lakh within the prescribed time, and must obtain a declaration as Nidhi from the Central Government in NDH-4. It cannot issue preference shares, take deposits from non-members or carry on chit funds, hire purchase or leasing."
+   },
+   {
+    "topic": "payment banks",
+    "note": "Payment banks are licensed by the RBI under the Banking Regulation Act, 1949 and its 2014 guidelines to serve small savers and migrant workers with deposits and remittances. They need minimum paid-up capital of ₹100 crore, can hold up to ₹2 lakh per customer at day-end, and must invest most of their deposits in government securities. They cannot lend or issue credit cards, though they can issue debit cards and act as business correspondents."
+   },
+   {
+    "topic": "Mudra",
+    "note": "Micro Units Development and Refinance Agency Ltd is a SIDBI subsidiary that refinances banks, NBFCs and MFIs lending to micro enterprises under the Pradhan Mantri Mudra Yojana launched in 2015. Loans are given without collateral in categories Shishu (up to ₹50,000), Kishore (above ₹50,000 to ₹5 lakh), Tarun (above ₹5 lakh to ₹10 lakh) and Tarun Plus (up to ₹20 lakh for borrowers who have repaid a Tarun loan). A street-food vendor buying a cart would typically get a Shishu loan."
+   },
+   {
+    "topic": "chit funds",
+    "note": "Chit funds are regulated by state governments under the Chit Funds Act, 1982, and a chit cannot be started without prior sanction of the State Government and registration of its bye-laws with the Registrar. The 2019 amendment raised the foreman's maximum commission to 7% and increased the ceilings on aggregate chit amounts for individuals and firms. Chit funds are excluded from RBI's NBFC regulation, and prize chits are banned under the Prize Chits and Money Circulation Schemes (Banning) Act, 1978."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Fincorp Ltd has 45% of its assets in loans and earns 70% of its income from them. Does it need RBI registration as an NBFC?",
+    "options": [
+     "Yes, as income exceeds 50%",
+     "Yes, every lending company must register",
+     "No, since both asset and income tests must exceed 50%",
+     "No, as only banks lend"
+    ],
+    "answer": 2,
+    "explain": "The RBI's principal business test under section 45-IA needs financial assets and financial income each above 50%."
+   },
+   {
+    "q": "A payment bank customer wants to keep ₹3 lakh in her account. What is the position?",
+    "options": [
+     "Allowed; no limit applies",
+     "Not allowed; end-of-day balance is capped at ₹2 lakh per customer",
+     "Allowed if KYC is complete",
+     "Allowed only for current accounts"
+    ],
+    "answer": 1,
+    "explain": "RBI's payment bank norms cap the end-of-day balance at ₹2 lakh per individual customer."
+   },
+   {
+    "q": "A Nidhi company accepts a fixed deposit from a non-member. This is:",
+    "options": [
+     "Permitted up to ₹1 lakh",
+     "Permitted with board approval",
+     "Permitted after 3 years of incorporation",
+     "Prohibited, since a Nidhi deals only with members"
+    ],
+    "answer": 3,
+    "explain": "Section 406 and the Nidhi Rules, 2014 restrict a Nidhi to accepting deposits from and lending to members only."
+   },
+   {
+    "q": "A bank wants to sell its NPA portfolio to a specialised entity in exchange for security receipts. The buyer would be:",
+    "options": [
+     "An Asset Reconstruction Company registered under the SARFAESI Act",
+     "A payment bank",
+     "A Nidhi",
+     "An HFC"
+    ],
+    "answer": 0,
+    "explain": "Section 3 of the SARFAESI Act, 2002 provides for registration of ARCs to acquire financial assets from banks."
+   },
+   {
+    "q": "A small tailor seeks a collateral-free loan of ₹4 lakh to expand her shop under PMMY. Which category applies?",
+    "options": [
+     "Shishu",
+     "Tarun",
+     "Kishore",
+     "Tarun Plus"
+    ],
+    "answer": 2,
+    "explain": "Under PMMY, Kishore covers loans above ₹50,000 and up to ₹5 lakh."
+   },
+   {
+    "q": "What is the maximum commission a foreman of a chit can now receive?",
+    "options": [
+     "5% of the chit amount",
+     "7% of the chit amount",
+     "10% of the chit amount",
+     "No limit"
+    ],
+    "answer": 1,
+    "explain": "The Chit Funds (Amendment) Act, 2019 raised the foreman's commission ceiling from 5% to 7%."
+   }
+  ],
+  "desc": {
+   "q": "Sunrise Finance Pvt Ltd plans to accept deposits from the public, give gold loans and microloans to rural women, and run chit schemes. Advise the promoters on the regulatory framework applicable to each activity.",
+   "points": [
+    "Lending as principal business requires RBI registration as an NBFC under section 45-IA of the RBI Act, 1934, with minimum net owned funds as prescribed.",
+    "Accepting public deposits needs separate RBI permission as a deposit-taking NBFC, which is granted sparingly and subject to credit rating and prudential norms.",
+    "Microloans to low-income households require compliance with RBI's microfinance framework (income limit of ₹3 lakh, repayment cap of 50% of income), and NBFC-MFI registration if the qualifying asset threshold is met.",
+    "Chit schemes fall under the Chit Funds Act, 1982 and need prior sanction of the State Government; it is advisable to run them through a separate entity, as chit business is outside RBI's NBFC framework.",
+    "Gold loans must follow RBI's loan-to-value limits and gold valuation norms applicable to NBFCs."
+   ]
+  }
+ },
+ "p3c9": {
+  "notes": [
+   {
+    "topic": "Foreign collaborations",
+    "note": "Foreign collaboration may be financial (foreign equity under FDI) or technical (licensing of technology, brand or know-how for royalty or fees). FDI is governed by FEMA, 1999 and the FEMA (Non-debt Instruments) Rules, 2019, and is allowed under the automatic route in most sectors or with government approval in specified sectors; payments for technology transfer and royalty are now generally permitted without prior approval under the current account rules. Under Press Note 3 of 2020, investment from an entity of a country sharing a land border with India always needs government approval."
+   },
+   {
+    "topic": "joint ventures",
+    "note": "A joint venture is a business arrangement where two or more parties pool resources for a common project, either as a contractual JV or, more often, an equity JV through a jointly owned company. The JV agreement typically covers shareholding, board seats, reserved matters requiring both parties' consent, deadlock resolution, transfer restrictions such as right of first refusal and tag-along/drag-along, non-compete and exit. Since the Supreme Court in V.B. Rangaraj v V.B. Gopalakrishnan (1992) held that share-transfer restrictions not in the articles do not bind the company, key JV terms must be incorporated in the articles; large JVs may also need Competition Commission approval as combinations under sections 5 and 6 of the Competition Act, 2002."
+   },
+   {
+    "topic": "SPVs",
+    "note": "A Special Purpose Vehicle is a separate legal entity, usually a company or LLP, created for a single defined project or asset so that its risks and finances are ring-fenced from the sponsor's balance sheet. SPVs are widely used for infrastructure PPP projects, securitisation of loans, REITs and InvITs, and project finance where lenders look only to project cash flows. For example, a highway concession is usually awarded to an SPV whose only assets are the toll rights and the road."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A Chinese company wants to acquire 15% in an Indian manufacturing company in a sector open to 100% FDI under the automatic route. Which route applies?",
+    "options": [
+     "Automatic route",
+     "Government route, because of Press Note 3 (2020)",
+     "No FDI allowed",
+     "RBI prior approval only"
+    ],
+    "answer": 1,
+    "explain": "Press Note 3 of 2020 requires government approval for investment by entities from countries sharing a land border with India."
+   },
+   {
+    "q": "A JV agreement gives the foreign partner a right of first refusal on share transfers, but the articles of the JV company are silent. Following V.B. Rangaraj, the restriction is:",
+    "options": [
+     "Binding on the company",
+     "Not enforceable against the company unless included in the articles",
+     "Void under FEMA",
+     "Enforceable only by NCLT"
+    ],
+    "answer": 1,
+    "explain": "The Supreme Court held that share-transfer restrictions not contained in the articles do not bind the company or its shareholders."
+   },
+   {
+    "q": "An Indian company licenses technology from a German firm and pays royalty of 6% on sales. Which approval is needed?",
+    "options": [
+     "Government approval is mandatory",
+     "RBI approval is mandatory",
+     "None; such payments are a permitted current account transaction",
+     "SEBI approval"
+    ],
+    "answer": 2,
+    "explain": "Under the FEMA (Current Account Transactions) Rules, royalty and technology payments are freely permitted subject to general conditions."
+   },
+   {
+    "q": "A power company wants to bid for a solar park project and isolate project risk from its other businesses. The best structure is:",
+    "options": [
+     "An SPV formed for that project",
+     "A branch office",
+     "A partnership with lenders",
+     "A trust"
+    ],
+    "answer": 0,
+    "explain": "An SPV ring-fences project assets, liabilities and cash flows from the sponsor's balance sheet."
+   },
+   {
+    "q": "In a 50:50 JV, the board is evenly split on approving the annual budget. Which clause helps resolve this?",
+    "options": [
+     "Non-compete clause",
+     "Confidentiality clause",
+     "Force majeure clause",
+     "Deadlock resolution clause"
+    ],
+    "answer": 3,
+    "explain": "A deadlock clause sets escalation, mediation, casting vote or buy-sell mechanisms when the two partners cannot agree."
+   },
+   {
+    "q": "Two large companies form a JV company by merging their respective businesses; their combined assets exceed the Competition Act thresholds. What is required?",
+    "options": [
+     "Prior approval of the Competition Commission of India",
+     "Nothing; JVs are exempt",
+     "Approval of the RoC",
+     "Approval of the Ministry of Commerce only"
+    ],
+    "answer": 0,
+    "explain": "Sections 5 and 6 of the Competition Act, 2002 require notice to and approval of CCI for combinations exceeding thresholds."
+   }
+  ],
+  "desc": {
+   "q": "An Indian textile company and a Japanese technology firm propose a 60:40 equity joint venture to manufacture technical textiles in India. List the key legal and documentation issues the company secretary should address.",
+   "points": [
+    "Check FDI eligibility and route under the FEMA (Non-debt Instruments) Rules, 2019; textiles are under the automatic route, and allotment must be reported in FC-GPR within 30 days.",
+    "Draft a shareholders' agreement covering board composition, reserved matters, deadlock resolution, transfer restrictions (ROFR, tag-along/drag-along), non-compete and exit.",
+    "Incorporate key provisions in the JV company's articles so they bind the company, in line with V.B. Rangaraj v V.B. Gopalakrishnan.",
+    "Execute a technology licence agreement for royalty or fees, which is a permitted current account transaction, and address IP ownership and confidentiality.",
+    "Check whether the combination crosses Competition Act thresholds and whether any sectoral licences or pollution consents are needed for the plant."
+   ]
+  }
+ },
+ "p3c10": {
+  "notes": [
+   {
+    "topic": "Formation & registration of BO / LO / WOS",
+    "note": "A foreign entity can set up a branch, liaison or project office under the FEMA (Establishment in India of a Branch Office or a Liaison Office or a Project Office or any other Place of Business) Regulations, 2016 by applying in Form FNC through an AD Category-I bank; a branch office needs a profit track record of the preceding five years and net worth of at least US$100,000, while a liaison office needs three years' profits and net worth of at least US$50,000. A liaison office can only act as a communication channel and cannot earn income in India, whereas a branch office may export, import, render services or act as buying agent but cannot manufacture (except in an SEZ); applicants from specified neighbouring countries or in sectors like defence and telecom need RBI approval in consultation with the Government. After approval, the office must register with the Registrar under section 380 of the Companies Act, 2013 within 30 days, obtain PAN and file an Annual Activity Certificate each year. A wholly owned subsidiary is an Indian company incorporated under the Companies Act, 2013 with 100% foreign shareholding where the sector allows it under FDI rules, with at least one resident director, and reporting of share allotment in FC-GPR within 30 days."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A US company with profits in only the last two years wants to open a liaison office in India. Is it eligible under the 2016 regulations?",
+    "options": [
+     "Yes, two years suffice",
+     "Yes, if net worth exceeds US$50,000",
+     "No, a three-year profit track record is needed",
+     "No, LOs are banned for US companies"
+    ],
+    "answer": 2,
+    "explain": "A liaison office applicant needs a profit-making record during the immediately preceding three financial years."
+   },
+   {
+    "q": "A liaison office in Mumbai starts charging commission on sales it arranges for Indian buyers. This is:",
+    "options": [
+     "Permitted as incidental income",
+     "Permitted with AD bank approval",
+     "Permitted if taxes are paid",
+     "Not permitted, as an LO cannot undertake commercial activity or earn income"
+    ],
+    "answer": 3,
+    "explain": "Under the FEMA 2016 regulations, a liaison office can only act as a communication channel and must be funded by inward remittances."
+   },
+   {
+    "q": "A foreign company's branch office in India wants to set up a manufacturing unit. Where is this allowed?",
+    "options": [
+     "Anywhere in India",
+     "Only in a Special Economic Zone",
+     "Only in metro cities",
+     "Nowhere"
+    ],
+    "answer": 1,
+    "explain": "Branch offices cannot manufacture in India except for units in SEZs, which are permitted under the automatic route subject to conditions."
+   },
+   {
+    "q": "After RBI/AD bank approval, within what time must a branch office register with the Registrar of Companies?",
+    "options": [
+     "30 days of establishing the place of business",
+     "90 days",
+     "One year",
+     "Registration is not required"
+    ],
+    "answer": 0,
+    "explain": "Section 380 of the Companies Act, 2013 requires a foreign company to file FC-1 within 30 days of establishing a place of business in India."
+   },
+   {
+    "q": "A Singapore company sets up a 100% subsidiary in India in the IT sector. When must it report the share allotment?",
+    "options": [
+     "Within 1 year in Form FC-TRS",
+     "Within 30 days of allotment in FC-GPR on the FIRMS portal",
+     "Within 60 days to SEBI",
+     "No reporting needed under the automatic route"
+    ],
+    "answer": 1,
+    "explain": "The FEMA (Mode of Payment and Reporting of Non-Debt Instruments) Regulations require FC-GPR reporting within 30 days of allotment."
+   },
+   {
+    "q": "Which annual compliance is specific to a branch or liaison office of a foreign entity?",
+    "options": [
+     "Annual Activity Certificate to the AD bank and income-tax authority",
+     "Form 11",
+     "Form 8",
+     "MGT-7A"
+    ],
+    "answer": 0,
+    "explain": "BOs/LOs must submit an Annual Activity Certificate by 30 September each year to the AD bank and the income-tax authority."
+   }
+  ],
+  "desc": {
+   "q": "A German machine-tool maker wants to test the Indian market, then sell and service machines, and eventually manufacture locally. Advise on the appropriate presence at each stage and the key approvals and filings.",
+   "points": [
+    "Stage 1: a liaison office under the FEMA 2016 regulations through an AD bank (Form FNC), needing a 3-year profit record and net worth of US$50,000; it can only promote and liaise, funded by remittances.",
+    "Stage 2: a branch office (5-year profit record, net worth of US$100,000) for import, sale and after-sales service, but it cannot manufacture outside an SEZ.",
+    "Stage 3: a wholly owned subsidiary under the Companies Act, 2013 via automatic-route FDI for manufacturing, with at least one resident director and FC-GPR reporting within 30 days.",
+    "Each BO/LO must register with the RoC under section 380 within 30 days, obtain PAN and file Annual Activity Certificates.",
+    "Tax: a BO is taxed as a foreign company in India, while a WOS is a domestic company eligible for concessional rates, which favours the WOS for manufacturing."
+   ]
+  }
+ },
+ "p3c11": {
+  "notes": [
+   {
+    "topic": "Choosing location",
+    "note": "An Indian company choosing a foreign base weighs market access, tax treaties (DTAAs) with India, corporate tax rates, ease of incorporation, director residency rules, banking access, legal system and talent. From the Indian side, overseas investment is governed by FEMA, 1999, the Foreign Exchange Management (Overseas Investment) Rules, 2022 and the related Regulations; total financial commitment under the automatic route is limited to 400% of the Indian entity's net worth, and an ODI must be in an entity engaged in bona fide business. For example, a SaaS firm targeting US customers usually picks a Delaware corporation for investor familiarity, while one selling in Europe may prefer a UK company."
+   },
+   {
+    "topic": "incorporation in UK, USA, Canada, Australia",
+    "note": "UK: a private limited company is registered online with Companies House under the Companies Act 2006, needing at least one natural-person director, a UK registered office, a statement of capital and persons with significant control, and an annual confirmation statement. USA: incorporation is at state level (Delaware, Wyoming and Nevada are popular) by filing a certificate of incorporation through a registered agent, then obtaining an Employer Identification Number from the IRS; LLCs are pass-through for tax while C-corporations suit venture funding. Canada: a company is incorporated federally under the Canada Business Corporations Act or under a provincial statute, with director residency rules differing by jurisdiction; Australia: a proprietary company (Pty Ltd) is registered with ASIC under the Corporations Act 2001 and must have at least one director ordinarily resident in Australia. The Indian investor must report the ODI to its AD bank in Form ODI within the prescribed time and file the Annual Performance Report each year."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "An Indian company with net worth of ₹50 crore wants to invest ₹250 crore in a US subsidiary under the automatic route. Is it permitted?",
+    "options": [
+     "Yes, there is no limit",
+     "Yes, up to 400% of net worth, i.e. ₹200 crore, so ₹250 crore exceeds the limit",
+     "No, ODI is only via approval route",
+     "Yes, up to 1000% of net worth"
+    ],
+    "answer": 1,
+    "explain": "The FEMA (Overseas Investment) Rules, 2022 cap total financial commitment under the automatic route at 400% of the Indian entity's net worth."
+   },
+   {
+    "q": "An Indian founder wants to set up a UK private limited company with himself as sole director residing in India. Is this possible?",
+    "options": [
+     "No, a UK resident director is mandatory",
+     "No, two directors are required",
+     "Yes, a UK company needs at least one natural-person director, with no residency requirement, but a UK registered office",
+     "Only with Bank of England approval"
+    ],
+    "answer": 2,
+    "explain": "The Companies Act 2006 requires at least one director who is a natural person and a registered office in the UK, but not a UK-resident director."
+   },
+   {
+    "q": "Which authority registers companies in Australia?",
+    "options": [
+     "ASIC",
+     "ASX",
+     "ATO",
+     "Companies House"
+    ],
+    "answer": 0,
+    "explain": "The Australian Securities and Investments Commission registers companies under the Corporations Act 2001."
+   },
+   {
+    "q": "A startup plans to raise US venture capital and issue preferred stock. The most common US vehicle is:",
+    "options": [
+     "A sole proprietorship in California",
+     "A general partnership in Texas",
+     "An LLC in Nevada",
+     "A Delaware C-corporation"
+    ],
+    "answer": 3,
+    "explain": "US VCs typically invest in Delaware C-corporations because of familiar corporate law and the ability to issue preferred stock."
+   },
+   {
+    "q": "After an Indian company invests in its overseas subsidiary, which recurring filing is required with the AD bank?",
+    "options": [
+     "FC-GPR",
+     "Annual Performance Report",
+     "Form 8",
+     "FC-TRS"
+    ],
+    "answer": 1,
+    "explain": "The FEMA overseas investment framework requires an Annual Performance Report for every foreign entity in which ODI is made."
+   },
+   {
+    "q": "An Australian proprietary company proposes to have only one director who lives in Singapore. This is:",
+    "options": [
+     "Allowed",
+     "Allowed with ASIC approval",
+     "Not allowed, since at least one director must ordinarily reside in Australia",
+     "Allowed if the shareholder is Australian"
+    ],
+    "answer": 2,
+    "explain": "The Corporations Act 2001 requires a proprietary company to have at least one director ordinarily resident in Australia."
+   }
+  ],
+  "desc": {
+   "q": "Tech Solutions Pvt Ltd, a Kochi-based software company, wants to set up a subsidiary to sell its products in the UK and later in the US. Advise on the Indian regulatory requirements and the steps for incorporation abroad.",
+   "points": [
+    "Indian side: ODI under FEMA and the Overseas Investment Rules/Regulations, 2022, through the AD bank, within 400% of net worth under the automatic route, with board approval and valuation as required.",
+    "Report the ODI in Form ODI to the AD bank and file Annual Performance Reports for each foreign subsidiary.",
+    "UK: incorporate a private limited company with Companies House, with at least one natural-person director, a UK registered office, PSC details and an annual confirmation statement; register for UK corporation tax and VAT if over the threshold.",
+    "US: incorporate a Delaware C-corporation through a registered agent, obtain an EIN, and comply with state franchise tax and federal filings.",
+    "Consider DTAA benefits, transfer pricing on intra-group charges, and POEM rules so the subsidiary is not treated as resident in India."
+   ]
+  }
+ },
+ "p3c12": {
+  "notes": [
+   {
+    "topic": "Industry-specific compliances at set-up",
+    "note": "Beyond general registrations, many industries need sectoral licences before they start: drug manufacturers need a manufacturing licence under the Drugs and Cosmetics Act, 1940, food businesses need FSSAI registration or a licence under the Food Safety and Standards Act, 2006, telecom operators need authorisation under the Telecommunications Act, 2023, electricity generation, transmission and distribution are governed by the Electricity Act, 2003, and mining needs a lease under the MMDR Act, 1957. Products covered by BIS Quality Control Orders under the Bureau of Indian Standards Act, 2016 need BIS certification, and packaged goods must comply with the Legal Metrology (Packaged Commodities) Rules, 2011. Projects listed in the EIA Notification, 2006 under the Environment (Protection) Act, 1986 need prior environmental clearance, besides consent to establish and operate under the Water Act, 1974 and Air Act, 1981. Regulated financial businesses need licences from the RBI, SEBI, IRDAI or PFRDA, so the first step for a promoter is always to map the sector's licensing chain before committing capital."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A company plans to manufacture cough syrup. Which licence is essential before production?",
+    "options": [
+     "FSSAI licence",
+     "Manufacturing licence under the Drugs and Cosmetics Act, 1940",
+     "BIS certificate",
+     "IEC"
+    ],
+    "answer": 1,
+    "explain": "Drugs can be manufactured only under a licence granted under the Drugs and Cosmetics Act, 1940 and its Rules."
+   },
+   {
+    "q": "A new cement plant falls within the EIA Notification, 2006. What must it obtain before construction begins?",
+    "options": [
+     "Only GST registration",
+     "Only a factory licence",
+     "Prior environmental clearance, plus consent to establish from the State Pollution Control Board",
+     "Only an IEC"
+    ],
+    "answer": 2,
+    "explain": "The EIA Notification under the Environment (Protection) Act, 1986 requires prior environmental clearance for listed projects, and the Water and Air Acts require consent to establish."
+   },
+   {
+    "q": "A firm imports toys for sale in India. Toys are covered by a BIS Quality Control Order. What is required?",
+    "options": [
+     "BIS certification/standard mark for the toys",
+     "No requirement for imported goods",
+     "FSSAI licence",
+     "Drug licence"
+    ],
+    "answer": 0,
+    "explain": "Quality Control Orders under the BIS Act, 2016 prohibit sale of covered products without BIS certification, including imports."
+   },
+   {
+    "q": "A company wants to start an insurance broking business. Its regulator is:",
+    "options": [
+     "RBI",
+     "SEBI",
+     "PFRDA",
+     "IRDAI"
+    ],
+    "answer": 3,
+    "explain": "Insurance intermediaries, including brokers, are licensed and regulated by IRDAI under the IRDA Act, 1999 and its regulations."
+   },
+   {
+    "q": "A packaged spice manufacturer prints 'MRP' but omits the net quantity. Which law is breached?",
+    "options": [
+     "Legal Metrology (Packaged Commodities) Rules, 2011",
+     "Drugs and Cosmetics Act",
+     "Telecommunications Act",
+     "MMDR Act"
+    ],
+    "answer": 0,
+    "explain": "The Legal Metrology (Packaged Commodities) Rules require mandatory declarations including net quantity and MRP on pre-packed goods."
+   },
+   {
+    "q": "A startup wants to provide internet services to consumers. Under current law it needs:",
+    "options": [
+     "A licence under the Indian Telegraph Act, 1885 only",
+     "Authorisation under the Telecommunications Act, 2023",
+     "SEBI registration",
+     "No licence"
+    ],
+    "answer": 1,
+    "explain": "The Telecommunications Act, 2023 replaced the Telegraph Act framework and requires authorisation to provide telecom services."
+   }
+  ],
+  "desc": {
+   "q": "XYZ Foods Pvt Ltd plans to set up a unit making packaged juices and export them. List the industry-specific and general compliances it must consider at the set-up stage.",
+   "points": [
+    "FSSAI licence under the Food Safety and Standards Act, 2006 (central licence for exporters/importers and large units) and compliance with labelling and packaging regulations.",
+    "Consent to establish and consent to operate from the State Pollution Control Board under the Water Act, 1974 and Air Act, 1981.",
+    "Factory registration and licence under the OSH Code, 2020 (which replaced the Factories Act, 1948) and building plan approval.",
+    "Legal Metrology registration as a packer under the Packaged Commodities Rules, plus IEC from DGFT and APEDA registration for exports.",
+    "GST registration, Udyam registration if eligible, and labour registrations (EPF/ESI) under the Code on Social Security, 2020."
+   ]
+  }
+ },
+ "p3c13": {
+  "notes": [
+   {
+    "topic": "PAN/TAN",
+    "note": "PAN under section 139A of the Income-tax Act, 1961 is the taxpayer's permanent identifier, while TAN under section 203A must be obtained by every person required to deduct or collect tax at source and quoted in all TDS returns and challans. For new companies, PAN and TAN are allotted automatically through SPICe+, and the Certificate of Incorporation itself carries the PAN. Failure to apply for TAN attracts a penalty of ₹10,000."
+   },
+   {
+    "topic": "GST",
+    "note": "Registration under section 22 of the CGST Act, 2017 is required when aggregate turnover crosses ₹40 lakh for suppliers of goods (₹20 lakh in specified special category states) and ₹20 lakh for service providers (₹10 lakh in specified states). Section 24 makes registration compulsory regardless of turnover for inter-state taxable suppliers, e-commerce operators and sellers through them, casual taxable persons and persons liable under reverse charge. The application in REG-01 must be made within 30 days of becoming liable (section 25), and a separate registration is needed in each state where the business supplies from."
+   },
+   {
+    "topic": "Shops & Establishments",
+    "note": "Shops, offices, hotels and commercial establishments must register under the respective state Shops and Establishments Act within the period fixed by that state (often 30 days of starting), and these laws govern working hours, holidays, leave and conditions of employment. Many states now offer online, self-certified, lifetime registration, and some exempt very small units employing fewer than ten workers from registration but require only an intimation. A software office in Kerala, for instance, registers under the Kerala Shops and Commercial Establishments Act, 1960."
+   },
+   {
+    "topic": "ESI/PF",
+    "note": "Since 21 November 2025, EPF and ESI registration is governed by the Code on Social Security, 2020, which replaced the Employees' Provident Funds and Miscellaneous Provisions Act, 1952 and the ESI Act, 1948. EPF applies to establishments with 20 or more employees and ESI to those with 10 or more (hazardous establishments may be covered even with one employee), and the Code provides a single electronic registration for an establishment. New companies get their EPFO and ESIC codes automatically through SPICe+."
+   },
+   {
+    "topic": "pollution",
+    "note": "Industries need Consent to Establish (before construction) and Consent to Operate (before production) from the State Pollution Control Board under section 25 of the Water (Prevention and Control of Pollution) Act, 1974 and section 21 of the Air (Prevention and Control of Pollution) Act, 1981. Units are grouped as red, orange, green or white by pollution potential; white category units need no consent but only an intimation. Hazardous waste generators also need authorisation under the Hazardous and Other Wastes (Management and Transboundary Movement) Rules, 2016."
+   },
+   {
+    "topic": "IEC",
+    "note": "An Importer Exporter Code is required under section 7 of the Foreign Trade (Development and Regulation) Act, 1992 for any import or export, and is issued online by the DGFT as a PAN-based 10-digit number. It is valid for life, but must be updated electronically every year between April and June, failing which it is deactivated. Certain persons such as individuals importing for personal use and specified government departments are exempt."
+   },
+   {
+    "topic": "FSSAI",
+    "note": "Under section 31 of the Food Safety and Standards Act, 2006, every food business operator needs either registration or a licence. Petty food businesses with turnover up to ₹12 lakh need only registration, those with turnover up to ₹20 crore need a state licence, and those above ₹20 crore, importers, exporters and units on central premises need a central licence. Running a food business without a licence is punishable under section 63 with imprisonment up to six months and fine up to ₹5 lakh."
+   },
+   {
+    "topic": "industrial licence",
+    "note": "Under the Industries (Development and Regulation) Act, 1951, an industrial licence is now required only for a small list of industries such as specified defence items, hazardous chemicals, tobacco products and industries reserved for the public sector, or units located near specified cities. All other industries are delicensed and need only file an Industrial Entrepreneurs' Memorandum (IEM) Part A with DPIIT, and Part B after commercial production starts. A licence holder must start production within the validity period, which can be extended on request."
+   },
+   {
+    "topic": "sectoral approvals",
+    "note": "Some businesses need approval from the sector regulator before starting: RBI for banking, NBFCs and payment systems, SEBI for brokers, AIFs and investment advisers, IRDAI for insurance, PFRDA for pension funds, and DoT for telecom. Sectoral caps and conditions under the FDI Policy also apply where foreign investment is involved, for example government approval for certain defence or media investments. A company planning a payment gateway, for example, must obtain RBI authorisation as a payment aggregator before going live."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A trader in Maharashtra supplying goods only within the state has turnover of ₹30 lakh. Is GST registration mandatory?",
+    "options": [
+     "Yes, as turnover exceeds ₹20 lakh",
+     "No, the threshold for goods suppliers in Maharashtra is ₹40 lakh",
+     "Yes, all traders must register",
+     "No, traders are exempt"
+    ],
+    "answer": 1,
+    "explain": "Section 22 of the CGST Act and the 2019 notification set a ₹40 lakh threshold for exclusive suppliers of goods in non-special-category states."
+   },
+   {
+    "q": "An online seller with turnover of ₹5 lakh sells goods through an e-commerce marketplace collecting TCS. Must it register under GST?",
+    "options": [
+     "No, turnover is below threshold",
+     "Only if it sells inter-state",
+     "Yes, section 24 requires compulsory registration in this case",
+     "Only after one year"
+    ],
+    "answer": 2,
+    "explain": "Section 24 of the CGST Act mandates registration for persons supplying through e-commerce operators who are required to collect TCS, subject to notified exemptions."
+   },
+   {
+    "q": "A restaurant has turnover of ₹15 crore. Which FSSAI permission is needed?",
+    "options": [
+     "State licence",
+     "Registration only",
+     "Central licence",
+     "No permission"
+    ],
+    "answer": 0,
+    "explain": "Food businesses with turnover above ₹12 lakh and up to ₹20 crore need a state licence under section 31 of the FSS Act."
+   },
+   {
+    "q": "An exporter did not update its IEC between April and June. What is the consequence?",
+    "options": [
+     "A fine of ₹1 lakh",
+     "Cancellation of PAN",
+     "Its IEC is deactivated until it is updated",
+     "Nothing"
+    ],
+    "answer": 2,
+    "explain": "DGFT rules require annual updating of the IEC, failing which it is deactivated, under the Foreign Trade (Development and Regulation) Act framework."
+   },
+   {
+    "q": "A chemical unit wants to start building its plant. Which pollution consent must it obtain first?",
+    "options": [
+     "Consent to Operate",
+     "Consent to Establish",
+     "Environmental clearance only",
+     "None until production"
+    ],
+    "answer": 1,
+    "explain": "Section 25 of the Water Act and section 21 of the Air Act require consent before establishing an industry, followed by consent to operate before production."
+   },
+   {
+    "q": "A company is setting up a unit to manufacture an ordinary engineering product. What industrial approval does it need?",
+    "options": [
+     "Industrial licence under IDRA",
+     "Approval of the Ministry of Defence",
+     "SEBI approval",
+     "Only an Industrial Entrepreneurs' Memorandum, as the industry is delicensed"
+    ],
+    "answer": 3,
+    "explain": "Under the Industries (Development and Regulation) Act, 1951 only specified industries need a licence; delicensed industries file an IEM."
+   }
+  ],
+  "desc": {
+   "q": "Maya Garments Pvt Ltd, newly incorporated in Tamil Nadu, will employ 60 workers in a garment factory with power and export most of its output. List the initial registrations and licences it must obtain.",
+   "points": [
+    "PAN, TAN and EPFO/ESIC codes through SPICe+; GST registration in Tamil Nadu (and LUT for zero-rated exports) under the CGST Act.",
+    "Factory registration and licence under the OSH Code, 2020 (formerly the Factories Act, 1948), since it has more than 20 workers with power, along with building plan approval.",
+    "EPF (20+ employees) and ESI (10+ employees) coverage under the Code on Social Security, 2020, with monthly contributions and returns.",
+    "Consent to Establish and Consent to Operate from the TN Pollution Control Board under the Water and Air Acts, depending on the unit's category.",
+    "IEC from DGFT for exports, Udyam registration, and membership of the Apparel Export Promotion Council for export benefits."
+   ]
+  }
+ },
+ "p3c14": {
+  "notes": [
+   {
+    "topic": "Fundamental rights & labour laws",
+    "note": "The Constitution's Fundamental Rights and the Directive Principles shape labour law: Article 14 guarantees equality, Article 19(1)(c) the freedom to form associations and unions, and Article 19(1)(g) the freedom of trade and occupation, while Articles 38, 39, 41, 42, 43 and 43A direct the State towards social justice, just and humane conditions of work, a living wage and workers' participation in management. Labour is a Concurrent List subject (entries 22, 23 and 24 of List III), so both Parliament and the states legislate on it. The Supreme Court has held that there is no fundamental right to strike (T.K. Rangarajan v Government of Tamil Nadu, 2003), although the right to form unions is protected."
+   },
+   {
+    "topic": "equal pay",
+    "note": "Equal pay for equal work is not an express Fundamental Right but is read from Articles 14 and 16 together with the Directive Principle in Article 39(d), as held in Randhir Singh v Union of India (1982). In State of Punjab v Jagjit Singh (2016), the Supreme Court extended the principle to temporary employees doing the same work as regular staff. Statutorily, section 3 of the Code on Wages, 2019 (which replaced the Equal Remuneration Act, 1976) prohibits discrimination on the ground of gender in wages and recruitment for the same or similar work."
+   },
+   {
+    "topic": "Articles 16, 19, 21, 23, 24",
+    "note": "Article 16 guarantees equal opportunity in public employment and permits reservations; Article 19(1)(c) and (g) protect union activity and the freedom of occupation subject to reasonable restrictions; and Article 21 has been read to include the right to livelihood (Olga Tellis v Bombay Municipal Corporation, 1985) and safe working conditions, the basis of the Vishaka guidelines (1997) on sexual harassment. Article 23 prohibits begar and forced labour, and in People's Union for Democratic Rights v Union of India (1982) the Court held that paying less than the minimum wage amounts to forced labour. Article 24 bars employment of children below 14 in factories, mines and other hazardous employment."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A contractor engaged on a government project pays workers below the notified minimum wage. Which constitutional provision is violated, per the Asiad Workers' case?",
+    "options": [
+     "Article 16",
+     "Article 23",
+     "Article 19(1)(g)",
+     "Article 24"
+    ],
+    "answer": 1,
+    "explain": "In PUDR v Union of India (1982), the Supreme Court held that payment below minimum wage is forced labour under Article 23."
+   },
+   {
+    "q": "Government employees go on an indefinite strike claiming it is their fundamental right. The correct legal position is:",
+    "options": [
+     "The right to strike is a fundamental right under Article 19(1)(c)",
+     "The right to strike is guaranteed by Article 21",
+     "There is no fundamental right to strike",
+     "Strikes are permitted only under Article 43"
+    ],
+    "answer": 2,
+    "explain": "In T.K. Rangarajan v Government of Tamil Nadu (2003), the Supreme Court held that there is no fundamental, statutory or moral right to strike."
+   },
+   {
+    "q": "A company employs a 13-year-old in its glass-blowing furnace unit. Which Article is directly breached?",
+    "options": [
+     "Article 24",
+     "Article 16",
+     "Article 43A",
+     "Article 19(1)(c)"
+    ],
+    "answer": 0,
+    "explain": "Article 24 prohibits employment of children below 14 in factories, mines or other hazardous employment."
+   },
+   {
+    "q": "Temporary staff doing the same work as regular employees are paid much less. They can rely on:",
+    "options": [
+     "Article 24",
+     "Article 43A only",
+     "Articles 14 and 16 read with Article 39(d), as applied in State of Punjab v Jagjit Singh",
+     "Article 19(1)(g)"
+    ],
+    "answer": 2,
+    "explain": "The Supreme Court in Jagjit Singh (2016) applied equal pay for equal work, derived from Articles 14, 16 and 39(d), to temporary employees."
+   },
+   {
+    "q": "Pavement dwellers who earn a living in the city challenge their eviction without notice. Which right did the Supreme Court recognise in Olga Tellis?",
+    "options": [
+     "Right to property",
+     "Right to strike",
+     "Right to equal pay",
+     "Right to livelihood as part of Article 21"
+    ],
+    "answer": 3,
+    "explain": "Olga Tellis v Bombay Municipal Corporation (1985) held that the right to life under Article 21 includes the right to livelihood."
+   },
+   {
+    "q": "Workers' participation in management of industries is a Directive Principle found in:",
+    "options": [
+     "Article 43A",
+     "Article 24",
+     "Article 23",
+     "Article 16"
+    ],
+    "answer": 0,
+    "explain": "Article 43A, inserted by the 42nd Amendment, directs the State to secure workers' participation in management."
+   }
+  ],
+  "desc": {
+   "q": "A private manufacturer pays its women packers less than male packers doing identical work, engages some workers on bonded terms to repay advances, and employs a 15-year-old in its boiler section. Examine the constitutional and statutory position.",
+   "points": [
+    "Unequal pay for the same work violates the equal-pay principle drawn from Articles 14 and 39(d) (Randhir Singh) and is prohibited by section 3 of the Code on Wages, 2019, which replaced the Equal Remuneration Act, 1976.",
+    "Bonded labour is 'forced labour' under Article 23, which applies to private employers too; it is also an offence under the Bonded Labour System (Abolition) Act, 1976.",
+    "Article 24 protects children below 14; the 15-year-old is an adolescent, but under the Child and Adolescent Labour (Prohibition and Regulation) Act, 1986 adolescents cannot be employed in hazardous processes such as a boiler section.",
+    "Paying below minimum wages would also be forced labour under the PUDR (Asiad) ruling, and an Article 21 right to safe working conditions is engaged.",
+    "The employer faces prosecution and penalties under each statute and must remedy wage arrears."
+   ]
+  }
+ },
+ "p3c15": {
+  "notes": [
+   {
+    "topic": "Evolution of labour legislation",
+    "note": "Early Indian labour law was employer-centric, such as the Workmen's Breach of Contract Act, 1859, followed by the first Factories Act in 1881 and the Workmen's Compensation Act, 1923 and Trade Unions Act, 1926. After India joined the ILO in 1919 and the Royal Commission on Labour reported in 1931, protective laws grew, and after Independence a large body of laws followed, including the Industrial Disputes Act, 1947, Factories Act, 1948, Minimum Wages Act, 1948 and the EPF Act, 1952, guided by the Directive Principles. The Second National Commission on Labour (2002) recommended grouping the many central laws into a few codes, which finally led to the four Labour Codes."
+   },
+   {
+    "topic": "need for labour codes",
+    "note": "Before the Codes, there were 29 central labour laws with overlapping definitions of wages, worker and establishment, multiple registrations, returns and inspectors, and outdated penalties, which raised compliance cost and left many workers uncovered. The Code on Wages, 2019, the Industrial Relations Code, 2020, the Code on Social Security, 2020 and the Occupational Safety, Health and Working Conditions Code, 2020 consolidated these laws and came into force on 21 November 2025. They introduce a uniform definition of wages, single registration and licence, electronic returns, an inspector-cum-facilitator system with randomised web-based inspections, compounding of minor offences, and coverage of gig, platform and unorganised workers."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "How many central labour laws were consolidated into the four Labour Codes?",
+    "options": [
+     "13",
+     "44",
+     "29",
+     "4"
+    ],
+    "answer": 2,
+    "explain": "The four Labour Codes subsume 29 central labour laws."
+   },
+   {
+    "q": "Which body recommended consolidating central labour laws into a few codes?",
+    "options": [
+     "Second National Commission on Labour (2002)",
+     "Royal Commission on Labour (1931)",
+     "Law Commission (1958)",
+     "ILO Governing Body"
+    ],
+    "answer": 0,
+    "explain": "The Second National Commission on Labour, which reported in 2002, recommended grouping labour laws into broad codes."
+   },
+   {
+    "q": "Under the Labour Codes, the role of the traditional inspector has been changed to:",
+    "options": [
+     "Conciliation officer",
+     "Inspector-cum-facilitator who also advises employers on compliance",
+     "Labour court judge",
+     "Welfare officer"
+    ],
+    "answer": 1,
+    "explain": "The Codes create the post of inspector-cum-facilitator with web-based randomised inspection and an advisory role."
+   },
+   {
+    "q": "Which category of workers was brought under social security coverage for the first time by the Code on Social Security, 2020?",
+    "options": [
+     "Factory workers",
+     "Mine workers",
+     "Government employees",
+     "Gig and platform workers"
+    ],
+    "answer": 3,
+    "explain": "The Code on Social Security, 2020 defines gig and platform workers and provides for social security schemes for them."
+   },
+   {
+    "q": "A minor first-time offence under the Codes punishable only with fine can be:",
+    "options": [
+     "Compounded on payment of the specified amount",
+     "Tried only by a Sessions Court",
+     "Ignored",
+     "Converted into imprisonment"
+    ],
+    "answer": 0,
+    "explain": "The Codes allow compounding of specified offences by notified officers on payment of a prescribed sum."
+   },
+   {
+    "q": "The four Labour Codes came into force on:",
+    "options": [
+     "1 April 2021",
+     "21 November 2025",
+     "1 January 2024",
+     "15 August 2023"
+    ],
+    "answer": 1,
+    "explain": "The four Labour Codes were brought into force with effect from 21 November 2025."
+   }
+  ],
+  "desc": {
+   "q": "A manufacturing company operating in three states asks how the Labour Codes in force from 21 November 2025 will change its compliance compared with the earlier regime. Explain the major changes.",
+   "points": [
+    "Twenty-nine central laws (such as the Factories Act, ID Act, Minimum Wages Act, EPF Act and ESI Act) are now replaced by four Codes, giving uniform definitions of wages, employee and establishment.",
+    "Single electronic registration and licence and consolidated online returns replace multiple filings under different Acts.",
+    "The uniform definition of wages (allowances capped at 50% of remuneration) changes the base for PF, gratuity and bonus, raising contributions for many employers.",
+    "Inspectors become inspectors-cum-facilitators with web-based randomised inspections; many offences are compoundable and an improvement notice precedes prosecution.",
+    "New features include fixed-term employment with pro-rata benefits, a 14-day strike notice for all establishments, a reskilling fund, and social security for gig and platform workers."
+   ]
+  }
+ },
+ "p3c16": {
+  "notes": [
+   {
+    "topic": "Factories Act",
+    "note": "The Factories Act, 1948 has been replaced by the Occupational Safety, Health and Working Conditions Code, 2020 (OSH Code), which defines a factory as premises where 20 or more workers work with power or 40 or more without power and requires a single registration and licence for it. The Code limits working hours to 8 hours a day and 48 hours a week, requires overtime to be paid at twice the ordinary wage rate, and gives annual leave with wages of one day for every 20 days worked once a worker has worked 180 days in a year. It also allows women to work at night with their consent and subject to safety conditions, and requires welfare facilities such as canteens and safety committees above specified worker thresholds."
+   },
+   {
+    "topic": "Contract Labour Act",
+    "note": "The Contract Labour (Regulation and Abolition) Act, 1970 is now subsumed in the OSH Code, 2020, which applies its contract labour provisions to establishments and contractors engaging 50 or more contract workers (up from 20 under the old Act). Contractors need a single, all-India licence valid for five years, and the principal employer remains responsible for wages and welfare facilities if the contractor defaults. The Code prohibits contract labour in core activities, with exceptions such as where the normal practice is to use contractors or the work is intermittent, so a factory may outsource canteen and security but generally not its main production line."
+   },
+   {
+    "topic": "Child & Adolescent Labour Act",
+    "note": "The Child and Adolescent Labour (Prohibition and Regulation) Act, 1986 has not been merged into the Labour Codes and continues to apply. It prohibits employment of children below 14 in any occupation, except helping in a family enterprise outside school hours in non-hazardous work or working as a child artist, and bars adolescents aged 14 to 18 from hazardous occupations and processes listed in the Schedule. Employing a child is punishable with imprisonment of six months to two years and/or fine of ₹20,000 to ₹50,000, and repeat offences carry imprisonment of one to three years."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A unit uses power and employs 15 workers. Under the OSH Code, 2020 is it a 'factory'?",
+    "options": [
+     "Yes, the threshold is 10 workers",
+     "Yes, all units using power are factories",
+     "No, the threshold with power is 20 workers",
+     "No, the threshold is 40 workers in all cases"
+    ],
+    "answer": 2,
+    "explain": "The OSH Code defines a factory as premises with 20 or more workers using power, or 40 or more without power."
+   },
+   {
+    "q": "A worker works 10 hours on a day in a factory where the normal day is 8 hours. How is he paid for the extra 2 hours?",
+    "options": [
+     "At twice the ordinary rate of wages",
+     "At the ordinary rate",
+     "At 1.5 times the ordinary rate",
+     "No payment is required"
+    ],
+    "answer": 0,
+    "explain": "The OSH Code requires overtime work to be paid at twice the ordinary rate of wages."
+   },
+   {
+    "q": "A contractor supplies 35 workers to a company. Is a contractor licence needed under the OSH Code?",
+    "options": [
+     "Yes, licence is needed for 20 or more workers",
+     "Yes, every contractor needs a licence",
+     "No, the threshold under the Code is 50 contract workers",
+     "Only if workers are inter-state migrants"
+    ],
+    "answer": 2,
+    "explain": "The OSH Code raised the applicability threshold for contract labour provisions from 20 to 50 workers."
+   },
+   {
+    "q": "A contractor fails to pay wages to contract workers engaged in a factory. Who must pay?",
+    "options": [
+     "Nobody; workers must sue the contractor",
+     "The state government",
+     "The labour court",
+     "The principal employer, who can recover from the contractor"
+    ],
+    "answer": 3,
+    "explain": "Under the OSH Code, the principal employer must pay unpaid wages of contract labour and may recover them from the contractor."
+   },
+   {
+    "q": "A 12-year-old helps in her family's tailoring shop for two hours after school. The position under the 1986 Act is:",
+    "options": [
+     "Prohibited in all cases",
+     "Permitted, as helping a family enterprise in non-hazardous work outside school hours is excepted",
+     "Permitted only with Inspector's approval",
+     "Permitted only for boys"
+    ],
+    "answer": 1,
+    "explain": "Section 3 of the Child and Adolescent Labour Act allows a child to help the family enterprise in non-hazardous work after school hours."
+   },
+   {
+    "q": "A 16-year-old is employed in a mine. This is:",
+    "options": [
+     "Prohibited, as mines are hazardous occupations for adolescents",
+     "Permitted with parental consent",
+     "Permitted if hours are limited to 6",
+     "Permitted as he is above 14"
+    ],
+    "answer": 0,
+    "explain": "The 1986 Act prohibits employment of adolescents (14-18) in hazardous occupations, which include mines."
+   }
+  ],
+  "desc": {
+   "q": "A garment exporter with 180 workers on its rolls and 60 contract workers supplied by a contractor wants women to work night shifts and plans to outsource stitching (its core activity) to the contractor. Advise under the applicable law.",
+   "points": [
+    "The unit is a factory under the OSH Code, 2020 (replacing the Factories Act, 1948) and needs a single registration and licence; hours are capped at 8 a day and 48 a week with double-rate overtime.",
+    "Women can work night shifts (beyond 7 pm or before 6 am) only with their consent and subject to safety, holiday and transport conditions the appropriate government sets.",
+    "With 50 or more contract workers, the OSH Code's contract labour provisions (replacing the CLRA Act, 1970) apply, and the contractor needs a licence.",
+    "Contract labour is prohibited in core activities like stitching unless an exception applies (such as normal practice in the industry or work not requiring full-time workers); otherwise stitching must use direct or fixed-term employees.",
+    "The principal employer must ensure welfare facilities and is liable to pay wages if the contractor defaults."
+   ]
+  }
+ },
+ "p3c17": {
+  "notes": [
+   {
+    "topic": "Industrial Disputes Act",
+    "note": "The Industrial Disputes Act, 1947 (along with the Trade Unions Act, 1926) has been replaced by the Industrial Relations Code, 2020, which retains the machinery of conciliation officers, Industrial Tribunals and the National Industrial Tribunal, and requires a Grievance Redressal Committee in establishments with 20 or more workers and a works committee in those with 100 or more. Strikes and lock-outs in any establishment now need 14 days' notice, given within 60 days before the strike, and are barred during conciliation and tribunal proceedings. Prior government permission for lay-off, retrenchment and closure is required for establishments with 300 or more workers (up from 100), retrenchment compensation is 15 days' average pay per completed year of service, and the employer must also contribute 15 days' wages to a worker reskilling fund."
+   },
+   {
+    "topic": "Standing Orders Act",
+    "note": "The Industrial Employment (Standing Orders) Act, 1946 is now Chapter IV of the Industrial Relations Code, 2020, which applies to industrial establishments with 300 or more workers (up from 100). The employer may adopt the model standing orders framed by the Central Government on matters such as classification of workers, shift working, attendance, leave, termination, misconduct and grievance redressal, or prepare its own and get them certified by the certifying officer. Where the employer adopts the model standing orders, they are deemed certified, which saves time for a new establishment."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Workers of a company with 120 workers want to go on strike. Under the IR Code, 2020, what notice is required?",
+    "options": [
+     "No notice; only public utilities need notice",
+     "At least 14 days' notice, given within 60 days before the strike",
+     "6 weeks' notice",
+     "Notice of 7 days"
+    ],
+    "answer": 1,
+    "explain": "The IR Code extends the 14-day strike notice requirement, previously limited to public utility services, to all industrial establishments."
+   },
+   {
+    "q": "A factory with 250 workers wants to retrench 30 workers. Does it need prior government permission?",
+    "options": [
+     "Yes, all retrenchments need permission",
+     "Yes, if it has more than 100 workers",
+     "Only if the workers are unionised",
+     "No; prior permission is needed only for establishments with 300 or more workers"
+    ],
+    "answer": 3,
+    "explain": "Chapter X of the IR Code requires prior permission for lay-off, retrenchment and closure only in establishments with 300 or more workers."
+   },
+   {
+    "q": "A worker with 6 years and 8 months of continuous service is retrenched. Apart from notice, what retrenchment compensation is due?",
+    "options": [
+     "15 days' average pay for each completed year, plus 15 days' wages to the reskilling fund",
+     "30 days' pay per year",
+     "One month's pay in total",
+     "Nothing"
+    ],
+    "answer": 0,
+    "explain": "The IR Code requires 15 days' average pay per completed year (and any part over six months) plus a contribution to the reskilling fund."
+   },
+   {
+    "q": "A company has 150 workers. Does Chapter IV (standing orders) of the IR Code apply?",
+    "options": [
+     "Yes, it applies to all establishments",
+     "Yes, to those with 100 or more workers",
+     "No, it applies only to establishments with 300 or more workers",
+     "Only to public sector undertakings"
+    ],
+    "answer": 2,
+    "explain": "The IR Code raised the threshold for standing orders from 100 to 300 workers."
+   },
+   {
+    "q": "An establishment adopts the model standing orders notified by the Central Government. What is their status?",
+    "options": [
+     "They must be certified within one year",
+     "They are deemed to be certified",
+     "They are valid only after tribunal approval",
+     "They are advisory only"
+    ],
+    "answer": 1,
+    "explain": "Under the IR Code, model standing orders adopted by an employer are deemed certified."
+   },
+   {
+    "q": "Which committee must every establishment with 20 or more workers constitute under the IR Code?",
+    "options": [
+     "Works committee",
+     "Safety committee",
+     "Canteen committee",
+     "Grievance Redressal Committee"
+    ],
+    "answer": 3,
+    "explain": "The IR Code requires a Grievance Redressal Committee in every industrial establishment with 20 or more workers."
+   }
+  ],
+  "desc": {
+   "q": "Alpha Engineering Ltd employs 320 workers. Owing to falling orders, it wants to retrench 40 workers and is facing a threatened strike by the union. Advise the management on the legal requirements under the applicable law.",
+   "points": [
+    "Since the establishment has 300 or more workers, Chapter X of the Industrial Relations Code, 2020 (replacing the ID Act, 1947) requires prior permission of the appropriate government for retrenchment, with an application stating reasons.",
+    "It must give three months' notice or wages in lieu, pay retrenchment compensation of 15 days' average pay per completed year, and deposit 15 days' wages per worker in the reskilling fund.",
+    "It should follow last-come-first-go within the category unless reasons are recorded, and give retrenched workers preference in re-employment.",
+    "A strike is illegal unless the union gives 14 days' notice within 60 days before it, and is barred during conciliation and for seven days after its conclusion.",
+    "Management should engage through conciliation; illegal strikes or lock-outs attract penalties under the Code."
+   ]
+  }
+ },
+ "p3c18": {
+  "notes": [
+   {
+    "topic": "Payment of Wages",
+    "note": "The Payment of Wages Act, 1936 is now part of the Code on Wages, 2019, which applies wage-payment rules to all employees regardless of wage ceiling. Wages must be paid by the 7th day of the following month for monthly-rated employees (or at the end of the shift, week or fortnight for others), and within two working days when an employee is removed, dismissed, retrenched or resigns. Authorised deductions, such as for fines, absence, advances and taxes, cannot together exceed 50% of wages in a wage period. The Code's single definition of wages excludes allowances such as HRA and conveyance, but if such exclusions exceed 50% of total remuneration, the excess is added back to wages."
+   },
+   {
+    "topic": "Minimum Wages",
+    "note": "The Minimum Wages Act, 1948 has been replaced by the Code on Wages, 2019, which extends minimum wages to all employees in all employments instead of only scheduled employments. The Central Government fixes a floor wage, considering minimum living standards, and no state may set minimum wages below it; minimum wages are fixed by time or piece work based on skill, geographical area and arduousness and revised at intervals not exceeding five years. Normal working hours and overtime at twice the normal rate also apply."
+   },
+   {
+    "topic": "Bonus",
+    "note": "The Payment of Bonus Act, 1965 is now part of the Code on Wages, 2019. Every employee earning up to the notified wage ceiling who has worked at least 30 days in the year is entitled to a minimum bonus of 8.33% of wages or ₹100, whichever is higher, and a maximum of 20% based on the allocable surplus, with set-on and set-off of surplus over the years. Bonus calculation uses the notified wage limit, and an employee dismissed for fraud, violent behaviour, theft or sabotage is disqualified."
+   },
+   {
+    "topic": "Equal Remuneration",
+    "note": "The Equal Remuneration Act, 1976 has been replaced by the Code on Wages, 2019, which prohibits discrimination in wages and in recruitment and conditions of employment on the ground of gender (including transgender persons) for the same or similar work. 'Same or similar work' means work needing the same skill, effort, experience and responsibility under similar conditions. An employer cannot reduce anyone's wages to comply, so if women packers are paid less than men for the same job, their pay must be raised to the men's level."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A monthly-rated employee resigns on 10 March. By when must the employer pay his final wages under the Code on Wages, 2019?",
+    "options": [
+     "Within 7 days of the next month",
+     "Within 30 days",
+     "Within two working days of resignation",
+     "At the time of full and final settlement"
+    ],
+    "answer": 2,
+    "explain": "The Code on Wages requires wages to be paid within two working days of removal, dismissal, retrenchment or resignation."
+   },
+   {
+    "q": "An employee's wage is ₹20,000 and the employer wants to deduct ₹12,000 in one month towards an advance and fine. Is this lawful?",
+    "options": [
+     "Yes, if the employee consents",
+     "Yes, advances can be fully recovered",
+     "Yes, if done over one month",
+     "No, total deductions cannot exceed 50% of wages in a wage period"
+    ],
+    "answer": 3,
+    "explain": "Under the Code on Wages, total authorised deductions in a wage period cannot exceed 50% of wages."
+   },
+   {
+    "q": "A state notifies a minimum wage that is lower than the floor wage fixed by the Central Government. The notification is:",
+    "options": [
+     "Not valid, as minimum wages cannot be below the floor wage",
+     "Valid, as wages are a state subject",
+     "Valid for one year",
+     "Valid only in rural areas"
+    ],
+    "answer": 0,
+    "explain": "The Code on Wages requires state minimum wages not to be lower than the national floor wage."
+   },
+   {
+    "q": "An employee who worked 25 days in the accounting year claims bonus. Is he eligible?",
+    "options": [
+     "Yes, minimum bonus is always payable",
+     "No, at least 30 working days in the year is required",
+     "Yes, on a pro-rata basis",
+     "Only if the company made a profit"
+    ],
+    "answer": 1,
+    "explain": "The Code on Wages requires at least 30 days of work in an accounting year for bonus eligibility."
+   },
+   {
+    "q": "An employee's total remuneration is ₹50,000, of which basic and DA are ₹20,000 and allowances excluded from wages are ₹30,000. What is 'wages' under the Code on Wages?",
+    "options": [
+     "₹20,000",
+     "₹50,000",
+     "₹25,000",
+     "₹30,000"
+    ],
+    "answer": 2,
+    "explain": "Since exclusions (₹30,000) exceed 50% of remuneration (₹25,000), the excess ₹5,000 is added back, giving wages of ₹25,000."
+   },
+   {
+    "q": "A company pays transgender machine operators less than other operators doing the same work. This violates:",
+    "options": [
+     "Only the Constitution",
+     "Nothing, since only men and women are protected",
+     "The Industrial Relations Code",
+     "The Code on Wages, 2019's prohibition of gender discrimination in wages"
+    ],
+    "answer": 3,
+    "explain": "The Code on Wages prohibits discrimination on grounds of gender, which includes transgender persons, in wages for the same or similar work."
+   }
+  ],
+  "desc": {
+   "q": "Bright Textiles Ltd restructured salaries so that basic pay is 30% of total remuneration and the rest is allowances, pays wages on the 12th of each month, and has not paid bonus for two years claiming losses. Advise on compliance with the Code on Wages, 2019.",
+   "points": [
+    "Under the uniform definition of wages, excluded allowances above 50% of total remuneration are added back, so wages for PF, gratuity and bonus purposes must be at least 50% of remuneration.",
+    "Monthly wages must be paid by the 7th of the following month; paying on the 12th is a violation.",
+    "Minimum bonus of 8.33% of wages (or ₹100, whichever is higher) is payable to eligible employees who worked at least 30 days, even in a loss year, subject to the notified wage ceiling and the Code's exclusions.",
+    "Bonus must be paid within eight months from the close of the accounting year unless extended.",
+    "Non-compliance is an offence; first-time offences punishable with fine may be compounded, and employees can claim arrears before the authority."
+   ]
+  }
+ },
+ "p3c19": {
+  "notes": [
+   {
+    "topic": "ESI",
+    "note": "The ESI Act, 1948 is now Chapter IV of the Code on Social Security, 2020, applying to establishments with 10 or more employees and, by notification, to hazardous establishments with even one employee. Employees within the notified wage ceiling get medical, sickness, maternity, disablement and dependants' benefits, funded by employer and employee contributions at rates notified by the government. An employer who covers its establishment voluntarily, or a plantation that opts in, can also be brought under the scheme."
+   },
+   {
+    "topic": "EPF",
+    "note": "The Employees' Provident Funds and Miscellaneous Provisions Act, 1952 is now Chapter III of the Code on Social Security, 2020, applying to establishments with 20 or more employees, and covering the Provident Fund, Employees' Pension Scheme and Deposit-Linked Insurance Scheme. Contributions are generally 12% of wages each from employer and employee (10% for specified establishments), calculated on the Code's uniform definition of wages. Once covered, an establishment stays covered even if employee strength later falls below 20."
+   },
+   {
+    "topic": "Maternity Benefit",
+    "note": "The Maternity Benefit Act, 1961 is now Chapter VI of the Code on Social Security, 2020. A woman who has worked at least 80 days in the 12 months before delivery is entitled to 26 weeks' paid maternity leave for the first two children (12 weeks for the third and later), 12 weeks for adopting a child below three months or for a commissioning mother, and the option of work from home where the work allows. Establishments with 50 or more employees must provide a creche, and the employer cannot dismiss a woman during her maternity leave."
+   },
+   {
+    "topic": "Gratuity",
+    "note": "The Payment of Gratuity Act, 1972 is now Chapter V of the Code on Social Security, 2020, applying to establishments with 10 or more employees. Gratuity is payable at 15 days' wages for each completed year of service on termination after five years' continuous service, but the five-year condition does not apply on death or disablement, and fixed-term employees get gratuity pro rata even for less than five years. The ceiling is ₹20 lakh, and gratuity can be forfeited for termination due to riotous conduct, violence or an offence of moral turpitude."
+   },
+   {
+    "topic": "Apprentices",
+    "note": "The Apprentices Act, 1961 is not subsumed in the Labour Codes and continues to govern apprenticeship training; apprentices are excluded from the definitions of worker and employee under the Codes. Every establishment with 30 or more workers must engage apprentices in a band of 2.5% to 15% of its total strength, including contractual staff, under the Apprenticeship Rules, 1992, and the employer pays the prescribed minimum stipend, part of which can be reimbursed under the National Apprenticeship Promotion Scheme. The apprenticeship contract is registered on the apprenticeship portal, and the employer is not bound to offer employment at the end of training unless the contract provides otherwise."
+   },
+   {
+    "topic": "simplified returns",
+    "note": "The Codes replace multiple Act-wise registrations, registers and returns with a single electronic registration, prescribed electronic registers and consolidated returns filed online, building on the earlier Ease of Compliance to Maintain Registers under various Labour Laws Rules, 2017. EPF and ESI contributions are already paid through monthly electronic challan-cum-returns (ECR) on the EPFO and ESIC portals. For an employer, this means one annual return under the OSH and other Codes instead of separate returns under the Factories Act, CLRA and others."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "An employee resigns after 4 years and 7 months of continuous service. Is gratuity payable under the Code on Social Security, 2020?",
+    "options": [
+     "Yes, as service exceeds 4.5 years",
+     "Yes, on a pro-rata basis",
+     "Only if the employer agrees",
+     "No, five years' continuous service is required (except for death, disablement or fixed-term employees)"
+    ],
+    "answer": 3,
+    "explain": "Chapter V of the Code requires five years' continuous service for gratuity except on death or disablement, and for fixed-term employees."
+   },
+   {
+    "q": "A fixed-term employee completes a 2-year contract. Is gratuity payable?",
+    "options": [
+     "Yes, pro rata for the period of service",
+     "No, five years is mandatory",
+     "No, fixed-term employees are excluded",
+     "Only if the contract is renewed"
+    ],
+    "answer": 0,
+    "explain": "The Code on Social Security, 2020 grants pro-rata gratuity to fixed-term employees irrespective of five years' service."
+   },
+   {
+    "q": "A woman employee expecting her second child has worked 120 days in the preceding 12 months. How much paid maternity leave is she entitled to?",
+    "options": [
+     "12 weeks",
+     "26 weeks",
+     "18 weeks",
+     "No leave as she has another child"
+    ],
+    "answer": 1,
+    "explain": "Under Chapter VI of the Code, 26 weeks' maternity benefit is available for the first two children if 80 days of work are completed."
+   },
+   {
+    "q": "An establishment had 25 employees when EPF applied; strength now drops to 17. Must EPF contributions continue?",
+    "options": [
+     "No, coverage lapses below 20",
+     "Only for old employees",
+     "Yes, coverage continues even if strength falls below 20",
+     "Only with EPFO approval"
+    ],
+    "answer": 2,
+    "explain": "Once an establishment is covered under the EPF provisions, it continues to be covered despite a reduction in employees below 20."
+   },
+   {
+    "q": "A company has 200 workers. How many apprentices must it engage at minimum under the Apprenticeship Rules?",
+    "options": [
+     "5 (2.5%)",
+     "None",
+     "30",
+     "20"
+    ],
+    "answer": 0,
+    "explain": "Establishments with 30 or more workers must engage apprentices between 2.5% and 15% of total strength, so the minimum is 5."
+   },
+   {
+    "q": "An establishment with 60 employees has no creche. Under the Code on Social Security, 2020, this is:",
+    "options": [
+     "Lawful, as creches are only for factories",
+     "Lawful if fewer than 30 women are employed",
+     "Unlawful, since every establishment with 50 or more employees must provide a creche",
+     "Lawful in metro cities"
+    ],
+    "answer": 2,
+    "explain": "The Code requires every establishment with 50 or more employees to provide a creche facility."
+   }
+  ],
+  "desc": {
+   "q": "Zen Retail Pvt Ltd employs 45 staff, including 10 fixed-term employees and 12 women. One woman is expecting her first child, a fixed-term employee leaves after three years, and the company has never registered under EPF or ESI. Advise on its obligations under the Code on Social Security, 2020.",
+   "points": [
+    "With 45 employees it is covered for EPF (20+) and ESI (10+) under Chapters III and IV of the Code, which replaced the EPF Act, 1952 and ESI Act, 1948; it must register electronically and pay arrears with damages and interest.",
+    "The expecting employee, if she has worked 80 days in the last 12 months, gets 26 weeks' paid maternity leave, cannot be dismissed during leave, and may be allowed work from home if feasible.",
+    "The fixed-term employee is entitled to pro-rata gratuity at 15 days' wages per completed year, though service is under five years.",
+    "A creche is not mandatory below 50 employees, but will become so if strength reaches 50.",
+    "Contributions are calculated on wages under the Code's uniform definition, and monthly ECR returns plus consolidated electronic returns must be filed."
+   ]
+  }
+ },
+ "p3c20": {
+  "notes": [
+   {
+    "topic": "POSH Act, 2013",
+    "note": "The Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013, which gave statutory form to the Vishaka guidelines (1997), requires every employer with 10 or more employees to constitute an Internal Committee headed by a senior woman employee, with at least half its members women and one external member from an NGO or familiar with women's issues (section 4); a Local Committee in each district handles complaints from smaller workplaces or against the employer (section 6). A complaint must be filed in writing within three months of the incident, extendable by three more months (section 9), conciliation is possible at the woman's request without monetary settlement (section 10), and the inquiry must be completed within 90 days (section 11), with the employer acting on the recommendations within 60 days. During the inquiry the committee may recommend interim relief such as transfer or leave (section 12), the identity of parties is confidential (section 16), and the employer must run awareness programmes and include POSH data in its annual report. Failure to constitute the Internal Committee attracts a fine up to ₹50,000, which doubles for a repeat offence and can lead to cancellation of licence (section 26)."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A company has 8 employees. A woman employee wants to complain of harassment by a colleague. Where should she file?",
+    "options": [
+     "Internal Committee of the company",
+     "Local Committee constituted by the District Officer",
+     "Police only",
+     "National Commission for Women"
+    ],
+    "answer": 1,
+    "explain": "Section 6 provides for a Local Committee to receive complaints from workplaces with fewer than 10 employees."
+   },
+   {
+    "q": "An incident occurred on 1 January. The complainant files on 20 May citing trauma. Can the Internal Committee accept it?",
+    "options": [
+     "No, the limit is strictly three months",
+     "Only with court permission",
+     "No, the limit is 30 days",
+     "Yes, the committee can extend the limit by up to three months for recorded reasons"
+    ],
+    "answer": 3,
+    "explain": "Section 9 allows the three-month limit to be extended by a further three months if circumstances prevented timely filing."
+   },
+   {
+    "q": "During conciliation, the respondent offers ₹2 lakh to settle the complaint. Can this be the basis of settlement?",
+    "options": [
+     "Yes, if the woman agrees",
+     "No, monetary settlement cannot be the basis of conciliation",
+     "Yes, with employer approval",
+     "Yes, if the amount is paid to the committee"
+    ],
+    "answer": 1,
+    "explain": "Section 10 bars monetary settlement as the basis of conciliation."
+   },
+   {
+    "q": "Within how many days must the Internal Committee complete its inquiry?",
+    "options": [
+     "90 days",
+     "30 days",
+     "60 days",
+     "180 days"
+    ],
+    "answer": 0,
+    "explain": "Section 11(4) requires the inquiry to be completed within 90 days."
+   },
+   {
+    "q": "An employer with 50 employees has not constituted an Internal Committee. The penalty for the first offence is:",
+    "options": [
+     "Imprisonment of 1 year",
+     "Cancellation of licence immediately",
+     "Fine up to ₹50,000",
+     "Fine up to ₹5 lakh"
+    ],
+    "answer": 2,
+    "explain": "Section 26 prescribes a fine of up to ₹50,000 for failing to constitute the Internal Committee."
+   },
+   {
+    "q": "Which of the following must be a member of the Internal Committee?",
+    "options": [
+     "The Managing Director",
+     "The company's statutory auditor",
+     "A police officer",
+     "An external member from an NGO or person familiar with women's issues"
+    ],
+    "answer": 3,
+    "explain": "Section 4(2) requires one member from an NGO or association committed to women's causes, or a person familiar with sexual harassment issues."
+   }
+  ],
+  "desc": {
+   "q": "A woman employee of an IT company with 300 employees complains that her team lead repeatedly made sexually coloured remarks during client visits outside office. The company says the incident is outside the 'workplace' and in any case it has not yet constituted an Internal Committee. Advise.",
+   "points": [
+    "Under section 2(o) of the POSH Act, 2013, 'workplace' includes any place visited by an employee during or arising out of employment, including transport, so client visits are covered.",
+    "Sexually coloured remarks fall within the definition of sexual harassment in section 2(n).",
+    "The company must immediately constitute an Internal Committee under section 4; failure attracts a fine up to ₹50,000 under section 26, doubled for repeat offences.",
+    "The complaint must be filed within three months (extendable by three months); the IC must complete the inquiry within 90 days, may grant interim relief such as transfer, and the employer must act within 60 days of the report.",
+    "Confidentiality under section 16 must be maintained, and the employer must report the case in its annual report and directors' report."
+   ]
+  }
+ }
+}
