@@ -1,0 +1,1980 @@
+{
+ "p2c1": {
+  "notes": [
+   {
+    "topic": "Jurisprudence of company law",
+    "note": "Company law in India rests on the Companies Act, 2013 (with rules framed by MCA), supported by SEBI law for listed entities, the IBC 2016 for insolvency, and judicial principles developed largely from English case law. Its purpose is to balance the freedom to do business through an incorporated vehicle with protection for investors, creditors and the public. The Act is administered by the MCA through Registrars of Companies, Regional Directors, NCLT/NCLAT and specialised bodies such as SFIO and NFRA."
+   },
+   {
+    "topic": "ultra vires",
+    "note": "An act beyond the objects in the MOA is ultra vires the company and void; it cannot be ratified even by all members (Ashbury Railway Carriage v Riche). Acts beyond the directors' powers but within the company's objects can be ratified by members. Under s.4(1)(c) the objects clause must state the objects for which the company is incorporated, so a cement company lending money to buy a film studio outside its objects would be acting ultra vires."
+   },
+   {
+    "topic": "indoor management",
+    "note": "Outsiders dealing with a company in good faith may assume that internal formalities (such as a required board or members' resolution) have been properly complied with (Royal British Bank v Turquand). The rule does not protect a person who had actual or constructive knowledge of the irregularity, who was negligent in not inquiring when circumstances were suspicious, or where the document relied on is a forgery. It is the counterbalance to constructive notice."
+   },
+   {
+    "topic": "constructive notice",
+    "note": "Because the MOA and AOA are public documents filed with the ROC and open to inspection (s.399), every person dealing with the company is presumed to know their contents. So a lender cannot claim ignorance of a borrowing restriction written in the articles. The doctrine applies only to public documents, not to internal proceedings, which is where indoor management steps in."
+   },
+   {
+    "topic": "corporate veil",
+    "note": "A company is a legal person separate from its members (Salomon v Salomon), so members are normally not liable for its acts. Courts and the statute lift the veil where the corporate form is used for fraud, tax evasion, avoiding legal obligations or where the company is a sham. Statutory instances include s.7(7) (incorporation by false information), s.34-35 (misstatement in prospectus) and s.339 (fraudulent conduct of business found in winding up)."
+   },
+   {
+    "topic": "definitions",
+    "note": "Section 2 of the Companies Act, 2013 contains the core definitions, such as company s.2(20), private company s.2(68), public company s.2(71), small company s.2(85), officer in default s.2(60), KMP s.2(51) and financial statement s.2(40). Many definitions are further refined by rules, e.g. thresholds for small company are prescribed. Exam answers should always begin by testing facts against the relevant definition."
+   },
+   {
+    "topic": "MCA 21",
+    "note": "MCA21 is the Ministry's e-governance platform (now version 3) through which incorporation, e-forms, charges, annual filings and fee payments are made electronically, digitally signed with DSC. Documents filed become available for public inspection on payment of fee, supporting the doctrine of constructive notice. Practitioners such as CSs certify many e-forms, and V3 also introduced web-based forms, e-adjudication and compliance monitoring."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A bank lends to XYZ Ltd on the signature of two directors. The articles allow borrowing only after a members' resolution, which was never passed; the bank had no reason to suspect this. Can the company avoid the loan?",
+    "options": [
+     "No, the bank is protected by the doctrine of indoor management",
+     "Yes, because of constructive notice of the articles",
+     "Yes, because the loan is ultra vires the company",
+     "No, because borrowing never needs members' approval"
+    ],
+    "answer": 0,
+    "explain": "Under the Turquand rule an outsider may presume internal formalities have been complied with unless he knew or should have suspected otherwise."
+   },
+   {
+    "q": "Members of a company unanimously ratify a contract that falls entirely outside the objects clause of the MOA. The contract is:",
+    "options": [
+     "Valid from the date of ratification",
+     "Valid if the ROC approves it",
+     "Void and incapable of ratification",
+     "Voidable at the option of creditors"
+    ],
+    "answer": 2,
+    "explain": "An act ultra vires the company is void ab initio and cannot be ratified even unanimously (Ashbury Railway Carriage v Riche)."
+   },
+   {
+    "q": "Which statutory provision allows the Tribunal to hold members personally liable where a company was incorporated by furnishing false information?",
+    "options": [
+     "Section 186",
+     "Section 13",
+     "Section 66",
+     "Section 7(7)"
+    ],
+    "answer": 3,
+    "explain": "Section 7(7) empowers the Tribunal to pass orders, including unlimited liability of members, where incorporation was obtained by false or incorrect information."
+   },
+   {
+    "q": "A supplier claims he did not know the articles of a company limited the MD's authority to contracts below ₹10 lakh. His claim fails because of:",
+    "options": [
+     "Indoor management",
+     "Doctrine of constructive notice",
+     "Perpetual succession",
+     "Lifting of the corporate veil"
+    ],
+    "answer": 1,
+    "explain": "The MOA and AOA are public documents and every outsider is deemed to know their contents."
+   },
+   {
+    "q": "The rule of indoor management will NOT protect an outsider who:",
+    "options": [
+     "Relied on a document that turns out to be a forgery",
+     "Relied on a board resolution that was actually passed",
+     "Did not inspect the minutes of board meetings",
+     "Dealt with the company for the first time"
+    ],
+    "answer": 0,
+    "explain": "A forged document is a nullity, so the Turquand rule offers no protection to a person relying on it."
+   },
+   {
+    "q": "Which of the following is an MCA21 feature that directly supports constructive notice?",
+    "options": [
+     "GST registration",
+     "Allotment of PAN to companies",
+     "Online public inspection of filed documents",
+     "Filing of income-tax returns"
+    ],
+    "answer": 2,
+    "explain": "MCA21 makes filed documents such as MOA and AOA available for public inspection, which underpins the presumption of notice."
+   }
+  ],
+  "desc": {
+   "q": "Raj, sole promoter of Shine Pvt Ltd, transfers his business to the company and becomes a secured creditor. When the company is later wound up, unsecured creditors argue that the company was merely Raj under another name and he should be personally liable. Advise, referring to the principle involved and when the court may depart from it.",
+   "points": [
+    "A registered company is a separate legal person distinct from its members (s.9 effect of registration; Salomon v Salomon), so Raj as a secured creditor ranks ahead of unsecured creditors.",
+    "Holding a large stake or controlling the company does not by itself make the company a sham or agent of the member.",
+    "The veil may be lifted where the company is used for fraud, to evade obligations or is a mere facade; courts look at substance over form.",
+    "Statutory grounds include s.7(7), s.34-35 and s.339 (fraudulent conduct), under which Raj could be made personally liable if fraud is proved.",
+    "Conclusion: unless fraud or sham is established, Raj's security stands and he is not personally liable."
+   ]
+  }
+ },
+ "p2c2": {
+  "notes": [
+   {
+    "topic": "Corporate personality",
+    "note": "On registration, s.9 makes the company a body corporate with its own name, capacity to own property, sue and be sued, and contract in its own name. Its property belongs to the company, not to members, so a shareholder has no insurable interest in company assets. This separate personality is what allows limited liability and transferability of shares."
+   },
+   {
+    "topic": "perpetual succession",
+    "note": "A company continues to exist regardless of the death, insolvency or exit of members or directors; it ends only through the legal process of winding up or striking off. Shares of a deceased member pass by transmission (s.56) while the company carries on unaffected. This makes the company suitable for long-term projects and borrowing."
+   },
+   {
+    "topic": "private, public, small, holding, subsidiary, associate, dormant, government companies",
+    "note": "A private company (s.2(68)) restricts share transfer, limits members to 200 and bars public invitation; a public company (s.2(71)) is one that is not private, and a private subsidiary of a public company is treated as public. A small company (s.2(85)) is a private company with paid-up capital up to ₹4 crore and turnover up to ₹40 crore (excluding holding/subsidiary, s.8 and special-Act companies); holding-subsidiary status (s.2(46), s.2(87)) turns on control of board composition or more than half of total voting power, and an associate (s.2(6)) involves significant influence of at least 20% voting power or business-decision control. A government company (s.2(45)) has at least 51% paid-up capital held by Central and/or State Governments, and a dormant company is one granted that status under s.455 for a future project or inactivity."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A Pvt Ltd has paid-up capital of ₹3 crore and turnover of ₹45 crore. It is:",
+    "options": [
+     "A small company",
+     "A dormant company",
+     "A small company if it is a subsidiary",
+     "Not a small company because turnover exceeds the limit"
+    ],
+    "answer": 3,
+    "explain": "Under s.2(85) both conditions (paid-up up to ₹4 crore and turnover up to ₹40 crore) must be met."
+   },
+   {
+    "q": "P Ltd holds 30% of the voting power of Q Ltd but controls the composition of a majority of Q's board through an agreement. Q Ltd is P Ltd's:",
+    "options": [
+     "Associate only",
+     "Subsidiary",
+     "Joint venture only",
+     "Neither"
+    ],
+    "answer": 1,
+    "explain": "Control over the composition of the board of directors makes Q a subsidiary under s.2(87), irrespective of shareholding."
+   },
+   {
+    "q": "A shareholder holding 90% of a company insures the company's factory in his own name. On fire, his claim will most likely:",
+    "options": [
+     "Fail as he has no insurable interest in company property",
+     "Succeed only up to 90% of the loss",
+     "Succeed because he is the majority owner",
+     "Succeed if the AOA permit"
+    ],
+    "answer": 0,
+    "explain": "Company property belongs to the company as a separate person, so members lack insurable interest (Macaura v Northern Assurance)."
+   },
+   {
+    "q": "A private company that is a subsidiary of a public company is treated, for the Act, as:",
+    "options": [
+     "A private company in all respects",
+     "A small company",
+     "A public company",
+     "A foreign company"
+    ],
+    "answer": 2,
+    "explain": "The proviso to s.2(71) deems a subsidiary of a public company to be a public company even if its articles make it private."
+   },
+   {
+    "q": "Which holding qualifies a company as a government company?",
+    "options": [
+     "49% by Central Government",
+     "40% by Central Government with veto rights",
+     "51% by a public sector bank",
+     "26% by State Government and 25% by Central Government"
+    ],
+    "answer": 3,
+    "explain": "Under s.2(45) at least 51% paid-up capital must be held by Central Government, State Government(s) or a combination."
+   },
+   {
+    "q": "X Ltd holds 22% of the total voting power of Y Ltd and has no board control. Y Ltd is X's:",
+    "options": [
+     "Subsidiary",
+     "Associate company",
+     "Holding company",
+     "Government company"
+    ],
+    "answer": 1,
+    "explain": "Significant influence of at least 20% of total voting power makes Y an associate under s.2(6)."
+   }
+  ],
+  "desc": {
+   "q": "Alpha Pvt Ltd (paid-up ₹2 crore, turnover ₹30 crore) holds 60% of Beta Pvt Ltd. Alpha's directors believe both companies qualify as small companies and want to avail abridged board report and fewer board meetings. Examine their eligibility.",
+   "points": [
+    "Small company definition under s.2(85) needs paid-up capital up to ₹4 crore and turnover up to ₹40 crore.",
+    "The definition excludes a holding company or a subsidiary company, along with s.8 companies and companies governed by a special Act.",
+    "Alpha is a holding company and Beta its subsidiary (s.2(87), more than half of voting power), so neither qualifies though each meets the financial limits.",
+    "They must therefore hold at least four board meetings a year (s.173(1)) and prepare a full board's report.",
+    "Conclusion: the directors' belief is incorrect; small company benefits are not available."
+   ]
+  }
+ },
+ "p2c3": {
+  "notes": [
+   {
+    "topic": "MOA and AOA",
+    "note": "The memorandum (s.4) is the charter defining name, registered office state, objects, liability, capital and subscription clauses; the articles (s.5) contain internal regulations and must be consistent with the MOA and the Act. Model forms are in Schedule I (Tables A-J), and Table F applies to a company limited by shares to the extent its articles do not exclude it. Entrenchment provisions under s.5(3)-(4) allow certain articles to be changed only on conditions more restrictive than a special resolution."
+   },
+   {
+    "topic": "incorporation contracts",
+    "note": "Pre-incorporation contracts made by promoters for the proposed company do not bind the company, since it did not exist; the promoter is personally liable. Under the Specific Relief Act, 1963 (ss.15(h) and 19(e)) the company may enforce or be bound by such a contract if it was warranted by the terms of incorporation and adopted after incorporation. Provisional contracts are those made after incorporation but before commencement of business, relevant historically for public companies."
+   },
+   {
+    "topic": "alteration of MOA & AOA",
+    "note": "MOA alteration under s.13 needs a special resolution; change of name needs Central Government approval (delegated to ROC), shifting registered office from one State to another needs Regional Director approval, and a company that raised money by prospectus with unused funds can change objects only by postal-ballot special resolution with an exit offer to dissenting shareholders. Articles are altered by special resolution under s.14, and conversion of a public company into a private one also needs Central Government (Regional Director) approval. Resolutions are filed with the ROC in MGT-14 within 30 days, and alterations cannot be against the Act or unfairly prejudice members."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Sun Ltd wants to shift its registered office from Kochi (Kerala) to Coimbatore (Tamil Nadu). Besides a special resolution, it needs approval of:",
+    "options": [
+     "The Regional Director",
+     "The ROC of Kerala",
+     "The NCLT",
+     "SEBI"
+    ],
+    "answer": 0,
+    "explain": "Shifting registered office between States requires Central Government approval, exercised by the Regional Director under s.13(4)."
+   },
+   {
+    "q": "A listed company that raised money through a prospectus and still has unutilised proceeds wants to change its objects. Which additional requirement applies?",
+    "options": [
+     "Ordinary resolution",
+     "Approval of NCLT",
+     "Special resolution through postal ballot and exit opportunity to dissenting shareholders",
+     "No change is possible until money is fully used"
+    ],
+    "answer": 2,
+    "explain": "Section 13(8) requires a postal ballot special resolution and an exit offer to dissenting shareholders."
+   },
+   {
+    "q": "A promoter signs a lease for office premises before the company is incorporated. After incorporation, the company:",
+    "options": [
+     "Is automatically bound by the lease",
+     "Is bound only with NCLT approval",
+     "Can never be bound by such a contract",
+     "Can enforce the lease if it was warranted by incorporation terms and adopted after incorporation"
+    ],
+    "answer": 3,
+    "explain": "Specific Relief Act ss.15(h) and 19(e) permit enforcement by or against the company on adoption where warranted by its incorporation terms."
+   },
+   {
+    "q": "A private company's articles state that a particular article can be altered only with consent of all members. This is:",
+    "options": [
+     "Void as against s.14",
+     "A valid entrenchment provision under s.5",
+     "Permitted only for public companies",
+     "Valid only if the ROC approves"
+    ],
+    "answer": 1,
+    "explain": "Section 5(3) permits entrenchment, i.e., conditions more restrictive than a special resolution, in both private and public companies."
+   },
+   {
+    "q": "Which alteration of MOA needs the approval of the Central Government (exercised by ROC)?",
+    "options": [
+     "Change of name",
+     "Increase in authorised capital",
+     "Change in liability clause to unlimited",
+     "Change of registered office within the same city"
+    ],
+    "answer": 0,
+    "explain": "Change of name under s.13(2) requires Central Government approval, which has been delegated to the ROC."
+   },
+   {
+    "q": "Conversion of a public company into a private company becomes effective only after:",
+    "options": [
+     "Ordinary resolution and ROC filing",
+     "Board resolution only",
+     "Special resolution and approval of the Central Government (Regional Director)",
+     "Approval of SEBI"
+    ],
+    "answer": 2,
+    "explain": "The proviso to s.14(1) requires Central Government approval, delegated to the Regional Director, for public-to-private conversion."
+   }
+  ],
+  "desc": {
+   "q": "Green Foods Ltd, an unlisted public company, wants to (a) change its name to 'Green Agro Ltd', (b) add renewable energy to its objects and (c) convert into a private company. Outline the procedure for these alterations.",
+   "points": [
+    "Check name availability through the MCA (RUN/SPICe+ web service) and pass a board resolution convening a general meeting.",
+    "Pass special resolutions under s.13 for change of name and objects, and under s.14 for conversion with alteration of articles to include private company restrictions.",
+    "File MGT-14 within 30 days; file INC-24 for name change approval by ROC and obtain a fresh certificate of incorporation.",
+    "For conversion, apply to the Regional Director (RD-1) after notice to creditors and other stakeholders; on approval, file the order with the ROC in INC-27 and obtain a fresh certificate.",
+    "Altered MOA/AOA copies must be attached to every copy issued thereafter (s.15)."
+   ]
+  }
+ },
+ "p2c4": {
+  "notes": [
+   {
+    "topic": "Types of capital",
+    "note": "Share capital is of two kinds under s.43: equity (with or without differential rights) and preference. Capital stages are authorised (s.2(8), ceiling in MOA), issued, subscribed (s.2(86)), called-up (s.2(15)) and paid-up (s.2(64)). Equity with differential voting rights requires compliance with rule 4 of the Share Capital and Debentures Rules, 2014, such as authorisation by articles and an ordinary resolution."
+   },
+   {
+    "topic": "issue & allotment",
+    "note": "Shares may be issued at par or premium, but not at a discount except sweat equity and certain debt conversions under s.53. In a public issue, allotment can be made only after minimum subscription is received (s.39), and a return of allotment (PAS-3) must be filed within the prescribed period (15 days for s.42 issues). Application money must be kept in a separate bank account and refunded with interest if allotment fails."
+   },
+   {
+    "topic": "share certificates",
+    "note": "Under s.46 a share certificate under the common seal or signed by two directors (or a director and CS) is prima facie evidence of title. Certificates must be delivered within two months of incorporation for subscribers and two months of allotment, and within one month of receiving a transfer instrument (s.56(4)). Duplicate certificates are issued under rule 6 of the Share Capital and Debentures Rules, and fraudulent issue of duplicates is punishable under s.46(5)."
+   },
+   {
+    "topic": "private placement & preferential issue",
+    "note": "Private placement (s.42 and rule 14) is an offer to identified persons, capped at 200 per financial year (excluding QIBs and ESOP employees), made through PAS-4 with a special resolution; money must come by banking channels and allotment be made within 60 days of receipt, else refund within 15 days with 12% interest thereafter. A preferential allotment under s.62(1)(c) and rule 13 needs a special resolution and a valuation report from a registered valuer, and must also follow s.42 procedure. Listed companies follow Chapter V of SEBI ICDR Regulations, 2018."
+   },
+   {
+    "topic": "rights & bonus",
+    "note": "A rights issue under s.62(1)(a) offers new shares to existing equity holders in proportion to holdings, normally kept open for 15-30 days, with a right to renounce unless the articles say otherwise. Bonus shares under s.63 may be issued from free reserves, securities premium or capital redemption reserve, never from revaluation reserve, and not in lieu of dividend; partly paid shares must first be made fully paid. Once announced by the board, a bonus issue cannot be withdrawn."
+   },
+   {
+    "topic": "sweat equity & ESOPs",
+    "note": "Sweat equity (s.54 and rule 8) is issued to directors or employees for know-how or value additions, by special resolution, within limits of 15% of paid-up equity or ₹5 crore in a year (whichever higher) and 25% overall (higher for startups), with a 3-year lock-in. ESOPs under s.62(1)(b) and rule 12 need a special resolution, a minimum vesting period of one year, and generally exclude promoters and directors holding over 10%, though startups get relaxations. Listed companies follow SEBI (Share Based Employee Benefits and Sweat Equity) Regulations, 2021."
+   },
+   {
+    "topic": "preference shares",
+    "note": "Section 55 bars irredeemable preference shares; they must be redeemed within 20 years (up to 30 years for infrastructure projects with annual partial redemption). Redemption can only be out of profits available for dividend or proceeds of a fresh issue, and when out of profits an equal amount goes to capital redemption reserve. If a company cannot redeem, it may with consent of holders of three-fourths in value petition the Tribunal to issue further redeemable preference shares."
+   },
+   {
+    "topic": "transfer & transmission",
+    "note": "Transfer is a voluntary act by a member, by instrument SH-4 duly stamped and delivered to the company (s.56), whereas transmission happens by operation of law on death or insolvency. For listed companies SEBI permits transfer only in demat form. A private company may refuse registration under s.58 with notice within 30 days, and the transferee may appeal to the Tribunal; in a public company shares are freely transferable, subject to s.58(4) on sufficient cause."
+   },
+   {
+    "topic": "buyback",
+    "note": "Under ss.68-70 a company may buy back its own shares from free reserves, securities premium or proceeds of a different kind of security; up to 10% of paid-up capital plus free reserves needs a board resolution, up to 25% needs a special resolution. Post-buyback debt-equity must not exceed 2:1, shares must be fully paid, a gap of one year applies between offers, and bought-back shares are extinguished within seven days. When financed from free reserves or premium, a sum equal to nominal value bought back goes to capital redemption reserve (s.69)."
+   },
+   {
+    "topic": "reduction of capital",
+    "note": "Capital reduction under s.66 needs a special resolution and confirmation by the Tribunal, which notifies the Central Government, ROC, SEBI (for listed companies) and creditors and considers objections. It is not allowed if the company is in arrears in repaying deposits or interest. Common forms are cancelling lost capital, returning surplus capital, or extinguishing uncalled liability."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A company wants to issue bonus shares. Which fund CANNOT be used?",
+    "options": [
+     "Free reserves",
+     "Securities premium account",
+     "Capital redemption reserve",
+     "Revaluation reserve"
+    ],
+    "answer": 3,
+    "explain": "Section 63 and the rules prohibit bonus issue out of reserves created by revaluation of assets."
+   },
+   {
+    "q": "Under private placement, money was received on 1 March. By which date must allotment be completed?",
+    "options": [
+     "Within 30 days",
+     "Within 60 days of receipt",
+     "Within 90 days",
+     "Within 15 days"
+    ],
+    "answer": 1,
+    "explain": "Section 42(6) requires allotment within 60 days of receipt of application money, failing which refund is due within the next 15 days."
+   },
+   {
+    "q": "A company with paid-up capital and free reserves of ₹100 crore proposes a buyback of ₹18 crore. What approval is needed?",
+    "options": [
+     "Special resolution",
+     "Board resolution only",
+     "Tribunal approval",
+     "Ordinary resolution"
+    ],
+    "answer": 0,
+    "explain": "A buyback above 10% (but up to 25%) of paid-up capital and free reserves needs a special resolution under s.68(2)."
+   },
+   {
+    "q": "A private company receives a transfer instrument; it decides to refuse registration. Notice of refusal must be sent within:",
+    "options": [
+     "15 days",
+     "60 days",
+     "30 days",
+     "90 days"
+    ],
+    "answer": 2,
+    "explain": "Section 58(1) requires the company to send notice of refusal within 30 days of receipt of the instrument."
+   },
+   {
+    "q": "Which statement about preference shares is correct?",
+    "options": [
+     "They can be irredeemable with special resolution",
+     "They must be redeemed within 10 years in all cases",
+     "They can be redeemed out of the securities premium only",
+     "They can be redeemed out of a fresh issue of equity shares"
+    ],
+    "answer": 3,
+    "explain": "Section 55 allows redemption out of profits available for dividend or proceeds of a fresh issue made for that purpose."
+   },
+   {
+    "q": "Shares of a deceased member pass to his legal heir. This is:",
+    "options": [
+     "A transfer requiring SH-4",
+     "A transmission by operation of law",
+     "A buyback",
+     "A forfeiture"
+    ],
+    "answer": 1,
+    "explain": "Transmission occurs by operation of law on death, insolvency or succession, unlike voluntary transfer."
+   }
+  ],
+  "desc": {
+   "q": "Sigma Ltd (unlisted public) plans to raise ₹50 crore by issuing equity shares to 40 identified investors at a premium. The CFO suggests collecting part of the money in cash and allotting after 90 days. Advise on the legal requirements and the flaws in the proposal.",
+   "points": [
+    "This is a preferential issue by private placement governed by ss.42 and 62(1)(c) with rules 13 and 14 of the Share Capital and Debentures / Prospectus and Allotment Rules.",
+    "A special resolution and a valuation report from a registered valuer are needed; the offer is made through PAS-4 to identified persons within the 200-person cap.",
+    "Application money must be received only through banking channels from the subscriber's account; cash is prohibited.",
+    "Allotment must be made within 60 days of receipt of money; otherwise refund within 15 days, after which 12% interest is payable, so allotting after 90 days is non-compliant.",
+    "Money must be kept in a separate bank account and a return of allotment (PAS-3) filed with the ROC within 15 days of allotment."
+   ]
+  }
+ },
+ "p2c5": {
+  "notes": [
+   {
+    "topic": "Becoming a member",
+    "note": "Under s.2(55) a member is a subscriber to the MOA (deemed member on registration), a person who agrees in writing to become a member and whose name is entered in the register, or a person holding shares whose name is entered as beneficial owner in depository records. Membership can also arise by allotment, transfer, transmission or estoppel (allowing one's name to stay on the register). A minor can become a member only of fully paid shares through a guardian."
+   },
+   {
+    "topic": "register of members",
+    "note": "Section 88 and rule 3 of the Management and Administration Rules require a register of members in MGT-1, with details of each member and changes, kept at the registered office (or another place approved by special resolution). The register of beneficial owners maintained by a depository is deemed to be the company's register for demat shares. A company may keep a foreign register outside India if authorised by its articles."
+   },
+   {
+    "topic": "beneficial interest",
+    "note": "Section 89 requires a person whose name is entered as holder but who does not hold the beneficial interest to declare this in MGT-4, and the real beneficial owner to declare in MGT-5, within 30 days. The company records the declaration and files MGT-6 with the ROC within 30 days of receipt. For example, a nominee holding shares for a parent company must make this disclosure."
+   },
+   {
+    "topic": "significant beneficial owner",
+    "note": "Under s.90 and the Significant Beneficial Owners Rules, 2018, an individual who indirectly (or together with direct holding) holds at least 10% of shares, voting rights or dividend rights, or exercises significant influence or control, is an SBO. The SBO declares in BEN-1, the company files BEN-2 with the ROC within 30 days, maintains a register in BEN-3 and may issue notice in BEN-4 to identify SBOs. The Tribunal may impose restrictions on shares if information is not given."
+   },
+   {
+    "topic": "rectification",
+    "note": "Under s.59, if a name is entered, omitted or delayed in the register without sufficient cause, the aggrieved person or the company may apply to the Tribunal for rectification. The Tribunal may order rectification and damages, and the company must comply and file the order. For instance, a buyer whose valid transfer is ignored can seek rectification."
+   },
+   {
+    "topic": "members' rights",
+    "note": "Members have statutory rights such as voting (s.47), receiving notices and financial statements (s.101, s.136), inspection of registers (s.94), requisitioning an EGM (s.100), demanding a poll (s.109), applying against oppression (s.241) and filing class action (s.245). Dividend rights arise only once declared. These rights cannot be taken away by the articles."
+   },
+   {
+    "topic": "variation of rights",
+    "note": "Under s.48 the rights attached to a class of shares can be varied with written consent of holders of at least three-fourths of the issued shares of that class or a special resolution at a separate class meeting, if the MOA/AOA permit or the terms of issue do not prohibit it. Dissenting holders of at least 10% of the class who did not consent may apply to the Tribunal within 21 days to cancel the variation. A variation affecting another class needs that class's consent too."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Mr A holds 6% shares directly and through a trust controls another 5% in X Pvt Ltd. Is he a significant beneficial owner?",
+    "options": [
+     "Yes, combined direct and indirect holding is at least 10%",
+     "No, direct holding is below 10%",
+     "Only if he is a director",
+     "Only if the trust is foreign"
+    ],
+    "answer": 0,
+    "explain": "The SBO Rules, 2018 count indirect holdings together with direct holdings for the 10% threshold."
+   },
+   {
+    "q": "Within how many days must a company file MGT-6 after receiving a declaration under s.89?",
+    "options": [
+     "15 days",
+     "60 days",
+     "30 days",
+     "7 days"
+    ],
+    "answer": 2,
+    "explain": "Section 89(6) requires the company to file the return in MGT-6 within 30 days of receiving the declaration."
+   },
+   {
+    "q": "A company wrongly omits the name of a buyer from its register despite a valid transfer. The buyer's remedy is to apply to:",
+    "options": [
+     "The ROC",
+     "SEBI",
+     "The Regional Director",
+     "The NCLT under s.59"
+    ],
+    "answer": 3,
+    "explain": "Section 59 empowers the Tribunal to order rectification of the register of members."
+   },
+   {
+    "q": "Holders of 12% of preference shares who did not consent to a variation of their rights want it cancelled. They must apply to the Tribunal within:",
+    "options": [
+     "14 days",
+     "21 days",
+     "30 days",
+     "60 days"
+    ],
+    "answer": 1,
+    "explain": "Section 48(2) allows holders of at least 10% dissenting shares to apply within 21 days of the consent or resolution."
+   },
+   {
+    "q": "Which person is NOT a member under s.2(55)?",
+    "options": [
+     "A person who has applied for shares but not yet been allotted",
+     "Beneficial owner shown in depository records",
+     "Subscriber to the MOA",
+     "A transferee whose name is entered in the register"
+    ],
+    "answer": 0,
+    "explain": "An applicant becomes a member only on allotment and entry in the register, not on mere application."
+   },
+   {
+    "q": "A company's register of members is to be kept at:",
+    "options": [
+     "Any place decided by the MD",
+     "Only at the RTA office outside India",
+     "The registered office, or another place within the city/as approved by special resolution",
+     "The ROC office"
+    ],
+    "answer": 2,
+    "explain": "Section 94(1) requires the registers at the registered office, or elsewhere if approved by special resolution."
+   }
+  ],
+  "desc": {
+   "q": "Delta Pvt Ltd's shares are held 8% by Mr K directly and 15% by K Holdings LLP in which Mr K is a partner with a 70% share. Mr K has not filed any declaration. Advise Delta Pvt Ltd on its obligations and consequences of non-compliance.",
+   "points": [
+    "Section 90 and the SBO Rules, 2018 cover individuals holding at least 10% indirectly or together with direct holding; Mr K controls the LLP (majority partner), so its holding is attributed to him and he is an SBO.",
+    "Mr K must file BEN-1 with the company; the company must file BEN-2 with the ROC within 30 days of receiving it and record him in BEN-3.",
+    "The company should take steps to identify SBOs and may issue notice in BEN-4 seeking information.",
+    "If information is not provided, the company may apply to the Tribunal for restrictions on the shares, such as transfer, dividend or voting.",
+    "Non-compliance attracts penalties under s.90 on the individual and on the company and its officers."
+   ]
+  }
+ },
+ "p2c6": {
+  "notes": [
+   {
+    "topic": "Debentures & bonds",
+    "note": "A debenture (s.2(30)) includes debenture stock, bonds and other instruments evidencing debt, whether or not creating a charge, excluding certain instruments notified by the government. Under s.71 debentures cannot carry voting rights, and fully or partly convertible debentures need a special resolution. Listed debt is governed by SEBI (Issue and Listing of Non-Convertible Securities) Regulations, 2021."
+   },
+   {
+    "topic": "security creation",
+    "note": "Under rule 18 of the Share Capital and Debentures Rules, secured debentures must be secured by a charge on company assets (or those of subsidiaries/holding/associates) of value sufficient for the principal and interest. Redemption should be within 10 years, extendable for prescribed long-term categories such as infrastructure. The charge must be registered with the ROC in CHG-9."
+   },
+   {
+    "topic": "debenture redemption reserve",
+    "note": "A DRR must be created out of profits available for dividend before redemption; after the 2019 amendment it is required at 10% of outstanding debentures only for unlisted companies (other than NBFCs and HFCs), while listed companies and NBFCs/HFCs are exempt. Specified companies must also invest or deposit at least 15% of debentures maturing in the year, before 30 April, in prescribed safe instruments. The amount is used only for redemption of debentures."
+   },
+   {
+    "topic": "debenture trust deed",
+    "note": "A debenture trustee must be appointed before issuing a prospectus or offer for subscription to the public or to more than 500 persons (s.71(5)), and the trustee must be SEBI-registered. The trust deed in SH-12 must be executed within the time prescribed by rule 18 and sets out security, trustee powers and events of default. The trustee protects debenture holders and can approach the Tribunal if assets are insufficient."
+   },
+   {
+    "topic": "conversion",
+    "note": "Convertible debentures need approval by special resolution under s.71(1). Under s.62(3), loans or debentures can be converted into shares if the terms providing the option were approved by special resolution before raising the loan. Under s.62(4) the Central Government can direct conversion of government loans into shares in the public interest."
+   },
+   {
+    "topic": "company deposits",
+    "note": "Deposits are governed by ss.73-76 and the Acceptance of Deposits Rules, 2014; rule 2(1)(c) excludes items such as bank loans, inter-corporate loans and amounts from directors with a declaration that they are not borrowed. Private companies may accept deposits from members (with relaxations), and eligible public companies (net worth at least ₹100 crore or turnover at least ₹500 crore) may accept from the public under s.76 with credit rating. Companies must file DPT-3 annually and keep a deposit repayment reserve of at least 20% of amounts maturing in the next year."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A listed company issues secured non-convertible debentures. Regarding DRR, it is:",
+    "options": [
+     "Required to create DRR of 25%",
+     "Required to create DRR of 10%",
+     "Required only if debentures exceed ₹100 crore",
+     "Not required to create DRR"
+    ],
+    "answer": 3,
+    "explain": "After the 2019 amendment to rule 18, listed companies are exempt from creating DRR."
+   },
+   {
+    "q": "Which instrument may carry voting rights?",
+    "options": [
+     "Secured debentures",
+     "Equity shares",
+     "Partly convertible debentures before conversion",
+     "Non-convertible bonds"
+    ],
+    "answer": 1,
+    "explain": "Section 71(2) prohibits voting rights on debentures; only shares carry voting rights."
+   },
+   {
+    "q": "A company issues debentures to 600 investors by private placement. It must:",
+    "options": [
+     "Appoint a debenture trustee",
+     "Not appoint a debenture trustee",
+     "Obtain Tribunal approval",
+     "Issue only convertible debentures"
+    ],
+    "answer": 0,
+    "explain": "Section 71(5) requires a debenture trustee where the offer is to the public or to more than 500 members."
+   },
+   {
+    "q": "A director lends ₹50 lakh to a private company and declares in writing that the amount is not out of borrowed funds. The amount is:",
+    "options": [
+     "A deposit requiring DPT filing as deposit",
+     "Prohibited under s.185",
+     "Excluded from the definition of deposit",
+     "A debenture"
+    ],
+    "answer": 2,
+    "explain": "Rule 2(1)(c)(viii) excludes amounts from directors accompanied by such a declaration."
+   },
+   {
+    "q": "A bank insists on an option to convert its loan into equity on default. To be valid, the company must have:",
+    "options": [
+     "Board resolution only",
+     "Approval of ROC",
+     "Ordinary resolution after default",
+     "Special resolution approving the terms before taking the loan"
+    ],
+    "answer": 3,
+    "explain": "Under s.62(3) the conversion option must be approved by special resolution before the loan is raised."
+   },
+   {
+    "q": "An eligible public company accepting deposits from the public must keep a deposit repayment reserve of at least:",
+    "options": [
+     "10% of deposits maturing in the next year",
+     "20% of deposits maturing in the following financial year",
+     "15% of all deposits",
+     "25% of total deposits"
+    ],
+    "answer": 1,
+    "explain": "Section 73(2)(c) with rule 13 requires at least 20% of amounts maturing in the next financial year."
+   }
+  ],
+  "desc": {
+   "q": "Omega Ltd, an unlisted public company (not an NBFC), proposes to issue ₹200 crore secured non-convertible debentures to 700 investors. State the key compliances it must follow.",
+   "points": [
+    "Board approval and special resolution as applicable (s.42 for private placement or prospectus route; s.180(1)(c) borrowing limit approval if limits are exceeded).",
+    "Appoint a SEBI-registered debenture trustee and execute a trust deed in SH-12 within the time allowed by rule 18, since the offer exceeds 500 persons (s.71(5)).",
+    "Create charge on assets of sufficient value and register it with the ROC in CHG-9 within 30 days.",
+    "As an unlisted non-NBFC company, create DRR of 10% of outstanding debentures and invest/deposit at least 15% of amounts maturing in a year by 30 April.",
+    "Redeem within the permitted period (normally 10 years) and file return of allotment and other prescribed forms."
+   ]
+  }
+ },
+ "p2c7": {
+  "notes": [
+   {
+    "topic": "Creation, registration, modification & satisfaction of charges",
+    "note": "Every charge on company property, in or outside India, must be registered with the ROC within 30 days of creation in CHG-1 (CHG-9 for debentures) under s.77; the Registrar may allow a further period on payment of additional or ad valorem fees. If the company fails, the charge-holder may apply for registration under s.78 after notice to the company. Modification follows the same process (s.79), and satisfaction must be intimated in CHG-4 within 30 days (s.82), after which the ROC records it; an unregistered charge is not taken into account by a liquidator or insolvency professional (s.77(3))."
+   },
+   {
+    "topic": "register of charges",
+    "note": "Under s.85 every company keeps a register of charges in CHG-7 at its registered office, with instruments creating charges. Members and creditors can inspect it free of cost, and others on payment of fee. Entries are made whenever a charge is created, modified or satisfied."
+   },
+   {
+    "topic": "search report",
+    "note": "A charge search report is prepared by examining the ROC records on MCA21 (index of charges and filed instruments) to confirm existing encumbrances before a lender sanctions a loan or in due diligence for M&A. Under s.80, a person acquiring property subject to a registered charge is deemed to have notice of the charge from the date of registration. CSs commonly certify such search reports for banks."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A company created a charge on 1 May but failed to file CHG-1. On liquidation, the charge will:",
+    "options": [
+     "Not be taken into account by the liquidator",
+     "Be treated as fully valid",
+     "Be valid if the lender produces the deed",
+     "Become void only against the company"
+    ],
+    "answer": 0,
+    "explain": "Section 77(3) states that an unregistered charge is not taken into account by the liquidator or insolvency professional."
+   },
+   {
+    "q": "Who may register a charge if the company fails to do so?",
+    "options": [
+     "Only the ROC suo motu",
+     "Any member",
+     "The charge-holder under s.78",
+     "The auditor"
+    ],
+    "answer": 2,
+    "explain": "Section 78 permits the person in whose favour the charge is created to apply for registration."
+   },
+   {
+    "q": "Intimation of satisfaction of a charge must be filed within:",
+    "options": [
+     "15 days",
+     "90 days",
+     "60 days",
+     "30 days"
+    ],
+    "answer": 3,
+    "explain": "Section 82 requires the company to intimate payment or satisfaction within 30 days in CHG-4."
+   },
+   {
+    "q": "Which form is used for registering a charge securing debentures?",
+    "options": [
+     "CHG-1",
+     "CHG-9",
+     "CHG-4",
+     "MGT-14"
+    ],
+    "answer": 1,
+    "explain": "Rule 3 of the Registration of Charges Rules prescribes CHG-9 for charges securing debentures."
+   },
+   {
+    "q": "A buyer purchases a company's land on which a charge was registered two years earlier. The buyer claims he did not know. Legally:",
+    "options": [
+     "He is deemed to have notice of the charge under s.80",
+     "He takes the land free of charge",
+     "The charge is void against him",
+     "He can claim damages from ROC"
+    ],
+    "answer": 0,
+    "explain": "Section 80 deems any person acquiring the property to have notice of a registered charge from the date of registration."
+   },
+   {
+    "q": "Members and creditors may inspect the register of charges:",
+    "options": [
+     "On payment of ₹100",
+     "Only with Tribunal permission",
+     "Free of cost",
+     "Only during AGM"
+    ],
+    "answer": 2,
+    "explain": "Section 85(2) allows members and creditors to inspect the register without fee."
+   }
+  ],
+  "desc": {
+   "q": "XYZ Bank is about to sanction a ₹10 crore term loan to Kappa Pvt Ltd on hypothecation of plant and machinery. As the bank's CS, explain how you would verify existing charges and the post-sanction compliances on charge registration.",
+   "points": [
+    "Conduct a charge search on MCA21 (index of charges and filed CHG forms) and inspect the company's register of charges (s.85) to identify prior encumbrances.",
+    "Obtain a search report and no-objection from any existing charge-holder if pari passu or second charge is to be created.",
+    "After execution, ensure the company files CHG-1 with the ROC within 30 days (s.77); if it fails, the bank may itself apply under s.78.",
+    "Obtain the certificate of registration of charge as evidence, and track any modification under s.79.",
+    "On repayment, the company must file CHG-4 within 30 days (s.82) to record satisfaction."
+   ]
+  }
+ },
+ "p2c8": {
+  "notes": [
+   {
+    "topic": "Divisible profits",
+    "note": "Under s.123(1) dividend can be declared only out of current year profits after depreciation under Schedule II, out of undistributed profits of earlier years, or both, or out of money provided by government guarantee. Profits must exclude unrealised gains, notional gains and revaluation surplus, and no dividend can be paid from capital. Transfer to reserves before declaration is at the company's discretion."
+   },
+   {
+    "topic": "declaration & payment of dividend",
+    "note": "Final dividend is recommended by the board and declared by members at the AGM, who can reduce but not increase it; interim dividend is declared by the board (s.123(3)). If a company has incurred a loss in the current year up to the quarter preceding the interim declaration, the interim rate cannot exceed the average of the preceding three years. Dividend must be deposited in a separate bank account within 5 days of declaration and paid within 30 days (s.127), failing which directors may face imprisonment and the company pays interest at 18%."
+   },
+   {
+    "topic": "unpaid dividend",
+    "note": "Dividend not paid or claimed within 30 days of declaration must be transferred to an Unpaid Dividend Account within the next 7 days (s.124(1)). The company must place the list of unpaid amounts on its website within 90 days. Amounts remaining unpaid for 7 years are transferred to IEPF, along with the shares on which dividend has not been claimed for 7 consecutive years."
+   },
+   {
+    "topic": "IEPF",
+    "note": "Section 125 constitutes the Investor Education and Protection Fund, administered by the IEPF Authority, which receives unpaid dividends, matured deposits/debentures and application money unclaimed for 7 years. Shares are transferred to the IEPF demat account through IEPF-4. Claimants may recover amounts and shares by filing IEPF-5 with the company's verification report."
+   },
+   {
+    "topic": "SS on dividend",
+    "note": "Secretarial Standard on Dividend (SS-3) was a recommendatory ICSI standard, not mandatory like SS-1 and SS-2. It covers good practices such as board approval of dividend recommendations, record date/book closure, separate bank account and timely payment. Companies following it document dividend decisions more consistently."
+   },
+   {
+    "topic": "dividend distribution policy",
+    "note": "Regulation 43A of the SEBI LODR Regulations requires the top 1,000 listed entities by market capitalisation to formulate a dividend distribution policy, disclosed on their website with a web link in the annual report. It sets out parameters like financial conditions, internal and external factors, retained earnings use, and circumstances where shareholders may not expect dividend. Other listed entities may adopt it voluntarily."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Members at the AGM want to raise the final dividend recommended by the board from 10% to 15%. They:",
+    "options": [
+     "Can do so by ordinary resolution",
+     "Can do so by special resolution",
+     "Can increase it with Central Government approval",
+     "Cannot increase it; they can only approve or reduce"
+    ],
+    "answer": 3,
+    "explain": "The final dividend declared cannot exceed the amount recommended by the board."
+   },
+   {
+    "q": "A company declares dividend on 10 August. It must deposit the amount in a separate bank account by:",
+    "options": [
+     "9 September",
+     "15 August",
+     "17 August",
+     "10 October"
+    ],
+    "answer": 1,
+    "explain": "Section 123(4) requires deposit in a scheduled bank within 5 days of declaration."
+   },
+   {
+    "q": "Dividend declared on 1 September remains unpaid on 1 October. The unpaid amount must be transferred to the Unpaid Dividend Account by:",
+    "options": [
+     "8 October",
+     "31 October",
+     "1 December",
+     "Within 90 days"
+    ],
+    "answer": 0,
+    "explain": "Section 124(1) requires transfer within 7 days after expiry of the 30-day payment period."
+   },
+   {
+    "q": "Which amount can be used to declare dividend?",
+    "options": [
+     "Revaluation reserve",
+     "Capital redemption reserve",
+     "Current year profit after depreciation",
+     "Securities premium"
+    ],
+    "answer": 2,
+    "explain": "Section 123(1)(a) permits dividend out of current year profits after providing depreciation."
+   },
+   {
+    "q": "Shares on which dividend has not been claimed for 7 consecutive years must be:",
+    "options": [
+     "Forfeited by the company",
+     "Sold in the market",
+     "Cancelled",
+     "Transferred to the IEPF"
+    ],
+    "answer": 3,
+    "explain": "Section 124(6) mandates transfer of such shares to the IEPF Authority."
+   },
+   {
+    "q": "Which listed entities must have a dividend distribution policy under LODR?",
+    "options": [
+     "All listed entities",
+     "Top 1,000 by market capitalisation",
+     "Only debt-listed entities",
+     "Only PSUs"
+    ],
+    "answer": 1,
+    "explain": "Regulation 43A applies to the top 1,000 listed entities by market capitalisation."
+   }
+  ],
+  "desc": {
+   "q": "Theta Ltd suffered a loss in the first two quarters of FY 2026-27 and the board wants to declare an interim dividend of 25%. The average rate for the last three years was 15%. Advise the board, and list the post-declaration steps.",
+   "points": [
+    "Interim dividend may be declared by the board under s.123(3) out of surplus in P&L, profits of the year or the quarter preceding declaration.",
+    "Since the company has incurred a loss up to the quarter preceding declaration, the rate cannot exceed the average of the preceding three years, i.e., 15%; 25% is not permissible.",
+    "Deposit the dividend amount in a separate bank account within 5 days of declaration (s.123(4)).",
+    "Pay within 30 days (s.127) with TDS as applicable; transfer any unpaid amount to the Unpaid Dividend Account within 7 days thereafter (s.124).",
+    "Listed entity must also give prior intimation and outcome disclosures under LODR and fix a record date."
+   ]
+  }
+ },
+ "p2c9": {
+  "notes": [
+   {
+    "topic": "Books of accounts",
+    "note": "Under s.128 every company keeps books on accrual basis and double entry at its registered office (or another place by board decision with ROC intimation within 7 days), including in electronic form with a daily back-up on servers in India. Books must be preserved for at least 8 years, and from 2023 accounting software must have an audit trail (edit log) that cannot be disabled. Directors may inspect them during business hours, and the ROC or an inspector can examine them under ss.206-207."
+   },
+   {
+    "topic": "financial statements",
+    "note": "Financial statements under s.2(40) include the balance sheet, profit and loss account, cash flow statement (not required for OPC, small and dormant companies), statement of changes in equity and notes, prepared as per Schedule III and notified Accounting Standards/Ind AS (s.133). They are approved by the board and signed under s.134, and consolidated statements are required where a company has subsidiaries, associates or JVs (s.129(3)). They are filed with the ROC in AOC-4 within 30 days of the AGM (s.137)."
+   },
+   {
+    "topic": "NFRA",
+    "note": "The National Financial Reporting Authority under s.132 recommends accounting and auditing standards, monitors compliance and investigates professional misconduct by auditors of listed companies and other specified large companies. It can impose penalties and debar firms or members for up to ten years. Its jurisdiction supersedes ICAI disciplinary action for covered entities."
+   },
+   {
+    "topic": "auditors' appointment, removal, duties",
+    "note": "The first auditor is appointed by the board within 30 days of incorporation; subsequent auditors are appointed at the AGM for five years (s.139), with ADT-1 filed within 15 days. Listed and prescribed companies must rotate individual auditors after one 5-year term and firms after two terms, with a cooling-off of 5 years. Removal before term needs a special resolution and Central Government (RD) approval (s.140(1)), while the auditor's duties under s.143 include reporting on accounts, frauds above ₹1 crore to the Central Government, and the CARO matters."
+   },
+   {
+    "topic": "audit report",
+    "note": "The audit report under s.143 states whether the financial statements give a true and fair view and comments on matters like proper books, internal financial controls and pending litigation. CARO 2020 adds statements on fixed assets, inventory, loans, deposits, statutory dues, and others for applicable companies. Qualifications or adverse remarks must be explained by the board in its report (s.134(3)(f))."
+   },
+   {
+    "topic": "cost, secretarial & internal audit",
+    "note": "Cost records and cost audit under s.148 apply to specified industries crossing turnover thresholds, with the cost auditor appointed by the board and remuneration ratified by members. Secretarial audit under s.204 applies to listed companies, public companies with paid-up capital of ₹50 crore or turnover of ₹250 crore, and companies with borrowings of ₹100 crore or more, with the report in MR-3 by a practising CS. Internal audit under s.138 applies to all listed companies and prescribed unlisted and private companies."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A listed company appointed an audit firm in 2017 for 5 years and reappointed it in 2022 for another 5 years. In 2027, the firm:",
+    "options": [
+     "Cannot be reappointed and must observe a 5-year cooling off",
+     "Can be reappointed for a third term",
+     "Can be reappointed with special resolution",
+     "Can continue indefinitely with RD approval"
+    ],
+    "answer": 0,
+    "explain": "Section 139(2) allows a firm only two terms of 5 years for listed and prescribed companies."
+   },
+   {
+    "q": "The first auditor of a company (other than a government company) is appointed by the board within:",
+    "options": [
+     "15 days of incorporation",
+     "60 days of incorporation",
+     "30 days of incorporation",
+     "90 days of incorporation"
+    ],
+    "answer": 2,
+    "explain": "Section 139(6) requires the board to appoint the first auditor within 30 days of registration."
+   },
+   {
+    "q": "An auditor discovers a fraud of ₹3 crore by employees. He must report it to:",
+    "options": [
+     "Only the audit committee",
+     "SEBI only",
+     "Only the shareholders",
+     "The Central Government"
+    ],
+    "answer": 3,
+    "explain": "Under s.143(12) and rule 13 frauds of ₹1 crore or more are reported to the Central Government."
+   },
+   {
+    "q": "Which company need NOT prepare a cash flow statement?",
+    "options": [
+     "A listed company",
+     "A small company",
+     "A public company with ₹100 crore turnover",
+     "A government company"
+    ],
+    "answer": 1,
+    "explain": "Section 2(40) proviso exempts OPC, small companies, dormant companies and certain private companies from cash flow statements."
+   },
+   {
+    "q": "A public company has paid-up capital of ₹60 crore. Secretarial audit is:",
+    "options": [
+     "Applicable",
+     "Not applicable",
+     "Applicable only if listed",
+     "Voluntary"
+    ],
+    "answer": 0,
+    "explain": "Rule 9 of the Managerial Personnel Rules applies s.204 to public companies with paid-up capital of ₹50 crore or more."
+   },
+   {
+    "q": "Books of account must be preserved for at least:",
+    "options": [
+     "5 years",
+     "6 years",
+     "8 years",
+     "10 years"
+    ],
+    "answer": 2,
+    "explain": "Section 128(5) requires books to be preserved for not less than eight financial years."
+   }
+  ],
+  "desc": {
+   "q": "Members of Iota Ltd (unlisted) want to remove their statutory auditor two years into a five-year term because of disagreements on a revenue recognition issue. Advise on the procedure.",
+   "points": [
+    "Removal before expiry of term needs a special resolution in general meeting and prior approval of the Central Government (Regional Director) under s.140(1).",
+    "Board should apply to the RD in ADT-2 within 30 days of the board resolution, and the general meeting must be held within 60 days of receiving approval.",
+    "The auditor must be given a reasonable opportunity of being heard.",
+    "Appoint a new auditor in the same meeting or as per s.139 and file ADT-1.",
+    "If the motive is to suppress an honest audit view, the RD may refuse; independence of auditors is protected."
+   ]
+  }
+ },
+ "p2c10": {
+  "notes": [
+   {
+    "topic": "Compromise, arrangement & amalgamation",
+    "note": "Schemes between a company and its creditors or members are sanctioned by the NCLT under ss.230-232 after meetings approved by a majority in number representing three-fourths in value of those present and voting. Notice goes to the Central Government, ROC, Income-tax, RBI, SEBI, CCI and the official liquidator as relevant, with objections allowed only from holders of at least 10% shares or 5% debt. Fast-track mergers of small companies, holding-wholly owned subsidiaries and startups can be approved by the Regional Director under s.233, and cross-border mergers are covered by s.234."
+   },
+   {
+    "topic": "oppression & mismanagement",
+    "note": "Under s.241 a member may apply to the NCLT if the company's affairs are conducted in a manner prejudicial to public interest, oppressive to any member, or prejudicial to the company. Eligibility under s.244 is 100 members or one-tenth of members, or holders of one-tenth of issued capital (all calls paid), and for companies without share capital one-fifth of members; the Tribunal can waive these. The Tribunal's powers under s.242 include regulating affairs, setting aside transactions, purchase of shares and removal of managing directors."
+   },
+   {
+    "topic": "class action suits",
+    "note": "Section 245 allows a prescribed number of members or depositors to file a class action before the NCLT to restrain ultra vires acts, breaches of articles, or seek damages against the company, directors, auditors, experts or consultants. Under the rules, a company with share capital needs at least 100 members or a prescribed percentage of members, or members holding a prescribed percentage of issued capital (lower for listed companies). Banking companies are excluded, and the Tribunal's order binds the company and all members."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A scheme of arrangement with creditors requires approval by:",
+    "options": [
+     "Simple majority in value",
+     "Two-thirds in number only",
+     "Unanimous creditors",
+     "Majority in number representing three-fourths in value of those voting"
+    ],
+    "answer": 3,
+    "explain": "Section 230(6) requires a majority of persons representing three-fourths in value."
+   },
+   {
+    "q": "A merger of a wholly-owned subsidiary into its holding company can be approved without NCLT by:",
+    "options": [
+     "SEBI",
+     "The Regional Director under s.233",
+     "The ROC alone",
+     "The board only"
+    ],
+    "answer": 1,
+    "explain": "Section 233 fast-track procedure is approved by the Central Government (Regional Director)."
+   },
+   {
+    "q": "In a company of 2,000 members with share capital, who can file an oppression petition without waiver?",
+    "options": [
+     "100 members",
+     "50 members",
+     "1 member holding 5% capital",
+     "Any creditor"
+    ],
+    "answer": 0,
+    "explain": "Section 244(1)(a) allows 100 members or one-tenth of members, whichever is less."
+   },
+   {
+    "q": "Who may object to a compromise or arrangement before the NCLT?",
+    "options": [
+     "Any single shareholder",
+     "Only the ROC",
+     "Persons holding at least 10% shareholding or 5% of total outstanding debt",
+     "Only SEBI"
+    ],
+    "answer": 2,
+    "explain": "The proviso to s.230(4) restricts objections to holders of 10% shares or 5% outstanding debt."
+   },
+   {
+    "q": "Class action under s.245 is NOT available against a:",
+    "options": [
+     "Listed company",
+     "Unlisted public company",
+     "Private company",
+     "Banking company"
+    ],
+    "answer": 3,
+    "explain": "Section 245(11) excludes banking companies."
+   },
+   {
+    "q": "Which relief can the Tribunal grant in an oppression case?",
+    "options": [
+     "Award of imprisonment to directors",
+     "Order the company to buy shares of the oppressed members",
+     "Grant tax exemption",
+     "Delist the company from stock exchanges in all cases"
+    ],
+    "answer": 1,
+    "explain": "Section 242(2)(b)-(c) empowers the Tribunal to order purchase of shares by other members or the company."
+   }
+  ],
+  "desc": {
+   "q": "Minority shareholders holding 12% of Nu Pvt Ltd allege that the majority directors are diverting business to a firm owned by their relatives, have stopped dividends, and excluded the minority from board meetings. Advise them on the remedy and possible reliefs.",
+   "points": [
+    "Remedy lies under s.241 for oppression and mismanagement before the NCLT.",
+    "They are eligible under s.244 as they hold more than one-tenth of the issued share capital (subject to calls being paid).",
+    "They must show a continuing course of conduct that is burdensome, harsh, wrongful or lacking probity, such as diversion of business opportunities and exclusion from management.",
+    "Reliefs under s.242 include setting aside transactions, injunction, removal of directors, appointing directors, recovery of losses and purchase of minority shares at fair value.",
+    "Interim orders may be sought to restrain further diversion while the petition is pending."
+   ]
+  }
+ },
+ "p2c11": {
+  "notes": [
+   {
+    "topic": "Legal framework",
+    "note": "Section 455 lets a company formed for a future project or to hold an asset or intellectual property, which has no significant accounting transaction, apply to the Registrar for dormant status. An inactive company is one that has not carried on business or operations, made no significant accounting transaction in the last two financial years, or not filed financial statements and annual returns for two years. Rule 3 of the Companies (Miscellaneous) Rules, 2014 governs the process."
+   },
+   {
+    "topic": "procedure to become dormant",
+    "note": "The company passes a special resolution (or obtains consent of 3/4 members in value) and files MSC-1 with the Registrar along with a statement of assets and liabilities certified by an auditor. It must have no inspection, inquiry or investigation pending, no prosecution pending, no outstanding public deposits or defaults in their repayment, no outstanding secured loans, and no dispute in management or ownership. On approval the ROC issues a certificate in MSC-2."
+   },
+   {
+    "topic": "exemptions",
+    "note": "A dormant company needs only a minimum number of directors (three for public, two for private, one for OPC) and need hold only one board meeting in each half of the calendar year with a gap of at least 90 days (s.173(5)). It is also exempt from preparing a cash flow statement as part of its financial statements (s.2(40)). Because it carries on no business, operational requirements such as CSR thresholds are rarely triggered in practice."
+   },
+   {
+    "topic": "compliances",
+    "note": "A dormant company files an annual return of dormant status in MSC-3 within 30 days of the end of each financial year, with an auditor's certificate. Its financial statements and annual return continue to be filed. If the company operates beyond its dormant status, the ROC may remove it from the register of dormant companies."
+   },
+   {
+    "topic": "reverting to active",
+    "note": "To become active again, the company files MSC-4 with the Registrar along with the requisite fee and a return of significant transactions since dormancy. The ROC then issues a certificate of active status in MSC-5. The ROC may also suo motu treat the company as active if it fails to comply with dormant status conditions."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Which form is used to apply for dormant status?",
+    "options": [
+     "MSC-1",
+     "MSC-3",
+     "MSC-4",
+     "INC-22"
+    ],
+    "answer": 0,
+    "explain": "Rule 3 of the Miscellaneous Rules prescribes MSC-1 for an application under s.455."
+   },
+   {
+    "q": "A company has an outstanding secured loan from a bank. Can it apply for dormant status?",
+    "options": [
+     "Yes, if it has no turnover",
+     "Yes, with NCLT permission",
+     "No, outstanding secured loans bar the application",
+     "Yes, if the bank consents verbally"
+    ],
+    "answer": 2,
+    "explain": "Rule 3 conditions require no outstanding secured loans for eligibility."
+   },
+   {
+    "q": "How many board meetings must a dormant company hold?",
+    "options": [
+     "Four in a year",
+     "None",
+     "One per year",
+     "At least one in each half of a calendar year with a 90-day gap"
+    ],
+    "answer": 3,
+    "explain": "Section 173(5) prescribes one meeting in each half of the calendar year with at least 90 days' gap for dormant companies."
+   },
+   {
+    "q": "A dormant company's annual return of dormant status is filed in:",
+    "options": [
+     "MGT-7",
+     "MSC-3",
+     "AOC-4",
+     "MSC-1"
+    ],
+    "answer": 1,
+    "explain": "Rule 6 requires MSC-3 within 30 days from the end of each financial year."
+   },
+   {
+    "q": "Which company is eligible to apply for dormant status under s.455?",
+    "options": [
+     "One formed to hold a patent with no significant accounting transaction",
+     "One with pending investigation",
+     "One with public deposits outstanding",
+     "One under ownership dispute"
+    ],
+    "answer": 0,
+    "explain": "Section 455(1) covers companies formed for a future project or to hold assets or IP with no significant transactions."
+   },
+   {
+    "q": "A dormant company wishing to resume business must file:",
+    "options": [
+     "MSC-1",
+     "INC-28",
+     "MSC-4",
+     "STK-2"
+    ],
+    "answer": 2,
+    "explain": "Rule 7 prescribes MSC-4 for application to obtain active status."
+   }
+  ],
+  "desc": {
+   "q": "Rho Pvt Ltd was formed to develop a real estate project that has been delayed for three years for want of approvals. It has an unsecured loan from a director and no other liabilities. Advise whether and how it can obtain dormant status.",
+   "points": [
+    "Section 455 permits a company formed for a future project with no significant accounting transaction to apply for dormant status.",
+    "Conditions under rule 3 must be met: no pending inspection, investigation or prosecution, no public deposits, no outstanding secured loans and no management dispute; a director's unsecured loan is not a bar but should be disclosed.",
+    "Pass a special resolution (or obtain 3/4 consent of members in value) and file MSC-1 with an auditor-certified statement of assets and liabilities.",
+    "On grant, ROC issues MSC-2; thereafter file MSC-3 annually and comply with minimum director and two-board-meeting requirements.",
+    "When approvals come through, file MSC-4 to become active."
+   ]
+  }
+ },
+ "p2c12": {
+  "notes": [
+   {
+    "topic": "Inspection",
+    "note": "Under s.206 the Registrar may call for information, explanations or documents and, after recording reasons, inspect books and papers; the Central Government may also direct inspection by an authorised inspector. Under s.207 the inspector can make copies, retain documents, and has powers of a civil court for discovery and enforcing attendance. Officers who fail to furnish information face penalties."
+   },
+   {
+    "topic": "kinds of investigation",
+    "note": "Section 210 allows the Central Government to order investigation on a ROC/inspector report, a special resolution of the company, or in the public interest; it must do so if the Tribunal so orders. Section 212 covers investigation by the SFIO into complex frauds, and s.216 allows investigation into ownership of a company. Section 213 allows investigation on application by members or on the Tribunal's satisfaction of fraud or misconduct."
+   },
+   {
+    "topic": "inspector's powers",
+    "note": "Under ss.217-219 inspectors can examine officers, employees and others on oath, require production of books, and extend investigation to related companies such as holding or subsidiary companies with government approval. Non-cooperation is punishable with fine and imprisonment. The inspector submits interim and final reports to the Central Government (s.223)."
+   },
+   {
+    "topic": "seizure",
+    "note": "Under s.209A the Registrar or inspector, with a Special Court's order, may enter premises and seize documents where there are reasonable grounds that books may be destroyed or altered. Under s.220 an inspector investigating may, with a magistrate's or Special Court order, seize documents and return them within 180 days. Copies may be retained before returning."
+   },
+   {
+    "topic": "freezing of assets",
+    "note": "Under s.221 the Tribunal may, on reference by the Central Government or a complaint by members or creditors, order that a transfer or disposal of the company's funds, assets or properties be frozen for up to 3 years if it appears prejudicial to the company or its stakeholders. Under s.222 the Tribunal may impose restrictions on securities where investigation into ownership is pending. These orders prevent dissipation of assets during investigation."
+   },
+   {
+    "topic": "SFIO",
+    "note": "The Serious Fraud Investigation Office is constituted under s.211 with experts in law, accounts, forensic audit and IT. Once SFIO takes up a case, no other agency can investigate the same offence under the Act, and other agencies hand over documents (s.212(2)). Authorised SFIO officers can arrest a person for offences under s.447 if they have reason to believe guilt, with production before a magistrate within 24 hours."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Once SFIO takes up investigation of a fraud under the Act, other agencies:",
+    "options": [
+     "Continue parallel investigation",
+     "Need NCLT approval to continue",
+     "Investigate only financial aspects",
+     "Must not proceed with investigation of the same offence and hand over records"
+    ],
+    "answer": 3,
+    "explain": "Section 212(2) bars other investigating agencies once the SFIO is assigned the case."
+   },
+   {
+    "q": "Who can order freezing of a company's assets during an investigation?",
+    "options": [
+     "The ROC",
+     "The Tribunal under s.221",
+     "The Statutory auditor",
+     "The Regional Director"
+    ],
+    "answer": 1,
+    "explain": "Section 221 empowers the Tribunal to freeze assets for up to three years."
+   },
+   {
+    "q": "An inspector seizes documents under s.220 with court order. They must be returned within:",
+    "options": [
+     "180 days",
+     "90 days",
+     "30 days",
+     "1 year"
+    ],
+    "answer": 0,
+    "explain": "Section 220(2) requires return of seized documents within 180 days, with copies retained."
+   },
+   {
+    "q": "Which section empowers the Central Government to investigate the ownership of a company?",
+    "options": [
+     "Section 210",
+     "Section 241",
+     "Section 216",
+     "Section 245"
+    ],
+    "answer": 2,
+    "explain": "Section 216 deals with investigation of ownership of a company."
+   },
+   {
+    "q": "The Registrar wants to seize books that it fears may be destroyed. He needs the order of:",
+    "options": [
+     "The Regional Director",
+     "The board of the company",
+     "SEBI",
+     "The Special Court"
+    ],
+    "answer": 3,
+    "explain": "Section 209A requires an order of the Special Court for search and seizure."
+   },
+   {
+    "q": "An SFIO officer arrests a director for fraud. The person must be produced before a magistrate within:",
+    "options": [
+     "12 hours",
+     "24 hours",
+     "48 hours",
+     "72 hours"
+    ],
+    "answer": 1,
+    "explain": "Section 212(8)-(10) requires production before the Judicial Magistrate or Special Court within 24 hours."
+   }
+  ],
+  "desc": {
+   "q": "Complaints reveal that the promoters of Sigma Infra Ltd are siphoning funds through shell entities, and documents may be destroyed. Explain the actions the Central Government and Tribunal can take.",
+   "points": [
+    "The Central Government may order investigation under s.210 or assign it to SFIO under s.212 given the complexity and public interest.",
+    "Search and seizure of books can be done with a Special Court order (s.209A / s.220), with return of documents within 180 days.",
+    "Investigation may extend to related shell entities under s.219 with approval.",
+    "The Tribunal may freeze assets of the company under s.221 for up to 3 years to prevent dissipation, and impose restrictions on securities under s.222.",
+    "Persons found guilty of fraud face punishment under s.447, and SFIO can arrest under s.212(8)."
+   ]
+  }
+ },
+ "p2c13": {
+  "notes": [
+   {
+    "topic": "AGM, EGM",
+    "note": "Every company other than an OPC holds an AGM each year under s.96, the first within nine months of the close of the first financial year, and later ones within six months of year-end with a gap of not more than 15 months; the ROC may extend by up to three months (not for the first AGM). AGMs are held during business hours on a non-national holiday at the registered office or within the city, town or village where it is situated. An EGM under s.100 is called by the board, or on requisition by members holding one-tenth of paid-up voting capital; if the board fails to call it within 21 days for a date within 45 days, requisitionists may call it themselves within three months."
+   },
+   {
+    "topic": "types of resolutions",
+    "note": "An ordinary resolution (s.114(1)) is passed when votes in favour exceed votes against; a special resolution (s.114(2)) needs votes in favour of at least three times those against, with the intention specifically stated in the notice. Resolutions requiring special notice (s.115), such as removing a director or auditor, need notice by members holding 1% voting power or ₹5 lakh paid-up, at least 14 days before the meeting. Copies of special resolutions and certain others must be filed in MGT-14 within 30 days (s.117)."
+   },
+   {
+    "topic": "notice, quorum, poll, proxy",
+    "note": "A general meeting needs at least 21 clear days' notice in writing or electronically (s.101), with shorter notice possible with consent of 95% of members entitled to vote (majority in number and 95% of capital for non-AGM meetings). Quorum for a public company under s.103 is 5, 15 or 30 members personally present depending on whether members number up to 1,000, 1,000-5,000 or above 5,000; for a private company it is two. A poll may be ordered by the chairman or demanded by members holding one-tenth of voting power or ₹5 lakh paid-up (s.109), and a member may appoint a proxy by depositing MGT-11 at least 48 hours before the meeting (s.105)."
+   },
+   {
+    "topic": "e-voting & postal ballot",
+    "note": "Under rule 20 of the Management and Administration Rules, listed companies and companies with 1,000 or more members must provide remote e-voting, with a cut-off date not earlier than seven days before the meeting and e-voting open for at least three days, closing at 5 pm the day before the meeting. Postal ballot (s.110 and rule 22) is mandatory for items such as change of objects, sale of an undertaking and buyback (other than within the 10% route), and OPCs and companies with up to 200 members are exempt from mandatory postal ballot. A scrutiniser reports within the prescribed time and results are displayed and placed on the website."
+   },
+   {
+    "topic": "minutes",
+    "note": "Minutes of every general meeting must be prepared and signed within 30 days (s.118), in a minute book with pages numbered and initialled, and the chairman signs the last page. They are evidence of proceedings under s.118(8), and once signed cannot be altered except by a later meeting. Members may inspect minutes and obtain copies within seven working days under s.119."
+   },
+   {
+    "topic": "SS-2",
+    "note": "Secretarial Standard on General Meetings (SS-2), issued by ICSI and made mandatory through s.118(10), applies to all companies other than OPCs and certain exempted classes. It adds practices such as stating serial numbers on notices, the chairman's role, proxies' rights, and that the scrutiniser's report be submitted within two working days for postal ballot/e-voting. Where SS-2 is stricter than the Act, the stricter rule is followed."
+   },
+   {
+    "topic": "virtual meetings",
+    "note": "MCA circulars since 2020, repeatedly extended, permit companies to hold AGMs and EGMs through video conferencing or other audio-visual means without physical presence, with notice and annual reports sent by email. Listed entities get corresponding SEBI relaxations on sending physical copies. The deemed venue is the registered office, quorum is counted by VC attendance, and e-voting or a facility for voting during the meeting must be provided."
+   },
+   {
+    "topic": "drafting notice & minutes",
+    "note": "A notice must state date, day, time and full address of venue, the business with an explanatory statement under s.102 for special business setting out the material facts and interest of directors and KMP, and proxy and e-voting instructions. Minutes should record attendance, chairman, quorum, items transacted, votes cast and results in a fair and concise manner, without personal remarks. A practical tip: number resolutions serially and draft the operative part in clear words such as 'RESOLVED THAT pursuant to section ... approval of the members be and is hereby accorded'."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A public company with 3,000 members holds an AGM. The minimum quorum is:",
+    "options": [
+     "15 members",
+     "5 members",
+     "2 members",
+     "30 members"
+    ],
+    "answer": 0,
+    "explain": "Section 103(1)(a)(ii) prescribes 15 members personally present when members exceed 1,000 but do not exceed 5,000."
+   },
+   {
+    "q": "A special resolution receives 300 votes for and 110 against. It is:",
+    "options": [
+     "Passed, as for-votes exceed against-votes",
+     "Passed, since a majority is present",
+     "Not passed, as for-votes are less than three times against",
+     "Passed, if the chairman casts a vote"
+    ],
+    "answer": 2,
+    "explain": "Section 114(2) requires votes in favour to be at least three times votes against (330 needed)."
+   },
+   {
+    "q": "Members holding 12% of paid-up voting capital requisition an EGM. The board fails to act. Requisitionists may call the meeting within:",
+    "options": [
+     "21 days of requisition",
+     "45 days of requisition",
+     "Six months",
+     "Three months from the date of requisition"
+    ],
+    "answer": 3,
+    "explain": "Section 100(4) allows requisitionists to hold the meeting within three months of the requisition."
+   },
+   {
+    "q": "A proxy form must be deposited with the company at least:",
+    "options": [
+     "24 hours before the meeting",
+     "48 hours before the meeting",
+     "7 days before",
+     "On the meeting day"
+    ],
+    "answer": 1,
+    "explain": "Section 105(4) requires deposit of proxies at least 48 hours before the meeting."
+   },
+   {
+    "q": "Minutes of a general meeting must be prepared and signed within:",
+    "options": [
+     "30 days",
+     "15 days",
+     "7 days",
+     "60 days"
+    ],
+    "answer": 0,
+    "explain": "Section 118(1) requires minutes to be prepared and signed within 30 days of the meeting."
+   },
+   {
+    "q": "A company proposes to sell its whole undertaking. The approval must be through:",
+    "options": [
+     "Board resolution only",
+     "Ordinary resolution at AGM",
+     "Special resolution, and postal ballot where rule 22 applies",
+     "Tribunal order"
+    ],
+    "answer": 2,
+    "explain": "Section 180(1)(a) needs a special resolution and rule 22 lists sale of undertaking among postal ballot items."
+   }
+  ],
+  "desc": {
+   "q": "As CS of Kappa Ltd (listed), draft the key elements of a notice of an AGM that includes the appointment of an independent director and the alteration of articles, and list the e-voting compliances.",
+   "points": [
+    "Notice with at least 21 clear days, stating date, day, time, venue (or VC arrangement), and serial-numbered ordinary and special business.",
+    "Explanatory statement under s.102 for the special business: material facts, the director's profile and skills, interest of directors/KMP, and the special resolution text for alteration of articles (s.14) and independent director appointment (s.149 with s.150/LODR reg 25 special resolution).",
+    "Proxy form note (MGT-11), attendance slip and route map; send by email and place on website and stock exchange.",
+    "Remote e-voting through a depository/e-voting agency: cut-off date not earlier than 7 days before, voting open at least 3 days, closing at 5 pm on the day before; scrutiniser appointed.",
+    "Results with scrutiniser's report disclosed to stock exchanges within two working days and placed on the website."
+   ]
+  }
+ },
+ "p2c14": {
+  "notes": [
+   {
+    "topic": "DIN",
+    "note": "A Director Identification Number under ss.153-154 is allotted by the Central Government on application in DIR-3, or at incorporation via SPICe+; no person may be appointed a director without one. Directors must complete annual KYC (DIR-3 KYC/web form), or the DIN is deactivated until filing with a late fee. A person can hold only one DIN, and no company or individual may obtain a second (s.155)."
+   },
+   {
+    "topic": "types of directors",
+    "note": "The Act recognises executive and non-executive directors, managing and whole-time directors, independent directors (s.149(6)), nominee directors, small shareholders' director (s.151), women directors, resident directors (at least one person who stayed 182 days in India in the financial year, s.149(3)), additional, alternate and casual-vacancy directors (s.161). Listed and certain public companies must have at least one-third independent directors and one woman director. A public company needs at least three directors, a private company two and an OPC one, with a maximum of fifteen extendable by special resolution."
+   },
+   {
+    "topic": "appointment, disqualification, vacation, removal",
+    "note": "Directors are appointed by members in general meeting (s.152) with written consent in DIR-2 filed with the ROC, and in public companies at least two-thirds are retiring by rotation. Disqualifications under s.164 include insolvency, conviction with six-month imprisonment, and being a director of a company that has not filed financial statements or annual returns for three continuing years, or defaulted on deposits for a year, which blocks reappointment for five years. A director's office is vacated on grounds in s.167 (e.g., absence from all board meetings for 12 months), and members may remove a director by ordinary resolution after special notice and hearing under s.169, though not one appointed under proportional representation."
+   },
+   {
+    "topic": "loans to directors",
+    "note": "Section 185 prohibits loans, guarantees or securities to directors of the company or its holding, or their relatives or partners, subject to exceptions such as loans to MD/WTD under approved schemes and loans by companies in the ordinary course of lending business. Loans to entities in which directors are interested (e.g., a private company where a director is a director or member) are permitted with a special resolution and use of funds for principal business activities. Exemptions apply to certain private companies and loans to wholly-owned subsidiaries for their principal business."
+   },
+   {
+    "topic": "disclosure of interest",
+    "note": "Under s.184 every director discloses interest in other entities in MBP-1 at the first board meeting of the year, at the first meeting after appointment and whenever there is a change. A director interested in a contract with an entity where he (with relatives) holds more than 2% or is a promoter, manager or CEO must disclose and must not participate in that item. Contracts entered without disclosure are voidable at the company's option."
+   },
+   {
+    "topic": "duties & rights",
+    "note": "Section 166 codifies duties: act per the articles, in good faith to promote the objects for members as a whole and in the interests of employees, community and environment, exercise due care and independent judgment, avoid conflicts, not make undue gain, and not assign their office. Breach is punishable with fine and the director must repay any undue gain. Directors have rights to receive notice and papers, inspect books (s.128), and attend and vote at board meetings."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A director of A Pvt Ltd was absent from all board meetings held in the last 12 months without seeking leave. His office:",
+    "options": [
+     "Continues till the next AGM",
+     "Continues if he is a promoter",
+     "Can be vacated only by members",
+     "Is vacated under s.167"
+    ],
+    "answer": 3,
+    "explain": "Section 167(1)(b) vacates office for absence from all meetings over 12 months with or without leave."
+   },
+   {
+    "q": "B Ltd failed to file annual returns for three continuous years. Its director Mr C is:",
+    "options": [
+     "Disqualified only in B Ltd",
+     "Disqualified from reappointment in B Ltd and appointment in other companies for five years",
+     "Not disqualified",
+     "Disqualified for one year"
+    ],
+    "answer": 1,
+    "explain": "Section 164(2)(a) bars such directors from appointment in that or any other company for five years."
+   },
+   {
+    "q": "Members want to remove a director appointed through proportional representation. They:",
+    "options": [
+     "Cannot do so under s.169",
+     "Can do so by ordinary resolution",
+     "Need a special resolution",
+     "Need Tribunal approval"
+    ],
+    "answer": 0,
+    "explain": "Section 169(1) excludes directors appointed by proportional representation under s.163."
+   },
+   {
+    "q": "A director holds 3% shares of a supplier company. When the board considers a contract with that supplier, he must:",
+    "options": [
+     "Vote in favour",
+     "Resign",
+     "Disclose interest and not participate",
+     "Seek members' permission only"
+    ],
+    "answer": 2,
+    "explain": "Section 184(2) requires disclosure and abstention where his and relatives' holding exceeds 2%."
+   },
+   {
+    "q": "A company gives a loan to a private company in which its director is a member. This is permitted if:",
+    "options": [
+     "The board approves",
+     "Never",
+     "The ROC approves",
+     "A special resolution is passed and funds are used for the borrower's principal business"
+    ],
+    "answer": 3,
+    "explain": "Section 185(2) permits such loans with a special resolution and use for principal business activities."
+   },
+   {
+    "q": "Which person is required to be a resident director?",
+    "options": [
+     "A director holding Indian passport",
+     "A director who stayed in India at least 182 days in the financial year",
+     "A director with Aadhaar",
+     "A director residing within the city of registered office"
+    ],
+    "answer": 1,
+    "explain": "Section 149(3) requires at least one director who has stayed in India 182 days or more during the financial year."
+   }
+  ],
+  "desc": {
+   "q": "Shareholders of Lambda Ltd want to remove Mr P, a non-executive director, before expiry of his term, alleging poor performance. Mr P wants to contest. Advise on the procedure and his rights.",
+   "points": [
+    "Removal is by ordinary resolution under s.169 after special notice under s.115 by members holding at least 1% voting power or ₹5 lakh paid-up, given at least 14 days before the meeting.",
+    "On receipt, the company must send a copy to Mr P, who has a right to be heard at the meeting.",
+    "Mr P may make written representations which the company must circulate to members (or read at the meeting if received late), unless the Tribunal finds abuse.",
+    "Removal is not available if he was appointed by proportional representation under s.163.",
+    "The vacancy may be filled at the same meeting with special notice; Mr P is not entitled to compensation for loss of office except as per contract, and DIR-12 is filed with ROC."
+   ]
+  }
+ },
+ "p2c15": {
+  "notes": [
+   {
+    "topic": "Board composition & powers",
+    "note": "Under s.179 the board may exercise all powers the company can exercise, except those reserved for members by the Act or articles, and certain powers must be exercised only at board meetings, such as making calls, buyback authorisation, issuing securities, borrowing, investing funds, granting loans, approving financial statements and the board's report, diversification and amalgamation. Some of these may be delegated to a committee, MD or manager. Composition rules come from s.149 and, for listed entities, regulation 17 of SEBI LODR."
+   },
+   {
+    "topic": "restrictions",
+    "note": "Section 180 requires a special resolution of members before the board of a company sells or disposes of an undertaking, invests compensation from mergers, borrows beyond paid-up capital, free reserves and securities premium (temporary loans excluded), or remits debts due from directors. Section 181-182 limit charitable contributions (beyond 5% of average net profits needs members' approval) and political contributions (barred for government companies and companies less than three years old). The board's powers are subject to these constraints."
+   },
+   {
+    "topic": "committees",
+    "note": "Mandatory board committees include the Audit Committee (s.177, with a majority of independent directors and financially literate members), Nomination and Remuneration Committee (s.178, at least three non-executive directors with half independent), Stakeholders Relationship Committee (s.178(5) for companies with more than 1,000 security holders) and CSR Committee (s.135). Listed entities also need a Risk Management Committee (top 1,000) under LODR regulation 21. The audit committee approves related party transactions and oversees vigil mechanisms."
+   },
+   {
+    "topic": "inter-corporate loans & investments",
+    "note": "Section 186 caps loans, guarantees, securities and investments at 60% of paid-up capital, free reserves and securities premium or 100% of free reserves and premium, whichever is more; beyond this requires a special resolution. Loans must carry interest at least equal to the prevailing yield on government securities of comparable tenor, and investments are restricted to two layers of investment companies. Unanimous board approval at a meeting is needed, and banks, insurers and NBFCs in their ordinary business are exempt."
+   },
+   {
+    "topic": "related party transactions",
+    "note": "Section 188 requires board consent for contracts with related parties (s.2(76)) such as sale or purchase of goods, leasing, and appointment to an office of profit, and prior members' ordinary resolution where prescribed thresholds (e.g., 10% of turnover) are crossed, with related parties not voting. Transactions in the ordinary course of business and at arm's length are exempt. Listed entities additionally follow LODR regulation 23, requiring audit committee approval and shareholder approval for material RPTs exceeding ₹1,000 crore or 10% of consolidated turnover."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A company's paid-up capital, free reserves and premium are ₹50 crore. The board wants to borrow ₹70 crore from a bank (excluding temporary loans). It needs:",
+    "options": [
+     "Special resolution under s.180(1)(c)",
+     "Board resolution only",
+     "Ordinary resolution",
+     "Tribunal approval"
+    ],
+    "answer": 0,
+    "explain": "Borrowing beyond paid-up capital, free reserves and securities premium needs members' special resolution."
+   },
+   {
+    "q": "A listed company proposes a contract with its promoter group entity at arm's length in the ordinary course of business. Under LODR, it needs:",
+    "options": [
+     "No approval at all",
+     "Tribunal approval",
+     "Prior audit committee approval",
+     "Central Government approval"
+    ],
+    "answer": 2,
+    "explain": "Regulation 23 requires prior audit committee approval for all RPTs of listed entities."
+   },
+   {
+    "q": "A company with paid-up capital ₹10 crore, free reserves ₹20 crore and premium ₹5 crore wants to invest ₹25 crore in another company. Limit under s.186 is:",
+    "options": [
+     "₹21 crore",
+     "₹15 crore",
+     "₹35 crore",
+     "₹25 crore"
+    ],
+    "answer": 3,
+    "explain": "The limit is higher of 60% of ₹35 crore (₹21 crore) or 100% of free reserves and premium (₹25 crore)."
+   },
+   {
+    "q": "Which company must constitute a Stakeholders Relationship Committee?",
+    "options": [
+     "Every private company",
+     "A company with more than 1,000 security holders",
+     "Only government companies",
+     "A company with turnover above ₹100 crore"
+    ],
+    "answer": 1,
+    "explain": "Section 178(5) applies to companies with more than 1,000 shareholders, debenture holders, deposit holders or other security holders."
+   },
+   {
+    "q": "A company incorporated two years ago wants to make a political contribution. It:",
+    "options": [
+     "Cannot contribute as it is less than three years old",
+     "Can contribute up to 7.5% of profits",
+     "Can contribute with Board approval",
+     "Can contribute with ROC approval"
+    ],
+    "answer": 0,
+    "explain": "Section 182(1) bars companies in existence for less than three financial years."
+   },
+   {
+    "q": "Which power must be exercised by the board only at a meeting?",
+    "options": [
+     "Approving a routine vendor payment",
+     "Sending notice of AGM",
+     "Approving the financial statements",
+     "Signing share certificates"
+    ],
+    "answer": 2,
+    "explain": "Section 179(3)(g) lists approval of financial statements and the board's report as a meeting-only power."
+   }
+  ],
+  "desc": {
+   "q": "Mu Ltd (unlisted public) proposes to (a) give a loan of ₹40 crore to its subsidiary at 4% interest and (b) lease a building from a firm in which its MD is a partner. Advise on the compliances under the Act.",
+   "points": [
+    "The loan to the subsidiary falls under s.186; check the limit (higher of 60% of paid-up capital, free reserves and premium, or 100% of free reserves and premium) and pass a special resolution if it is exceeded, unless the borrower is a wholly owned subsidiary, for which the special resolution is not needed.",
+    "Unanimous board approval at a meeting and prior consent of the lending institution if any term loan default/existing loan exists (s.186(5)).",
+    "Interest must not be lower than the prevailing yield on government securities of the nearest tenor (s.186(7)); 4% is likely below that and should be revised.",
+    "The lease with the MD's firm is a related party transaction under s.188; board approval with the MD not participating, and members' ordinary resolution if thresholds are crossed unless it is at arm's length in the ordinary course.",
+    "Record in register MBP-4, disclose in the board's report (AOC-2) and file MGT-14 where applicable."
+   ]
+  }
+ },
+ "p2c16": {
+  "notes": [
+   {
+    "topic": "Convening & proceedings",
+    "note": "Under s.173 the first board meeting is held within 30 days of incorporation and thereafter at least four meetings a year with a gap of no more than 120 days (small companies, OPCs and dormant companies need two, one in each half-year). Notice of at least seven days in writing is given to every director; shorter notice is allowed for urgent business if at least one independent director is present or ratifies. Quorum under s.174 is one-third of total strength or two directors, whichever is higher, with directors attending by video conferencing counted."
+   },
+   {
+    "topic": "agenda",
+    "note": "The agenda lists items of business with notes giving material information so directors can decide; under SS-1 it is circulated at least seven days before the meeting. Unpublished price-sensitive information may be circulated at shorter notice with consent of a majority of directors including an independent director. Items not on the agenda (any other business) may be taken only with the chairman's permission and consent of a majority of directors present."
+   },
+   {
+    "topic": "resolution by circulation",
+    "note": "Under s.175 a resolution may be passed by circulation if the draft and necessary papers are sent to all directors and approved by a majority of directors entitled to vote. If one-third or more of the directors require it, the resolution must be decided at a meeting. It is noted at the next board meeting and recorded in the minutes, but powers reserved for meetings under s.179(3) cannot be exercised this way."
+   },
+   {
+    "topic": "CS duties",
+    "note": "Under s.205 the Company Secretary reports to the board on compliance with the Act and rules, ensures compliance with secretarial standards, and discharges other prescribed duties. In practice the CS drafts notices and agenda, ensures quorum, records proceedings, maintains statutory registers and files forms. The CS also guides directors on their duties and facilitates board evaluation."
+   },
+   {
+    "topic": "SS-1",
+    "note": "Secretarial Standard on Meetings of the Board (SS-1) is mandatory under s.118(10) and applies to board and committee meetings. It requires, among other things, serial numbering of meetings, attendance register, circulation of draft minutes within 15 days for comments within 7 days, and entry of minutes in the minute book within 30 days. It also prescribes conditions for meetings through video conferencing and for resolution by circulation."
+   },
+   {
+    "topic": "drafting notice, agenda & minutes",
+    "note": "A board notice should give serial number, date, day, time, venue and VC option, and be accompanied by the agenda and notes with draft resolutions. Minutes should record the names of directors present, the chairman, leave of absence, items discussed in brief, decisions and dissent, and must be signed by the chairman at the next meeting or within 30 days. Example operative text: 'RESOLVED THAT the unaudited financial results for the quarter ended ... be and are hereby approved'."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A company has 8 directors. The quorum for its board meeting is:",
+    "options": [
+     "2",
+     "5",
+     "4",
+     "3"
+    ],
+    "answer": 3,
+    "explain": "Section 174(1) requires one-third of total strength (8/3 rounded up = 3) or two, whichever higher."
+   },
+   {
+    "q": "A board meeting was held on 1 January. The next must be held no later than:",
+    "options": [
+     "1 March",
+     "1 May",
+     "1 April",
+     "1 July"
+    ],
+    "answer": 1,
+    "explain": "Section 173(1) limits the gap between two meetings to 120 days."
+   },
+   {
+    "q": "Draft minutes of a board meeting must be circulated to directors within:",
+    "options": [
+     "15 days",
+     "7 days",
+     "30 days",
+     "45 days"
+    ],
+    "answer": 0,
+    "explain": "SS-1 requires circulation of draft minutes within 15 days of the meeting."
+   },
+   {
+    "q": "A resolution by circulation is sent to 9 directors; 3 directors require it to be decided at a meeting. Result:",
+    "options": [
+     "It is passed if majority approve",
+     "It is passed automatically",
+     "The chairman must put it to a board meeting",
+     "It is void"
+    ],
+    "answer": 2,
+    "explain": "Section 175(1) proviso requires a meeting where one-third or more directors so demand."
+   },
+   {
+    "q": "Which item can NOT be approved by circulation?",
+    "options": [
+     "Opening a branch office",
+     "Change of bank signatories",
+     "Approval of a vendor contract",
+     "Approval of financial statements"
+    ],
+    "answer": 3,
+    "explain": "Section 179(3) powers, including approval of financial statements, must be exercised at a meeting."
+   },
+   {
+    "q": "A board meeting is called at short notice for urgent business. No independent director attends. The decision is:",
+    "options": [
+     "Final immediately",
+     "Final only if ratified by at least one independent director",
+     "Void",
+     "Valid only with members' approval"
+    ],
+    "answer": 1,
+    "explain": "Section 173(3) proviso requires circulation and ratification by an independent director in such cases."
+   }
+  ],
+  "desc": {
+   "q": "As CS of Nova Ltd, you must convene a board meeting to approve the quarterly results and a proposed investment in a subsidiary. Prepare the essential steps from notice to minutes.",
+   "points": [
+    "Issue notice with serial number, date, time, venue and VC option at least 7 days in advance to all directors (s.173(3)), and intimate stock exchanges where required under LODR.",
+    "Circulate agenda with notes and draft resolutions at least 7 days before (SS-1); results may be circulated at shorter notice as UPSI with required consent.",
+    "Ensure quorum under s.174 and record attendance; the investment under s.186 needs unanimous approval of directors present.",
+    "Record proceedings, decisions and dissent; circulate draft minutes within 15 days for comments within 7 days.",
+    "Sign minutes within 30 days and file MGT-14 where required; disclose outcome to stock exchanges within the prescribed time."
+   ]
+  }
+ },
+ "p2c17": {
+  "notes": [
+   {
+    "topic": "CSR committee",
+    "note": "Section 135 applies to companies with net worth of ₹500 crore, turnover of ₹1,000 crore or net profit of ₹5 crore in the preceding financial year. They constitute a CSR Committee of three or more directors including at least one independent director; a company not required to appoint an independent director need not have one, and a private company with only two directors may have a two-member committee. If the CSR obligation does not exceed ₹50 lakh, the board itself can discharge the committee's functions."
+   },
+   {
+    "topic": "policy",
+    "note": "The CSR Committee formulates and recommends a CSR policy and an annual action plan covering projects, execution modalities, fund allocation, monitoring and impact assessment. The board approves the policy and discloses its contents in the board's report and on the website. The policy should exclude activities in the normal course of business and those benefiting only employees."
+   },
+   {
+    "topic": "expenditure",
+    "note": "The company must spend at least 2% of average net profits of the three immediately preceding financial years on CSR. Unspent amounts not relating to ongoing projects must be transferred to a Schedule VII fund within six months of year-end; excess spend can be set off over the next three years. Administrative overheads are capped at 5% of total CSR expenditure, and surplus from CSR activities cannot become business profit."
+   },
+   {
+    "topic": "activities",
+    "note": "Activities must fall within Schedule VII, such as eradicating hunger, promoting education, gender equality, environmental sustainability, rural development, disaster management and contributions to specified funds like PM CARES. Implementation can be direct, through a section 8 company, registered trust or society with CSR-1 registration, or in collaboration. Activities only for employees, political contributions and one-off sponsorship events for marketing do not count."
+   },
+   {
+    "topic": "ongoing projects",
+    "note": "An ongoing project is a multi-year project with a timeline not exceeding three years excluding the year of commencement. Unspent amounts for ongoing projects are transferred to an Unspent CSR Account within 30 days of year-end and spent within three financial years, after which any balance goes to a Schedule VII fund within 30 days. This allows long-term projects such as building a school without immediate lapse."
+   },
+   {
+    "topic": "impact assessment",
+    "note": "Companies with an average CSR obligation of ₹10 crore or more in the three preceding years must undertake impact assessment through an independent agency for projects of ₹1 crore or more completed at least a year ago. The report is placed before the board and annexed to the annual CSR report. Expenditure on impact assessment can be booked as CSR within the higher of 2% of the year's CSR spend or ₹50 lakh."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A company had a net profit of ₹6 crore in the preceding year but turnover and net worth below thresholds. CSR is:",
+    "options": [
+     "Applicable",
+     "Not applicable",
+     "Applicable only if listed",
+     "Applicable after three years"
+    ],
+    "answer": 0,
+    "explain": "Section 135(1) applies if any one criterion, including net profit of ₹5 crore, is met."
+   },
+   {
+    "q": "A company's CSR obligation is ₹40 lakh. Must it constitute a CSR Committee?",
+    "options": [
+     "Yes, always",
+     "Yes, with two independent directors",
+     "No, the board can perform its functions",
+     "No, CSR is not applicable"
+    ],
+    "answer": 2,
+    "explain": "Section 135(9) exempts a committee where the amount does not exceed ₹50 lakh."
+   },
+   {
+    "q": "Unspent CSR for an ongoing project must be transferred to the Unspent CSR Account within:",
+    "options": [
+     "7 days",
+     "One year",
+     "Six months",
+     "30 days of the end of the financial year"
+    ],
+    "answer": 3,
+    "explain": "Section 135(6) requires transfer within 30 days from the end of the financial year."
+   },
+   {
+    "q": "Which activity is eligible for CSR?",
+    "options": [
+     "Sponsoring a marketing event for the company's brand",
+     "Building a school in a rural district",
+     "Medical insurance for employees only",
+     "Contribution to a political party"
+    ],
+    "answer": 1,
+    "explain": "Promoting education is a Schedule VII activity; employee-only and political spends are excluded."
+   },
+   {
+    "q": "The cap on administrative overheads in CSR spending is:",
+    "options": [
+     "5%",
+     "2%",
+     "10%",
+     "15%"
+    ],
+    "answer": 0,
+    "explain": "Rule 7 of CSR Rules limits administrative overheads to 5% of total CSR expenditure."
+   },
+   {
+    "q": "Impact assessment is mandatory for a company with average CSR obligation of at least:",
+    "options": [
+     "₹1 crore",
+     "₹5 crore",
+     "₹10 crore",
+     "₹50 crore"
+    ],
+    "answer": 2,
+    "explain": "Rule 8(3) of CSR Rules applies to companies with average CSR obligation of ₹10 crore or more."
+   }
+  ],
+  "desc": {
+   "q": "Pi Ltd's CSR obligation for FY 2026-27 is ₹3 crore. It spent ₹1.5 crore; ₹1 crore is committed to a three-year ongoing school project and ₹0.5 crore is simply unspent. Advise on the treatment and disclosure.",
+   "points": [
+    "CSR obligation is 2% of average net profits of the three preceding years under s.135(5).",
+    "₹1 crore for the ongoing project must go to an Unspent CSR Account within 30 days of year-end and be spent within three years (s.135(6)).",
+    "The other ₹0.5 crore not linked to an ongoing project must be transferred to a Schedule VII fund within six months of year-end (s.135(5) proviso).",
+    "Board's report must disclose the CSR policy, annual report on CSR activities, and reasons for unspent amounts.",
+    "Non-compliance attracts penalty on the company (twice the unspent amount or ₹1 crore, whichever is less) and on officers in default."
+   ]
+  }
+ },
+ "p2c18": {
+  "notes": [
+   {
+    "topic": "Board's report",
+    "note": "Under s.134(3) the board's report covers matters such as the web link of the annual return, number of board meetings, directors' responsibility statement, statement on independent directors' declarations, policy on appointment and remuneration, explanations on auditor qualifications, loans and investments, RPTs (AOC-2), state of affairs, dividend, reserves, material changes, energy conservation and CSR. It is approved by the board and signed by the chairperson if authorised, or by at least two directors including the MD. One Person Companies and small companies get an abridged format under rule 8A."
+   },
+   {
+    "topic": "annual return",
+    "note": "Under s.92 every company files an annual return in MGT-7 (MGT-7A for OPCs and small companies) within 60 days of the AGM, with details of registered office, business, shareholding, members, directors, KMP, meetings and remuneration. A listed company or one with paid-up capital of ₹10 crore or turnover of ₹50 crore needs certification by a practising CS in MGT-8. The return must also be placed on the company's website, if it has one."
+   },
+   {
+    "topic": "annual report",
+    "note": "The annual report bundles the financial statements, auditor's report, board's report and annexures, and for listed entities the corporate governance report, management discussion and analysis and business responsibility and sustainability report (top 1,000) under LODR. It is sent to members at least 21 days before the AGM and may be sent electronically. Under s.136 members may also obtain copies and inspect at the registered office."
+   },
+   {
+    "topic": "SS on Board's report",
+    "note": "ICSI's Secretarial Standard on Board's Report (SS-4) was issued as a recommendatory standard to standardise the content and presentation of the report. It suggests a structured format, disclosure of material events and the signing procedure. Though not mandatory, it is useful guidance for drafting."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Annual return must be filed with ROC within:",
+    "options": [
+     "30 days of AGM",
+     "15 days of AGM",
+     "90 days of AGM",
+     "60 days of AGM"
+    ],
+    "answer": 3,
+    "explain": "Section 92(4) requires filing within 60 days from the date of the AGM."
+   },
+   {
+    "q": "A private company with turnover of ₹70 crore files its annual return. Certification by a practising CS in MGT-8 is:",
+    "options": [
+     "Not required",
+     "Required",
+     "Required only if listed",
+     "Optional"
+    ],
+    "answer": 1,
+    "explain": "Rule 11(2) requires MGT-8 certification for companies with turnover of ₹50 crore or more."
+   },
+   {
+    "q": "Which document is NOT part of the board's report under s.134?",
+    "options": [
+     "Prospectus",
+     "Particulars of RPTs in AOC-2",
+     "Statement on declarations by independent directors",
+     "Directors' responsibility statement"
+    ],
+    "answer": 0,
+    "explain": "A prospectus is an offer document, not a board's report matter."
+   },
+   {
+    "q": "Board's report must be signed by:",
+    "options": [
+     "The CS alone",
+     "The auditor",
+     "The chairperson if authorised, or at least two directors one of whom is MD",
+     "The CFO"
+    ],
+    "answer": 2,
+    "explain": "Section 134(6) prescribes the signing requirement."
+   },
+   {
+    "q": "A small company may prepare its board's report in:",
+    "options": [
+     "Full format only",
+     "Only an annual return",
+     "No board's report needed",
+     "Abridged format under rule 8A"
+    ],
+    "answer": 3,
+    "explain": "Rule 8A provides an abridged board's report for OPCs and small companies."
+   },
+   {
+    "q": "Annual report must be sent to members at least:",
+    "options": [
+     "7 days before AGM",
+     "21 days before AGM",
+     "14 days before AGM",
+     "30 days before AGM"
+    ],
+    "answer": 1,
+    "explain": "Section 136(1) requires copies to be sent not less than 21 days before the meeting."
+   }
+  ],
+  "desc": {
+   "q": "The auditor of Rho Ltd has qualified the accounts on non-provision of doubtful debts and reported a fraud below ₹1 crore to the audit committee. As CS, explain how the board's report should deal with these matters, along with its approval and filing.",
+   "points": [
+    "Under s.134(3)(f) the board must give explanations or comments on every qualification, reservation or adverse remark by the auditor.",
+    "Details of frauds reported by auditors under s.143(12) (other than those reported to Central Government) must be disclosed under s.134(3)(ca).",
+    "Include other mandatory disclosures: meetings held, directors' responsibility statement, RPTs in AOC-2, CSR report, and web link of annual return.",
+    "Approve at a board meeting (s.179(3)) and sign as per s.134(6).",
+    "Attach to financial statements filed in AOC-4 within 30 days of AGM and send to members 21 days before AGM."
+   ]
+  }
+ },
+ "p2c19": {
+  "notes": [
+   {
+    "topic": "KMP appointment",
+    "note": "Key Managerial Personnel under s.2(51) are the CEO or MD or manager, the CS, the WTD, the CFO, other officers up to one level below directors who are whole-time and designated by the board, and others prescribed. Under s.203 and rule 8, listed companies and public companies with paid-up capital of ₹10 crore or more must appoint whole-time KMP, by board resolution, with terms and remuneration; a vacancy must be filled within six months. Private companies with paid-up capital of ₹10 crore or more must appoint a whole-time CS (rule 8A)."
+   },
+   {
+    "topic": "MD, WTD, CEO, CFO",
+    "note": "An MD (s.2(54)) has substantial powers of management, and a WTD (s.2(94)) is a director in whole-time employment. Appointment under s.196 is for a term of up to five years, with age limits of 21 to 70 years (beyond 70 needs a special resolution) and the conditions in Schedule V Part I; the appointment is approved by the board and members and filed in MR-1 within 60 days. A company cannot have both an MD and a manager at the same time, and a person may be MD of at most two companies with unanimous board consent under s.203(3)."
+   },
+   {
+    "topic": "Company Secretary role",
+    "note": "A Company Secretary (s.2(24)) is a member of ICSI appointed to perform secretarial functions, and is a KMP and an officer in default. Under s.205 the CS reports to the board on compliance, ensures adherence to secretarial standards and discharges prescribed duties, while under LODR the CS acts as compliance officer of a listed entity. A whole-time CS cannot hold office in more than one company except in its subsidiary."
+   },
+   {
+    "topic": "officer in default",
+    "note": "Section 2(60) lists officers liable for defaults: whole-time directors, KMP, any person specified by the board, persons on whose advice the board acts, any director aware of a contravention through board proceedings who did not object, and share transfer agents for issue or transfer of shares. In the absence of KMP, all directors may be liable. This is key in deciding who bears penalty for a filing failure."
+   },
+   {
+    "topic": "managerial remuneration",
+    "note": "Under s.197 total managerial remuneration of a public company cannot exceed 11% of net profits (computed per s.198), with individual limits of 5% for one MD/WTD/manager, 10% for all of them, and 1% (or 3% without an MD/WTD) for non-executive directors, exceedable with a special resolution. In case of inadequate or no profits, remuneration is governed by Schedule V Part II with limits based on effective capital, or higher with a special resolution. Sitting fees cannot exceed ₹1 lakh per meeting, and excess remuneration must be refunded, held in trust till recovery."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A public company proposes to appoint a 72-year-old person as MD. It needs:",
+    "options": [
+     "Special resolution with justification in the explanatory statement",
+     "Board resolution only",
+     "Tribunal approval",
+     "Not permitted at all"
+    ],
+    "answer": 0,
+    "explain": "Section 196(3)(a) allows appointment beyond 70 years with a special resolution."
+   },
+   {
+    "q": "The CFO of a listed company resigns on 1 April. The vacancy must be filled by:",
+    "options": [
+     "30 April",
+     "30 June",
+     "1 October (within six months)",
+     "Next AGM"
+    ],
+    "answer": 2,
+    "explain": "Section 203(4) requires filling the vacancy within six months."
+   },
+   {
+    "q": "The overall managerial remuneration limit for a public company (without special resolution) is:",
+    "options": [
+     "5% of net profits",
+     "10% of net profits",
+     "15% of net profits",
+     "11% of net profits"
+    ],
+    "answer": 3,
+    "explain": "Section 197(1) caps total remuneration at 11% of net profits computed under s.198."
+   },
+   {
+    "q": "The maximum sitting fee per board meeting payable to a director is:",
+    "options": [
+     "₹50,000",
+     "₹1 lakh",
+     "₹2 lakh",
+     "No limit"
+    ],
+    "answer": 1,
+    "explain": "Rule 4 of the Managerial Remuneration Rules caps sitting fees at ₹1 lakh per meeting."
+   },
+   {
+    "q": "A company fails to file AOC-4. It has no KMP and the board has specified no one. Who is the officer in default?",
+    "options": [
+     "All the directors",
+     "Only the auditor",
+     "Only the chairman",
+     "Nobody"
+    ],
+    "answer": 0,
+    "explain": "Section 2(60) provides that where no KMP or specified person exists, all directors are officers in default."
+   },
+   {
+    "q": "A person is already MD of one company. He can become MD of a second company if:",
+    "options": [
+     "Members pass ordinary resolution",
+     "ROC approves",
+     "The board approves by unanimous consent at a meeting",
+     "He resigns the first"
+    ],
+    "answer": 2,
+    "explain": "Section 203(3) proviso permits MD of another company with unanimous board consent at a meeting."
+   }
+  ],
+  "desc": {
+   "q": "Sigma Ltd (public, unlisted) has made a loss this year but wants to pay its new WTD remuneration of ₹1.5 crore per annum. Its effective capital is ₹80 crore. Advise.",
+   "points": [
+    "Where profits are inadequate or nil, remuneration is governed by s.197(3) read with Schedule V Part II.",
+    "For effective capital between ₹5 crore and ₹100 crore, the Schedule V yearly limit is ₹84 lakh, which may be doubled to ₹1.68 crore by special resolution; ₹1.5 crore exceeds the base limit but is within the doubled limit, so a special resolution is required.",
+    "Conditions: board approval with NRC recommendation, no default in repayment of debts or obtain lenders' prior approval, and a statement with information under Schedule V in the notice.",
+    "Appointment for term up to 5 years under s.196, with MR-1 filed within 60 days.",
+    "Excess remuneration paid without approvals must be refunded and held in trust for the company."
+   ]
+  }
+ }
+}
