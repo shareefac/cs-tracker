@@ -1,0 +1,1898 @@
+{
+ "p1c1": {
+  "notes": [
+   {
+    "topic": "Meaning & significance of law",
+    "note": "Law is a body of rules recognised and enforced by the State to regulate human conduct, backed by sanction. It brings order, predictability and justice, and allows people and businesses to plan with certainty. Example: company law rules on board approvals let investors know in advance how decisions will be taken."
+   },
+   {
+    "topic": "schools of law (Austin, Pound, Salmond, Kelsen, Savigny, Bentham)",
+    "note": "Austin (analytical/imperative school) saw law as a command of the sovereign backed by sanction; Bentham (utilitarian) judged law by the greatest happiness of the greatest number; Salmond defined law as principles recognised and applied by the State in the administration of justice. Kelsen's pure theory traces every norm back to a basic norm (Grundnorm) in a hierarchy; Savigny's historical school says law grows from the spirit of the people (Volksgeist) and is found, not made; Pound's sociological school treats law as social engineering that balances competing interests."
+   },
+   {
+    "topic": "statutes, custom, precedent, stare decisis",
+    "note": "Legislation (statutes, including delegated legislation) is the main modern source of law. Custom becomes law only if it is ancient, certain, reasonable, continuous and not opposed to statute or public policy. Precedent works through stare decisis ('stand by what is decided'): the ratio decidendi binds lower courts, obiter dicta are only persuasive, and under Article 141 of the Constitution the law declared by the Supreme Court binds all courts in India."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A jurist argues that a municipal by-law is valid because it is authorised by a State Act, which is authorised by the Constitution, which rests on a presupposed basic norm. Whose theory is this?",
+    "options": [
+     "Savigny",
+     "Pound",
+     "Bentham",
+     "Kelsen"
+    ],
+    "answer": 3,
+    "explain": "Kelsen's pure theory validates each norm through a hierarchy that ends in the Grundnorm."
+   },
+   {
+    "q": "A village practice of closing a public path to outsiders has been followed for 80 years, but the court finds it unreasonable and against public policy. The practice is:",
+    "options": [
+     "Binding as an ancient custom",
+     "Binding only on villagers",
+     "Not valid law, since a custom must be reasonable and consistent with public policy",
+     "Valid until repealed by statute"
+    ],
+    "answer": 2,
+    "explain": "A custom is recognised only if, besides antiquity and continuity, it is reasonable and not opposed to law or public policy."
+   },
+   {
+    "q": "While deciding a tax case, a Supreme Court judge makes a passing remark about partnership law that was not needed to decide the case. For a High Court, this remark is:",
+    "options": [
+     "Obiter dictum, of persuasive value only",
+     "Ratio decidendi, binding",
+     "Res judicata",
+     "Of no value at all"
+    ],
+    "answer": 0,
+    "explain": "Only the ratio binds under stare decisis; obiter of the Supreme Court is highly persuasive but not the ratio."
+   },
+   {
+    "q": "A District Judge disagrees with a recent Supreme Court ruling squarely on the issue before him. He must:",
+    "options": [
+     "Follow it under Article 141",
+     "Refer it to the High Court for reconsideration",
+     "Follow it only if the parties agree",
+     "Ignore it if a foreign court has taken a different view"
+    ],
+    "answer": 0,
+    "explain": "Article 141 makes law declared by the Supreme Court binding on all courts within India."
+   },
+   {
+    "q": "Which thinker described law as a tool of 'social engineering' that balances individual, public and social interests?",
+    "options": [
+     "Austin",
+     "Salmond",
+     "Savigny",
+     "Roscoe Pound"
+    ],
+    "answer": 3,
+    "explain": "Pound's sociological jurisprudence views law as social engineering for balancing interests."
+   },
+   {
+    "q": "A student says 'law is not made by legislators but grows out of the common consciousness of a people, like language.' This reflects:",
+    "options": [
+     "Analytical school",
+     "Utilitarian school",
+     "Historical school of Savigny",
+     "Realist school"
+    ],
+    "answer": 2,
+    "explain": "Savigny's historical school locates the source of law in the Volksgeist."
+   }
+  ],
+  "desc": {
+   "q": "A Division Bench of a High Court is hearing a case where (i) a Supreme Court judgment directly covers the point but the Bench feels it was wrongly decided, and (ii) a Full Bench (five judges) of the same High Court has earlier taken a view on a related issue. Explain how the doctrine of precedent guides the Bench.",
+   "points": [
+    "Under Article 141, the ratio of the Supreme Court judgment binds the High Court; it cannot refuse to follow it even if it thinks it is wrong.",
+    "Only the Supreme Court, through a larger bench, can overrule or reconsider its own earlier ruling; the High Court may at most note its reservations.",
+    "Within the High Court, a smaller bench is bound by the decision of a larger bench; the Division Bench must follow the Full Bench view.",
+    "If the Division Bench doubts the Full Bench view, the proper course is to refer the matter to a still larger bench through the Chief Justice, not to depart from it.",
+    "Only the ratio decidendi binds; observations in either judgment that were not necessary for the decision (obiter) are persuasive."
+   ]
+  }
+ },
+ "p1c2": {
+  "notes": [
+   {
+    "topic": "Framework",
+    "note": "The Constitution was adopted on 26 November 1949 and came fully into force on 26 January 1950, declaring India a sovereign, socialist, secular, democratic republic. It sets up a quasi-federal, parliamentary system with a written constitution, an independent judiciary and judicial review. Under the basic structure doctrine (Kesavananda Bharati, 1973), Parliament's amending power under Article 368 cannot destroy core features such as rule of law, federalism or judicial review."
+   },
+   {
+    "topic": "fundamental rights, DPSP, duties",
+    "note": "Fundamental Rights (Part III, Articles 12-35) are enforceable against the 'State' as defined in Article 12; key ones are equality (Art 14), freedoms of citizens (Art 19) and life and personal liberty (Art 21, available to all persons). Directive Principles (Part IV, Articles 36-51) are not enforceable in court (Art 37) but are fundamental in governance, and Fundamental Duties are in Article 51A (added by the 42nd Amendment, 1976). Example: a company cannot itself claim Article 19 rights as it is not a citizen, though its shareholders may."
+   },
+   {
+    "topic": "union & state powers",
+    "note": "Articles 245-246 and the Seventh Schedule divide legislative subjects into Union, State and Concurrent Lists, with residuary power with Parliament (Art 248). On a Concurrent subject, central law prevails over a repugnant State law (Art 254(1)), unless the State law was reserved for and received the President's assent (Art 254(2)). Parliament can also legislate on State subjects in special cases, e.g., a Rajya Sabha resolution (Art 249), emergency (Art 250), request of two or more States (Art 252) or to implement treaties (Art 253)."
+   },
+   {
+    "topic": "judiciary",
+    "note": "The Supreme Court (Art 124) has writ jurisdiction (Art 32), original jurisdiction in Centre-State disputes (Art 131), wide appellate power including special leave (Art 136) and advisory jurisdiction (Art 143). High Courts have writ powers under Article 226 and superintendence over subordinate courts under Article 227, while subordinate courts are governed by Articles 233-237. Independence is protected by security of tenure, removal only by a special parliamentary process and salaries charged on the Consolidated Fund."
+   },
+   {
+    "topic": "legislative process",
+    "note": "An ordinary bill may start in either House, must pass both and then receive the President's assent (Art 111). A Money Bill (Art 110) can be introduced only in the Lok Sabha on the President's recommendation, and the Rajya Sabha can only make recommendations within 14 days. Deadlocks on ordinary bills are resolved by a joint sitting (Art 108), which is not available for Money Bills or constitutional amendments; when Parliament is not in session, the President may issue ordinances (Art 123), as Governors may under Article 213."
+   },
+   {
+    "topic": "writs",
+    "note": "Article 32 (itself a fundamental right) lets a person move the Supreme Court for enforcement of Fundamental Rights, while Article 226 lets High Courts issue writs for Fundamental Rights and 'for any other purpose', making it wider. The five writs are habeas corpus (produce a detained person), mandamus (compel a public duty), prohibition (stop a lower court/tribunal exceeding jurisdiction), certiorari (quash an order already made without jurisdiction or in breach of natural justice) and quo warranto (question a person's right to hold a public office). Example: quo warranto lies against a person appointed to a statutory post without the required qualification."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A State law on a Concurrent List subject conflicts with an earlier central law. The State law was reserved for and received the President's assent. In that State:",
+    "options": [
+     "The central law prevails in all cases",
+     "The State law prevails, subject to Parliament's power to amend or repeal it later",
+     "Both laws are void to the extent of conflict",
+     "The matter must go to the Supreme Court under Article 143"
+    ],
+    "answer": 1,
+    "explain": "Article 254(2) allows a State law with Presidential assent to prevail in that State, subject to the proviso enabling Parliament to override it."
+   },
+   {
+    "q": "A foreign-incorporated company in India files a writ claiming violation of the freedom to carry on business under Article 19(1)(g). The petition will most likely:",
+    "options": [
+     "Succeed, as every person has Article 19 rights",
+     "Succeed only if the company is listed in India",
+     "Fail, because Article 19 rights are available only to citizens",
+     "Fail, because writs cannot be filed against the government"
+    ],
+    "answer": 2,
+    "explain": "Article 19 freedoms are guaranteed only to citizens; corporations are not citizens."
+   },
+   {
+    "q": "The Rajya Sabha wants to reject a Money Bill passed by the Lok Sabha. What is the constitutional position?",
+    "options": [
+     "It can reject it outright",
+     "It can delay it for six months",
+     "It can send it to a joint sitting",
+     "It can only make recommendations within 14 days, which the Lok Sabha may ignore"
+    ],
+    "answer": 3,
+    "explain": "Article 109 limits the Rajya Sabha to recommendations within 14 days on a Money Bill."
+   },
+   {
+    "q": "A person is appointed Chairman of a statutory board without having the qualifications required by the Act. The suitable writ is:",
+    "options": [
+     "Mandamus",
+     "Habeas corpus",
+     "Prohibition",
+     "Quo warranto"
+    ],
+    "answer": 3,
+    "explain": "Quo warranto tests the legal authority of a person holding a public office."
+   },
+   {
+    "q": "A foreign tourist is detained by police without any legal procedure. Can he invoke Article 21?",
+    "options": [
+     "Yes, Article 21 protects every person",
+     "No, Article 21 is only for citizens",
+     "Only if his embassy consents",
+     "Only under Article 226, not Article 32"
+    ],
+    "answer": 0,
+    "explain": "Article 21 uses the word 'person', so it extends to non-citizens."
+   },
+   {
+    "q": "A joint sitting of both Houses under Article 108 CANNOT be called for which of the following?",
+    "options": [
+     "An ordinary bill rejected by the Rajya Sabha",
+     "An ordinary bill on which the Houses disagree about amendments",
+     "A bill to amend the Constitution under Article 368",
+     "An ordinary bill not passed by the other House within six months"
+    ],
+    "answer": 2,
+    "explain": "Joint sittings apply only to ordinary bills; Constitution amendment bills must pass each House separately by special majority."
+   }
+  ],
+  "desc": {
+   "q": "A State Electricity Corporation, wholly owned by the State Government, dismisses its accounts officer for alleged misconduct without issuing any show-cause notice. Advise the officer on the constitutional remedies available.",
+   "points": [
+    "The Corporation, being owned and controlled by the government and performing public functions, is an instrumentality of the 'State' under Article 12, so it is bound by Part III.",
+    "Dismissal without notice or hearing is arbitrary and breaches natural justice, violating Article 14 (and Article 21 where livelihood and reputation are affected).",
+    "He may file a writ petition under Article 226 before the High Court, or under Article 32 before the Supreme Court; Article 226 is wider and is the usual first forum.",
+    "Certiorari can quash the dismissal order and mandamus can direct reinstatement or a fresh inquiry after due hearing.",
+    "The court may decline relief if an effective statutory/service remedy exists, but this rule is discretionary and does not apply where natural justice is plainly violated."
+   ]
+  }
+ },
+ "p1c3": {
+  "notes": [
+   {
+    "topic": "Need & rules of interpretation",
+    "note": "Interpretation is needed because statutory language may be ambiguous, broad, or silent on situations the legislature did not foresee. The primary rule is the literal rule: where the words are clear, courts give them their plain, ordinary meaning even if the result seems harsh, since judges cannot rewrite a statute. Example: if a tax law clearly taxes 'every sale', the court will not exempt a sale merely because it seems unfair."
+   },
+   {
+    "topic": "Heydon's, golden rule",
+    "note": "The mischief rule from Heydon's Case (1584) asks four questions: what was the law before, what defect (mischief) it did not cover, what remedy Parliament adopted, and the true reason for that remedy; the court then reads the law to suppress the mischief and advance the remedy. The golden rule allows the court to depart from the literal meaning only so far as needed to avoid absurdity or inconsistency. Example: a ban on 'vehicles in the park' read with its purpose may not stop an ambulance answering an emergency."
+   },
+   {
+    "topic": "aids",
+    "note": "Internal aids are parts of the statute itself: long title, preamble, headings, marginal notes, definition clauses, illustrations, explanations, provisos and schedules. External aids include the Statement of Objects and Reasons, committee reports, parliamentary debates (used with caution), dictionaries, earlier and later statutes, and foreign decisions. Courts use aids mainly to resolve ambiguity, not to contradict clear words."
+   },
+   {
+    "topic": "pari materia",
+    "note": "Statutes in pari materia deal with the same subject or form part of the same system, so they are read together as one code. Meaning given to a word in one may guide its meaning in the other, and later Acts may clarify earlier ones. Example: provisions of the Bharatiya Nagarik Suraksha Sanhita can be interpreted using settled judgments on the corresponding Code of Criminal Procedure provisions they replace."
+   },
+   {
+    "topic": "harmonious construction",
+    "note": "When two provisions of the same statute appear to conflict, courts adopt the construction that gives effect to both rather than letting one nullify the other. Each provision is read in its context so the statute works as a consistent whole. Example: in Venkataramana Devaru v State of Mysore, temple-entry reform under Article 25(2)(b) was harmonised with a denomination's right to manage religious affairs under Article 26(b)."
+   },
+   {
+    "topic": "proviso",
+    "note": "A proviso carves an exception out of, or qualifies, the main provision; it is ordinarily read together with the main enactment and does not enlarge it. It cannot be used to interpret the main section where the main section is clear, though occasionally a proviso operates as a substantive provision. It differs from an Explanation, which clarifies the meaning of the main text."
+   },
+   {
+    "topic": "Latin maxims",
+    "note": "Ejusdem generis: general words following specific words of one class are limited to that class. Noscitur a sociis: a word takes colour from its associated words; expressio unius est exclusio alterius: express mention of one excludes others; generalia specialibus non derogant: a general law does not override a special law; ut res magis valeat quam pereat: prefer the reading that makes the law workable. Example: 'cars, buses, lorries and other vehicles' would not normally cover a bicycle."
+   },
+   {
+    "topic": "General Clauses Act",
+    "note": "The General Clauses Act 1897 supplies common definitions and rules for all Central Acts. Section 6 preserves rights, liabilities and pending proceedings on repeal unless a different intention appears; section 9 says 'from' excludes the first day and 'to' includes the last day; section 10 extends a deadline falling on a day the office is closed to the next working day. Section 13 lets the masculine include the feminine and singular include plural, and section 21 says a power to issue notifications includes the power to amend or rescind them."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A statute imposes a fee on 'cars, buses, lorries and other vehicles' using a city bridge. A cyclist is charged the fee. Applying the relevant maxim, the cyclist will most likely:",
+    "options": [
+     "Pay, since a bicycle is literally a vehicle",
+     "Not pay, since 'other vehicles' is read as motor vehicles of the same class",
+     "Pay half the fee",
+     "Not pay, because penal statutes are always void for vagueness"
+    ],
+    "answer": 1,
+    "explain": "Ejusdem generis restricts general words to the class (motor vehicles) indicated by the specific words."
+   },
+   {
+    "q": "A notice requires objections 'from 1 March to 10 March'. Under the General Clauses Act, the period:",
+    "options": [
+     "Includes both 1 and 10 March",
+     "Excludes both dates",
+     "Excludes 1 March and includes 10 March",
+     "Includes 1 March and excludes 10 March"
+    ],
+    "answer": 2,
+    "explain": "Section 9 of the General Clauses Act excludes the first day after 'from' and includes the last day with 'to'."
+   },
+   {
+    "q": "A penal Act is repealed while a prosecution under it is pending, and the repealing Act is silent. The prosecution:",
+    "options": [
+     "Abates automatically",
+     "Can continue only with High Court permission",
+     "Must restart under the new Act",
+     "Continues, since repeal does not affect pending proceedings unless a different intention appears"
+    ],
+    "answer": 3,
+    "explain": "Section 6 of the General Clauses Act saves pending investigations and proceedings on repeal."
+   },
+   {
+    "q": "A literal reading of a provision would require a person to file a return before the tax year even begins, an obviously absurd result. The court will most likely apply:",
+    "options": [
+     "Golden rule",
+     "Rule of strict construction against the taxpayer",
+     "Ejusdem generis",
+     "Expressio unius"
+    ],
+    "answer": 0,
+    "explain": "The golden rule permits modifying the literal meaning to avoid absurdity."
+   },
+   {
+    "q": "A special Act on cooperative banks gives a specific procedure for recovery; a later general Act gives a different procedure for 'all banks'. Which applies to cooperative banks?",
+    "options": [
+     "The later general Act, as later law prevails",
+     "Neither, the conflict voids both",
+     "Both, at the creditor's choice",
+     "The special Act, unless the general Act clearly shows intent to override it"
+    ],
+    "answer": 3,
+    "explain": "Generalia specialibus non derogant: a general law does not ordinarily override a special one."
+   },
+   {
+    "q": "A section grants a deduction to 'all companies', followed by a proviso 'provided that this shall not apply to banking companies'. The proviso:",
+    "options": [
+     "Enlarges the main section to cover non-companies",
+     "Is to be ignored if inconsistent",
+     "Qualifies the main provision by excepting banking companies",
+     "Is merely an explanation"
+    ],
+    "answer": 2,
+    "explain": "A proviso carves out an exception from the main enactment it is attached to."
+   }
+  ],
+  "desc": {
+   "q": "A State notification exempts 'hospitals, nursing homes, dispensaries and other institutions' from a property cess. A private fitness centre claims the exemption as an 'other institution'. Using rules of interpretation, advise whether its claim is sustainable.",
+   "points": [
+    "Under ejusdem generis, the general words 'other institutions' take their meaning from the preceding specific words, which form a genus of medical/health-care institutions.",
+    "Noscitur a sociis supports the same result: the phrase is coloured by its neighbouring words.",
+    "The mischief/purpose behind the exemption is to support provision of medical care; a commercial fitness centre does not advance that purpose.",
+    "Exemption provisions are construed strictly, and the burden is on the claimant to show it clearly falls within the exemption; any doubt goes in favour of the revenue.",
+    "Conclusion: the fitness centre's claim is unlikely to succeed."
+   ]
+  }
+ },
+ "p1c4": {
+  "notes": [
+   {
+    "topic": "Sources & need",
+    "note": "Administrative law governs the powers and procedures of administrative authorities and the remedies of persons affected by their actions. It grew with the welfare state, as the executive took on delegated legislation, licensing, regulation and adjudication through tribunals. India has no single code; its sources are the Constitution, statutes, delegated legislation, and above all judicial decisions. Example: SEBI's rule-making and adjudication powers are controlled by these principles."
+   },
+   {
+    "topic": "natural justice",
+    "note": "Natural justice has two core rules: nemo judex in causa sua (no one should be a judge in his own cause, covering pecuniary, personal and official bias) and audi alteram partem (hear the other side, which requires notice, disclosure of material and a fair opportunity to respond). Courts also expect reasoned orders. After Maneka Gandhi (1978) fair procedure is linked to Articles 14 and 21; exceptions include genuine urgency (with a post-decisional hearing), statutory exclusion and purely legislative acts."
+   },
+   {
+    "topic": "administrative discretion",
+    "note": "Administrative discretion is the power to choose between courses of action within legal limits. It is abused when exercised mala fide, for an improper purpose, on irrelevant considerations, under dictation of another authority, or so unreasonably that no sensible authority would do it (Wednesbury unreasonableness); failure to exercise it, such as fettering it by rigid policy or non-application of mind, is also illegal. Courts increasingly test discretion affecting rights on proportionality."
+   },
+   {
+    "topic": "judicial review",
+    "note": "Judicial review lets constitutional courts examine the legality of administrative action under Articles 32, 226 and 227, and it is part of the basic structure (L. Chandra Kumar, 1997). The broad grounds are illegality, irrationality and procedural impropriety (Lord Diplock's GCHQ formulation), with proportionality as an emerging ground. The court reviews the decision-making process, not the merits, and does not substitute its own decision."
+   },
+   {
+    "topic": "liability of government",
+    "note": "Under Article 300 the Union and States can sue and be sued. In tort, older cases distinguished sovereign functions (immune, Kasturi Lal, 1965) from non-sovereign functions (liable, State of Rajasthan v Vidyawati, 1962), but for violations of Article 21 courts award public-law compensation where sovereign immunity is no defence (Rudul Sah, 1983; Nilabati Behera, 1993). Government contracts must comply with Article 299 (expressed in the name of the President/Governor and executed by an authorised person); non-compliant contracts are unenforceable, but restitution may be claimed under section 70 of the Indian Contract Act."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A member of a selection board participates in interviews where his nephew is a candidate, though he does not mark his nephew. The selection is likely to be:",
+    "options": [
+     "Vitiated by bias, since a reasonable likelihood of bias is enough",
+     "Valid, as he did not mark his nephew",
+     "Valid if other members agreed",
+     "Invalid only if the nephew is selected first"
+    ],
+    "answer": 0,
+    "explain": "The rule against bias (nemo judex) is breached where a real likelihood of bias exists; actual bias need not be proved."
+   },
+   {
+    "q": "A licensing officer cancels a licence solely because the Minister phoned and told him to, without examining the file. The action is bad because:",
+    "options": [
+     "The officer acted under dictation and failed to exercise his own discretion",
+     "Ministers cannot frame policy",
+     "Licences can never be cancelled",
+     "No appeal was provided"
+    ],
+    "answer": 0,
+    "explain": "Discretion vested in an authority must be exercised by that authority; acting under dictation is an abuse of discretion."
+   },
+   {
+    "q": "A contractor supplied goods to a State department under an oral arrangement not complying with Article 299. The State used the goods but refuses to pay. The contractor can:",
+    "options": [
+     "Enforce the contract fully",
+     "Claim nothing",
+     "Claim compensation for the benefit enjoyed under section 70 of the Indian Contract Act",
+     "Only file a writ of habeas corpus"
+    ],
+    "answer": 2,
+    "explain": "A contract violating Article 299 is unenforceable, but section 70 allows restitution for non-gratuitous benefits enjoyed."
+   },
+   {
+    "q": "A person dies in police custody due to torture. In a writ petition, the State argues sovereign immunity. The court will most likely:",
+    "options": [
+     "Accept the plea, as policing is a sovereign function",
+     "Direct the family to file a civil suit only",
+     "Dismiss the petition for want of jurisdiction",
+     "Award compensation, as sovereign immunity is no defence to Article 21 violations in public law"
+    ],
+    "answer": 3,
+    "explain": "Nilabati Behera recognised strict public-law liability for violation of Article 21."
+   },
+   {
+    "q": "In judicial review of a tender decision, the High Court will ordinarily examine:",
+    "options": [
+     "Whether it would have chosen a better bidder",
+     "The fairness, legality and rationality of the decision-making process",
+     "The commercial merits of each bid in detail",
+     "Only the price quoted"
+    ],
+    "answer": 1,
+    "explain": "Judicial review is concerned with the decision-making process, not the merits."
+   },
+   {
+    "q": "In which situation may a prior hearing be lawfully dispensed with?",
+    "options": [
+     "When the officer is busy",
+     "When the affected person is a company",
+     "When food stocks are found spreading a dangerous infection and must be seized at once, with a hearing given afterwards",
+     "Whenever the statute is silent about hearing"
+    ],
+    "answer": 2,
+    "explain": "Urgency in public interest can justify excluding a prior hearing, usually with a post-decisional hearing."
+   }
+  ],
+  "desc": {
+   "q": "A municipal officer demolishes part of a trader's shop overnight claiming it encroaches on a public road, without issuing any notice. The trader alleges the officer has a personal grudge against him. Discuss the legality of the action and the trader's remedies.",
+   "points": [
+    "Demolition affects property and livelihood, so audi alteram partem requires prior notice and a fair chance to respond; no genuine emergency is shown.",
+    "If personal enmity is established, the action is vitiated by bias and mala fides, an abuse of discretion.",
+    "The trader may file a writ under Article 226 seeking certiorari to quash the action and mandamus to restrain further action without due process.",
+    "The court may award compensation in public law for arbitrary deprivation, besides any civil remedy for damages.",
+    "Even if an encroachment exists, the authority must follow the procedure prescribed by the municipal statute; the remedy is a fresh decision after hearing."
+   ]
+  }
+ },
+ "p1c5": {
+  "notes": [
+   {
+    "topic": "Conditions of tortious liability",
+    "note": "A tort is a civil wrong, other than breach of contract or trust, remedied by unliquidated damages. Liability needs a wrongful act or omission by the defendant, legal damage (violation of a legal right) to the plaintiff, and a legal remedy. Violation of a legal right is actionable even without actual loss (injuria sine damno, Ashby v White), while actual loss without violation of a legal right is not (damnum sine injuria, Gloucester Grammar School case); example: a rival opening a cheaper shop next door causes loss but no tort."
+   },
+   {
+    "topic": "strict & absolute liability",
+    "note": "Under strict liability (Rylands v Fletcher, 1868), a person who brings a dangerous thing onto land for non-natural use is liable if it escapes and causes harm, even without negligence, subject to defences such as act of God, plaintiff's own fault, consent, act of a stranger and statutory authority. In M.C. Mehta v Union of India (1987, oleum gas leak), the Supreme Court laid down absolute liability for hazardous or inherently dangerous industries with no such exceptions, and damages linked to the enterprise's capacity. The Public Liability Insurance Act 1991 requires such units to carry insurance for immediate relief."
+   },
+   {
+    "topic": "vicarious liability",
+    "note": "A person may be liable for a tort committed by another because of their relationship, mainly master and servant, principal and agent, and partners. An employer is liable for torts of an employee in the course of employment, including an unauthorised or wrongful way of doing an authorised act (Lloyd v Grace Smith & Co, fraud by a clerk), but not for acts on a 'frolic of his own'. An employer is generally not liable for an independent contractor, except for non-delegable duties or hazardous work."
+   },
+   {
+    "topic": "corporate liability",
+    "note": "A company, as a legal person, is liable in tort for wrongs committed by its employees and agents in the course of its business, just like a natural employer. For crimes, courts attribute the mental state of its 'directing mind and will' to it (Iridium India Telecom, 2010), and a company can be prosecuted even for offences carrying mandatory imprisonment, by imposing a fine (Standard Chartered Bank v Directorate of Enforcement, 2005). Example: a company is liable for a delivery van accident caused by its driver on duty."
+   },
+   {
+    "topic": "remedies",
+    "note": "Judicial remedies are damages (nominal, contemptuous, compensatory or exemplary to punish outrageous conduct), injunctions (temporary, permanent, prohibitory or mandatory) and specific restitution of property. Extra-judicial remedies include self-defence, expulsion of a trespasser, re-entry on land, recaption of goods, abatement of nuisance and distress damage feasant. Example: a factory emitting fumes may be restrained by injunction and made to pay damages to neighbours."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A returning officer wrongfully refuses to let Ravi vote; Ravi's candidate wins anyway. Ravi sues. The court will most likely:",
+    "options": [
+     "Dismiss the suit as Ravi suffered no loss",
+     "Hold the State liable but not the officer",
+     "Refer it to the Election Commission only",
+     "Hold the officer liable since Ravi's legal right was violated"
+    ],
+    "answer": 3,
+    "explain": "Injuria sine damno: violation of a legal right is actionable without proof of loss (Ashby v White)."
+   },
+   {
+    "q": "A new coaching centre opens opposite an established one, charges lower fees and draws away students. The established centre:",
+    "options": [
+     "Can recover damages for loss of profits",
+     "Can get an injunction",
+     "Has no remedy, because loss without infringement of a legal right is not actionable",
+     "Can sue for nuisance"
+    ],
+    "answer": 2,
+    "explain": "Damnum sine injuria: honest competition causing loss is not a tort."
+   },
+   {
+    "q": "Toxic gas leaks from a chemical plant and injures residents. The company proves it took all reasonable care and that the leak resulted from sabotage by an outsider. The company is:",
+    "options": [
+     "Not liable, due to act of a stranger",
+     "Liable only if negligence is proved",
+     "Liable only to the extent of its insurance",
+     "Liable under the rule of absolute liability, with no exceptions"
+    ],
+    "answer": 3,
+    "explain": "M.C. Mehta absolute liability for hazardous industries admits no exception such as act of a stranger."
+   },
+   {
+    "q": "A clerk of a property firm, acting within his apparent authority, induces a client to transfer property to him and then sells it for himself. The firm is:",
+    "options": [
+     "Liable, because the fraud was committed in the course of employment",
+     "Not liable, as the firm gained nothing",
+     "Not liable, as fraud is always outside employment",
+     "Liable only if partners knew"
+    ],
+    "answer": 0,
+    "explain": "Lloyd v Grace Smith: an employer is liable for an employee's fraud committed in the course of employment, even for the employee's own benefit."
+   },
+   {
+    "q": "Water from a factory reservoir escapes after an unprecedented cloudburst and floods a neighbour's farm. Under Rylands v Fletcher, the factory can best plead:",
+    "options": [
+     "Act of God",
+     "Volenti non fit injuria",
+     "Statutory authority",
+     "Contributory negligence"
+    ],
+    "answer": 0,
+    "explain": "Act of God (an extraordinary natural event) is a defence to strict liability."
+   },
+   {
+    "q": "A court awards damages far above the actual loss to mark its disapproval of a defendant's deliberate and oppressive conduct. These are:",
+    "options": [
+     "Nominal damages",
+     "Contemptuous damages",
+     "Exemplary damages",
+     "Prospective damages"
+    ],
+    "answer": 2,
+    "explain": "Exemplary (punitive) damages punish and deter outrageous conduct."
+   }
+  ],
+  "desc": {
+   "q": "A courier company's driver, while on his delivery route, drives fast to finish early and injures a pedestrian. Later the same day, he takes the van 20 km off route to attend a friend's party and injures a cyclist. Discuss the company's liability.",
+   "points": [
+    "An employer is vicariously liable for torts of its employee committed in the course of employment.",
+    "Speeding on the delivery route is a wrongful mode of doing an authorised act (delivery), so the company is liable for the pedestrian's injury.",
+    "The detour for a personal party is a 'frolic of his own', outside the course of employment, so the company is ordinarily not liable for the cyclist's injury.",
+    "The driver is personally liable in both cases, jointly with the company in the first case.",
+    "Victims may claim compensation (including through motor accident claims) with damages assessed for injury, medical cost and loss of income."
+   ]
+  }
+ },
+ "p1c6": {
+  "notes": [
+   {
+    "topic": "Civil courts & jurisdiction",
+    "note": "Under section 9 of the Code of Civil Procedure 1908 (CPC), civil courts can try all suits of a civil nature unless their cognizance is expressly or impliedly barred, e.g., matters reserved to tribunals or the DRT. Jurisdiction depends on pecuniary value, territory and subject matter; section 15 requires a suit to be filed in the lowest competent court. Sections 16-20 decide the place of suing: immovable property suits where the property lies, and others where the defendant resides or carries on business or where the cause of action arose."
+   },
+   {
+    "topic": "order, judgment, decree",
+    "note": "A judgment (section 2(9)) is the statement of the grounds on which the judge bases a decree or order. A decree (section 2(2)) is the formal expression of an adjudication that conclusively determines the rights of the parties on matters in controversy; it may be preliminary, final or partly both, and includes rejection of a plaint. An order (section 2(14)) is any formal decision of a civil court that is not a decree; example: granting a temporary injunction is an order, while a decree for possession finally settles the right."
+   },
+   {
+    "topic": "res judicata",
+    "note": "Section 11 CPC bars a court from trying a matter directly and substantially in issue in an earlier suit between the same parties (or those claiming under them), litigating under the same title, which a competent court has heard and finally decided. Constructive res judicata (Explanation IV) covers grounds that might and ought to have been raised earlier. It differs from res sub judice under section 10, which only stays a later suit while the earlier one on the same matter is pending."
+   },
+   {
+    "topic": "appeals, review, revision",
+    "note": "First appeals from original decrees lie under section 96, and second appeals to the High Court under section 100 only on a substantial question of law; appeals from specified orders lie under section 104 and Order XLIII. Review under section 114 and Order XLVII is by the same court for discovery of new evidence, an error apparent on the record or another sufficient reason. Revision under section 115 lets the High Court correct jurisdictional errors of subordinate courts in cases where no appeal lies."
+   },
+   {
+    "topic": "institution of suit",
+    "note": "Under section 26 and Order VII, a suit is instituted by presenting a plaint containing the parties' details, facts constituting the cause of action, jurisdiction and relief claimed. Under Order VII Rule 11, a plaint is rejected if it discloses no cause of action, is undervalued or insufficiently stamped and not corrected, or is barred by law. Section 80 requires two months' notice before suing the government or a public officer, though urgent relief may be sought with leave of the court."
+   },
+   {
+    "topic": "commercial courts",
+    "note": "The Commercial Courts Act 2015 sets up Commercial Courts, Commercial Divisions of High Courts and Commercial Appellate Courts/Divisions for commercial disputes of a specified value of ₹3 lakh or more. Under section 12A, a suit that does not seek urgent interim relief must first go through pre-institution mediation (held mandatory in Patil Automation, 2022). It also amends the CPC for such suits with strict timelines for written statements, case management hearings and summary judgment; example: a dispute over unpaid invoices of ₹10 lakh between two traders is a commercial dispute."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A suit for possession of land in Pune is filed in a Mumbai court because the defendant lives in Mumbai. The court should:",
+    "options": [
+     "Try it, as the defendant resides there",
+     "Return the plaint for presentation to the Pune court, where the property lies",
+     "Transfer it to the Supreme Court",
+     "Try it only with the defendant's consent"
+    ],
+    "answer": 1,
+    "explain": "Section 16 CPC requires suits relating to immovable property to be filed where the property is situated."
+   },
+   {
+    "q": "A tenant loses an eviction suit. In a fresh suit against the same landlord over the same premises, he raises a defence he could have raised earlier but didn't. The court will:",
+    "options": [
+     "Hear the new defence on merits",
+     "Allow it only on payment of costs",
+     "Bar it as constructive res judicata",
+     "Stay the suit under section 10"
+    ],
+    "answer": 2,
+    "explain": "Explanation IV to section 11 treats matters that might and ought to have been raised as having been decided."
+   },
+   {
+    "q": "A party wants the High Court to hear a second appeal on a pure question of fact. The appeal:",
+    "options": [
+     "Is maintainable as of right",
+     "Is maintainable if the value exceeds ₹5 lakh",
+     "Is not maintainable, since section 100 requires a substantial question of law",
+     "Must be filed in the Supreme Court"
+    ],
+    "answer": 2,
+    "explain": "Section 100 CPC limits second appeals to cases involving a substantial question of law."
+   },
+   {
+    "q": "A supplier sues a buyer for ₹12 lakh due on goods under a commercial contract, seeking no urgent interim relief. Before filing, the supplier must:",
+    "options": [
+     "Send a section 80 notice",
+     "Obtain High Court leave",
+     "Deposit 25% of the claim",
+     "Exhaust pre-institution mediation under section 12A of the Commercial Courts Act"
+    ],
+    "answer": 3,
+    "explain": "Section 12A makes pre-institution mediation mandatory for commercial suits not seeking urgent interim relief."
+   },
+   {
+    "q": "Shortly after the decree, a litigant discovers a registered document that, despite due diligence, he could not find earlier and which goes to the root of the case. The appropriate remedy before the same court is:",
+    "options": [
+     "Review",
+     "Revision",
+     "Second appeal",
+     "Reference"
+    ],
+    "answer": 0,
+    "explain": "Order XLVII permits review on discovery of new and important evidence not available despite due diligence."
+   },
+   {
+    "q": "Which of the following is a 'decree' under the CPC?",
+    "options": [
+     "An order granting a temporary injunction",
+     "An order dismissing a suit for default of appearance",
+     "An order adjourning the hearing",
+     "Rejection of a plaint"
+    ],
+    "answer": 3,
+    "explain": "Section 2(2) expressly includes rejection of a plaint, while dismissal for default is excluded."
+   }
+  ],
+  "desc": {
+   "q": "X files a suit against Y for recovery of ₹8 lakh in a Delhi civil court. During its pendency, X files a second suit against Y in a Gurugram court on the same cause. Later the Delhi suit is decided against X on merits. Advise Y on the procedural defences available.",
+   "points": [
+    "While the Delhi suit was pending, Y could seek a stay of the later Gurugram suit under section 10 CPC (res sub judice), since the matter in issue is directly and substantially the same between the same parties.",
+    "Once the Delhi court, being competent, decided the suit on merits, Y can plead res judicata under section 11 in the Gurugram suit.",
+    "Conditions are met: same parties, same matter in issue, same title, competent court and final decision on merits.",
+    "Y may also seek rejection of the plaint under Order VII Rule 11 or dismissal, and claim costs for vexatious litigation.",
+    "X's proper remedy against the Delhi decree is a first appeal under section 96, not a parallel suit."
+   ]
+  }
+ },
+ "p1c7": {
+  "notes": [
+   {
+    "topic": "Criminal courts",
+    "note": "The Bharatiya Nagarik Suraksha Sanhita 2023 (BNSS), which replaced the CrPC from 1 July 2024, provides for the High Court, Courts of Session, Judicial Magistrates of the First and Second Class, and Executive Magistrates. The BNSS dropped the separate category of Metropolitan Magistrates, and the Chief Judicial Magistrate heads the magistracy in each district. A Sessions Judge can pass any sentence authorised by law, but a death sentence must be confirmed by the High Court."
+   },
+   {
+    "topic": "arrest",
+    "note": "Police may arrest without warrant in cognizable cases on the grounds in section 35 BNSS (old CrPC section 41), but for offences punishable up to seven years they must be satisfied that arrest is necessary; otherwise a notice of appearance is issued (Arnesh Kumar, 2014). The arrested person must be told the grounds and his right to bail, may meet an advocate, must have a relative or friend informed, and must be produced before a Magistrate within 24 hours (also Article 22). Private persons may arrest someone committing a non-bailable and cognizable offence in their presence or a proclaimed offender."
+   },
+   {
+    "topic": "mens rea & actus reus",
+    "note": "A crime generally needs both actus reus (a guilty act or omission) and mens rea (a guilty mind such as intention, knowledge or negligence), captured in the maxim actus non facit reum nisi mens sit rea. Some regulatory and public-welfare offences are of strict liability, where mens rea need not be proved. Example: a person who takes another's umbrella honestly believing it to be his own lacks the dishonest intention needed for theft."
+   },
+   {
+    "topic": "cognizable offences",
+    "note": "A cognizable offence is one where police may arrest without warrant and investigate without a Magistrate's order; in non-cognizable cases police need a Magistrate's order to investigate. The First Schedule of the BNSS classifies offences as cognizable or not, bailable or not. The BNSS (section 173) also allows information to be given electronically (e-FIR) and recognises 'zero FIR' registration irrespective of jurisdiction, with a preliminary inquiry option for certain offences punishable from three to seven years."
+   },
+   {
+    "topic": "bail",
+    "note": "In bailable offences bail is a matter of right; in non-bailable offences it is the court's discretion based on the gravity of the offence, the risk of absconding and the risk of tampering with evidence. The BNSS provides for anticipatory bail (section 482, old CrPC 438) and default bail if the investigation is not completed in time. An undertrial who has spent half the maximum sentence (one-third for first-time offenders) is to be released on bail under section 479 BNSS (old CrPC 436A)."
+   },
+   {
+    "topic": "summons & warrants",
+    "note": "A summons is a court's order to appear, served personally or by other modes, and the BNSS now allows electronic service. A warrant of arrest is a written order directing police to arrest and produce a person; it may be bailable (with an endorsement for release on bond) and remains in force until cancelled or executed. If a person absconds, the court may issue a proclamation requiring appearance and attach his property; in summons cases a summons is usually issued first, while warrants are used in serious cases."
+   },
+   {
+    "topic": "breach of trust",
+    "note": "Criminal breach of trust under section 316 of the Bharatiya Nyaya Sanhita 2023 (BNS; old IPC section 405) is committed when a person entrusted with property dishonestly misappropriates it or uses or disposes of it against the terms of the trust. Entrustment is the key element and distinguishes it from theft; higher punishment applies to carriers, clerks, servants, bankers, agents and public servants. Example: a company director who uses the company's escrow funds for personal debts commits criminal breach of trust."
+   },
+   {
+    "topic": "cheating",
+    "note": "Cheating under section 318 BNS (old IPC sections 415/420) means deceiving a person to fraudulently or dishonestly induce him to deliver property, or to do or omit something he would not otherwise do, causing or likely to cause harm. The dishonest intention must exist at the time of the inducement; a mere later failure to keep a promise is a civil breach, not cheating. Example: issuing fake shipping documents to obtain an advance payment is cheating."
+   },
+   {
+    "topic": "forgery",
+    "note": "Forgery under section 336 BNS (old IPC section 463) is making a false document or electronic record with intent to cause damage or injury, support a claim, cause a person to part with property or commit fraud. A 'false document' (section 335 BNS, old IPC 464) includes one made or altered dishonestly so it appears to be made by someone who did not make it, including affixing another's electronic signature. Using a forged document as genuine is a separate offence (section 340 BNS, old IPC 471)."
+   },
+   {
+    "topic": "defamation",
+    "note": "Defamation under section 356 BNS (old IPC sections 499/500) is making or publishing an imputation, by words, signs or visible representation, intending or knowing it will harm a person's reputation; companies and associations can also be defamed. Exceptions include true statements made for the public good, fair comment on public conduct, fair reports of court proceedings and good-faith complaints to authorities. The BNS adds community service as a possible punishment, and the offence remains non-cognizable, prosecuted on the complaint of the aggrieved person."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Police arrest a person at 10 a.m. on Monday for a cognizable offence. The latest by which he must be produced before a Magistrate (excluding travel time) is:",
+    "options": [
+     "10 a.m. Tuesday",
+     "10 a.m. Wednesday",
+     "Within 48 hours",
+     "Whenever the investigation is complete"
+    ],
+    "answer": 0,
+    "explain": "Section 58 BNSS (old CrPC 57) and Article 22(2) require production within 24 hours."
+   },
+   {
+    "q": "A shop employee is given cash daily to deposit in the bank. One day he spends it on himself. The offence is:",
+    "options": [
+     "Theft",
+     "Cheating",
+     "Criminal breach of trust",
+     "Forgery"
+    ],
+    "answer": 2,
+    "explain": "Dishonest misappropriation of property entrusted to him is criminal breach of trust under section 316 BNS."
+   },
+   {
+    "q": "A borrower takes a loan genuinely intending to repay but later defaults due to business losses. The lender files a criminal complaint for cheating. The complaint will likely fail because:",
+    "options": [
+     "Dishonest intention at the time of inducement is absent",
+     "Loans are never covered by criminal law",
+     "Cheating requires a forged document",
+     "Only banks can complain"
+    ],
+    "answer": 0,
+    "explain": "Cheating under section 318 BNS requires fraudulent or dishonest intention at the inception."
+   },
+   {
+    "q": "For an offence punishable with up to five years, police want to arrest the accused who is cooperating and has a fixed address. The police should ordinarily:",
+    "options": [
+     "Arrest immediately",
+     "Seek a warrant from the Sessions Court",
+     "Arrest only after charge-sheet",
+     "Issue a notice of appearance unless arrest is shown to be necessary"
+    ],
+    "answer": 3,
+    "explain": "Section 35 BNSS and Arnesh Kumar require recorded necessity for arrest in offences up to seven years, otherwise a notice of appearance."
+   },
+   {
+    "q": "An accountant scans his manager's signature onto a letter authorising a payment to himself. He has committed:",
+    "options": [
+     "Forgery, by making a false document with intent to commit fraud",
+     "Only cheating",
+     "Defamation",
+     "No offence, since no ink signature was copied"
+    ],
+    "answer": 0,
+    "explain": "Making a false document or electronic record with intent to defraud is forgery under section 336 BNS."
+   },
+   {
+    "q": "A newspaper publishes an accurate report of court proceedings in a fraud trial, showing a businessman in poor light. He sues for criminal defamation. The newspaper can rely on:",
+    "options": [
+     "No defence; any harm to reputation is defamation",
+     "The defence of consent",
+     "The exception for publication of substantially true reports of court proceedings",
+     "Sovereign immunity"
+    ],
+    "answer": 2,
+    "explain": "Section 356 BNS protects substantially true reports of the proceedings of courts."
+   }
+  ],
+  "desc": {
+   "q": "Mr. A, Managing Director of a private company, receives ₹50 lakh from investors for a specific project, diverts the money to repay his personal loan, and produces a fabricated board resolution to show the diversion was approved. Identify the offences involved under the new criminal laws and comment on the procedural position.",
+   "points": [
+    "Money received for a specific purpose and diverted is criminal breach of trust under section 316 BNS (old IPC 405/409); as a director/agent he may face the aggravated form.",
+    "Producing a fabricated board resolution is making a false document (sections 335-336 BNS, old IPC 463-464) and using it as genuine (section 340 BNS, old IPC 471).",
+    "If the investors were induced to pay through false representations made with dishonest intent from the start, cheating under section 318 BNS (old IPC 420) is also attracted.",
+    "These are cognizable offences; an FIR can be lodged under section 173 BNSS (including e-FIR) and police can investigate without a Magistrate's order.",
+    "A may apply for anticipatory bail under section 482 BNSS; the company and investors can also pursue civil recovery and corporate-law remedies."
+   ]
+  }
+ },
+ "p1c8": {
+  "notes": [
+   {
+    "topic": "Relevancy & admissibility",
+    "note": "The Bharatiya Sakshya Adhiniyam 2023 (BSA) replaced the Indian Evidence Act 1872 from 1 July 2024, largely keeping its structure. Relevancy is a matter of logic: a fact is relevant if it is connected with the fact in issue as provided in the Act (e.g., res gestae, motive, preparation, conduct). Admissibility is a matter of law: a relevant fact may still be excluded, such as a confession made to a police officer, which is inadmissible under the BSA (old section 25)."
+   },
+   {
+    "topic": "facts to be proved",
+    "note": "Some facts need no proof: facts judicially noticed by the court (such as laws in force, national holidays and the territories of India) and facts admitted by the parties. All other facts in issue and relevant facts must be proved by evidence. 'Proved' means the court believes the fact exists or considers its existence so probable that a prudent person would act on it; in criminal cases the standard is proof beyond reasonable doubt."
+   },
+   {
+    "topic": "expert opinion",
+    "note": "Opinions of experts in foreign law, science, art, handwriting and finger impressions are relevant, and the BSA expressly adds the opinion of the Examiner of Electronic Evidence under section 79A of the IT Act (old Evidence Act sections 45 and 45A). Expert opinion is advisory: the court weighs the reasons given and is not bound by it. Example: a handwriting expert's opinion on a disputed signature on a cheque is corroborative evidence."
+   },
+   {
+    "topic": "oral, documentary, circumstantial evidence",
+    "note": "Oral evidence must be direct: the person who saw, heard or perceived the fact must testify, and hearsay is generally excluded. Documentary evidence is proved by primary evidence (the document itself) and, in specified cases, by secondary evidence such as certified copies, with the BSA treating electronic and digital records as documents and widening secondary evidence to include oral and written admissions and expert-examined copies. Circumstantial evidence can found a conviction if the chain of circumstances is complete and consistent only with guilt (Sharad Birdhichand Sarda, 1984)."
+   },
+   {
+    "topic": "burden of proof",
+    "note": "Whoever asserts a fact must prove it (old Evidence Act sections 101-103), and the burden of proving facts that bring a person within an exception, such as self-defence, lies on that person (old section 105). Facts especially within a person's knowledge must be proved by him (old section 106), and courts may draw presumptions, such as a dowry death presumption. Example: a company claiming a payment was a loan, not income, must prove the loan."
+   },
+   {
+    "topic": "estoppel",
+    "note": "Estoppel (old section 115 of the Evidence Act) prevents a person who by declaration, act or omission has made another believe a thing and act on that belief from later denying it. A tenant is estopped from denying the landlord's title during the tenancy, and a licensee from denying the licensor's title. Promissory estoppel can bind even the government where a party has altered its position on a promise, but there is no estoppel against a statute."
+   },
+   {
+    "topic": "e-evidence",
+    "note": "Under the BSA, electronic records are primary evidence when produced as the original record, including records stored in multiple files or automatically, and secondary copies are admissible with a certificate (old section 65B of the Evidence Act). The BSA prescribes a certificate in the Schedule signed by the person in charge of the device and by an expert. The Supreme Court in Arjun Panditrao Khotkar (2020) held the certificate mandatory for secondary electronic evidence; example: WhatsApp chats produced as screenshots need the certificate."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "An accused makes a confession to a Sub-Inspector during interrogation, and the prosecution seeks to prove it at trial. The confession is:",
+    "options": [
+     "Admissible as an admission",
+     "Admissible if voluntary",
+     "Admissible only if recorded on video",
+     "Inadmissible, since confessions to police officers cannot be proved against the accused"
+    ],
+    "answer": 3,
+    "explain": "The BSA, like old Evidence Act section 25, bars proof of confessions made to a police officer."
+   },
+   {
+    "q": "A company wants to prove emails printed from its server. To make these printouts admissible as secondary evidence, it must generally produce:",
+    "options": [
+     "An affidavit of the CEO only",
+     "The certificate required under the BSA (old section 65B)",
+     "Testimony of the email recipient only",
+     "Nothing; printouts are always primary evidence"
+    ],
+    "answer": 1,
+    "explain": "Secondary electronic evidence requires the prescribed certificate (Arjun Panditrao Khotkar)."
+   },
+   {
+    "q": "An accused pleads private defence in a murder trial. The burden to prove circumstances bringing the case within that exception lies on:",
+    "options": [
+     "The accused, on a preponderance of probabilities",
+     "The prosecution, beyond reasonable doubt",
+     "The court",
+     "The investigating officer"
+    ],
+    "answer": 0,
+    "explain": "The person claiming a general exception must prove it (old section 105), though on the lower civil standard."
+   },
+   {
+    "q": "A tenant who has paid rent to L for years refuses to pay, claiming L never owned the property. During the tenancy the tenant:",
+    "options": [
+     "Can deny L's title freely",
+     "Can deny title only with court permission",
+     "Must pay rent to the government",
+     "Is estopped from denying L's title"
+    ],
+    "answer": 3,
+    "explain": "Tenant estoppel prevents a tenant from denying the landlord's title during the tenancy."
+   },
+   {
+    "q": "The prosecution case rests entirely on circumstantial evidence. A conviction is safe only if:",
+    "options": [
+     "At least one eyewitness corroborates",
+     "The accused fails to testify",
+     "The circumstances form a complete chain pointing only to the accused's guilt",
+     "Motive is proved"
+    ],
+    "answer": 2,
+    "explain": "Sharad Birdhichand Sarda requires a complete chain consistent only with the hypothesis of guilt."
+   },
+   {
+    "q": "Which of the following does NOT need to be proved by evidence?",
+    "options": [
+     "The existence of a statute in force in India",
+     "The date a contract was signed",
+     "The contents of a private letter",
+     "The quality of goods supplied"
+    ],
+    "answer": 0,
+    "explain": "Courts take judicial notice of laws in force, so they need not be proved."
+   }
+  ],
+  "desc": {
+   "q": "In a cheque-fraud trial, the prosecution relies on (i) a handwriting expert's report on the signature, (ii) CCTV footage copied onto a pen drive from the bank's system, and (iii) a statement the accused made to the bank manager admitting the act. Comment on the evidentiary value of each under the Bharatiya Sakshya Adhiniyam 2023.",
+   "points": [
+    "The handwriting expert's opinion is relevant expert evidence, but it is advisory; the court will look for corroboration and the reasons behind the opinion.",
+    "The pen-drive copy of CCTV footage is secondary electronic evidence and needs the prescribed certificate (old section 65B equivalent) for admissibility; the original system record would be primary evidence.",
+    "A confession to a bank manager, not a police officer, is not barred as a police confession; it is admissible if voluntary and not caused by inducement, threat or promise.",
+    "The court will weigh all three pieces together; any confession is used with corroboration.",
+    "The prosecution must prove guilt beyond reasonable doubt; gaps such as a missing certificate can make the CCTV footage inadmissible."
+   ]
+  }
+ },
+ "p1c9": {
+  "notes": [
+   {
+    "topic": "Specific performance",
+    "note": "Under the Specific Relief Act 1963, as amended in 2018, specific performance of a contract is no longer discretionary: section 10 says it 'shall' be enforced, subject to sections 11(2), 14 and 16. Section 14 lists contracts that cannot be specifically enforced, e.g., where the party has obtained substituted performance under section 20, contracts involving continuous supervision, those dependent on personal qualifications, and determinable contracts. Section 16 bars relief to a party who has not performed or been ready and willing to perform his essential obligations."
+   },
+   {
+    "topic": "rescission",
+    "note": "Under section 27, a party may sue to rescind a contract that is voidable or terminable by him, or unlawful for reasons not apparent on its face where the defendant is more to blame. Rescission is refused if the plaintiff has ratified the contract, the parties cannot be restored to their original position, or third parties have acquired rights in good faith and for value. Example: a buyer induced by fraud to buy a flat may seek rescission if he acts before ratifying."
+   },
+   {
+    "topic": "cancellation of instruments",
+    "note": "Under section 31, a person who reasonably fears serious injury from a void or voidable written instrument may sue to have it adjudged void or voidable and cancelled. If the instrument is registered, the court sends a copy of the decree to the registering officer to note the cancellation. Partial cancellation is allowed under section 32; example: a forged sale deed registered in someone else's name can be cancelled."
+   },
+   {
+    "topic": "declaratory decrees",
+    "note": "Section 34 allows a person entitled to a legal character or a right to property to sue for a declaration of that status or right against a person denying it. The court will not grant a mere declaration where the plaintiff could seek further relief (such as possession) but omits to do so. Under section 35, the declaration binds only the parties and persons claiming through them; example: a declaration that the plaintiff is the lawful owner of shares."
+   },
+   {
+    "topic": "preventive relief",
+    "note": "Preventive relief is granted by injunctions: temporary injunctions are regulated by the CPC (Order XXXIX), while perpetual injunctions are granted by decree under sections 37-38 to prevent breach of an obligation. Mandatory injunctions under section 39 compel a positive act, such as removing an illegal construction. Section 41 lists cases where injunction is refused, and after 2018 it bars injunctions that would impede or delay infrastructure projects (clause (ha))."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "After the 2018 amendment, a buyer who has paid the full price and stands ready to take delivery seeks specific performance of a land sale agreement. The court:",
+    "options": [
+     "May refuse at its discretion if damages are adequate",
+     "Must decree specific performance unless a statutory bar applies",
+     "Can grant only compensation",
+     "Must refer the matter to mediation"
+    ],
+    "answer": 1,
+    "explain": "Section 10 as amended makes specific performance the rule, subject to sections 11(2), 14 and 16."
+   },
+   {
+    "q": "A party seeks specific performance of a contract to have a famous singer perform at a wedding. Relief will be refused because:",
+    "options": [
+     "The contract depends on personal qualifications of a party",
+     "Wedding contracts are void",
+     "Only damages up to ₹1 lakh are available",
+     "Specific performance is never granted for services"
+    ],
+    "answer": 0,
+    "explain": "Section 14 bars specific enforcement of contracts that depend on personal qualifications."
+   },
+   {
+    "q": "A plaintiff seeks only a declaration that he owns a shop, although the defendant is in possession and the plaintiff could have claimed possession. The court will:",
+    "options": [
+     "Grant the declaration",
+     "Grant possession on its own",
+     "Refuse the declaration under the proviso to section 34",
+     "Transfer the case to revenue authorities"
+    ],
+    "answer": 2,
+    "explain": "The proviso to section 34 bars a mere declaration where further relief was available but not sought."
+   },
+   {
+    "q": "Someone has had a forged gift deed of A's house registered. A's appropriate relief is:",
+    "options": [
+     "Rescission under section 27",
+     "Specific performance",
+     "Declaration only",
+     "Cancellation of the instrument under section 31"
+    ],
+    "answer": 3,
+    "explain": "Section 31 allows cancellation of a void instrument likely to cause serious injury."
+   },
+   {
+    "q": "A neighbour has built a wall blocking A's established right of way. A seeks an order requiring the neighbour to demolish the wall. This relief is:",
+    "options": [
+     "A prohibitory injunction",
+     "Rescission",
+     "A declaratory decree",
+     "A mandatory injunction under section 39"
+    ],
+    "answer": 3,
+    "explain": "Section 39 allows mandatory injunctions compelling performance of acts needed to prevent breach of an obligation."
+   },
+   {
+    "q": "A buyer induced by misrepresentation to buy machinery keeps using it for a year after learning the truth, then seeks rescission. The court will likely:",
+    "options": [
+     "Grant rescission as of right",
+     "Grant rescission with interest",
+     "Refuse rescission because he has ratified the contract",
+     "Grant specific performance instead"
+    ],
+    "answer": 2,
+    "explain": "Section 27(2) bars rescission where the plaintiff has expressly or impliedly ratified the contract."
+   }
+  ],
+  "desc": {
+   "q": "A agreed to sell his flat to B for ₹80 lakh. B paid ₹20 lakh as advance and has kept the balance ready, but A now refuses to execute the sale deed because prices have risen. A argues that B can be compensated with damages. Advise B in light of the Specific Relief (Amendment) Act 2018.",
+   "points": [
+    "After 2018, section 10 makes specific performance mandatory, subject only to sections 11(2), 14 and 16; adequacy of damages is no longer a ground for refusal.",
+    "A sale of a specific flat is not covered by any section 14 bar.",
+    "B must prove readiness and willingness to perform under section 16(c), e.g., by showing availability of the balance funds throughout.",
+    "B should sue within three years from the date fixed for performance, or from when refusal was notified (Limitation Act, Article 54).",
+    "B may also seek a temporary injunction restraining A from selling the flat to anyone else during the suit, and may claim compensation in addition under section 21."
+   ]
+  }
+ },
+ "p1c10": {
+  "notes": [
+   {
+    "topic": "Computation of limitation",
+    "note": "The Limitation Act 1963 prescribes periods in its Schedule (e.g., three years for most contract-based money suits). Under section 12, the day from which the period runs is excluded, and time needed to obtain copies of the decree or order is excluded for appeals. Section 14 excludes time spent prosecuting in good faith in a court without jurisdiction, and section 15 excludes periods of stay or notice; under section 4, if the period ends on a court holiday, the case may be filed on reopening."
+   },
+   {
+    "topic": "bar",
+    "note": "Section 3 makes every suit, appeal or application filed after the prescribed period liable to be dismissed, even if limitation is not raised as a defence. Limitation bars the remedy, not the right: a time-barred debt still exists and can be paid or set off, and a time-barred debt can support a fresh promise under section 25(3) of the Contract Act. Under section 5, appeals and applications (but not suits) may be admitted late if the applicant shows sufficient cause, which courts construe liberally."
+   },
+   {
+    "topic": "acknowledgment",
+    "note": "Under section 18, a written and signed acknowledgment of liability made before the period expires gives a fresh period of limitation from the date of acknowledgment. It need not specify the exact amount and may be made by the debtor or his authorised agent. Section 19 gives a similar fresh start from the date of part-payment of debt or interest, provided it is made before expiry; example: a balance confirmation signed by a company in its audited accounts can operate as acknowledgment."
+   },
+   {
+    "topic": "acquisition by possession",
+    "note": "Under section 27, when the period for a suit for possession of property expires, the owner's right to the property itself is extinguished, an exception to the rule that limitation bars only the remedy. A person in open, continuous, hostile possession for 12 years (30 years against the government) can thus acquire title by adverse possession, under Articles 65 and 112. In Ravinder Kaur Grewal (2019), the Supreme Court held that such a person can also sue as plaintiff to protect that title."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A debt of ₹5 lakh fell due on 1 April 2022. On 15 March 2025, the debtor signs a letter admitting he owes the amount. The creditor can now sue up to:",
+    "options": [
+     "31 March 2025",
+     "1 April 2026",
+     "15 March 2028",
+     "There is no limit"
+    ],
+    "answer": 2,
+    "explain": "Section 18 gives a fresh three-year period from the date of written acknowledgment made within the original period."
+   },
+   {
+    "q": "A plaintiff files a money suit 40 days late and asks the court to condone the delay under section 5 citing illness. The court:",
+    "options": [
+     "Cannot condone, as section 5 does not apply to suits",
+     "Must condone if illness is proved",
+     "May condone if sufficient cause is shown",
+     "Must refer to the High Court"
+    ],
+    "answer": 0,
+    "explain": "Section 5 extends only to appeals and applications, not suits."
+   },
+   {
+    "q": "A company's debt became time-barred in 2023. In 2025 the debtor voluntarily pays it. Later he sues to recover the payment as not legally due. He will:",
+    "options": [
+     "Succeed, since limitation extinguished the debt",
+     "Succeed with interest",
+     "Fail, since limitation bars only the remedy and not the debt itself",
+     "Succeed only for half the amount"
+    ],
+    "answer": 2,
+    "explain": "Limitation bars the remedy, not the right; a time-barred debt paid voluntarily cannot be recovered."
+   },
+   {
+    "q": "A has occupied B's private land openly, continuously and hostilely for 13 years. B now sues for possession. The likely result is:",
+    "options": [
+     "B succeeds, as ownership never lapses",
+     "B succeeds if he shows title documents",
+     "The suit is referred to arbitration",
+     "B's suit is time-barred and his title is extinguished under section 27"
+    ],
+    "answer": 3,
+    "explain": "The 12-year period for possession based on title runs against B, and section 27 extinguishes his right."
+   },
+   {
+    "q": "A party files a suit in good faith in a court that lacks jurisdiction and, after the plaint is returned, refiles in the correct court. While computing limitation, the time spent in the wrong court:",
+    "options": [
+     "Is excluded under section 14",
+     "Is included in full",
+     "Is excluded only if the defendant agrees",
+     "Is excluded only for appeals"
+    ],
+    "answer": 0,
+    "explain": "Section 14 excludes time spent in bona fide proceedings in a court without jurisdiction."
+   },
+   {
+    "q": "A debtor makes a part-payment of interest after the limitation period has expired. This:",
+    "options": [
+     "Revives the debt with a fresh period",
+     "Has no effect on limitation, since section 19 requires payment before expiry",
+     "Extends limitation by one year",
+     "Converts the debt into a decree"
+    ],
+    "answer": 1,
+    "explain": "Section 19 applies only to payments made before the expiry of the prescribed period."
+   }
+  ],
+  "desc": {
+   "q": "ABC Ltd supplied goods to XYZ Ltd; the invoice of ₹15 lakh fell due on 10 June 2021. XYZ paid ₹2 lakh on 5 May 2024 and emailed a balance confirmation on 1 August 2024. ABC Ltd now wishes to sue in December 2026. Advise on limitation.",
+   "points": [
+    "A suit for price of goods sold has a three-year period, running from the due date (10 June 2021), so it would expire on 10 June 2024.",
+    "Part-payment of ₹2 lakh on 5 May 2024 was within the period, so under section 19 a fresh three-year period runs from 5 May 2024, i.e., to 5 May 2027 (provided the payment is evidenced in writing).",
+    "The balance confirmation of 1 August 2024 is a written acknowledgment under section 18 made within the extended period; an email can qualify as a signed acknowledgment if authenticated, giving a fresh period till 1 August 2027.",
+    "A suit filed in December 2026 is therefore within limitation.",
+    "ABC Ltd should keep evidence of the payment entry and the authenticity of the email; as a commercial dispute, it must also comply with section 12A pre-institution mediation, where time spent in mediation is excluded."
+   ]
+  }
+ },
+ "p1c11": {
+  "notes": [
+   {
+    "topic": "Arbitration law",
+    "note": "The Arbitration and Conciliation Act 1996, based on the UNCITRAL Model Law, governs domestic and international commercial arbitration and enforcement of foreign awards. Section 7 requires a written arbitration agreement, which may be in a document, emails or other electronic communication. Section 8 obliges a judicial authority to refer parties to arbitration where a valid agreement exists, and section 9 allows courts to grant interim measures before, during or after the proceedings (before enforcement); section 5 limits judicial intervention to what the Act permits."
+   },
+   {
+    "topic": "arbitrators",
+    "note": "Parties are free to agree on the number of arbitrators, which must not be even (section 10), and the appointment procedure (section 11); if they fail, the Supreme Court (international) or High Court (domestic) or a designated institution appoints. An arbitrator must disclose circumstances casting doubt on independence or impartiality (section 12, with the Fifth and Seventh Schedules), and a person in a Seventh Schedule relationship is ineligible unless the parties waive this in writing after the dispute arises. Under section 16 (kompetenz-kompetenz), the tribunal can rule on its own jurisdiction."
+   },
+   {
+    "topic": "award & recourse",
+    "note": "Under section 29A, an award in domestic arbitration must be made within 12 months from completion of pleadings, extendable by six months by consent, and further only by the court. An award can be challenged only under section 34 within three months (extendable by 30 days for sufficient cause) on limited grounds such as incapacity, invalid agreement, lack of proper notice, matters beyond the reference, improper composition, non-arbitrability, conflict with public policy and, for domestic awards, patent illegality. Once the challenge period lapses or the challenge fails, the award is enforced as a decree under section 36; filing a challenge does not automatically stay it."
+   },
+   {
+    "topic": "conciliation",
+    "note": "Conciliation under Part III of the 1996 Act is a voluntary process where a conciliator helps parties reach a settlement; the conciliator has no power to impose a decision. A settlement agreement signed by the parties has the same status and effect as an arbitral award on agreed terms (sections 73-74). Statements made in conciliation are confidential and cannot be relied on in later arbitration or court proceedings (section 81)."
+   },
+   {
+    "topic": "mediation law",
+    "note": "The Mediation Act 2023 provides for voluntary pre-litigation mediation, to be completed within 120 days, extendable by up to 60 days. A mediated settlement agreement signed by the parties and authenticated by the mediator is final and binding and enforceable like a court judgment, and can be challenged only on limited grounds such as fraud, corruption, impersonation or non-mediable matters. It also provides for online mediation and community mediation and sets up the Mediation Council of India; the Act's provisions are being brought into force in phases, so check the notified status before the exam."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A supply contract has an arbitration clause. One party files a civil suit for damages, and the other applies under section 8 before submitting its first statement on the substance. The court should:",
+    "options": [
+     "Try the suit since civil courts have plenary jurisdiction",
+     "Stay the suit for one year",
+     "Ask the plaintiff to elect a remedy",
+     "Refer the parties to arbitration unless prima facie no valid arbitration agreement exists"
+    ],
+    "answer": 3,
+    "explain": "Section 8 mandates reference to arbitration where a valid agreement exists."
+   },
+   {
+    "q": "A contract names the employer's own Managing Director as sole arbitrator. Under the 1996 Act as amended, the appointment is:",
+    "options": [
+     "Valid, as the parties agreed to it",
+     "Valid if the MD is a qualified lawyer",
+     "Invalid, as the MD is ineligible under section 12(5) unless expressly waived in writing after the dispute arises",
+     "Valid only for claims below ₹1 crore"
+    ],
+    "answer": 2,
+    "explain": "Section 12(5) read with the Seventh Schedule renders such persons ineligible (TRF Ltd; Perkins Eastman)."
+   },
+   {
+    "q": "A party receives a domestic award on 1 January and files a section 34 challenge on 25 April, showing sufficient cause for the delay. The court:",
+    "options": [
+     "Can condone delay up to 30 days beyond three months",
+     "Can condone any delay under section 5 of the Limitation Act",
+     "Must dismiss it, as the period is fixed at 60 days",
+     "Must refer it to the tribunal"
+    ],
+    "answer": 0,
+    "explain": "Section 34(3) allows three months plus a further 30 days for sufficient cause, and not beyond."
+   },
+   {
+    "q": "A party challenging an award under section 34 asks the court to treat the challenge as an automatic stay of enforcement. The correct position is:",
+    "options": [
+     "Filing a challenge automatically stays the award",
+     "The award is stayed only if the tribunal agrees",
+     "Enforcement is stayed for six months",
+     "Filing alone does not stay the award; a separate application and order of the court are required"
+    ],
+    "answer": 3,
+    "explain": "Section 36(2)-(3) as amended requires a separate application and a court order for stay."
+   },
+   {
+    "q": "During conciliation, a company admits that its product had a design defect. Conciliation fails and the matter goes to arbitration. The other party wants to rely on that admission. It:",
+    "options": [
+     "Cannot rely on it, as statements in conciliation are confidential and inadmissible",
+     "Can rely on it as an admission",
+     "Can rely on it with the conciliator's consent",
+     "Can rely on it only if recorded in writing"
+    ],
+    "answer": 0,
+    "explain": "Section 81 bars reliance on views and admissions made during conciliation."
+   },
+   {
+    "q": "Parties settle a dispute through mediation under the Mediation Act 2023, and the settlement is signed and authenticated by the mediator. One party later refuses to comply. The other party can:",
+    "options": [
+     "Only file a fresh civil suit",
+     "Refer it to arbitration",
+     "Enforce the mediated settlement agreement like a court judgment",
+     "Claim only nominal damages"
+    ],
+    "answer": 2,
+    "explain": "A mediated settlement agreement under the Mediation Act 2023 is binding and enforceable in the same manner as a judgment or decree."
+   }
+  ],
+  "desc": {
+   "q": "P Ltd and Q Ltd have an arbitration clause in their contract. After a dispute, Q Ltd fears that P Ltd will sell off the disputed machinery before arbitration starts. The arbitral tribunal is not yet constituted. Advise Q Ltd on interim relief and how its position changes once the tribunal is constituted.",
+   "points": [
+    "Before the tribunal is constituted, Q Ltd can apply to the court under section 9 for interim measures, such as an injunction against sale or preservation of the machinery.",
+    "If the court grants interim relief before arbitration begins, arbitral proceedings must start within 90 days (section 9(2)).",
+    "Once the tribunal is constituted, the court should not ordinarily entertain a section 9 application unless the remedy under section 17 is not efficacious (section 9(3)).",
+    "The tribunal can grant similar interim measures under section 17, and its orders are enforceable as orders of the court.",
+    "Q Ltd should also ensure a written notice invoking arbitration (section 21) and begin the appointment of arbitrators under the agreed procedure or section 11."
+   ]
+  }
+ },
+ "p1c12": {
+  "notes": [
+   {
+    "topic": "Key definitions",
+    "note": "Under the Indian Stamp Act 1899, an 'instrument' (section 2(14)) is any document by which a right or liability is created, transferred, limited, extended, extinguished or recorded. Other key terms include 'executed' (signed), 'conveyance' (section 2(10), covering transfers of property inter vivos), 'chargeable' (as per the law in force when the instrument is executed) and 'duly stamped' (stamped with the correct amount and in the right manner). Example: a share transfer deed and a lease deed are both instruments."
+   },
+   {
+    "topic": "levy",
+    "note": "Section 3 makes instruments listed in Schedule I chargeable with duty, and States prescribe their own rates for many instruments under their Stamp Acts (List II, Entry 63; rates on bills of exchange, cheques, share transfers etc. are fixed by the Union under List I, Entry 91). Under section 4, where several instruments complete one transaction, only the principal instrument bears full duty, and section 5 requires an instrument covering several distinct matters to be stamped for each. Since the Finance Act 2019, stamp duty on securities transactions is collected centrally through stock exchanges and depositories."
+   },
+   {
+    "topic": "mode & timing",
+    "note": "Instruments executed in India must be stamped before or at the time of execution (section 17), while those executed outside India may be stamped within three months of first being received in India (section 18). Duty may be paid by impressed stamps, adhesive stamps, franking or e-stamping, and adhesive stamps must be cancelled so they cannot be reused (section 12). Example: a lease deed signed today in Kerala must be on e-stamp paper bought on or before today."
+   },
+   {
+    "topic": "non-stamping",
+    "note": "Under section 35, an instrument not duly stamped is inadmissible in evidence and cannot be acted upon, but (except for a mere copy) it can be admitted on payment of the deficit duty and a penalty of ₹5 or ten times the deficit, whichever is more. Section 33 empowers authorities to impound such instruments. In the 2023 seven-judge decision on interplay of the Stamp Act and arbitration, the Supreme Court held that an unstamped agreement is not void and its arbitration clause can still be acted on, as stamping is a curable defect."
+   },
+   {
+    "topic": "refund",
+    "note": "Allowance or refund is available for spoiled stamps, such as stamp paper damaged or not used for the intended purpose, on application to the Collector generally within six months (section 49 onwards). Refunds are also allowed for stamps used for an instrument found void from the start or that failed for a reason like refusal by a party, subject to deduction of a small percentage. Example: e-stamp paper bought for an agreement that the parties later cancel before signing can be refunded on timely application."
+   },
+   {
+    "topic": "e-stamping",
+    "note": "E-stamping is a computer-based system, administered in many States through the Stock Holding Corporation of India (SHCIL) as Central Record-Keeping Agency, for paying stamp duty electronically. Each certificate has a unique identification number that can be verified online, which helps prevent fake stamp papers. Most States have now replaced physical stamp paper above specified values with e-stamping."
+   },
+   {
+    "topic": "adjudication",
+    "note": "Under section 31, a person can apply to the Collector, before or after execution, for an opinion on the duty with which an instrument is chargeable, paying a fee. The Collector issues an endorsement certificate under section 32, after which the instrument is treated as duly stamped and admissible. This is useful for complex documents such as amalgamation schemes where the applicable article is unclear."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "An agreement executed in Bengaluru on 1 March is stamped on 10 March. The instrument is:",
+    "options": [
+     "Duly stamped, since there is a one-month grace period",
+     "Not duly stamped, as instruments executed in India must be stamped before or at the time of execution",
+     "Valid only if registered",
+     "Duly stamped if adhesive stamps were used"
+    ],
+    "answer": 1,
+    "explain": "Section 17 requires stamping before or at the time of execution for instruments executed in India."
+   },
+   {
+    "q": "An unstamped loan agreement is produced in court. The court will:",
+    "options": [
+     "Reject it permanently",
+     "Treat the loan as void",
+     "Admit it on payment of deficit duty and penalty",
+     "Admit it free of cost"
+    ],
+    "answer": 2,
+    "explain": "Section 35 proviso allows admission on payment of duty plus penalty."
+   },
+   {
+    "q": "A sale of land is completed through an agreement, a conveyance deed and a power of attorney, all for one transaction. Full duty is payable on:",
+    "options": [
+     "Each of the three documents",
+     "None, if the price is below ₹10 lakh",
+     "Only the agreement",
+     "The principal instrument only, with others at a reduced rate"
+    ],
+    "answer": 3,
+    "explain": "Section 4 provides that only the principal instrument is charged full duty where several instruments are used for one transaction."
+   },
+   {
+    "q": "A party wants certainty about the duty payable on a complex merger scheme before filing it. He should:",
+    "options": [
+     "Seek adjudication from the Collector under section 31",
+     "File a writ petition",
+     "Pay the minimum duty",
+     "Apply to the Registrar of Companies"
+    ],
+    "answer": 0,
+    "explain": "Section 31 provides for adjudication of the proper stamp duty by the Collector."
+   },
+   {
+    "q": "A company's agreement containing an arbitration clause is unstamped. Under the Supreme Court's seven-judge ruling of 2023, the arbitration clause:",
+    "options": [
+     "Is void",
+     "Can be acted on only after a civil suit",
+     "Must be re-executed",
+     "Is not void; the stamp defect is curable and does not bar appointment of an arbitrator"
+    ],
+    "answer": 3,
+    "explain": "The 2023 decision held non-stamping a curable defect not rendering the agreement void."
+   },
+   {
+    "q": "A person buys e-stamp paper for a lease, but the landlord backs out before signing. To get a refund he must:",
+    "options": [
+     "Apply to the High Court",
+     "File a civil suit",
+     "Apply to the Collector for allowance for spoiled stamps within the prescribed time",
+     "Sell it to another person"
+    ],
+    "answer": 2,
+    "explain": "The Act allows refunds for unused or spoiled stamps on timely application to the Collector."
+   }
+  ],
+  "desc": {
+   "q": "A share purchase agreement signed in Singapore between an Indian company and a foreign investor is brought to India two months later and is now needed as evidence in a Mumbai court. It is not stamped. Advise on stamp duty compliance and the agreement's admissibility.",
+   "points": [
+    "An instrument executed outside India may be stamped within three months of its first receipt in India (section 18), so the company can still stamp it within that window without penalty.",
+    "The applicable rate will be under the State law where the instrument is received (Maharashtra Stamp Act), as stamp duty on many instruments is a State subject.",
+    "If it is produced in court unstamped, the court will impound it under section 33 and admit it only after payment of deficit duty and penalty (section 35).",
+    "Where the correct article is unclear, the company may seek adjudication under section 31 to obtain a certificate that the instrument is duly stamped.",
+    "An unstamped agreement is not void; the defect is curable, so commercial rights and any arbitration clause survive once duty is paid."
+   ]
+  }
+ },
+ "p1c13": {
+  "notes": [
+   {
+    "topic": "Compulsory & optional registration",
+    "note": "Section 17 of the Registration Act 1908 makes registration compulsory for gifts of immovable property, non-testamentary instruments creating or extinguishing any interest of ₹100 or more in immovable property, leases from year to year or for more than a year, and (since 2001) agreements for sale under section 53A of the Transfer of Property Act. Section 18 lists documents where registration is optional, such as wills and instruments creating interests below ₹100. Documents must be presented within four months of execution (section 23), with a further four months allowed on fine."
+   },
+   {
+    "topic": "consequences",
+    "note": "Under section 49, an unregistered document that requires registration does not affect the immovable property it covers and is not admissible as evidence of the transaction. It may, however, be admitted as evidence of a contract in a suit for specific performance or of a collateral transaction not requiring registration. Under section 47, a registered document operates from the date of its execution, not its registration; example: an unregistered sale deed does not pass title even if the price is paid."
+   },
+   {
+    "topic": "Transfer of Property Act",
+    "note": "The Transfer of Property Act 1882 (TPA) governs transfers between living persons (section 5), and any property may be transferred except those listed in section 6, such as a mere chance of inheritance (spes successionis) or a right to sue. A condition absolutely restraining alienation is void (section 10), and section 41 protects a transferee from an ostensible owner who took reasonable care. Under section 52 (lis pendens), a transfer of property in dispute during a suit is subject to the court's decision, and section 53A protects a buyer in possession under a written contract under the doctrine of part performance."
+   },
+   {
+    "topic": "sale, mortgage, lease, gift",
+    "note": "A sale (section 54 TPA) is a transfer of ownership for a price; for tangible immovable property worth ₹100 or more it must be by registered instrument. A mortgage (section 58) is transfer of an interest in specific immovable property to secure a loan, in forms such as simple, usufructuary, English and mortgage by deposit of title deeds (equitable mortgage, common for bank loans). A lease (section 105) transfers a right to enjoy property for a term against rent, and a gift (section 122) is a voluntary transfer without consideration, accepted during the donor's lifetime, and for immovable property must be by registered instrument attested by two witnesses (section 123)."
+   },
+   {
+    "topic": "easements",
+    "note": "Under the Indian Easements Act 1882, an easement is a right held by the owner of a dominant property over a servient property owned by another, for its beneficial enjoyment, such as a right of way, light or air. Easements can be acquired by grant, necessity (e.g., the only access route to landlocked land), quasi-easement, custom or prescription after 20 years' peaceable and open enjoyment as of right (section 15). An easement of necessity ends when the necessity ends, and a licence, unlike an easement, is a personal permission that creates no interest in the property."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A father gifts a plot to his daughter by a written deed signed by two witnesses, but it is not registered. The gift is:",
+    "options": [
+     "Not effective, as a gift of immovable property must be by registered instrument",
+     "Valid, since gifts within family need no formalities",
+     "Valid if the daughter takes possession",
+     "Valid if stamp duty is paid"
+    ],
+    "answer": 0,
+    "explain": "Section 123 TPA and section 17 Registration Act require a registered instrument for gifts of immovable property."
+   },
+   {
+    "q": "During the pendency of a partition suit, one co-owner sells his share to a third party. The buyer's rights are:",
+    "options": [
+     "Absolute and unaffected by the suit",
+     "Void ab initio",
+     "Subject to the final decree in the suit under the doctrine of lis pendens",
+     "Valid only if the court approves in advance"
+    ],
+    "answer": 2,
+    "explain": "Section 52 TPA makes transfers during pending litigation subject to the court's decision."
+   },
+   {
+    "q": "A borrower gives his title deeds to a bank in Mumbai with intent to create security for a loan. This creates:",
+    "options": [
+     "A mortgage by deposit of title deeds",
+     "A pledge",
+     "A lease",
+     "A gift"
+    ],
+    "answer": 0,
+    "explain": "Section 58(f) TPA recognises equitable mortgage by deposit of title deeds in notified towns."
+   },
+   {
+    "q": "A has used a footpath across B's land openly and as of right for 22 years without interruption. A has likely acquired:",
+    "options": [
+     "A licence",
+     "Ownership of the path",
+     "A lease",
+     "An easement by prescription"
+    ],
+    "answer": 3,
+    "explain": "Section 15 of the Easements Act grants an easement after 20 years of peaceable, open and uninterrupted enjoyment as of right."
+   },
+   {
+    "q": "A five-year lease of a shop is written on stamp paper but not registered. In a dispute, the lease deed:",
+    "options": [
+     "Is fully enforceable",
+     "Cannot be used to prove the lease terms, but may be used for collateral purposes",
+     "Is void and the tenant must vacate immediately",
+     "Converts into a gift"
+    ],
+    "answer": 1,
+    "explain": "Section 49 bars use of an unregistered compulsorily registrable document to prove the transaction, except for collateral purposes."
+   },
+   {
+    "q": "A agrees in writing to sell a flat to B, B takes possession and pays part of the price, but A refuses to execute the sale deed and sues to evict B. B can best rely on:",
+    "options": [
+     "Section 6 TPA",
+     "Easement of necessity",
+     "Section 10 TPA",
+     "Doctrine of part performance under section 53A TPA, provided the agreement is registered"
+    ],
+    "answer": 3,
+    "explain": "Section 53A protects a transferee in possession under a written (now registered) contract who has performed or is willing to perform."
+   }
+  ],
+  "desc": {
+   "q": "R purchased land under a registered sale deed. Later he learns that (i) the seller had earlier mortgaged it to a bank by deposit of title deeds, and (ii) a neighbour claims a right of way over it, used for 25 years. Advise R on his position.",
+   "points": [
+    "A sale of immovable property worth ₹100 or more requires a registered deed (section 54 TPA); R's registered deed gives him title from the date of execution (section 47 Registration Act).",
+    "An equitable mortgage by deposit of title deeds (section 58(f) TPA) is valid even without a registered document, so R takes the land subject to the bank's prior charge.",
+    "R should check encumbrance records and may claim against the seller for breach of the implied covenant that the property is free from undisclosed encumbrances (section 55 TPA).",
+    "If the neighbour proves 20 years' open, peaceful and uninterrupted use as of right, he has a prescriptive easement (section 15 Easements Act) binding on R as owner of the servient land.",
+    "R cannot block the path but may challenge the claim if the use was by permission (a licence) or was interrupted."
+   ]
+  }
+ },
+ "p1c14": {
+  "notes": [
+   {
+    "topic": "Definitions",
+    "note": "Under section 2(f) of the Right to Information Act 2005, 'information' means any material in any form, including records, documents, emails, opinions, contracts, samples and electronic data, as well as information about a private body that a public authority can access under any law. 'Right to information' (section 2(j)) includes inspecting records, taking notes and certified copies and obtaining samples. A citizen applies under section 6 without giving reasons, and the Public Information Officer (PIO) must reply within 30 days, or 48 hours where life or liberty is involved (section 7)."
+   },
+   {
+    "topic": "public authorities",
+    "note": "A public authority (section 2(h)) is any body constituted by or under the Constitution, a law of Parliament or a State legislature, or a government notification, including bodies owned, controlled or substantially financed by government, and NGOs substantially financed by government. Each must suo motu publish key information about its functions, officers and budgets (section 4) and appoint PIOs. Section 8 exempts certain information, such as information affecting national security, commercial confidence, cabinet papers and unwarranted invasion of privacy, unless larger public interest requires disclosure; example: a private listed company is not a public authority, but its filings held by a regulator can be sought from that regulator."
+   },
+   {
+    "topic": "CIC & SIC",
+    "note": "The Central Information Commission (CIC) and State Information Commissions (SICs) are set up under sections 12 and 15, with a Chief Information Commissioner and up to ten Information Commissioners each. After a first appeal to the senior officer within the authority (section 19(1), within 30 days), a second appeal lies to the Commission within 90 days, and complaints may be filed directly under section 18. Under section 20, the Commission can impose a penalty of ₹250 per day, up to ₹25,000, on a PIO who refuses or delays information without reasonable cause; since the 2019 amendment, the tenure and salaries of Commissioners are as prescribed by the Central Government."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A citizen files an RTI application seeking information on the custodial detention of his brother, which affects his liberty. The PIO must respond within:",
+    "options": [
+     "48 hours",
+     "30 days",
+     "15 days",
+     "7 days"
+    ],
+    "answer": 0,
+    "explain": "Section 7(1) proviso requires a reply within 48 hours where life or liberty is concerned."
+   },
+   {
+    "q": "A PIO asks an applicant to state why he wants copies of tender files before supplying them. This demand is:",
+    "options": [
+     "Valid, as reasons help prioritise",
+     "Valid for commercial information",
+     "Improper, as an applicant need not give reasons for seeking information",
+     "Valid only for foreign nationals"
+    ],
+    "answer": 2,
+    "explain": "Section 6(2) states that the applicant is not required to give any reason."
+   },
+   {
+    "q": "A private school receiving no government funds is asked under RTI for its fee records. The school:",
+    "options": [
+     "Is not a public authority, but information about it held by the Education Department can be sought from that department",
+     "Must give the information directly",
+     "Is a public authority as it provides education",
+     "Can be penalised by the CIC"
+    ],
+    "answer": 0,
+    "explain": "Only bodies within section 2(h) are public authorities; section 2(f) covers private-body information accessible to a public authority."
+   },
+   {
+    "q": "An applicant gets no reply from the PIO within 30 days and his first appeal is also not decided. His next step is:",
+    "options": [
+     "A writ petition under Article 32 only",
+     "A civil suit",
+     "A complaint to the police",
+     "A second appeal to the Information Commission within 90 days"
+    ],
+    "answer": 3,
+    "explain": "Section 19(3) provides a second appeal to the CIC/SIC within 90 days."
+   },
+   {
+    "q": "The Commission finds a PIO delayed information for 150 days without reasonable cause. The maximum penalty it can impose is:",
+    "options": [
+     "₹250",
+     "₹37,500",
+     "₹25,000",
+     "₹1,00,000"
+    ],
+    "answer": 2,
+    "explain": "Section 20(1) prescribes ₹250 per day subject to a maximum of ₹25,000."
+   },
+   {
+    "q": "A competitor seeks a company's detailed bid pricing submitted to a ministry. The ministry can refuse because:",
+    "options": [
+     "Companies have no rights under RTI",
+     "The information is protected as commercial confidence under section 8(1)(d), unless larger public interest warrants disclosure",
+     "Tenders are classified as state secrets",
+     "Only the CAG can access tender files"
+    ],
+    "answer": 1,
+    "explain": "Section 8(1)(d) exempts trade secrets and commercial confidence that would harm competitive position."
+   }
+  ],
+  "desc": {
+   "q": "A shareholder of a listed company seeks, under the RTI Act, (i) the company's internal board minutes directly from the company and (ii) inspection reports about the company held by SEBI. Advise on the likely outcome of each request.",
+   "points": [
+    "A listed private company is not a 'public authority' under section 2(h), so the request made directly to the company is not maintainable under the RTI Act.",
+    "SEBI is a statutory body and a public authority, so a request for information held by it is maintainable.",
+    "SEBI may invoke exemptions under section 8, such as commercial confidence, information held in a fiduciary relationship, or information that would impede investigation, unless larger public interest warrants disclosure.",
+    "Where only part of the information is exempt, the PIO should disclose the non-exempt portion through severability (section 10).",
+    "If refused, the shareholder may file a first appeal within 30 days and a second appeal to the CIC within 90 days; he may also use his rights under company law to inspect statutory records."
+   ]
+  }
+ },
+ "p1c15": {
+  "notes": [
+   {
+    "topic": "IT Act definitions",
+    "note": "The Information Technology Act 2000 gives legal recognition to electronic records and transactions. Key definitions in section 2 include 'electronic record', 'computer resource', 'intermediary' (any person who receives, stores or transmits records on behalf of others, such as ISPs, marketplaces and social media platforms) and 'addressee' and 'originator'. Sections 4 and 5 recognise electronic records and electronic signatures where law requires writing or signature, but section 1(4) and the First Schedule exclude documents such as wills, powers of attorney, trusts and contracts for sale of immovable property."
+   },
+   {
+    "topic": "digital signatures",
+    "note": "A digital signature (section 3) authenticates an electronic record using an asymmetric crypto system and hash function, with a private key to sign and a public key to verify. Section 3A recognises other reliable electronic signature techniques notified in the Second Schedule, such as Aadhaar-based e-sign. Example: directors sign MCA filings with a Digital Signature Certificate (DSC), and the recipient can verify both the signer's identity and that the document has not been altered."
+   },
+   {
+    "topic": "certifying authority",
+    "note": "The Controller of Certifying Authorities (CCA) licenses and regulates Certifying Authorities (sections 17-34) and maintains the root certifying authority. A Certifying Authority issues Digital Signature Certificates after verifying the applicant's identity, and must follow secure procedures and publish its practices. It may suspend or revoke a certificate on the subscriber's request or if it was obtained by misrepresentation or the key is compromised (sections 37-38)."
+   },
+   {
+    "topic": "offences & penalties",
+    "note": "Section 43 makes a person who accesses, downloads, introduces viruses into or damages a computer system without permission liable to pay compensation, adjudicated by an Adjudicating Officer (section 46). Criminal offences include tampering with source code (section 65), dishonest or fraudulent acts under section 43 (section 66), identity theft (section 66C), cheating by personation using a computer (section 66D), privacy violation (section 66E), cyber-terrorism (section 66F) and publishing obscene material electronically (section 67). Section 66A was struck down in Shreya Singhal (2015), and section 85 makes officers in charge liable for offences by companies unless they prove lack of knowledge or due diligence."
+   },
+   {
+    "topic": "sensitive personal data",
+    "note": "Section 43A, read with the 2011 SPDI Rules, made a body corporate handling 'sensitive personal data or information' (passwords, financial data, health records, biometric data, sexual orientation, etc.) liable to compensate for negligent failure to maintain reasonable security practices. Section 72A punishes disclosure of personal information in breach of a lawful contract. Once the relevant provisions of the Digital Personal Data Protection Act 2023 are in force, section 43A is omitted and the DPDP regime governs."
+   },
+   {
+    "topic": "data protection",
+    "note": "The Digital Personal Data Protection Act 2023 (DPDP Act) governs processing of digital personal data, which must be on a lawful ground, chiefly consent or certain 'legitimate uses'. Data fiduciaries must give notice, ensure accuracy and security, report breaches and erase data when the purpose is served, while data principals have rights of access, correction, erasure and grievance redress; processing children's data needs verifiable parental consent. The Data Protection Board of India adjudicates breaches and can impose penalties up to ₹250 crore per instance, and the DPDP Rules 2025 phase in its obligations; example: an e-commerce company must stop processing a customer's data once consent is withdrawn."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A party argues that a will executed and signed electronically with a DSC is valid under the IT Act. The correct position is:",
+    "options": [
+     "Valid, as the IT Act recognises all electronic records",
+     "Valid if stored on a government server",
+     "Valid if notarised online",
+     "Not valid, as wills are excluded from the IT Act by the First Schedule"
+    ],
+    "answer": 3,
+    "explain": "Section 1(4) and the First Schedule exclude testamentary dispositions such as wills."
+   },
+   {
+    "q": "A person logs in to his former employer's server with an old password and downloads client data to sell to a rival. He is liable for:",
+    "options": [
+     "Only civil compensation under section 43",
+     "Only defamation",
+     "Compensation under section 43 and, as he acted dishonestly, an offence under section 66",
+     "No liability, since he knew the password"
+    ],
+    "answer": 2,
+    "explain": "Unauthorised access and download is covered by section 43, and doing it dishonestly or fraudulently is an offence under section 66."
+   },
+   {
+    "q": "A fraudster creates a fake social media profile of a bank officer and induces customers to share OTPs. The specific offence is:",
+    "options": [
+     "Cheating by personation using a computer resource under section 66D",
+     "Tampering with source code under section 65",
+     "Publishing obscene material under section 67",
+     "Cyber-terrorism under section 66F"
+    ],
+    "answer": 0,
+    "explain": "Section 66D punishes cheating by personation using a computer resource."
+   },
+   {
+    "q": "Who grants licences to Certifying Authorities to issue Digital Signature Certificates in India?",
+    "options": [
+     "RBI",
+     "CERT-In",
+     "MCA",
+     "Controller of Certifying Authorities"
+    ],
+    "answer": 3,
+    "explain": "Sections 17-24 of the IT Act empower the Controller to license and regulate Certifying Authorities."
+   },
+   {
+    "q": "Under the DPDP Act 2023, a fintech app wants to process a 15-year-old's personal data for a student account. It must:",
+    "options": [
+     "Obtain verifiable consent of the parent or lawful guardian",
+     "Obtain the child's consent alone",
+     "Notify the Data Protection Board first",
+     "Get CERT-In approval"
+    ],
+    "answer": 0,
+    "explain": "The DPDP Act requires verifiable parental consent for processing a child's (under 18) personal data."
+   },
+   {
+    "q": "A company's IT Head knew about repeated security lapses that led to a cyber offence by the company but did nothing. Under section 85 of the IT Act, he:",
+    "options": [
+     "Can never be prosecuted, as only the company is liable",
+     "Is liable only if he personally committed the act",
+     "Can be deemed guilty, unless he proves the offence was without his knowledge or he exercised due diligence",
+     "Is liable only to pay a fine to the company"
+    ],
+    "answer": 2,
+    "explain": "Section 85 makes persons in charge liable unless they prove lack of knowledge or due diligence."
+   }
+  ],
+  "desc": {
+   "q": "An online retailer suffers a data breach exposing customers' card details and passwords due to an unpatched server. Customers complain and the retailer's board seeks advice. Discuss the legal consequences under the IT Act 2000 and the DPDP Act 2023.",
+   "points": [
+    "Card details and passwords are sensitive personal data; under section 43A (while in force) the retailer is liable to pay compensation for negligent failure to maintain reasonable security practices.",
+    "Under the DPDP Act, the retailer as data fiduciary must take reasonable security safeguards, and must notify the Data Protection Board and affected data principals of the breach.",
+    "The Board can impose heavy penalties (up to ₹250 crore for failure to take reasonable security safeguards), considering the gravity and mitigation steps.",
+    "The retailer must also report the cyber incident to CERT-In within the prescribed timeline under its directions.",
+    "Officers in charge may face liability under section 85 for offences by the company; the board should fix vulnerabilities, document due diligence and offer remedial support to customers."
+   ]
+  }
+ },
+ "p1c16": {
+  "notes": [
+   {
+    "topic": "Offer & acceptance",
+    "note": "Under the Indian Contract Act 1872 (ICA), a proposal (section 2(a)) becomes a promise when accepted, and acceptance must be absolute and unqualified (section 7); a counter-offer rejects the original offer. Communication of an offer is complete when it comes to the knowledge of the offeree, and of acceptance as against the proposer when put in the course of transmission to him (section 4). An invitation to treat, such as goods displayed with price tags or a catalogue, is not an offer; general offers to the public can be accepted by performing the conditions (Carlill v Carbolic Smoke Ball Co; Lalman Shukla v Gauri Dutt, where knowledge of the offer was required)."
+   },
+   {
+    "topic": "consideration",
+    "note": "Consideration (section 2(d)) is an act, abstinence or promise done at the desire of the promisor by the promisee or any other person, and may be past, present or future. It need not be adequate, but must be real and lawful; under section 25, an agreement without consideration is void, except a registered written promise made out of natural love and affection, a promise to compensate for something voluntarily done, and a written promise to pay a time-barred debt. Example: a promise by a son to pay a contractor for repairs his father requested earlier is enforceable as past consideration at the promisor's desire."
+   },
+   {
+    "topic": "privity",
+    "note": "Only a party to a contract can sue on it (Tweddle v Atkinson; Dunlop v Selfridge), though in India consideration may flow from a third person (Chinnaya v Ramayya). Exceptions include beneficiaries of a trust or charge, family settlements and marriage arrangements, acknowledgment or estoppel, and covenants running with land. Example: a beneficiary under an insurance policy trust can enforce the policy even though not a party."
+   },
+   {
+    "topic": "capacity",
+    "note": "Under section 11, a person is competent to contract if he has attained majority (18 years), is of sound mind and is not disqualified by law. An agreement with a minor is void ab initio (Mohori Bibee v Dharmodas Ghose, 1903), cannot be ratified on attaining majority, and the minor is not estopped by misrepresenting his age, but a minor's property is liable for necessaries supplied to him (section 68). A person who is usually of unsound mind may contract when of sound mind (section 12), and vice versa."
+   },
+   {
+    "topic": "free consent",
+    "note": "Consent is free when not caused by coercion (section 15), undue influence (section 16), fraud (section 17), misrepresentation (section 18) or mistake. Contracts caused by the first four are voidable at the option of the aggrieved party (sections 19-19A), while a bilateral mistake of fact essential to the agreement makes it void (section 20); a mistake of Indian law does not (section 21). Example: an agreement signed at gunpoint is voidable for coercion, and silence is not fraud unless there is a duty to speak."
+   },
+   {
+    "topic": "void & voidable",
+    "note": "A void agreement (section 2(g)) is not enforceable at all, e.g., agreements in restraint of trade (section 27, subject to the exception for sale of goodwill), in restraint of legal proceedings (section 28), uncertain agreements (section 29) and wagers (section 30). A voidable contract (section 2(i)) is enforceable at the option of one party, as in a contract induced by fraud. A contract that becomes void later, for example through impossibility, requires any advantage received to be restored under section 65; an employee's post-employment non-compete clause is generally void in India."
+   },
+   {
+    "topic": "discharge",
+    "note": "A contract may be discharged by performance, mutual agreement (novation, rescission, alteration, remission, waiver under section 62-63), impossibility, lapse of time, operation of law or breach. Under section 56, a contract becomes void when performance becomes impossible or unlawful after it is made (frustration), as when the subject matter is destroyed, though mere commercial hardship or rise in cost is not frustration (Satyabrata Ghose, 1954). Example: a hall booked for a wedding burns down before the date, so the contract is discharged."
+   },
+   {
+    "topic": "breach remedies",
+    "note": "On breach, section 73 entitles the injured party to compensation for loss arising naturally in the usual course of things or which the parties knew, when contracting, to be likely to result (Hadley v Baxendale); remote and indirect losses are not recoverable. Under section 74, where a sum is named as liquidated damages or penalty, only reasonable compensation up to that amount is awarded (Kailash Nath Associates, 2015). Other remedies include rescission, quantum meruit for work done, specific performance and injunctions; the injured party must also take reasonable steps to mitigate loss."
+   },
+   {
+    "topic": "quasi contracts",
+    "note": "Quasi-contracts (sections 68-72) impose obligations without an agreement to prevent unjust enrichment. They cover necessaries supplied to an incapable person (section 68), payment by an interested person of money due by another (section 69), non-gratuitous acts whose benefit is enjoyed (section 70), finder of goods (section 71) and money paid or goods delivered by mistake or coercion (section 72). Example: if a company mistakenly pays an invoice twice, the supplier must return the excess under section 72."
+   },
+   {
+    "topic": "e-contracts",
+    "note": "E-contracts formed through emails, websites, click-wrap and shrink-wrap agreements are valid if they satisfy the usual essentials of the ICA, and section 10A of the IT Act expressly recognises contracts formed electronically. Rules on time and place of dispatch and receipt of electronic records are in section 13 of the IT Act, typically the place of business of the originator and addressee. Courts have upheld clicking 'I agree' as acceptance, though unfair standard terms may be scrutinised; example: an online booking confirmation email completes the contract."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A shop displays a phone tagged '₹20,000'. A customer offers ₹20,000 but the shopkeeper refuses to sell. The customer:",
+    "options": [
+     "Can enforce a contract, as the price tag was an offer",
+     "Cannot enforce it, as a display of goods is only an invitation to treat",
+     "Can claim damages for refusal",
+     "Can file a consumer complaint for breach of contract"
+    ],
+    "answer": 1,
+    "explain": "Display of goods with prices is an invitation to offer; the customer makes the offer."
+   },
+   {
+    "q": "A 17-year-old takes a loan of ₹2 lakh by falsely claiming to be 19 and signs a mortgage. The lender sues to recover. The court will hold:",
+    "options": [
+     "The minor is liable as he lied",
+     "The contract is valid on attaining majority",
+     "The agreement is void, and the minor is not estopped by his false statement",
+     "The minor's parents are liable"
+    ],
+    "answer": 2,
+    "explain": "Mohori Bibee holds minors' agreements void ab initio, and estoppel does not apply against a minor."
+   },
+   {
+    "q": "A writes to B: 'I will sell my car for ₹5 lakh.' B replies: 'I accept, if you include new tyres.' A sells to C. B sues. B will:",
+    "options": [
+     "Succeed, as he accepted",
+     "Succeed if he pays more",
+     "Succeed only for damages",
+     "Fail, since his reply was a counter-offer and not an absolute acceptance"
+    ],
+    "answer": 3,
+    "explain": "Section 7 requires absolute and unqualified acceptance; a conditional reply is a counter-offer."
+   },
+   {
+    "q": "A supplier fails to deliver a machine part on time. The buyer's factory stays shut and loses a special export order the supplier did not know about. The buyer can recover:",
+    "options": [
+     "Normal losses arising from the delay, but not the loss of the special export order",
+     "All losses including the export order",
+     "Only nominal damages",
+     "Nothing, since delay is not breach"
+    ],
+    "answer": 0,
+    "explain": "Section 73 and Hadley v Baxendale exclude losses not within the parties' contemplation."
+   },
+   {
+    "q": "A contract provides liquidated damages of ₹10 lakh for delay. The delay causes actual loss of ₹3 lakh. The court is likely to award:",
+    "options": [
+     "₹10 lakh automatically",
+     "Nothing",
+     "₹13 lakh",
+     "Reasonable compensation not exceeding ₹10 lakh, around the proven loss of ₹3 lakh"
+    ],
+    "answer": 3,
+    "explain": "Section 74 limits recovery to reasonable compensation up to the stipulated sum."
+   },
+   {
+    "q": "A courier mistakenly delivers goods meant for X to Y, who uses them knowing they were not ordered. Y is liable to pay because:",
+    "options": [
+     "Of section 70 of the ICA",
+     "Of section 27",
+     "He was negligent in tort",
+     "Of section 56"
+    ],
+    "answer": 0,
+    "explain": "Section 70 makes a person who enjoys the benefit of a non-gratuitous act liable to compensate."
+   }
+  ],
+  "desc": {
+   "q": "TechCo agrees to develop software for RetailCo for ₹40 lakh by 31 March. In February, new government regulations ban the specific payment feature that was the core of the software. Separately, TechCo's key developer resigns, raising its costs by 30%. RetailCo wants to cancel and recover the ₹10 lakh advance. Advise both parties.",
+   "points": [
+    "Under section 56, a contract becomes void if performance becomes unlawful or impossible after it is made; a regulatory ban on the core feature may frustrate the contract to that extent.",
+    "Increased cost or loss of a key developer is mere commercial hardship and does not frustrate the contract (Satyabrata Ghose).",
+    "If the contract is frustrated, section 65 requires TechCo to restore the advantage received, i.e., refund the advance, though it may claim for work done that benefited RetailCo.",
+    "If only part is affected, the parties may vary the scope by mutual agreement (section 62) rather than cancel.",
+    "If RetailCo cancels without legal ground, TechCo can claim damages under section 73, and must mitigate its losses."
+   ]
+  }
+ },
+ "p1c17": {
+  "notes": [
+   {
+    "topic": "Contract of sale",
+    "note": "Under section 4 of the Sale of Goods Act 1930, a contract of sale is one by which the seller transfers or agrees to transfer property in goods to the buyer for a price. Essentials are two parties, movable goods (including shares, growing crops and stock, but not actionable claims or money), a money price, transfer of general property, and the usual essentials of a valid contract. Example: exchange of goods for goods is barter, not sale."
+   },
+   {
+    "topic": "sale vs agreement to sell",
+    "note": "Where property passes to the buyer immediately, it is a sale; where it is to pass at a future time or on a condition, it is an agreement to sell, which becomes a sale when that time arrives or the condition is met. In a sale, risk generally passes with property (section 26), so loss falls on the buyer, and the seller can sue for price (section 55); in an agreement to sell, the seller bears risk and can sue only for damages. Example: if a car sold is destroyed by fire before delivery but after property has passed, the buyer bears the loss."
+   },
+   {
+    "topic": "conditions & warranties",
+    "note": "A condition is a stipulation essential to the main purpose of the contract whose breach allows repudiation, while a warranty is collateral and its breach only gives a right to damages (section 12). Implied conditions include title (section 14), description (section 15), fitness for purpose and merchantable quality (section 16), and sale by sample (section 17); implied warranties include quiet possession and freedom from encumbrances. Under section 13, a buyer may waive a breach of condition and treat it as a breach of warranty, and must do so once he has accepted the goods."
+   },
+   {
+    "topic": "caveat emptor",
+    "note": "Under section 16, there is no implied condition as to quality or fitness, so the buyer must take care when buying ('let the buyer beware'). Exceptions include where the buyer makes known a particular purpose and relies on the seller's skill, goods bought by description from a dealer (merchantable quality), sale by sample, usage of trade and where the seller uses fraud. Example: a buyer who tells a dealer he needs paint for marine use and relies on his advice can reject paint unfit for that purpose (Priest v Last)."
+   },
+   {
+    "topic": "unpaid seller's rights",
+    "note": "An unpaid seller (section 45) is one who has not been paid in full or has received a dishonoured negotiable instrument. Against the goods he has a lien while in possession (sections 47-49), a right of stoppage in transit if the buyer becomes insolvent (sections 50-52), and a right of resale in specified cases (section 54). He also has rights against the buyer personally: a suit for price (section 55), damages for non-acceptance (section 56) and interest."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A agrees to sell B 100 bags of rice from his godown, to be weighed and set apart next week. Before that, the godown is flooded. The loss falls on:",
+    "options": [
+     "A, as property had not passed and this was an agreement to sell",
+     "B, since the contract was made",
+     "Both equally",
+     "The insurer only"
+    ],
+    "answer": 0,
+    "explain": "Property in unascertained goods passes only when ascertained; risk follows property (section 26)."
+   },
+   {
+    "q": "A buyer tells a dealer he needs a pump to lift water 50 metres and relies on the dealer's choice. The pump cannot lift beyond 20 metres. The buyer can:",
+    "options": [
+     "Only claim damages",
+     "Reject the pump for breach of implied condition of fitness for purpose",
+     "Do nothing due to caveat emptor",
+     "Sue only the manufacturer"
+    ],
+    "answer": 1,
+    "explain": "Section 16(1) implies a condition of fitness where the buyer discloses the purpose and relies on the seller's skill."
+   },
+   {
+    "q": "A buyer purchases a stolen car from a person with no title, and the true owner reclaims it. The buyer can recover the price from the seller for breach of:",
+    "options": [
+     "Implied warranty of quality",
+     "Caveat emptor",
+     "Section 56",
+     "Implied condition as to title under section 14"
+    ],
+    "answer": 3,
+    "explain": "Section 14 implies a condition that the seller has the right to sell."
+   },
+   {
+    "q": "A seller has handed goods to a carrier for delivery when he learns the buyer has become insolvent and has not paid. The seller can:",
+    "options": [
+     "Exercise the right of stoppage in transit and resume possession",
+     "Only file a claim in insolvency",
+     "Exercise lien",
+     "Sue the carrier"
+    ],
+    "answer": 0,
+    "explain": "Sections 50-52 give an unpaid seller a right of stoppage in transit on the buyer's insolvency."
+   },
+   {
+    "q": "A buyer orders 'Basmati rice' by catalogue but receives non-Basmati rice of good quality. The buyer can:",
+    "options": [
+     "Reject, because there is a breach of implied condition that goods correspond with description",
+     "Not reject, since quality is good",
+     "Only claim a price cut",
+     "Reject only if he paid in advance"
+    ],
+    "answer": 0,
+    "explain": "Section 15 implies a condition that goods correspond with their description."
+   },
+   {
+    "q": "A buyer finds a defect but keeps and uses the goods for months. He can now:",
+    "options": [
+     "Reject the goods for breach of condition",
+     "Treat the breach of condition only as a breach of warranty and claim damages",
+     "Rescind the contract",
+     "Get a full refund"
+    ],
+    "answer": 1,
+    "explain": "Under section 13, once goods are accepted, a breach of condition can only be treated as a breach of warranty."
+   }
+  ],
+  "desc": {
+   "q": "S sold 500 kg of spices to B on credit, payable in 30 days. B took delivery of 200 kg; 300 kg are still in S's warehouse. Before payment, B's cheque bounces and S learns B is facing insolvency. Advise S on his rights as unpaid seller.",
+   "points": [
+    "S is an unpaid seller under section 45, as the cheque was dishonoured and the price remains unpaid.",
+    "For the 300 kg in his possession, S can exercise a lien and retain the goods until paid, since the credit has effectively failed and B is insolvent (section 47).",
+    "Since the goods are perishable and/or after notice to B, S may resell them and claim any shortfall from B as damages (section 54).",
+    "For the 200 kg already delivered, S's rights against the goods are lost; he can only sue B for the price (section 55) and file a claim in B's insolvency proceedings.",
+    "S may also proceed under section 138 of the Negotiable Instruments Act for the dishonoured cheque."
+   ]
+  }
+ },
+ "p1c18": {
+  "notes": [
+   {
+    "topic": "Parties",
+    "note": "Under the Negotiable Instruments Act 1881 (NI Act), the parties to a bill of exchange are the drawer (who orders payment), the drawee (who is ordered to pay and becomes acceptor on acceptance) and the payee; to a promissory note, the maker and payee; and to a cheque, the drawer, the drawee bank and the payee. Further parties include the endorser and endorsee, holder (section 8), and holder in due course (section 9), who took the instrument for value, before maturity and in good faith. A holder in due course gets a title free of the defects of prior parties, and all prior parties remain liable to him until the instrument is satisfied (section 36)."
+   },
+   {
+    "topic": "material alteration",
+    "note": "Under section 87, a material alteration made without the consent of the parties, such as changing the amount, date, payee, time or place of payment, voids the instrument as against any party who did not consent. Exceptions include alterations made with consent, to carry out the common intention of the parties, filling blanks under authority (section 20), crossing a cheque or converting a blank endorsement into a full one. A bank paying an apparently unaltered cheque in due course is protected (section 89)."
+   },
+   {
+    "topic": "crossing",
+    "note": "A crossing directs the paying bank to pay only through a bank account, not over the counter. A general crossing is two parallel lines with or without words like '& Co.' (section 123), a special crossing names a particular bank (section 124), and 'Account Payee' directs the collecting bank to credit only the payee's account; 'Not Negotiable' (section 130) means the transferee gets no better title than the transferor. A paying bank that pays contrary to crossing is liable to the true owner (section 129), while one paying in due course is protected (section 128)."
+   },
+   {
+    "topic": "dishonour of cheques & remedies",
+    "note": "Under section 138, dishonour of a cheque for insufficient funds is an offence if the cheque was issued for a legally enforceable debt, presented within its validity (three months), the payee sends a written demand notice within 30 days of receiving information of dishonour, and the drawer fails to pay within 15 days of the notice. The complaint must be filed within one month after that 15-day period (section 142), and the offence is punishable with imprisonment up to two years or a fine up to twice the cheque amount, or both. The court may order interim compensation of up to 20% (section 143A), and section 141 makes officers in charge of a company liable."
+   },
+   {
+    "topic": "presumptions",
+    "note": "Section 118 presumes, until the contrary is proved, that every negotiable instrument was made for consideration, bears the date shown, was accepted and transferred before maturity, and that the holder is a holder in due course. Section 139 presumes that the holder of a cheque received it in discharge of a debt or liability, a rebuttable presumption that the accused can displace on a preponderance of probabilities (Rangappa v Sri Mohan, 2010; Basalingappa, 2019). Example: once the drawer admits signing the cheque, the burden shifts to him to show there was no debt."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A cheque crossed 'Account Payee' in favour of R is stolen and the thief tries to encash it at the counter. The bank should:",
+    "options": [
+     "Pay cash, since the cheque is genuine",
+     "Refer to the police only",
+     "Pay half the amount",
+     "Refuse cash payment and credit it only to R's account"
+    ],
+    "answer": 3,
+    "explain": "A crossed cheque cannot be paid over the counter, and an account-payee crossing directs credit only to the payee."
+   },
+   {
+    "q": "After issuing a promissory note for ₹50,000, the payee alters the amount to ₹80,000 without the maker's consent. The note is:",
+    "options": [
+     "Valid for ₹80,000",
+     "Valid for ₹50,000 only",
+     "Void against the maker due to material alteration",
+     "Valid if registered"
+    ],
+    "answer": 2,
+    "explain": "Section 87 renders an instrument void against a party who did not consent to a material alteration."
+   },
+   {
+    "q": "A cheque bounces on 1 March and the payee receives the bank memo on 3 March. The demand notice must be sent by:",
+    "options": [
+     "2 April",
+     "2 April counted from dishonour",
+     "15 March",
+     "Within 30 days of 3 March"
+    ],
+    "answer": 3,
+    "explain": "Section 138(b) requires notice within 30 days of receipt of information about the dishonour."
+   },
+   {
+    "q": "A director in charge of day-to-day affairs of a company that issued a dishonoured cheque is prosecuted along with the company. He can escape liability if he proves:",
+    "options": [
+     "The offence was committed without his knowledge or he exercised all due diligence",
+     "He was not the signatory",
+     "He resigned after the cheque was issued",
+     "The company is solvent"
+    ],
+    "answer": 0,
+    "explain": "Section 141 allows persons in charge to escape by proving lack of knowledge or due diligence."
+   },
+   {
+    "q": "In a section 138 trial, the accused admits signing the cheque but says it was given as security, not for any debt. The legal position is:",
+    "options": [
+     "The complainant must prove the debt beyond doubt",
+     "The case is automatically dismissed",
+     "The presumption under section 139 arises, and the accused must rebut it on a preponderance of probabilities",
+     "The accused must prove innocence beyond reasonable doubt"
+    ],
+    "answer": 2,
+    "explain": "Section 139 raises a rebuttable presumption of a legally enforceable debt once the cheque is admitted."
+   },
+   {
+    "q": "H receives a bill of exchange for value, before maturity and without notice of a defect in the endorser's title. H can enforce it against:",
+    "options": [
+     "All prior parties, free of defects in their title, as a holder in due course",
+     "Only the last endorser",
+     "Only the drawer",
+     "No one, if the original payee was defrauded"
+    ],
+    "answer": 0,
+    "explain": "Sections 9 and 36 give a holder in due course a clear title and rights against all prior parties."
+   }
+  ],
+  "desc": {
+   "q": "M Ltd issued a cheque of ₹6 lakh to N for supplies. It was dishonoured for 'funds insufficient' on 10 January; N received the bank memo on 12 January, sent notice on 5 February, and M Ltd did not pay. N wants to prosecute M Ltd and its directors. Advise N on the procedure and liability.",
+   "points": [
+    "Ingredients of section 138 are met: cheque for a legally enforceable debt, dishonour for insufficiency, notice within 30 days of receiving information (5 February is within 30 days of 12 January), and non-payment within 15 days.",
+    "The cause of action arises on expiry of 15 days from M Ltd's receipt of notice, and the complaint must be filed within one month thereafter (section 142), before the court where N's bank account is maintained.",
+    "M Ltd is liable as drawer; under section 141, directors in charge of and responsible for the conduct of business at the time are also liable, but the complaint must specifically aver their role, and non-executive/independent directors are generally not liable without specific allegations.",
+    "The presumption under section 139 helps N; M Ltd may rebut it by showing no debt existed.",
+    "N may seek interim compensation of up to 20% (section 143A); punishment is up to two years' imprisonment and/or fine up to twice the amount, and the offence is compoundable."
+   ]
+  }
+ }
+}
