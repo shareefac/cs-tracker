@@ -1,0 +1,14 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // EDIT: lower-case emails allowed to use the tracker
+    function allowed() {
+      return request.auth != null
+        && request.auth.token.email_verified == true
+        && request.auth.token.email.lower() in ['uvais@example.com', 'shareef@example.com'];
+    }
+    match /tracker/{trackerId}/{collection}/{docId} {
+      allow read, write: if allowed();
+    }
+  }
+}
