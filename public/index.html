@@ -1,3 +1,6 @@
+<!doctype html>
+<html lang="en">
+<head>
 <title>Shareef CS Executive Tracker</title>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,6 +22,8 @@
   --bg:#171213; --surface:#211a1c; --line:#3a2f32; --fg:#f1eaeb; --muted:#ab9ea1;
   --accent:#e26a7c; --accent-soft:#3c2228; --good:#6cc48f; --good-soft:#1d3226; --warn:#e3a54a; --warn-soft:#3a2c16; --track:#33292b; color-scheme:dark}
 *{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0}
 body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px}
 .wrap{max-width:1080px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
 h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0}
@@ -171,6 +176,8 @@ header{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;align-
 footer{font-size:12.5px;color:var(--muted)}
 @media (prefers-reduced-motion:reduce){.bar>i{transition:none}}
 </style>
+</head>
+<body>
 
 <div class="login" id="login" hidden>
   <div class="lbox">
@@ -597,3 +604,5 @@ $("findQ").oninput=()=>{if(!$("findQ").value.trim())$("findOut").hidden=true;};
   });
 })();
 </script>
+</body>
+</html>
