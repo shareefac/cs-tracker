@@ -113,6 +113,9 @@ header{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;align-
 .vcard .lang{font:600 11px var(--mono);color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:1px 5px}
 .chans{display:flex;flex-direction:column;gap:6px}
 .snote{font-size:13px;line-height:1.55;color:var(--fg);background:var(--surface);border-left:3px solid var(--accent-soft);padding:6px 9px;border-radius:0 6px 6px 0}
+.qtools{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.qx{font-size:13.5px;line-height:1.6;border-radius:8px;padding:8px 10px;white-space:pre-wrap;display:flex;gap:8px;align-items:flex-start}
+.qx.tr{background:var(--good-soft)}.qx.hint{background:var(--warn-soft)}
 .mp{margin:4px 0 0;padding-left:18px;font-size:14px;display:flex;flex-direction:column;gap:3px}
 .opt.sm{padding:4px 10px;min-width:34px;text-align:center}
 .gempanel{background:var(--surface);border:1px solid var(--accent);border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:8px}
@@ -463,12 +466,14 @@ function chapterTest(c){
       else{bt.setAttribute("aria-pressed",st.picks[i]===j);bt.onclick=()=>{st.picks[i]=j;renderLedger();};}
       o.appendChild(bt);});
     if(st.done){const ex=document.createElement("div");ex.className="ex";ex.textContent=q.explain;d.appendChild(ex);}
+    addTools(d,c.k+"_q"+i,q.q,q.options,paperName(c)+" — "+c.t,st.done);
     b.appendChild(d);
   });
   const dq=document.createElement("div");dq.className="q";
   dq.innerHTML=`<div class="qt"><span class="num">Q${ch.quiz.length+1}.</span> <span></span> <span class="legend">(5 marks — write it on paper first)</span></div><div class="trow"><button type="button" class="btn">${st.showD?"Hide":"Show"} model answer points</button></div>`;
   dq.querySelector(".qt span:nth-child(2)").textContent=ch.desc.q;
   dq.querySelector("button").onclick=()=>{st.showD=!st.showD;renderLedger();};
+  addTools(dq,c.k+"_d",ch.desc.q,null,paperName(c)+" — "+c.t,false);
   if(st.showD){const ul=document.createElement("ul");ul.className="mp";ch.desc.points.forEach(x=>{const li=document.createElement("li");li.textContent=x;ul.appendChild(li);});dq.appendChild(ul);
     const sm=document.createElement("div");sm.className="trow";sm.innerHTML=`<span class="legend">Mark yourself:</span>${[0,1,2,3,4,5].map(n=>`<button type="button" class="opt sm" aria-pressed="${st.self===n}">${n}</button>`).join("")}`;
     sm.querySelectorAll("button").forEach((x,n)=>x.onclick=()=>{st.self=n;renderLedger();});dq.appendChild(sm);}
@@ -484,6 +489,34 @@ function chapterTest(c){
   b.insertAdjacentHTML("beforeend",`<div class="eyebrow">Previous-year papers (official ICSI)</div>${past}`);
   return w;
 }
+const QX={};
+function addTools(card,key,qText,opts,ctx,done){
+  const bar=qTools(key,qText,done?null:opts,ctx);
+  const qt=card.querySelector(".qt");qt.after(bar);
+  let at=bar;(bar._extra||[]).forEach(e=>{at.after(e);at=e;});
+  if(done)bar.querySelector('[data-a="hint"]')?.remove();
+}
+function qTools(key,qText,opts,ctx){
+  const bar=document.createElement("div");bar.className="qtools";
+  if(!sample){bar.innerHTML=`<span class="legend">Connect Gemini (top right) for Translate and Hint.</span>`;return bar;}
+  const x=QX[key]||(QX[key]={});
+  bar.innerHTML=`<button type="button" class="tl" data-a="tr">${x.tr?"Hide":"മലയാളം"}</button><button type="button" class="tl" data-a="hint">${x.hint?"Hide hint":"💡 Hint"}</button>`;
+  const run=async(kind,btn)=>{
+    if(x[kind]){delete x[kind];renderLedger();return;}
+    btn.textContent="…";btn.disabled=true;
+    const body=qText+(opts&&opts.length?"\nOptions:\n"+opts.map((o,i)=>String.fromCharCode(65+i)+". "+o).join("\n"):"");
+    const prompt=kind==="tr"
+      ?`Translate this ICSI CS Executive exam question${opts&&opts.length?" and its options":""} into simple Malayalam. Keep Act names, section numbers and legal terms in English inside brackets. Keep the option letters. Reply with the translation only.\n\n${body}`
+      :`You are an exam coach for ICSI CS Executive (${ctx}). Give ONE short hint (max 2 sentences) that points the student to the right concept or provision for this question WITHOUT revealing the answer${opts&&opts.length?" or naming the correct option":""}. Then repeat the hint in one line of simple Malayalam.\n\n${body}`;
+    try{const r=await sample(prompt,{cache:false});x[kind]=r.text.trim();}catch(e){toast2(kind==="tr"?"Couldn't translate. Check the Gemini connection.":"Couldn't get a hint. Check the Gemini connection.");}
+    renderLedger();
+  };
+  bar.querySelectorAll("button").forEach(b=>b.onclick=()=>run(b.dataset.a,b));
+  ["tr","hint"].forEach(k=>{if(x[k]){const d=document.createElement("div");d.className="qx "+k;d.textContent=x[k];
+    const sp=document.createElement("button");sp.type="button";sp.className="tl";sp.textContent="🔊";sp.title="Listen";sp.onclick=()=>{if(typeof speak==="function")speak(x[k]);};d.prepend(sp);bar.after(d);bar._extra=(bar._extra||[]).concat(d);}});
+  return bar;
+}
+function toast2(t){if(typeof toast==="function")return toast(t);const el=document.createElement("div");el.className="toast";el.textContent=t;document.body.appendChild(el);setTimeout(()=>el.remove(),4000);}
 async function saveScore(c,mcq,n,self){
   if(state.viewOnly)return;
   const max=n*2+(self!=null?5:0),got=mcq*2+(self||0),pct=Math.round(got/max*100);
@@ -615,6 +648,7 @@ function testBlock(c,topics){
       else{bt.setAttribute("aria-pressed",t.picks[i]===j);bt.onclick=()=>{t.picks[i]=j;renderLedger();};}
       o.appendChild(bt);});
     if(t.submitted){const ex=document.createElement("div");ex.className="ex";ex.textContent=q.explain;d.appendChild(ex);}
+    addTools(d,"ai_"+c.k+"_"+i+"_"+(q.q||"").length,q.q,q.options,paperName(c)+" — "+c.t,t.submitted);
     b.appendChild(d);
   });
   const dq=document.createElement("div");dq.className="q";
