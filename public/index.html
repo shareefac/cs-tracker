@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>CS Executive Tracker</title>
+<title>Executive Tracker</title>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
@@ -181,8 +181,7 @@ footer{font-size:12.5px;color:var(--muted)}
 
 <div class="login" id="login" hidden>
   <div class="lbox">
-    <div class="eyebrow">ICSI · CS Executive</div>
-    <h1>Executive Tracker</h1>
+        <h1>Executive Tracker</h1>
     <p class="legend">Sign in with an approved account.</p>
     <button class="btn solid wide" type="button" id="gBtn">Continue with Google</button>
     <div class="or legend">or email</div>
@@ -198,9 +197,8 @@ footer{font-size:12.5px;color:var(--muted)}
 <div class="wrap" id="app" hidden>
   <header>
     <div>
-      <div class="eyebrow">ICSI · CS Executive · Syllabus 2022</div>
-      <h1>Executive Tracker</h1>
-      <div class="legend">Exam: June 2027, both groups · <span class="num" id="countdown"></span></div>
+            <h1>Executive Tracker</h1>
+      <span id="countdown" hidden></span>
     </div>
     <div class="hdrR"><label class="legend" for="aiProv">AI</label><select id="aiProv"><option value="claude">Claude</option><option value="gemini">Gemini</option></select><div class="sync"><span class="dot" id="syncDot"></span><span id="syncText">Connecting…</span></div><span class="legend" id="who"></span><button class="rm" type="button" id="outBtn">Sign out</button></div>
   </header>
