@@ -11,3 +11,6 @@ const FIREBASE_CONFIG = {
 const FUNCTIONS_REGION = "asia-south1";
 // 3) One tracker shared by everyone on the access list
 const TRACKER_ID = "shareef-cs-2027";
+// 4) Free (Spark) plan: keep both false. Set true after upgrading to Blaze and deploying functions / storage.
+const USE_SERVER_AI = false;
+const USE_STORAGE = false;

@@ -1,0 +1,599 @@
+<title>Shareef CS Executive Tracker</title>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: one column — summary band, paper cards (module bars), then a chapter ledger per paper */
+:root{
+  --bg:#f7f5f5; --surface:#ffffff; --line:#e6e0e1; --fg:#231b1d; --muted:#6d6265;
+  --accent:#8a1c2b; --accent-soft:#f3e3e5; --good:#2f7d4f; --good-soft:#e2f1e7; --warn:#b36b00; --warn-soft:#fbefd9;
+  --track:#ece6e7;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"Public Sans",ui-sans-serif,system-ui,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#171213; --surface:#211a1c; --line:#3a2f32; --fg:#f1eaeb; --muted:#ab9ea1;
+  --accent:#e26a7c; --accent-soft:#3c2228; --good:#6cc48f; --good-soft:#1d3226; --warn:#e3a54a; --warn-soft:#3a2c16; --track:#33292b; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#171213; --surface:#211a1c; --line:#3a2f32; --fg:#f1eaeb; --muted:#ab9ea1;
+  --accent:#e26a7c; --accent-soft:#3c2228; --good:#6cc48f; --good-soft:#1d3226; --warn:#e3a54a; --warn-soft:#3a2c16; --track:#33292b; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px}
+.wrap{max-width:1080px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0}
+h1{font-size:clamp(26px,4vw,36px);line-height:1.1}
+h2{font-size:20px}
+.eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+header{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;align-items:flex-end}
+.sync{font-size:13px;color:var(--muted);display:flex;align-items:center;gap:8px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--muted)}
+.dot.on{background:var(--good)} .dot.off{background:var(--warn)}
+.banner{background:var(--warn-soft);color:var(--fg);border-radius:8px;padding:10px 14px;font-size:14px}
+/* summary */
+.summary{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.stat .big{font-family:var(--display);font-size:30px;line-height:1}
+.bar{height:8px;background:var(--track);border-radius:99px;overflow:hidden}
+.bar>i{display:block;height:100%;background:var(--accent);border-radius:99px;transition:width .4s ease}
+.bar.good>i{background:var(--good)}
+@media (max-width:720px){.summary{grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* paper cards */
+.groupHead{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;margin-top:12px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:flex;flex-direction:column;gap:10px;cursor:pointer;text-align:left;color:inherit;font:inherit;min-width:0}
+.card:hover{border-color:var(--accent)}
+.card[aria-pressed="true"]{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent-soft)}
+.card:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.card .title{font-weight:600;line-height:1.3}
+.card .top{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.mod{display:grid;grid-template-columns:1fr auto;gap:2px 8px;font-size:12.5px;color:var(--muted)}
+.mod .bar{grid-column:1/-1;height:5px}
+.pill{font-size:11.5px;font-weight:600;border-radius:99px;padding:2px 8px;white-space:nowrap}
+.pill.ns{background:var(--track);color:var(--muted)} .pill.ip{background:var(--accent-soft);color:var(--accent)} .pill.dn{background:var(--good-soft);color:var(--good)} .pill.od{background:var(--warn-soft);color:var(--warn)}
+/* ledger */
+.ledger{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:14px}
+.ledHead{display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:flex-start}
+.mocks{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.mocks label{font-size:13px;color:var(--muted);display:flex;gap:6px;align-items:center}
+.mocks input{width:64px;padding:6px 8px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--fg);font:500 14px var(--mono)}
+.filters{display:flex;gap:6px;flex-wrap:wrap}
+.filters button{border:1px solid var(--line);background:transparent;color:var(--fg);border-radius:99px;padding:5px 12px;font:500 13px var(--body);cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.part{font-family:var(--display);font-size:15px;margin-top:6px;display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:6px}
+.rows{display:flex;flex-direction:column}
+.row{display:grid;grid-template-columns:28px minmax(0,1fr) 64px auto;gap:10px;align-items:center;padding:9px 0;border-bottom:1px solid var(--line)}
+.row:last-child{border-bottom:0}
+.row .n{color:var(--muted);font:500 12.5px var(--mono)}
+.row .name{min-width:0}
+.row .due{font:500 12.5px var(--mono);color:var(--muted)}
+.row.over .due{color:var(--warn)}
+.ticks{display:flex;gap:6px}
+.tick{border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:6px;padding:4px 9px;font:600 12px var(--body);cursor:pointer;min-width:62px}
+.tick[aria-pressed="true"]{background:var(--good);border-color:var(--good);color:var(--surface)}
+@media (max-width:600px){.row{grid-template-columns:24px minmax(0,1fr) 56px}.ticks{grid-column:2/-1}}
+.legend{font-size:13px;color:var(--muted)}
+.login{min-height:80vh;display:grid;place-items:center}
+.lbox{width:100%;max-width:380px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:28px 24px;display:flex;flex-direction:column;gap:12px}
+.eform{display:flex;flex-direction:column;gap:6px}
+.eform label{font:600 13px var(--body)}
+.eform input,#aiProv{padding:9px 11px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--fg);font:15px var(--body)}
+#aiProv{padding:4px 8px;font-size:13px}
+.wide{width:100%;padding:10px}
+.or{text-align:center}
+.hdrR{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.exp{all:unset;cursor:pointer;display:inline-flex;gap:4px;align-items:baseline;flex-wrap:wrap}
+.exp .chev{display:inline-block;color:var(--muted);transition:transform .2s}
+.exp[aria-expanded="true"] .chev{transform:rotate(90deg)}
+.exp:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+.cnt{font-size:11.5px;color:var(--accent);background:var(--accent-soft);border-radius:99px;padding:1px 7px}
+.panel{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:20px;padding:12px 14px 16px 38px;background:var(--bg);border-bottom:1px solid var(--line)}
+@media (max-width:700px){.panel{grid-template-columns:1fr;padding-left:12px}}
+.pcol{display:flex;flex-direction:column;gap:8px;min-width:0}
+.topics{margin:0;padding-left:18px;font-size:13.5px;display:flex;flex-direction:column;gap:3px}
+.mats{display:flex;flex-direction:column;gap:6px}
+.quick{display:flex;flex-direction:column;gap:6px;margin-bottom:6px}
+.vids{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+@media (max-width:420px){.vids{grid-template-columns:1fr}}
+.vcard{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:10px;align-items:center;padding:10px 12px;border-radius:10px;text-decoration:none;color:var(--fg);background:var(--surface);border:1px solid var(--line);transition:transform .15s,border-color .15s}
+.vcard:hover{transform:translateY(-1px);border-color:var(--accent)}
+.vcard b{display:block;font:600 14px var(--body)}
+.vcard small{display:block;font-size:12px;color:var(--muted)}
+.vcard .play{width:32px;height:32px;border-radius:50%;display:grid;place-items:center;background:var(--accent);color:var(--surface);font-size:12px}
+.vcard.ml .play{background:var(--good)}
+.vcard .lang{font:600 11px var(--mono);color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:1px 5px}
+.chans{display:flex;flex-direction:column;gap:6px}
+.find{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:10px}
+.findRow{display:flex;gap:8px}
+.findRow input{flex:1;min-width:0;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--fg);font:15px var(--body)}
+.findOnline{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.hits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:8px}
+.hit{text-align:left;border:1px solid var(--line);background:var(--bg);color:var(--fg);border-radius:8px;padding:8px 10px;cursor:pointer;display:flex;flex-direction:column;gap:2px;font:14px var(--body);min-width:0}
+.hit:hover{border-color:var(--accent)}
+.hit .ht{font-weight:600}
+.topics li{display:flex;flex-direction:column;gap:3px;padding-bottom:4px}
+.tpa{display:flex;flex-wrap:wrap;gap:4px}
+.tl{font:600 11px var(--body);color:var(--accent);background:var(--accent-soft);border:0;border-radius:4px;padding:2px 6px;text-decoration:none;cursor:pointer}
+.syl{display:flex;flex-direction:column;gap:10px;background:var(--bg);border-radius:10px;padding:12px 14px}
+.syl ol{margin:6px 0 0;padding-left:22px;display:flex;flex-direction:column;gap:6px;font-size:14px}
+.ai{grid-column:1/-1;border-top:1px dashed var(--line);padding-top:12px;display:flex;flex-direction:column;gap:10px}
+.aibtns{display:flex;flex-wrap:wrap;gap:6px}
+.chip2{border:1px solid var(--accent);background:var(--surface);color:var(--accent);border-radius:99px;padding:6px 12px;font:600 13px var(--body);cursor:pointer}
+.chip2:hover{background:var(--accent-soft)}
+.chip2.has{background:var(--accent-soft)}
+.aiask{display:flex;flex-direction:column;gap:6px}
+.aiask textarea{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--fg);font:14px/1.5 var(--body)}
+.aiout{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:8px}
+.aiTop{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;align-items:center}
+.aitext{white-space:pre-wrap;font-size:14.5px;line-height:1.65;max-height:520px;overflow:auto;overflow-wrap:anywhere}
+.ext{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.ext .cp{border:0;cursor:pointer}
+.test{grid-column:1/-1;border-top:1px dashed var(--line);padding-top:12px;display:flex;flex-direction:column;gap:10px}
+.testHead{display:flex;justify-content:space-between;gap:10px;align-items:flex-start;flex-wrap:wrap}
+.tbody{display:flex;flex-direction:column;gap:12px}
+.trow{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.btn.solid{background:var(--accent);color:var(--surface)}
+.btn.solid:hover{background:var(--accent);opacity:.9}
+.q{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px;display:flex;flex-direction:column;gap:8px}
+.qt{font-weight:500}
+.opts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}
+@media (max-width:600px){.opts{grid-template-columns:1fr}}
+.opt{text-align:left;border:1px solid var(--line);background:var(--bg);color:var(--fg);border-radius:8px;padding:8px 10px;font:14px var(--body);cursor:pointer}
+.opt[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.opt.right{border-color:var(--good);background:var(--good-soft)}
+.opt.wrong{border-color:var(--warn);background:var(--warn-soft)}
+.ex{font-size:13px;color:var(--muted)}
+.q textarea{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--fg);font:14px/1.5 var(--body)}
+.fb{background:var(--good-soft);border-radius:10px;padding:12px;display:flex;flex-direction:column;gap:6px;font-size:14px}
+.fb ul{margin:0;padding-left:18px}
+.big2{font:600 22px var(--display)}
+.score{font:700 22px var(--display);color:var(--accent)}
+.chanrow{display:flex;flex-wrap:wrap;gap:6px}
+.chan{font:500 12.5px var(--body);text-decoration:none;color:var(--accent);background:var(--accent-soft);border-radius:99px;padding:5px 11px}
+.chan.ml{color:var(--good);background:var(--good-soft)}
+.chan:hover{text-decoration:underline}
+@media (prefers-reduced-motion:reduce){.vcard{transition:none}.vcard:hover{transform:none}}
+.ql{display:block;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font:500 13.5px var(--body);color:var(--accent);text-decoration:none;overflow-wrap:anywhere}
+.ql:hover{border-color:var(--accent)}
+.ql.vid{background:var(--accent-soft);border-color:transparent;font-weight:600}
+.mat{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:10px;align-items:start;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:13.5px}
+.mat .kind{font:600 11px var(--body);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);padding-top:2px}
+.mat .body{min-width:0;overflow-wrap:anywhere;white-space:pre-wrap}
+.mat a{color:var(--accent)}
+.rm{border:0;background:transparent;color:var(--muted);font:500 12px var(--body);cursor:pointer}
+.rm[data-arm="1"]{color:var(--warn)}
+.adders{display:flex;flex-direction:column;gap:8px}
+.addLink,.addNote{display:flex;gap:6px;flex-wrap:wrap}
+.adders input[type=url],.adders input[type=text],.adders textarea{flex:1 1 160px;min-width:0;padding:7px 9px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--fg);font:14px var(--body)}
+.btn{border:1px solid var(--accent);background:transparent;color:var(--accent);border-radius:6px;padding:6px 12px;font:600 13px var(--body);cursor:pointer;align-self:flex-start}
+.btn:hover{background:var(--accent-soft)}
+footer{font-size:12.5px;color:var(--muted)}
+@media (prefers-reduced-motion:reduce){.bar>i{transition:none}}
+</style>
+
+<div class="login" id="login" hidden>
+  <div class="lbox">
+    <div class="eyebrow">ICSI · CS Executive</div>
+    <h1>Executive Tracker</h1>
+    <p class="legend">Sign in with an approved account.</p>
+    <button class="btn solid wide" type="button" id="gBtn">Continue with Google</button>
+    <div class="or legend">or email</div>
+    <form id="eForm" class="eform">
+      <label for="eMail">Email</label><input id="eMail" type="email" autocomplete="email" required>
+      <label for="ePass">Password</label><input id="ePass" type="password" autocomplete="current-password" minlength="6" required>
+      <button class="btn solid wide" type="submit" id="eBtn">Sign in</button>
+    </form>
+    <div class="trow"><button class="rm" type="button" id="eMode">Create an account</button><button class="rm" type="button" id="eReset">Forgot password</button></div>
+    <p class="legend" id="lMsg" role="alert"></p>
+  </div>
+</div>
+<div class="wrap" id="app" hidden>
+  <header>
+    <div>
+      <div class="eyebrow">ICSI · CS Executive · Syllabus 2022</div>
+      <h1>Shareef — Executive Tracker</h1>
+      <div class="legend">Exam: June 2027, both groups · <span class="num" id="countdown"></span></div>
+    </div>
+    <div class="hdrR"><label class="legend" for="aiProv">AI</label><select id="aiProv"><option value="claude">Claude</option><option value="gemini">Gemini</option></select><div class="sync"><span class="dot" id="syncDot"></span><span id="syncText">Connecting…</span></div><span class="legend" id="who"></span><button class="rm" type="button" id="outBtn">Sign out</button></div>
+  </header>
+  <div class="banner" id="offline" hidden>Your account isn't on the access list, so nothing is saved. Ask the admin to add your email.</div>
+
+  <section class="summary" aria-label="Overall progress">
+    <div class="stat"><span class="eyebrow">Overall</span><span class="big num" id="sAll">0%</span><div class="bar"><i id="bAll" style="width:0"></i></div></div>
+    <div class="stat"><span class="eyebrow">Group 1</span><span class="big num" id="sG1">0%</span><div class="bar"><i id="bG1" style="width:0"></i></div></div>
+    <div class="stat"><span class="eyebrow">Group 2</span><span class="big num" id="sG2">0%</span><div class="bar"><i id="bG2" style="width:0"></i></div></div>
+    <div class="stat"><span class="eyebrow">Chapters done / overdue</span><span class="big num" id="sDone">0/131</span><span class="legend" id="sOver">0 overdue</span></div>
+  </section>
+
+  <section class="find" aria-label="Find material">
+    <div class="eyebrow">Find material · chapters, topics, your saved notes, and online</div>
+    <form id="findForm" class="findRow"><input id="findQ" type="search" placeholder="e.g. buyback, insider trading, ITC, res judicata" autocomplete="off"><button class="btn solid" type="submit">Find</button><button class="btn" type="button" id="findAI">Find with AI</button></form>
+    <div id="findOut" hidden></div>
+  </section>
+
+  <section id="groups"></section>
+
+  <section class="ledger" id="ledger" aria-live="polite"></section>
+
+  <footer>Progress per chapter = Read + Answers written + Revised (each one-third). A chapter is done when all three are ticked. Pass: 40 per paper, 50% aggregate per group. Module = the paper's Part I / Part II as set by ICSI.</footer>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-storage-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-functions-compat.js"></script>
+<script src="config.js"></script>
+<script>
+const P = [
+ {id:"p2",g:1,no:2,name:"Company Law & Practice",parts:[
+  {n:"Part I · Principles & Concepts",m:60,ch:[["Introduction to Company Law","2026-11-16"],["Legal Status & Types of Companies","2026-11-16"],["MOA & AOA and Alteration","2026-11-16"],["Shares & Share Capital","2026-11-23"],["Members & Shareholders","2026-11-23"],["Debt Instruments","2026-11-23"],["Charges","2026-11-30"],["Distribution of Profits","2026-11-30"],["Accounts & Auditors","2026-11-30"],["Compromise, Arrangement & Amalgamations","2026-12-07"],["Dormant Company","2026-12-07"],["Inspection, Inquiry & Investigation","2026-12-07"]]},
+  {n:"Part II · Administration & Meetings",m:40,ch:[["General Meetings (SS-2)","2026-12-14"],["Directors","2026-12-14"],["Board Composition & Powers","2026-12-14"],["Board & Committee Meetings (SS-1)","2026-12-14"],["Corporate Social Responsibility","2026-12-20"],["Annual Report","2026-12-20"],["KMP & Remuneration","2026-12-20"]]}]},
+ {id:"p1",g:1,no:1,name:"Jurisprudence, Interpretation & General Laws",parts:[
+  {n:"Single part",m:100,ch:[["Sources of Law","2026-12-27"],["Constitution of India","2026-12-27"],["Interpretation of Statutes","2026-12-27"],["Administrative Laws","2026-12-27"],["Law of Torts","2027-01-03"],["Civil Procedure","2027-01-03"],["Crime & its Procedure","2027-01-03"],["Evidence","2027-01-03"],["Specific Relief","2027-01-10"],["Limitation","2027-01-10"],["Arbitration, Mediation & Conciliation","2027-01-10"],["Indian Stamp Law","2027-01-10"],["Registration of Documents","2027-01-17"],["Right to Information","2027-01-17"],["Information Technology Law","2027-01-17"],["Contract Law","2027-01-24"],["Sale of Goods","2027-01-24"],["Negotiable Instruments","2027-01-24"]]}]},
+ {id:"p3",g:1,no:3,name:"Setting up of Business, Industrial & Labour Laws",parts:[
+  {n:"Part I · Setting up of Business",m:60,ch:[["Selection of Business Organisation","2027-01-31"],["Corporate Entities — Companies","2027-01-31"],["Limited Liability Partnership","2027-01-31"],["Startups & Registration","2027-01-31"],["MSMEs","2027-01-31"],["Conversion of Business Entities","2027-01-31"],["Non-Corporate Entities","2027-01-31"],["Financial Services Organisations","2027-02-07"],["Business Collaborations","2027-02-07"],["Branch / Liaison Office / WOS","2027-02-07"],["Setting up Business outside India","2027-02-07"],["Industry-specific Laws & Compliances","2027-02-07"],["Initial Registrations & Licences","2027-02-07"]]},
+  {n:"Part II · Industrial & Labour Laws",m:40,ch:[["Constitution & Labour Laws","2027-02-14"],["Labour Legislation & Labour Codes","2027-02-14"],["Welfare & Working Conditions","2027-02-14"],["Industrial Relations","2027-02-14"],["Law of Wages","2027-02-14"],["Social Security Legislations","2027-02-14"],["POSH Act, 2013","2027-02-14"]]}]},
+ {id:"p4",g:1,no:4,name:"Corporate Accounting & Financial Management",parts:[
+  {n:"Part I · Corporate Accounting",m:60,ch:[["Introduction to Accounting","2027-02-21"],["Introduction to Corporate Accounting","2027-02-21"],["Accounting Standards","2027-02-21"],["Accounting for Share Capital","2027-02-21"],["Accounting for Debentures","2027-02-21"],["Related Aspects of Company Accounts","2027-02-28"],["Consolidation of Accounts","2027-02-28"],["Financial Statement Analysis","2027-02-28"],["Cash Flows","2027-02-28"],["Forecasting Financial Statements","2027-02-28"]]},
+  {n:"Part II · Financial Management",m:40,ch:[["Introduction to Financial Management","2027-03-07"],["Time Value of Money","2027-03-07"],["Capital Budgeting","2027-03-07"],["Cost of Capital","2027-03-07"],["Capital Structure","2027-03-07"],["Dividend Decisions","2027-03-14"],["Working Capital Management","2027-03-14"],["Security Analysis","2027-03-14"],["Operational Approach (Costing)","2027-03-14"]]}]},
+ {id:"p5",g:2,no:5,name:"Capital Market & Securities Laws",parts:[
+  {n:"Part I · Capital Market",m:40,ch:[["Basics of Capital Market","2027-03-21"],["Secondary Market in India","2027-03-21"],["Securities Contracts (Regulation) Act","2027-03-21"],["SEBI","2027-03-21"],["Depositories & Participants","2027-03-21"],["Securities Market Intermediaries","2027-03-28"],["IFSCA","2027-03-28"]]},
+  {n:"Part II · Securities Laws",m:60,ch:[["Issue of Securities","2027-03-28"],["Non-Convertible Securities","2027-03-28"],["SEBI (LODR)","2027-03-28"],["Acquisition of Shares & Takeovers","2027-03-28"],["Prohibition of Insider Trading","2027-04-04"],["Fraudulent & Unfair Trade Practices","2027-04-04"],["Delisting & Buyback","2027-04-04"],["Mutual Funds","2027-04-04"],["Collective Investment Schemes","2027-04-04"]]}]},
+ {id:"p6",g:2,no:6,name:"Economic, Commercial & IP Laws",parts:[
+  {n:"Part I · Economic & Commercial Laws",m:60,ch:[["FEMA","2027-04-11"],["FDI — Regulations & Policy","2027-04-11"],["Overseas Direct Investment","2027-04-11"],["External Commercial Borrowings","2027-04-11"],["Foreign Trade Policy","2027-04-11"],["Special Economic Zones","2027-04-11"],["Foreign Contribution Regulation","2027-04-11"],["Prevention of Money Laundering","2027-04-18"],["Fugitive Economic Offenders","2027-04-18"],["Benami Transactions","2027-04-18"],["Competition Law","2027-04-18"],["Consumer Protection","2027-04-18"],["Legal Metrology","2027-04-18"],["Real Estate (RERA)","2027-04-18"]]},
+  {n:"Part II · Intellectual Property Laws",m:40,ch:[["Patents","2027-04-25"],["Trade Marks","2027-04-25"],["Copyright","2027-04-25"],["Geographical Indications","2027-04-25"],["Industrial Designs","2027-04-25"]]}]},
+ {id:"p7",g:2,no:7,name:"Tax Laws & Practice",parts:[
+  {n:"Part I · Direct Tax",m:60,ch:[["Direct Tax at a Glance","2027-05-02"],["Basic Concepts of Income Tax","2027-05-02"],["Exempt Incomes","2027-05-02"],["Salary","2027-05-02"],["House Property","2027-05-02"],["Business & Profession","2027-05-02"],["Capital Gains","2027-05-02"],["Other Sources","2027-05-02"],["Clubbing, Set-off & Carry Forward","2027-05-09"],["Deductions","2027-05-09"],["Total Income of Various Entities","2027-05-09"],["Taxation of Companies","2027-05-09"],["Procedural Compliance (TDS, Returns)","2027-05-09"]]},
+  {n:"Part II · Indirect Tax (GST & Customs)",m:40,ch:[["Indirect Taxes at a Glance","2027-05-16"],["Basics of GST","2027-05-16"],["Levy & Collection of GST","2027-05-16"],["Time, Value & Place of Supply","2027-05-16"],["Input Tax Credit","2027-05-16"],["GST Procedural Compliance","2027-05-16"],["Customs Act Overview","2027-05-16"]]}]}
+];
+// ICSI Syllabus 2022 topic headings per chapter (same order as above)
+const T={
+p2:["Jurisprudence of company law; ultra vires; indoor management; constructive notice; corporate veil; definitions; MCA 21","Corporate personality; perpetual succession; private, public, small, holding, subsidiary, associate, dormant, government companies","MOA and AOA; incorporation contracts; alteration of MOA & AOA","Types of capital; issue & allotment; share certificates; private placement & preferential issue; rights & bonus; sweat equity & ESOPs; preference shares; transfer & transmission; buyback; reduction of capital","Becoming a member; register of members; beneficial interest; significant beneficial owner; rectification; members' rights; variation of rights","Debentures & bonds; security creation; debenture redemption reserve; debenture trust deed; conversion; company deposits","Creation, registration, modification & satisfaction of charges; register of charges; search report","Divisible profits; declaration & payment of dividend; unpaid dividend; IEPF; SS on dividend; dividend distribution policy","Books of accounts; financial statements; NFRA; auditors' appointment, removal, duties; audit report; cost, secretarial & internal audit","Compromise, arrangement & amalgamation; oppression & mismanagement; class action suits","Legal framework; procedure to become dormant; exemptions; compliances; reverting to active","Inspection; kinds of investigation; inspector's powers; seizure; freezing of assets; SFIO","AGM, EGM; types of resolutions; notice, quorum, poll, proxy; e-voting & postal ballot; minutes; SS-2; virtual meetings; drafting notice & minutes","DIN; types of directors; appointment, disqualification, vacation, removal; loans to directors; disclosure of interest; duties & rights","Board composition & powers; restrictions; committees; inter-corporate loans & investments; related party transactions","Convening & proceedings; agenda; resolution by circulation; CS duties; SS-1; drafting notice, agenda & minutes","CSR committee; policy; expenditure; activities; ongoing projects; impact assessment","Board's report; annual return; annual report; SS on Board's report","KMP appointment; MD, WTD, CEO, CFO; Company Secretary role; officer in default; managerial remuneration"],
+p1:["Meaning & significance of law; schools of law (Austin, Pound, Salmond, Kelsen, Savigny, Bentham); statutes, custom, precedent, stare decisis","Framework; fundamental rights, DPSP, duties; union & state powers; judiciary; legislative process; writs","Need & rules of interpretation; Heydon's, golden rule; aids; pari materia; harmonious construction; proviso; Latin maxims; General Clauses Act","Sources & need; natural justice; administrative discretion; judicial review; liability of government","Conditions of tortious liability; strict & absolute liability; vicarious liability; corporate liability; remedies","Civil courts & jurisdiction; order, judgment, decree; res judicata; appeals, review, revision; institution of suit; commercial courts","Criminal courts; arrest; mens rea & actus reus; cognizable offences; bail; summons & warrants; breach of trust; cheating; forgery; defamation","Relevancy & admissibility; facts to be proved; expert opinion; oral, documentary, circumstantial evidence; burden of proof; estoppel; e-evidence","Specific performance; rescission; cancellation of instruments; declaratory decrees; preventive relief","Computation of limitation; bar; acknowledgment; acquisition by possession","Arbitration law; arbitrators; award & recourse; conciliation; mediation law","Key definitions; levy; mode & timing; non-stamping; refund; e-stamping; adjudication","Compulsory & optional registration; consequences; Transfer of Property Act; sale, mortgage, lease, gift; easements","Definitions; public authorities; CIC & SIC","IT Act definitions; digital signatures; certifying authority; offences & penalties; sensitive personal data; data protection","Offer & acceptance; consideration; privity; capacity; free consent; void & voidable; discharge; breach remedies; quasi contracts; e-contracts","Contract of sale; sale vs agreement to sell; conditions & warranties; caveat emptor; unpaid seller's rights","Parties; material alteration; crossing; dishonour of cheques & remedies; presumptions"],
+p3:["Features of business organisations; choosing location; tax implications","Private, public, OPC, Nidhi, Section 8, producer & foreign companies; incorporation documents; registration procedure","Concept; formation; LLP agreement; alteration; annual & event-based compliances","Startup India; registration; benefits; seed, VC, PE, angel funding; unicorn case studies","Classification; Udyam registration; NSIC; MSME schemes","Private↔public; Section 8; company↔LLP; OPC conversions; Chapter XXI","Partnership; HUF; proprietorship; multi-state co-op; trusts & societies; partnership deed & trust deed","NBFCs; HFCs; ARCs; MFIs; Nidhi; payment banks; Mudra; chit funds","Foreign collaborations; joint ventures; SPVs","Formation & registration of BO / LO / WOS","Choosing location; incorporation in UK, USA, Canada, Australia","Industry-specific compliances at set-up","PAN/TAN; GST; Shops & Establishments; ESI/PF; pollution; IEC; FSSAI; industrial licence; sectoral approvals","Fundamental rights & labour laws; equal pay; Articles 16, 19, 21, 23, 24","Evolution of labour legislation; need for labour codes","Factories Act; Contract Labour Act; Child & Adolescent Labour Act","Industrial Disputes Act; Standing Orders Act","Payment of Wages; Minimum Wages; Bonus; Equal Remuneration","ESI; EPF; Maternity Benefit; Gratuity; Apprentices; simplified returns","POSH Act, 2013"],
+p4:["Book-keeping; accounting cycle; double entry; principles & conventions; journal; ledger; trial balance; final accounts","Records to be kept; Schedule III; disclosures; true & fair view; XBRL","Applicability; IFRS; AS vs Ind AS vs IFRS","Issue; forfeiture & reissue; premium; buyback; redemption; CRR; bonus; rights; ESOPs; underwriting; book building","Accounting treatment; DRR; redemption; conversion","ESOP accounting; buyback; differential voting rights; underwriting","Standalone vs consolidated; holding, subsidiary, associate, JV; disclosures","Good financial statements; ratio analysis — liquidity, turnover, leverage, profitability; DuPont; interpretation","Purpose & structure of cash flow statement; operating, investing, financing; life-cycle analysis","Forecasting balance sheet, income statement & cash flows","Nature & scope; profit vs wealth maximisation","Compounding; annuity; TVM tables","NPV; payback; PI; IRR; EVA; capital rationing; sensitivity analysis","Sources; factors; methods; WACC; marginal cost","Determinants; optimum structure; theories; EBIT-EPS; over/under capitalisation","Dividend policy; Walter, Gordon, MM models; cash & stock dividend; splits; buybacks","Types; operating cycle; cash, receivables, inventory; financing; banking norms; factoring & forfaiting","Systematic & unsystematic risk; fundamental & technical analysis; EMH","Costing concepts; marginal costing; break-even; margin of safety"],
+p5:["Structure; participants; instruments","Stock market operations; trading; ETFs; derivatives; indices; clearing; surveillance; risk management","Objectives; recognised stock exchanges; listing; case laws","Powers & functions; SAT; penalties & appeals; SCORES; informal guidance","Depositories & DPs; demat & remat; ISIN; inspection; audits","Merchant bankers; brokers; RTAs; portfolio managers; debenture trustees; investment advisers; credit rating agencies","IFSCA powers; IFSC; financial products & services; SEBI IFSC guidelines","IPO; FPO; rights; preferential; QIP; IDRs; SME IPO; bonus; share-based employee benefits","Debt securities; NCRPS; perpetual debt; commercial paper","LODR compliances; corporate governance; disclosures; shareholder meetings; policies","Open-offer triggers; disclosures; exemptions","UPSI; trading plans; disclosures; codes of conduct; penalties","Prohibited dealings; manipulative & fraudulent practices; investigation","Voluntary & compulsory delisting; buyback conditions & methods","Framework; scheme types; sponsor, AMC, trustee; NAV; expense ratio","Framework; restrictions; trustees' obligations"],
+p6:["Current & capital account; LRS; immovable property; export of goods & services; repatriation","Automatic & approval routes; prohibited sectors; FPI; NDI rules; FC-GPR filings","ODI policy; remittances; overseas subsidiary/JV/branch; returns","Eligible lenders & borrowers; parking; returns","FTP basis; IEC; status holders; deemed exports; schemes","SEZ establishment; approvals; setting up units; SEZ authority","Eligible contributors & receivers; registration; penalties","Money-laundering process; attachment; obligations of banks & intermediaries; ED; KYC & FIU","Declaration procedure; attachment; search & seizure","Benami property & transactions; prohibition; adjudication","Anti-competitive agreements; abuse of dominance; combinations; CCI; appellate tribunal","Consumer rights; commissions; remedies; e-commerce & direct selling rules","Weights & measures; inspection; pre-packaged commodities; penalties","Project registration; agents; RERA; appellate tribunal; penalties","Applications; examination; non-patentable inventions; opposition; compulsory licences; infringement","Classification; registration; refusal grounds; assignment; collective & certification marks; infringement","Works protected; registration; ownership; assignment; term; licences; infringement","Registration; duration; effects; GI vs trade mark","Registration; prohibitions; copyright in designs; piracy"],
+p7:["Characteristics & objectives of taxes; direct vs indirect; tax administration","Finance Bill; definitions; capital vs revenue; residential status; scope of total income","Incomes not forming part of total income","Salary income","House property income","Profits & gains of business or profession","Capital gains","Income from other sources","Clubbing; aggregation; set-off & carry forward of losses","Deductions for payments & income; CSR donations","Individuals, HUF, AMT, firms/LLP, co-ops, AOP/BOI, trusts; tax rates","Company taxation incl. foreign companies; dividend; MAT; equalisation levy","TDS & TCS; advance tax; returns; fees & interest","Constitutional powers; pre-GST structure; administration","GST model — CGST, SGST, IGST, UTGST; compensation","Supply; composite & mixed; exemptions; composition; forward & reverse charge","Time, value & place of supply","ITC eligibility; ineligible credits; ISD; utilisation order","Registration; invoices; notes; records; e-way bill; returns; payment; refunds; assessment; QRMP","Levy; types of duty; classification & valuation; baggage; import/export procedure; warehousing; drawback"]
+};
+// give every chapter a stable key
+P.forEach(p=>{let i=0;p.parts.forEach(pt=>{pt.ch=pt.ch.map(([t,d])=>{i++;return {k:p.id+"c"+i,i,t,d,top:(T[p.id][i-1]||"")};});});});
+
+const STEPS=[["read","Read"],["ans","Answers"],["rev","Revised"]];
+const state={prog:{},mocks:{},mat:{},assess:{},ainotes:{},ai:null,test:null,open:new Set(),sel:"p2",filter:"all"};
+let db=null,assets=null,sample=null;
+const today=new Date(new Date().toLocaleString("en-US",{timeZone:"Asia/Kolkata"})).toISOString().slice(0,10);
+const $=s=>document.getElementById(s);
+
+function chScore(k){const r=state.prog[k]||{};return STEPS.reduce((a,[s])=>a+(r[s]?1:0),0);}
+function chStatus(c){const s=chScore(c.k);if(s===3)return"dn";if(c.d<today)return"od";return s?"ip":"ns";}
+function agg(chs){let t=0,d=0,o=0;chs.forEach(c=>{t+=chScore(c.k);if(chScore(c.k)===3)d++;else if(c.d<today)o++;});return{pct:chs.length?Math.round(t/(chs.length*3)*100):0,done:d,over:o,n:chs.length};}
+const chOf=p=>p.parts.flatMap(x=>x.ch);
+const fmt=d=>new Date(d+"T00:00:00").toLocaleDateString("en-GB",{day:"numeric",month:"short"});
+const LBL={ns:"Not started",ip:"In progress",dn:"Done",od:"Overdue"};
+
+function render(){
+  const all=P.flatMap(chOf), g1=P.filter(p=>p.g===1).flatMap(chOf), g2=P.filter(p=>p.g===2).flatMap(chOf);
+  const A=agg(all),G1=agg(g1),G2=agg(g2);
+  $("sAll").textContent=A.pct+"%";$("bAll").style.width=A.pct+"%";
+  $("sG1").textContent=G1.pct+"%";$("bG1").style.width=G1.pct+"%";
+  $("sG2").textContent=G2.pct+"%";$("bG2").style.width=G2.pct+"%";
+  $("sDone").textContent=A.done+"/"+A.n;$("sOver").textContent=A.over+" overdue vs plan";
+  const days=Math.ceil((new Date("2027-06-01T00:00:00+05:30")-Date.now())/864e5);
+  $("countdown").textContent=days>0?`about ${days} days to go`:"exam window";
+
+  const gEl=$("groups");gEl.innerHTML="";
+  [1,2].forEach(g=>{
+    const sec=document.createElement("div");
+    const ps=P.filter(p=>p.g===g);
+    sec.innerHTML=`<div class="groupHead"><h2>Group ${g}</h2><span class="legend">${ps.length} papers · ${g===1?"200 of 400":"150 of 300"} to pass</span></div><div class="cards"></div>`;
+    const cards=sec.querySelector(".cards");
+    ps.forEach(p=>{
+      const a=agg(chOf(p)),m=state.mocks[p.id]||{};
+      const st=a.done===a.n?"dn":a.over?"od":a.pct?"ip":"ns";
+      const b=document.createElement("button");b.className="card";b.setAttribute("aria-pressed",state.sel===p.id);
+      b.innerHTML=`<div class="top"><span class="eyebrow">Paper ${p.no}</span><span class="pill ${st}">${LBL[st]}</span></div>
+        <div class="title"></div>
+        <div class="top"><span class="big num" style="font:600 22px var(--display)">${a.pct}%</span><span class="legend num">${a.done}/${a.n} ch · mock ${m.m1??"–"} / ${m.m2??"–"}</span></div>
+        ${p.parts.map(pt=>{const x=agg(pt.ch);return `<div class="mod"><span>${pt.n.split(" · ")[0]} <span class="num">(${pt.m}m)</span></span><span class="num">${x.pct}%</span><div class="bar ${x.pct===100?"good":""}"><i style="width:${x.pct}%"></i></div></div>`}).join("")}`;
+      b.querySelector(".title").textContent=p.name;
+      b.onclick=()=>{state.sel=p.id;render();$("ledger").scrollIntoView({behavior:"smooth",block:"start"});};
+      cards.appendChild(b);
+    });
+    gEl.appendChild(sec);
+  });
+  renderLedger();
+}
+
+function renderLedger(){
+  const p=P.find(x=>x.id===state.sel),m=state.mocks[p.id]||{},L=$("ledger");
+  L.innerHTML=`<div class="ledHead"><div><div class="eyebrow">Group ${p.g} · Paper ${p.no}</div><h2 id="ledTitle"></h2></div>
+    <div class="mocks"><label for="m1-${p.id}">Mock 1<input id="m1-${p.id}" type="number" min="0" max="100" inputmode="numeric" value="${m.m1??""}" placeholder="/100"></label>
+    <label for="m2-${p.id}">Mock 2<input id="m2-${p.id}" type="number" min="0" max="100" inputmode="numeric" value="${m.m2??""}" placeholder="/100"></label></div></div>
+    <div class="chans"><span class="eyebrow">Recommended English channels for this paper</span><div class="chanrow">${channels(p.id).map(([l,u])=>`<a class="chan" target="_blank" rel="noopener" href="${u}">▶ ${l}</a>`).join("")}<a class="chan ml" target="_blank" rel="noopener" href="https://www.youtube.com/results?search_query=${encodeURIComponent('CS Executive '+p.name+' Malayalam')}">▶ മലയാളം — ${p.name}</a></div></div>
+    <div class="trow"><button type="button" class="btn" id="sylBtn" aria-expanded="${!!state.syl}">${state.syl?"Hide":"View"} full syllabus — Paper ${p.no}</button><a class="chan" target="_blank" rel="noopener" href="https://www.icsi.edu/media/webmodules/Syllabus2022.pdf">Official ICSI syllabus PDF</a></div>
+    ${state.syl?sylHTML(p):""}
+    <div class="filters" role="group" aria-label="Filter chapters">${[["all","All"],["pending","Pending"],["od","Overdue"],["dn","Done"]].map(([k,l])=>`<button data-f="${k}" aria-pressed="${state.filter===k}">${l}</button>`).join("")}</div>`;
+  L.querySelector("#ledTitle").textContent=p.name;
+  L.querySelector("#sylBtn").onclick=()=>{state.syl=!state.syl;renderLedger();};
+  if(state.syl){const lis=L.querySelectorAll(".syl li");let n=0;p.parts.forEach(pt=>pt.ch.forEach(c=>{const li=lis[n++];li.querySelector("b").textContent=c.t;li.querySelector(".legend").textContent=c.top;}));}
+  L.querySelectorAll(".filters button").forEach(b=>b.onclick=()=>{state.filter=b.dataset.f;renderLedger();});
+  ["m1","m2"].forEach(k=>{const inp=L.querySelector(`#${k}-${p.id}`);inp.onchange=()=>saveMock(p.id,k,inp.value);});
+  p.parts.forEach(pt=>{
+    const x=agg(pt.ch);
+    const h=document.createElement("div");h.className="part";h.innerHTML=`<span>${pt.n} · ${pt.m} marks</span><span class="legend num">${x.done}/${x.n} done · ${x.pct}%</span>`;
+    L.appendChild(h);
+    const rows=document.createElement("div");rows.className="rows";
+    pt.ch.forEach(c=>{
+      const s=chStatus(c);
+      if(state.filter==="pending"&&s==="dn")return;
+      if(state.filter==="od"&&s!=="od")return;
+      if(state.filter==="dn"&&s!=="dn")return;
+      const r=state.prog[c.k]||{};
+      const row=document.createElement("div");row.className="row"+(s==="od"?" over":"");row.id="row-"+c.k;
+      row.innerHTML=`<span class="n">${c.i}</span><span class="name"></span><span class="due" title="Target">${fmt(c.d)}</span>
+        <span class="ticks">${STEPS.map(([k,l])=>`<button class="tick" data-k="${k}" aria-pressed="${!!r[k]}">${r[k]?"✓ ":""}${l}</button>`).join("")}</span>`;
+      const items=(state.mat[c.k]&&state.mat[c.k].items)||[];
+      const nm=row.querySelector(".name");
+      const as=state.assess[c.k];
+      nm.innerHTML=`<button class="exp" aria-expanded="${state.open.has(c.k)}"><span class="chev">▸</span> <span class="t"></span>${items.length?` <span class="cnt num">${items.length} material</span>`:""}${as?` <span class="cnt num" style="color:var(--good);background:var(--good-soft)">test ${as.pct}%</span>`:""}</button>`;
+      nm.querySelector(".t").textContent=c.t;
+      nm.querySelector(".exp").onclick=()=>{state.open.has(c.k)?state.open.delete(c.k):state.open.add(c.k);renderLedger();};
+      row.querySelectorAll(".tick").forEach(b=>b.onclick=()=>toggle(c.k,b.dataset.k));
+      rows.appendChild(row);
+      if(state.open.has(c.k))rows.appendChild(panel(c,items));
+    });
+    if(!rows.children.length){const e=document.createElement("div");e.className="legend";e.style.padding="8px 0";e.textContent="Nothing here for this filter.";rows.appendChild(e);}
+    L.appendChild(rows);
+  });
+}
+
+function onlineLinks(q,small){
+  const e=encodeURIComponent, cls=small?"tl":"chan";
+  return [["Video EN","https://www.youtube.com/results?search_query="+e("CS Executive "+q+" lecture")],
+   ["Video ML","https://www.youtube.com/results?search_query="+e("CS Executive "+q+" Malayalam")],
+   ["ICSI","https://www.google.com/search?q="+e("site:icsi.edu "+q)],
+   ["Bare Act","https://www.indiacode.nic.in/simple-search?query="+e(q)]].map(([l,u])=>`<a class="${cls}" target="_blank" rel="noopener" href="${u}">${l}</a>`).join("");
+}
+function doFind(q){
+  const out=$("findOut");q=q.trim();if(!q){out.hidden=true;return;}
+  const k=q.toLowerCase(),hits=[];
+  P.forEach(p=>chOf(p).forEach(c=>{
+    if(c.t.toLowerCase().includes(k))hits.push({p,c,what:"Chapter"});
+    c.top.split(";").map(x=>x.trim()).filter(x=>x.toLowerCase().includes(k)).forEach(x=>hits.push({p,c,what:"Topic",x}));
+    ((state.mat[c.k]&&state.mat[c.k].items)||[]).forEach(it=>{const t=(it.label||it.name||it.url||it.text||"");if(t.toLowerCase().includes(k))hits.push({p,c,what:"Saved "+it.type,x:t.slice(0,140)});});
+    Object.entries(state.ainotes[c.k]||{}).forEach(([m,t])=>{if(String(t).toLowerCase().includes(k))hits.push({p,c,what:"Saved AI notes",x:(AIMODES[m]?AIMODES[m].l:m)});});
+  }));
+  out.hidden=false;out.innerHTML=`<div class="findOnline"><span class="legend">Search online:</span>${onlineLinks(q,false)}</div><div class="legend">${hits.length?hits.length+" match"+(hits.length>1?"es":"")+" in the tracker":"No match in the tracker — try the online links."}</div><div class="hits"></div>`;
+  const box=out.querySelector(".hits");
+  hits.slice(0,40).forEach(h=>{const b=document.createElement("button");b.type="button";b.className="hit";
+    b.innerHTML=`<span class="eyebrow"></span><span class="ht"></span><span class="legend hx"></span>`;
+    b.querySelector(".eyebrow").textContent=`${h.what} · Paper ${h.p.no}`;b.querySelector(".ht").textContent=h.c.t;b.querySelector(".hx").textContent=h.x||h.p.name;
+    b.onclick=()=>{state.sel=h.p.id;state.filter="all";state.open.add(h.c.k);render();setTimeout(()=>{const r=document.getElementById("row-"+h.c.k);(r||$("ledger")).scrollIntoView({behavior:"smooth",block:"start"});},50);};
+    box.appendChild(b);});
+}
+async function findAI(q){
+  q=q.trim();if(!q)return;doFind(q);
+  const out=$("findOut");
+  if(!sample){out.insertAdjacentHTML("afterbegin",`<div class="legend">AI isn't available in this view — use the online links below.</div>`);return;}
+  const box=document.createElement("div");box.className="aiout";box.innerHTML=`<div class="aiTop"><span class="eyebrow">AI finder</span><span class="trow"><button class="rm" type="button">Copy</button></span></div><div class="aitext">Searching…</div>`;
+  out.prepend(box);const txt=box.querySelector(".aitext");
+  box.querySelector(".rm").onclick=async e=>{try{await navigator.clipboard.writeText(txt.textContent);e.target.textContent="Copied";}catch(_){}};
+  const map=P.map(p=>`Paper ${p.no} ${p.name}: `+chOf(p).map(c=>c.t).join(" | ")).join("\n");
+  const prompt=`A student preparing for ICSI CS Executive (Syllabus 2022, June 2027) searched for: "${q.slice(0,500)}".\nPapers and chapters:\n${map}\nReply in plain text with these headings:\n1. WHERE IT IS — the paper(s) and chapter(s) above that cover it.\n2. KEY POINTS — a clear explanation in your own words with Act and section numbers.\n3. MALAYALAM — the same in 4-6 simple Malayalam lines (legal terms in English).\n4. READ NEXT — which official sources to check (ICSI study material chapter, bare Act on India Code, MCA/SEBI/RBI/CBIC page) and good YouTube search terms in English and Malayalam.\n5. EXAM ANGLE — how ICSI usually asks it.\nFlag anything you're unsure of so the student verifies it.`;
+  try{const r=await sample(prompt,{modelTier:"default",cache:false,onText:({text})=>{txt.textContent=text;}});txt.textContent=r.text;}
+  catch(e){txt.textContent=e&&e.code==="rate_limited"?"Too many requests. Wait a minute and try again.":e&&e.code==="not_granted"?"Allow Claude for this page to use AI search.":"Couldn't search with AI. Try again.";}
+}
+function sylHTML(p){
+  return `<div class="syl">${p.parts.map(pt=>`<div class="sylPart"><div class="part"><span>${pt.n}</span><span class="legend num">${pt.m} marks · ${pt.ch.length} chapters</span></div><ol start="${pt.ch[0].i}">${pt.ch.map(c=>`<li><b></b><div class="legend"></div></li>`).join("")}</ol></div>`).join("")}</div>`;
+}
+function paperName(c){return P.find(p=>c.k.startsWith(p.id+"c")).name;}
+function yt(c,lang){return "https://www.youtube.com/results?search_query="+encodeURIComponent("CS Executive "+paperName(c)+" "+c.t+(lang==="Malayalam"?" Malayalam class":" lecture"));}
+const CH={p2:[["CS Amit Vohra — Company Law playlist","https://www.youtube.com/playlist?list=PLRk6rEeTCuncLCrKNGiBEBC2BXgnQ_MbC"],["CSCARTINDIA — Company Law backup","https://www.youtube.com/channel/UCs269cNJCrk8KXBqqiqdUiA/playlists"]],p4:[["CS Wallah (PW) — CAFM","https://www.youtube.com/channel/UCwUqDlLUrwhPrnXA5bG5cnw/playlists"],["StudyAtHome — accounting support","https://www.youtube.com/@studyathome"]],p7:[["StudyAtHome — Tax playlist","https://www.youtube.com/playlist?list=PLyY2ccCWylAqNkniAAHNtuW7mu5d5CgE2"],["CS Amit Vohra — Tax Laws","https://www.youtube.com/@CSUNACADEMYAMITVOHRACLASSES/playlists"]]};
+const CH_DEF=[["CS Amit Vohra Classes — all playlists","https://www.youtube.com/@CSUNACADEMYAMITVOHRACLASSES/playlists"],["Unacademy CS — playlists","https://www.youtube.com/c/UnacademyCS/playlists"],["CS Wallah (PW) — playlists","https://www.youtube.com/channel/UCwUqDlLUrwhPrnXA5bG5cnw/playlists"]];
+function channels(pid){return (CH[pid]||[]).concat(CH_DEF).slice(0,4);}
+function panel(c,items){
+  const el=document.createElement("div");el.className="panel";
+  const topics=c.top.split(";").map(s=>s.trim()).filter(Boolean);
+  el.innerHTML=`<div class="pcol"><div class="eyebrow">Syllabus topics (ICSI 2022)</div><ul class="topics">${topics.map(()=>"<li></li>").join("")}</ul></div>
+    <div class="pcol"><div class="eyebrow">Ready links</div><div class="vids"><a class="vcard en" target="_blank" rel="noopener" href="${yt(c,'English')}"><span class="play">▶</span><span><b>English lectures</b><small>YouTube · this chapter</small></span><span class="lang">EN</span></a><a class="vcard ml" target="_blank" rel="noopener" href="${yt(c,'Malayalam')}"><span class="play">▶</span><span><b>മലയാളം ക്ലാസ്</b><small>YouTube · this chapter</small></span><span class="lang">ML</span></a></div><div class="quick"><a class="ql" target="_blank" rel="noopener" href="https://www.icsi.edu/media/webmodules/StudyMaterials.html">ICSI study material — ${paperName(c)}</a><a class="ql" target="_blank" rel="noopener" href="https://icsi.edu/academic-portal/new-syllabus-2022/guideline-answers-new-syllabus/">ICSI guideline answers (past papers)</a></div>
+    <div class="eyebrow">My study material</div><div class="mats"></div>
+    <div class="adders">
+      <label class="btn" ${assets?"":"hidden"}>Upload PDF / file<input type="file" id="f-${c.k}" accept=".pdf,.png,.jpg,.jpeg,.webp,.txt,.md,.csv" hidden></label>
+      <form class="addLink" id="lf-${c.k}"><input id="lu-${c.k}" type="url" placeholder="Paste link (ICSI page, video, notes)" required><input id="ll-${c.k}" type="text" placeholder="Label (optional)"><button class="btn" type="submit">Add link</button></form>
+      <form class="addNote" id="nf-${c.k}"><textarea id="nt-${c.k}" rows="2" placeholder="Short note — key sections, case laws, doubts" required></textarea><button class="btn" type="submit">Add note</button></form>
+      <span class="legend msg" id="msg-${c.k}"></span>
+    </div></div>`;
+  el.querySelectorAll(".topics li").forEach((li,i)=>{const tp=topics[i];
+    li.innerHTML=`<span class="tp"></span><span class="tpa">${onlineLinks(tp+" "+paperName(c),true)}${sample?`<button type="button" class="tl ex2">Explain</button>`:""}</span>`;
+    li.querySelector(".tp").textContent=tp;
+    const ex=li.querySelector(".ex2");if(ex)ex.onclick=()=>runAI(c,"ask","Topic: "+tp,`Explain the topic "${tp}" from ICSI CS Executive paper "${paperName(c)}", chapter "${c.t}". Give the provision with section numbers, a simple explanation, an example, and how it is asked in the exam. Then repeat the explanation briefly in simple Malayalam (legal terms in English).`);});
+  el.appendChild(aiBlock(c,topics));
+  el.appendChild(testBlock(c,topics));
+  const mats=el.querySelector(".mats");
+  if(!items.length){mats.innerHTML=`<div class="legend">No material yet. Upload the ICSI study material PDF for this chapter, add a link, or write a note.</div>`;}
+  items.forEach((it,idx)=>{
+    const m=document.createElement("div");m.className="mat";
+    const icon=it.type==="file"?"PDF / file":it.type==="link"?"Link":"Note";
+    m.innerHTML=`<span class="kind">${icon}</span><span class="body"></span><button class="rm" type="button">Remove</button>`;
+    const b=m.querySelector(".body");
+    if(it.type==="note"){b.textContent=it.text;}
+    else{const a=document.createElement("a");a.target="_blank";a.rel="noopener";a.href=it.type==="file"?(it.url||"#"):it.url;a.textContent=it.label||it.name||it.url;b.appendChild(a);}
+    const rm=m.querySelector(".rm");
+    rm.onclick=async()=>{if(rm.dataset.arm!=="1"){rm.dataset.arm="1";rm.textContent="Confirm remove";setTimeout(()=>{rm.dataset.arm="";rm.textContent="Remove";},4000);return;}
+      const next=items.filter((_,j)=>j!==idx);await saveMat(c.k,next);
+      if(it.type==="file"&&assets){try{await assets.delete(it.id);}catch(e){}}};
+    mats.appendChild(m);
+  });
+  const msg=t=>{const s=el.querySelector(`#msg-${c.k}`);if(s)s.textContent=t;};
+  const fi=el.querySelector(`#f-${c.k}`);
+  if(fi)fi.onchange=async()=>{const f=fi.files[0];if(!f)return;msg("Uploading…");
+    const ext=f.name.split(".").pop().toLowerCase();const map={txt:"text/plain",md:"text/markdown",csv:"text/csv",pdf:"application/pdf"};
+    try{const r=await assets.upload(f,map[ext]&&!f.type?{type:map[ext]}:(ext==="md"||ext==="csv"||ext==="txt")?{type:map[ext]}:undefined);
+      await saveMat(c.k,[...items,{type:"file",id:r.id,url:r.url,name:f.name,at:new Date().toISOString()}]);msg("Uploaded.");}
+    catch(e){msg(e&&e.code==="too_large"?"File is over 20 MB — split or compress it.":e&&e.code==="unsupported_type"?"This file type isn't supported. Use PDF, image or text.":"Upload failed. Try again.");}};
+  el.querySelector(`#lf-${c.k}`).onsubmit=async e=>{e.preventDefault();const u=el.querySelector(`#lu-${c.k}`).value.trim(),l=el.querySelector(`#ll-${c.k}`).value.trim();
+    if(!/^https?:\/\//i.test(u)){msg("Link must start with http:// or https://");return;}
+    await saveMat(c.k,[...items,{type:"link",url:u,label:l,at:new Date().toISOString()}]);};
+  el.querySelector(`#nf-${c.k}`).onsubmit=async e=>{e.preventDefault();const t=el.querySelector(`#nt-${c.k}`).value.trim();if(!t)return;
+    await saveMat(c.k,[...items,{type:"note",text:t.slice(0,2000),at:new Date().toISOString()}]);};
+  return el;
+}
+const AIMODES={
+ notes:{l:"Study notes (English)",p:(c,t)=>`Write clear, exam-oriented study notes in your own words for ICSI CS Executive (Syllabus 2022), paper "${paperName(c)}", chapter "${c.t}". Cover every topic: ${t.join("; ")}. For each topic give the key provision with section/rule numbers, a 2-3 line explanation, one practical example, and an exam tip. End with a 10-point quick revision list. Use headings and bullets in plain text. Do not reproduce ICSI study material text.`},
+ ml:{l:"മലയാളം വിശദീകരണം",p:(c,t)=>`Explain the ICSI CS Executive chapter "${c.t}" (paper "${paperName(c)}") in simple Malayalam for a working professional. Topics: ${t.join("; ")}. Keep legal terms, Act names and section numbers in English inside brackets. Give each topic a short Malayalam explanation and an everyday example, then a 10-point revision list in Malayalam.`},
+ refs:{l:"References & case laws",p:(c,t)=>`For ICSI CS Executive paper "${paperName(c)}", chapter "${c.t}" (topics: ${t.join("; ")}), list: 1) the governing Acts, rules, regulations and SEBI/MCA/RBI circulars with section numbers; 2) 6-10 landmark Supreme Court / High Court / NCLT case laws with one-line holdings; 3) recent amendments to watch for the June 2027 exam; 4) official sources to read (MCA, SEBI, RBI, India Code, ICSI) by name. Say clearly where you are unsure of a citation so the student verifies it.`},
+ deep:{l:"Deep research: tricky areas",p:(c,t)=>`Act as an ICSI exam coach for paper "${paperName(c)}", chapter "${c.t}". Topics: ${t.join("; ")}. Explain the 5 most-tested and most-confused areas, common student mistakes, how ICSI frames application questions on them, and a step-by-step answer structure for a 5-mark question. Plain text with headings.`}
+};
+function aiBlock(c,topics){
+  const w=document.createElement("div");w.className="ai";
+  const saved=state.ainotes[c.k]||{};
+  const cur=state.ai&&state.ai.k===c.k?state.ai:null;
+  w.innerHTML=`<div class="testHead"><div><div class="eyebrow">AI study assistant</div><div class="legend">Notes, Malayalam explanation, references and research for this chapter. Saved results stay here for next time.</div></div></div>
+   <div class="aibtns">${Object.entries(AIMODES).map(([k,m])=>`<button type="button" class="chip2${saved[k]?" has":""}" data-m="${k}">${m.l}${saved[k]?" ✓":""}</button>`).join("")}</div>
+   <form class="aiask" id="aq-${c.k}"><textarea id="aqt-${c.k}" rows="2" placeholder="Ask anything about this chapter, or paste a paragraph from your study material to translate into Malayalam"></textarea><div class="trow"><button class="btn solid" type="submit" data-a="ask">Ask Claude</button><button class="btn" type="button" data-a="tr">Translate to Malayalam</button></div></form>
+   <div class="aiout" hidden><div class="aiTop"><span class="eyebrow aiTitle"></span><span class="trow"><button class="rm aiSave" type="button">Save to chapter</button><button class="rm aiCopy" type="button">Copy</button></span></div><div class="aitext"></div></div>
+   <div class="ext"><span class="legend">Use another AI with this chapter's prompt:</span><a class="chan" target="_blank" rel="noopener" href="https://chatgpt.com/?q=${encodeURIComponent(AIMODES.notes.p(c,topics))}">Open in ChatGPT</a><a class="chan" target="_blank" rel="noopener" href="https://gemini.google.com/app">Open Gemini</a><button class="chan cp" type="button">Copy prompt for Gemini</button></div>`;
+  if(!sample){w.querySelector(".aibtns").innerHTML=`<span class="legend">Claude isn't available in this view — use ChatGPT or Gemini below.</span>`;w.querySelector(".aiask").hidden=true;}
+  const out=w.querySelector(".aiout"),txt=w.querySelector(".aitext"),ttl=w.querySelector(".aiTitle");
+  const show=(title,text)=>{out.hidden=false;ttl.textContent=title;txt.textContent=text;};
+  if(cur)show(cur.title,cur.text);
+  w.querySelectorAll(".chip2").forEach(b=>b.onclick=()=>{const m=b.dataset.m;if(saved[m]&&!(cur&&cur.mode===m&&cur.fresh)){state.ai={k:c.k,mode:m,title:AIMODES[m].l+" (saved)",text:saved[m]};renderLedger();return;}runAI(c,m,AIMODES[m].l,AIMODES[m].p(c,topics));});
+  const form=w.querySelector(".aiask"),ta=w.querySelector(`#aqt-${c.k}`);
+  form.onsubmit=e=>{e.preventDefault();const q=ta.value.trim();if(!q)return;runAI(c,"ask","Answer",`You are tutoring a student for ICSI CS Executive (Syllabus 2022), paper "${paperName(c)}", chapter "${c.t}". Answer clearly with section numbers and an example; flag anything that may have been amended recently. Question: ${q.slice(0,4000)}`);};
+  form.querySelector('[data-a="tr"]').onclick=()=>{const q=ta.value.trim();if(!q)return;runAI(c,"tr","Malayalam translation",`Translate the following study text into clear, simple Malayalam. Keep legal terms, Act names and section numbers in English inside brackets. Text:\n"""${q.slice(0,6000)}"""`);};
+  w.querySelector(".aiCopy").onclick=async()=>{try{await navigator.clipboard.writeText(txt.textContent);w.querySelector(".aiCopy").textContent="Copied";}catch(e){const r=document.createRange();r.selectNodeContents(txt);const s=getSelection();s.removeAllRanges();s.addRange(r);}};
+  w.querySelector(".aiSave").onclick=async()=>{if(!cur||!AIMODES[cur.mode])return saveNoteFromAI(c,cur);const n={...saved,[cur.mode]:cur.text};state.ainotes[c.k]=n;renderLedger();if(db){try{await db.collection("ainotes").doc(c.k).set(n);}catch(e){}}};
+  w.querySelector(".cp").onclick=async e=>{const t=AIMODES.notes.p(c,topics);try{await navigator.clipboard.writeText(t);e.target.textContent="Prompt copied — paste in Gemini";}catch(_){show("Prompt to paste in Gemini",t);}};
+  return w;
+}
+async function saveNoteFromAI(c,cur){if(!cur)return;const items=(state.mat[c.k]&&state.mat[c.k].items)||[];await saveMat(c.k,[...items,{type:"note",text:(cur.title+":\n"+cur.text).slice(0,6000),at:new Date().toISOString()}]);}
+async function runAI(c,mode,title,prompt){
+  state.ai={k:c.k,mode,title,text:"Thinking…",fresh:true};renderLedger();
+  try{const r=await sample(prompt,{modelTier:mode==="deep"||mode==="refs"?"complex":"default",cache:false,onText:({text})=>{if(state.ai&&state.ai.k===c.k){state.ai.text=text;const el=document.querySelector(".aitext");if(el)el.textContent=text;}}});
+    state.ai.text=r.text+(r.truncated?"\n\n(Answer was cut short — ask a narrower question.)":"");}
+  catch(e){state.ai.text=e&&e.code==="rate_limited"?"Too many requests. Wait a minute and try again.":e&&e.code==="not_granted"?"Allow Claude for this page to use the assistant.":"Couldn't get an answer. Try again.";}
+  renderLedger();
+}
+function testBlock(c,topics){
+  const w=document.createElement("div");w.className="test";
+  const best=state.assess[c.k];
+  const t=state.test&&state.test.k===c.k?state.test:null;
+  w.innerHTML=`<div class="testHead"><div><div class="eyebrow">Chapter-end assessment</div><div class="legend">Exam-style questions in the pattern of ICSI past papers, then compare with the official past papers.</div></div>${best?`<span class="pill ${best.pct>=60?"dn":best.pct>=40?"ip":"od"}">Best ${best.pct}%</span>`:""}</div><div class="tbody"></div>`;
+  const b=w.querySelector(".tbody");
+  const ppr=`<a class="ql" target="_blank" rel="noopener" href="https://icsi.edu/academic-portal/new-syllabus-2022/guideline-answers-new-syllabus/">Official ICSI past papers & guideline answers — ${paperName(c)}</a>`;
+  if(!sample){b.innerHTML=`<div class="legend">Generated tests aren't available in this view. Use the official past papers:</div>${ppr}`;return w;}
+  if(!t){b.innerHTML=`<div class="trow"><button class="btn solid" type="button">Start test — 6 questions</button><span class="legend">5 MCQs + 1 descriptive, marked instantly</span></div>${ppr}`;b.querySelector("button").onclick=()=>startTest(c,topics);return w;}
+  if(t.loading){b.innerHTML=`<div class="legend">Preparing questions…</div>`;return w;}
+  if(t.error){b.innerHTML=`<div class="legend">${t.error}</div><button class="btn" type="button">Try again</button>`;b.querySelector("button").onclick=()=>startTest(c,topics);return w;}
+  t.qs.mcq.forEach((q,i)=>{
+    const d=document.createElement("div");d.className="q";
+    d.innerHTML=`<div class="qt"><span class="num">Q${i+1}.</span> <span></span></div><div class="opts"></div>`;
+    d.querySelector(".qt span:last-child").textContent=q.q;
+    const o=d.querySelector(".opts");
+    q.options.forEach((op,j)=>{const bt=document.createElement("button");bt.type="button";bt.className="opt";bt.textContent=op;
+      if(t.submitted){if(j===q.answer)bt.classList.add("right");else if(t.picks[i]===j)bt.classList.add("wrong");bt.disabled=true;}
+      else{bt.setAttribute("aria-pressed",t.picks[i]===j);bt.onclick=()=>{t.picks[i]=j;renderLedger();};}
+      o.appendChild(bt);});
+    if(t.submitted){const ex=document.createElement("div");ex.className="ex";ex.textContent=q.explain;d.appendChild(ex);}
+    b.appendChild(d);
+  });
+  const dq=document.createElement("div");dq.className="q";
+  dq.innerHTML=`<div class="qt"><span class="num">Q6.</span> <span></span> <span class="legend">(${t.qs.desc.marks} marks)</span></div><textarea id="da-${c.k}" rows="6" placeholder="Write your answer as you would in the exam — provision, explanation, conclusion"></textarea>`;
+  dq.querySelector(".qt span:nth-child(2)").textContent=t.qs.desc.q;
+  const ta=dq.querySelector("textarea");ta.value=t.descAns||"";ta.oninput=()=>{t.descAns=ta.value;};if(t.submitted)ta.readOnly=true;
+  b.appendChild(dq);
+  if(t.feedback){const f=document.createElement("div");f.className="fb";f.innerHTML=`<div class="eyebrow">Marking</div><div class="num big2"></div><div class="fbt"></div><div class="eyebrow">Model points</div><ul></ul>`;
+    f.querySelector(".big2").textContent=`${t.feedback.score} / ${t.qs.desc.marks}`;f.querySelector(".fbt").textContent=t.feedback.feedback;
+    const ul=f.querySelector("ul");(t.feedback.points||[]).forEach(p=>{const li=document.createElement("li");li.textContent=p;ul.appendChild(li);});b.appendChild(f);}
+  const act=document.createElement("div");act.className="trow";
+  if(!t.submitted){act.innerHTML=`<button class="btn solid" type="button">Submit & mark</button><span class="legend">${t.picks.filter(x=>x!=null).length}/5 MCQs answered</span>`;act.querySelector("button").onclick=()=>submitTest(c);}
+  else{const mcq=t.qs.mcq.reduce((a,q,i)=>a+(t.picks[i]===q.answer?1:0),0);const tot=mcq*2+(t.feedback?t.feedback.score:0),max=10+t.qs.desc.marks;
+    act.innerHTML=`<span class="score num">${tot} / ${max}</span><span class="legend">MCQ ${mcq}/5 · descriptive ${t.feedback?t.feedback.score:"marking…"}</span><button class="btn" type="button">New test</button>`;
+    act.querySelector("button").onclick=()=>startTest(c,topics);}
+  b.appendChild(act);b.insertAdjacentHTML("beforeend",ppr);
+  return w;
+}
+async function startTest(c,topics){
+  state.test={k:c.k,loading:true,picks:[null,null,null,null,null]};renderLedger();
+  const prompt=`You set questions for the ICSI CS Executive examination (Syllabus 2022), paper "${paperName(c)}", chapter "${c.t}". Chapter topics: ${topics.join("; ")}.
+Write an ORIGINAL chapter-end test modelled on the style and difficulty of ICSI past exam questions (application-based, case-style where suitable). Do not copy any actual past paper question word for word. Use Indian law as amended to date; cite section numbers where relevant.
+Return JSON only: {"mcq":[{"q":string,"options":[4 strings],"answer":0-3,"explain":string (1-2 sentences, cite the provision)}] x5, "desc":{"q":string (a 5-mark descriptive/case-study question like ICSI papers),"marks":5,"keyPoints":[3-5 strings]}}. Vary questions across topics. Seed:${Date.now()%997}`;
+  try{const qs=await sample.json(prompt,{modelTier:"default",cache:false});
+    if(!qs||!Array.isArray(qs.mcq)||qs.mcq.length<5||!qs.desc)throw{code:"shape"};
+    qs.mcq=qs.mcq.slice(0,5);qs.desc.marks=qs.desc.marks||5;
+    state.test={k:c.k,qs,picks:[null,null,null,null,null],submitted:false};}
+  catch(e){state.test={k:c.k,error:e&&e.code==="rate_limited"?"Too many tests in a short time. Wait a minute and try again.":e&&e.code==="not_granted"?"Allow Claude for this page to use tests.":"Couldn't prepare the test. Try again."};}
+  renderLedger();
+}
+async function submitTest(c){
+  const t=state.test;t.submitted=true;renderLedger();
+  const ans=(t.descAns||"").trim();
+  try{
+    if(!ans)t.feedback={score:0,feedback:"No answer written.",points:t.qs.desc.keyPoints};
+    else t.feedback=await sample.json(`Mark this ICSI CS Executive answer strictly like an ICSI examiner. Question (${t.qs.desc.marks} marks): ${t.qs.desc.q}\nExpected key points: ${t.qs.desc.keyPoints.join("; ")}\nStudent answer: """${ans.slice(0,4000)}"""\nReturn JSON only: {"score": number 0-${t.qs.desc.marks} (half marks allowed), "feedback": string (2-3 sentences: what was right, what was missing), "points": [the model answer's key points as short strings]}`,{modelTier:"default",cache:false});
+  }catch(e){t.feedback={score:0,feedback:"Couldn't mark the descriptive answer. Compare it with the model points.",points:t.qs.desc.keyPoints};}
+  const mcq=t.qs.mcq.reduce((a,q,i)=>a+(t.picks[i]===q.answer?1:0),0);
+  const pct=Math.round((mcq*2+(+t.feedback.score||0))/(10+t.qs.desc.marks)*100);
+  const prev=state.assess[c.k]||{};const rec={pct:Math.max(pct,prev.pct||0),last:pct,tries:(prev.tries||0)+1,at:new Date().toISOString()};
+  state.assess[c.k]=rec;renderLedger();
+  if(db){try{await db.collection("assess").doc(c.k).set(rec);}catch(e){}}
+}
+async function saveMat(k,items){
+  const cur=state.mat[k];state.mat[k]={items};renderLedger();
+  if(!db)return;
+  try{await db.collection("materials").doc(k).set({items});}catch(e){state.mat[k]=cur;renderLedger();setSync("off","Couldn't save material");}
+}
+async function toggle(k,step){
+  const cur=state.prog[k]||{},next={...cur,[step]:!cur[step],at:new Date().toISOString()};
+  state.prog[k]=next;render();
+  if(!db)return;
+  try{await db.collection("progress").doc(k).set(next);}catch(e){state.prog[k]=cur;render();setSync("off","Couldn't save — check you have edit access");}
+}
+async function saveMock(pid,k,v){
+  const n=v===""?null:Math.max(0,Math.min(100,Math.round(+v)));
+  const cur=state.mocks[pid]||{},next={...cur,[k]:n};state.mocks[pid]=next;render();
+  if(!db)return;
+  try{await db.collection("mocks").doc(pid).set(next);}catch(e){state.mocks[pid]=cur;render();setSync("off","Couldn't save mock score");}
+}
+function setSync(c,t){$("syncDot").className="dot "+c;$("syncText").textContent=t;}
+
+render();
+$("findForm").onsubmit=e=>{e.preventDefault();doFind($("findQ").value);};
+$("findAI").onclick=()=>findAI($("findQ").value);
+$("findQ").oninput=()=>{if(!$("findQ").value.trim())$("findOut").hidden=true;};
+(function(){
+  firebase.initializeApp(FIREBASE_CONFIG);
+  const auth=firebase.auth(),fs=firebase.firestore(),st=firebase.storage(),fn=firebase.app().functions(FUNCTIONS_REGION);
+  const base=fs.collection("tracker").doc(TRACKER_ID);
+  const callAI=fn.httpsCallable("ai",{timeout:120000});
+  const prov=()=>{try{return localStorage.getItem("aiProv")||"claude";}catch(e){return "claude";}};
+  $("aiProv").value=prov();$("aiProv").onchange=e=>{try{localStorage.setItem("aiProv",e.target.value);}catch(_){}};
+  const aiErr=e=>{const c=e&&e.code||"";return {code:c.includes("resource-exhausted")?"rate_limited":c.includes("permission")||c.includes("unauthenticated")?"not_granted":"upstream_error"};};
+  if(typeof USE_SERVER_AI!=="undefined"&&!USE_SERVER_AI){$("aiProv").hidden=true;document.querySelector('label[for="aiProv"]').hidden=true;}else{
+  sample=async(prompt,opts={})=>{try{const r=await callAI({provider:prov(),prompt,tier:opts.modelTier||"default"});if(opts.onText)opts.onText({text:r.data.text});return {text:r.data.text,truncated:!!r.data.truncated};}catch(e){throw aiErr(e);}};
+  sample.json=async(prompt,opts={})=>{try{const r=await callAI({provider:prov(),prompt,json:true,tier:opts.modelTier||"default"});return r.data.json;}catch(e){throw aiErr(e);}};
+  }
+  if(typeof USE_STORAGE==="undefined"||USE_STORAGE)assets={upload:async(f)=>{if(f.size>20*1024*1024)throw{code:"too_large"};const path=`tracker/${TRACKER_ID}/${Date.now()}-${f.name.replace(/[^\w.\-]+/g,"_")}`;const ref=st.ref(path);await ref.put(f);return {id:path,url:await ref.getDownloadURL()};},
+          delete:async(id)=>{try{await st.ref(id).delete();}catch(e){}}};
+  let subs=[];
+  const sub=(col,key,after)=>base.collection(col).onSnapshot(s=>{const o={};s.docs.forEach(d=>o[d.id]=d.data());state[key]=o;after();},err=>{if(err.code==="permission-denied"){$("offline").hidden=false;setSync("off","No access");db=null;}else setSync("off","Live updates stopped — reload");});
+  const L=$("login"),A=$("app"),msg=t=>$("lMsg").textContent=t;let create=false;
+  $("gBtn").onclick=()=>auth.signInWithPopup(new firebase.auth.GoogleAuthProvider()).catch(e=>msg(e.message));
+  $("eMode").onclick=()=>{create=!create;$("eBtn").textContent=create?"Create account":"Sign in";$("eMode").textContent=create?"I already have an account":"Create an account";$("ePass").autocomplete=create?"new-password":"current-password";msg("");};
+  $("eReset").onclick=()=>{const m=$("eMail").value.trim();if(!m)return msg("Type your email first.");auth.sendPasswordResetEmail(m).then(()=>msg("Reset link sent — check your inbox.")).catch(e=>msg(e.message));};
+  $("eForm").onsubmit=async e=>{e.preventDefault();const m=$("eMail").value.trim(),pw=$("ePass").value;try{if(create){const c=await auth.createUserWithEmailAndPassword(m,pw);await c.user.sendEmailVerification();msg("Account created. Open the verification link we emailed, then sign in.");await auth.signOut();}else await auth.signInWithEmailAndPassword(m,pw);}catch(err){msg(err.message);}};
+  $("outBtn").onclick=()=>auth.signOut();
+  auth.onAuthStateChanged(u=>{
+    subs.forEach(f=>f());subs=[];
+    if(!u){A.hidden=true;L.hidden=false;db=null;return;}
+    if(!u.emailVerified){msg("Verify your email first — check your inbox, then sign in again.");auth.signOut();return;}
+    L.hidden=true;A.hidden=false;$("who").textContent=u.email;$("offline").hidden=true;
+    db={collection:n=>base.collection(n)};setSync("on","Live — saves for everyone");
+    subs=[sub("progress","prog",render),sub("mocks","mocks",render),sub("materials","mat",renderLedger),sub("ainotes","ainotes",renderLedger),sub("assess","assess",renderLedger)];
+    render();
+  });
+})();
+</script>

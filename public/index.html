@@ -572,9 +572,11 @@ $("findQ").oninput=()=>{if(!$("findQ").value.trim())$("findOut").hidden=true;};
   const prov=()=>{try{return localStorage.getItem("aiProv")||"claude";}catch(e){return "claude";}};
   $("aiProv").value=prov();$("aiProv").onchange=e=>{try{localStorage.setItem("aiProv",e.target.value);}catch(_){}};
   const aiErr=e=>{const c=e&&e.code||"";return {code:c.includes("resource-exhausted")?"rate_limited":c.includes("permission")||c.includes("unauthenticated")?"not_granted":"upstream_error"};};
+  if(typeof USE_SERVER_AI!=="undefined"&&!USE_SERVER_AI){$("aiProv").hidden=true;document.querySelector('label[for="aiProv"]').hidden=true;}else{
   sample=async(prompt,opts={})=>{try{const r=await callAI({provider:prov(),prompt,tier:opts.modelTier||"default"});if(opts.onText)opts.onText({text:r.data.text});return {text:r.data.text,truncated:!!r.data.truncated};}catch(e){throw aiErr(e);}};
   sample.json=async(prompt,opts={})=>{try{const r=await callAI({provider:prov(),prompt,json:true,tier:opts.modelTier||"default"});return r.data.json;}catch(e){throw aiErr(e);}};
-  assets={upload:async(f)=>{if(f.size>20*1024*1024)throw{code:"too_large"};const path=`tracker/${TRACKER_ID}/${Date.now()}-${f.name.replace(/[^\w.\-]+/g,"_")}`;const ref=st.ref(path);await ref.put(f);return {id:path,url:await ref.getDownloadURL()};},
+  }
+  if(typeof USE_STORAGE==="undefined"||USE_STORAGE)assets={upload:async(f)=>{if(f.size>20*1024*1024)throw{code:"too_large"};const path=`tracker/${TRACKER_ID}/${Date.now()}-${f.name.replace(/[^\w.\-]+/g,"_")}`;const ref=st.ref(path);await ref.put(f);return {id:path,url:await ref.getDownloadURL()};},
           delete:async(id)=>{try{await st.ref(id).delete();}catch(e){}}};
   let subs=[];
   const sub=(col,key,after)=>base.collection(col).onSnapshot(s=>{const o={};s.docs.forEach(d=>o[d.id]=d.data());state[key]=o;after();},err=>{if(err.code==="permission-denied"){$("offline").hidden=false;setSync("off","No access");db=null;}else setSync("off","Live updates stopped — reload");});
